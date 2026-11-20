@@ -10,7 +10,27 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
       "metadata": "series/elsewhere/episodes/episode-001/metadata.json",
-      "audio": "series/elsewhere/episodes/episode-001/audio/elsewhere-episode-01-the-photograph-a2829b2a028f1746.mp3"
+      "audio": "series/elsewhere/episodes/episode-001/audio/elsewhere-episode-01-the-photograph-a2829b2a028f1746.mp3",
+      "images": [
+        {
+          "path": "series/elsewhere/episodes/episode-001/illustrations/elsewhere-ep1-illustration-1-b86d1a943de857d2.png"
+        },
+        {
+          "path": "series/elsewhere/episodes/episode-001/illustrations/elsewhere-ep1-illustration-2-48ad1469bc0e588f.png"
+        },
+        {
+          "path": "series/elsewhere/episodes/episode-001/illustrations/elsewhere-ep1-illustration-3-1e70367dc760b8ec.png"
+        },
+        {
+          "path": "series/elsewhere/episodes/episode-001/illustrations/elsewhere-ep1-illustration-4-674187cb2c777318.png"
+        },
+        {
+          "path": "series/elsewhere/episodes/episode-001/illustrations/elsewhere-ep1-illustration-5-7dcb1e9b694babfb.png"
+        },
+        {
+          "path": "series/elsewhere/episodes/episode-001/illustrations/elsewhere-ep1-illustration-6-26aa96894242430f.png"
+        }
+      ]
     }
   ]
 }
