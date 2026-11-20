@@ -2,7 +2,7 @@
   "series": "Elsewhere",
   "episode": 1,
   "title": "The Photograph",
-  "status": "script-ready",
+  "status": "assets-prepared",
   "narration": {
     "narrator": "Wade – Resonant & Narrative",
     "narrator_voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
@@ -15,8 +15,16 @@
     20,
     25
   ],
-  "audio_file": null,
-  "illustrations": [],
+  "audio_file": "Elsewhere_Episode_01_The_Photograph.mp3",
+  "illustrations": [
+    "Elsewhere_Ep1_Illustration_1.png",
+    "Elsewhere_Ep1_Illustration_2.png",
+    "Elsewhere_Ep1_Illustration_3.png",
+    "Elsewhere_Ep1_Illustration_4.png",
+    "Elsewhere_Ep1_Illustration_5.png",
+    "Elsewhere_Ep1_Illustration_6.png"
+  ],
   "published_to_ohana": false,
-  "script_file": "script.md"
+  "script_file": "script.md",
+  "note": "Audio and six illustrations are prepared in a downloadable local bundle; not yet uploaded to the live Ohana app."
 }
