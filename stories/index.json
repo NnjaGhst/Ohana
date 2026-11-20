@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "episodes": [
+    {
+      "id": "elsewhere-001",
+      "seriesId": "elsewhere",
+      "seriesName": "Elsewhere",
+      "number": 1,
+      "title": "The Photograph",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "script-in-progress",
+      "metadata": "series/elsewhere/episodes/episode-001/metadata.json"
+    }
+  ]
+}
