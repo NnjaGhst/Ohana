@@ -8,8 +8,9 @@
       "number": 1,
       "title": "The Photograph",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "script-in-progress",
-      "metadata": "series/elsewhere/episodes/episode-001/metadata.json"
+      "status": "ready",
+      "metadata": "series/elsewhere/episodes/episode-001/metadata.json",
+      "audio": "series/elsewhere/episodes/episode-001/audio/elsewhere-episode-01-the-photograph-a2829b2a028f1746.mp3"
     }
   ]
 }
