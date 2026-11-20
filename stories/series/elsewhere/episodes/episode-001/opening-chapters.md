@@ -75,7 +75,7 @@ From the service road, Hex studied the guards. They weren't positioned to keep i
 
 Then the first shot rang out.
 
-Hex moved toward the building instead of away. Inside, Elise Varen stumbled through a corridor, clutching a case against her chest. She saw him, stopped, and seemed to recognise what his presence meant.
+Hex moved toward the building instead of away. Inside, Elise Varen stumbled through a corridor, clutching a case against her chest. She saw him, stopped, and seemed to recognise what his presence meant. Her phone screen lit up in her hand. A message from **Ninja** read: *Please just call me when you're safe. I love you.* Hex noticed the name—the woman from the photograph—before Elise shoved the phone into her pocket.
 
 “You're too late,” she said.
 
@@ -97,7 +97,7 @@ The fire started moments later. An explosion shook the windows. Hex heard voices
 
 He stopped answering her.
 
-He got two people out through a loading entrance. When he turned back, flames had swallowed the corridor. Elise was dead. Others were missing. Six people would ultimately be confirmed killed.
+He got two people out through a loading entrance. When he turned back, flames had swallowed the corridor. Elise was dead. Hex found her phone on the floor near the door, its cracked screen still showing her sister's message. He couldn't bring himself to leave it behind. Others were missing. Six people would ultimately be confirmed killed.
 
 Hex stood outside in the cold dawn, coughing smoke, and understood that the operation had never been an interception. It had been a cleanup.
 
@@ -123,36 +123,73 @@ Hex disappeared with the envelope still in his coat.
 
 ### Chapter Two — The Woman Who Didn't Know
 
-Ninja had never heard of Operation Glasshouse.
+Ninja had never heard the words Operation Glasshouse.
 
-She knew only that a woman named Elise Varen, who had once helped straighten out a mess involving employment records, had died in a warehouse fire.
+She had heard of Elise Varen, of course. Elise was her older sister.
 
-At first, the tragedy seemed distant and inexplicable. Then small things began going wrong.
+Elise was the one who remembered birthdays, called at inconvenient hours, and turned up with groceries when Ninja insisted she was perfectly capable of looking after herself. She was also the person Ninja trusted with the things she didn't tell anyone else.
 
-An account was frozen. A document disappeared from a system where it had existed the week before. A complaint was filed using information that was wrong in ways that were difficult to disprove. People who had once been helpful became cautious and distant.
+The last time they spoke, Elise had sounded distracted.
 
-She spent hours on calls, explaining the same facts to strangers who promised to call back and didn't.
+“Something's wrong at work,” Elise admitted.
 
-She worked in healthcare. She knew how to stay calm when someone else needed her. She knew how to make decisions when things were difficult. But competence didn't make the paperwork disappear, and being resilient didn't make the nights less lonely.
+“Then leave it for tomorrow.”
 
-Her apartment became a place of unfinished tasks, cold cups of coffee, dark clothes, and music through her black Sony headphones.
+“I can't. I need to sort it out.”
 
-One evening she sat at the kitchen table with a stack of letters, a pen, and the exhausted determination of someone who had run out of patience long before she ran out of problems.
+“Elise.”
 
-“Right,” she told the paperwork. “Which one of you is ruining my life today?”
+“I know. I know. I'll call you when I'm done.”
 
-No one answered. That was becoming a theme.
+“Promise?”
 
-She didn't know that her legitimate records had been copied and used to conceal a financial trail connected to the archive Elise carried. When the Directorate erased that trail, it erased pieces of Ninja's life along with it.
+“Promise. Love you, trouble.”
 
-She didn't know that a man named Hex had tried to stop the disaster.
+“Love you too.”
 
-And Hex didn't know, yet, how much damage had followed the fire into the life of the woman in the photograph.
+Ninja sent one more message later that night: *Please just call me when you're safe. I love you.*
 
-They were strangers living with consequences of the same night.
+Elise never replied.
 
-For years, neither would know how close their stories had already come to crossing.
+The police told Ninja her sister had died in an industrial warehouse fire. There had been confusion, they said. An accident, they said. The investigation was ongoing, they said, until it suddenly wasn't.
 
+Ninja remembered almost nothing about the first days afterward except the fluorescent light in the police station, the weight of Elise's spare keys in her palm, and how people kept asking whether there was someone they could call for her.
+
+There was Elise, she wanted to say.
+
+But there wasn't anymore.
+
+The funeral was small. Ninja stood through it with her jaw clenched and her hands curled around a folded photograph. Elise was laughing in it, caught mid-sentence. Ninja kept expecting to hear that laugh from somewhere behind her.
+
+Then the paperwork started.
+
+An account was frozen. Employment records were flagged. A complaint appeared under Ninja's name, citing transactions she had never authorised. When she tried to prove the records were wrong, the supporting documents were missing. Each person she called sent her to someone else.
+
+Elise had once helped her correct a routine employment-record error. Ninja didn't know those legitimate records had later been copied and used to disguise a financial route connected to the archive Elise carried. When the Directorate erased the route, it left Ninja looking suspicious—and without the evidence she needed to defend herself.
+
+Her work became harder. Money grew tight. People who had once been warm became careful about what they said around her. Every new letter felt like another accusation.
+
+She was a healthcare worker. She could stay calm for other people in a crisis. But there was no training for losing the person who knew you best and then being treated as though you had done something wrong.
+
+At home, she sometimes reached for her phone to send Elise a ridiculous picture or complain about a terrible day. Her thumb would find the familiar contact before she remembered.
+
+On one such evening, Ninja sat at the kitchen table surrounded by letters. Her black headphones lay beside a cold cup of coffee.
+
+“Right,” she told the paperwork, her voice unsteady. “Which one of you is ruining my life today?”
+
+She almost heard Elise answer: *All of them, apparently. Put the kettle on.*
+
+That was when Ninja cried. Not at the funeral. Not in the police station. At the kitchen table, because there was nobody left who would answer her stupid jokes in exactly the right way.
+
+Years later, Ninja would rebuild a life around the absence. She would learn to laugh again, travel alone, and refuse to let the Directorate's lies define her.
+
+But she would never believe the fire was simply an accident.
+
+And somewhere far away, a man named Hex carried a photograph of Ninja, the memory of Elise's final moments, and the knowledge that he had failed to stop what happened.
+
+They were strangers living on opposite sides of the same terrible night.
+
+Neither knew their paths were moving toward each other.
 ---
 
-**Draft note:** This is a reconstructed opening, not a word-for-word recovery of the earlier manuscript. Chapters Three–Seven remain established in the conversation and need to be merged into the final recording script.
+**Draft note:** This is a reconstructed opening, not a word-for-word recovery of the earlier manuscript. Chapters Three–Seven still need to be written and merged into the final recording script.
