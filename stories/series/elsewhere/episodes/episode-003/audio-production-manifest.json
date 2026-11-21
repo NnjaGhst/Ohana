@@ -1,0 +1,35 @@
+{
+  "episode": 3,
+  "title": "The Stranger at the Bar",
+  "script": "script.md",
+  "script_sha": "468416759d09660a9b4d3f7c18e64cc0073501ad",
+  "status": "wade-rough-recorded-awaiting-hallie-dialogue-and-editing",
+  "voice": {
+    "narrator": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+    "ninja": "8f71d16d1fa84544a4db41a18264d613",
+    "ninja_mix_gain": 0.9,
+    "speed": 1
+  },
+  "recordings": [
+    {
+      "part": 1,
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=2a49824662bc44c295271028b65c4020.mp3",
+      "duration_seconds": 409.04249433106554
+    },
+    {
+      "part": 2,
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=2552bd3480644df7911534cad07bd4d0.mp3",
+      "duration_seconds": 422.4172789115643
+    },
+    {
+      "part": 3,
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=b8ee793f7fde46dbbc8bf28001c3f01e.mp3",
+      "duration_seconds": 259.70589569160984
+    }
+  ],
+  "notes": [
+    "Rough narration includes Ninja dialogue spoken by Wade. Replace with Hallie pickups; do not overlay voices.",
+    "Part boundaries at paragraph boundaries; verify exact canonical script and joins.",
+    "No finished master yet; no publishing before user approval and illustrations."
+  ]
+}
