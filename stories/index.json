@@ -31,6 +31,16 @@
           "path": "series/elsewhere/episodes/episode-001/illustrations/elsewhere-ep1-illustration-6-26aa96894242430f.png"
         }
       ]
+    },
+    {
+      "id": "elsewhere-002",
+      "seriesId": "elsewhere",
+      "seriesName": "Elsewhere",
+      "number": 2,
+      "title": "The Crooked Lantern",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-002.txt"
     }
   ]
 }
