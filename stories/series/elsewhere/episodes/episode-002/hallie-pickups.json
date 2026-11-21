@@ -1,5 +1,5 @@
 {
-  "status": "partial",
+  "status": "all-31-generated-awaiting-download-and-audio-QA",
   "voice": "Hallie",
   "mix_gain": 0.9,
   "clips": [
@@ -151,6 +151,43 @@
       "script": "Does everyone know about the fountain?",
       "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=122d87bd3a7a427da327ee4245c88f7b.mp3",
       "duration": 1.9243083900226758
+    },
+    {
+      "line": 466,
+      "script": "Your dragon escaped. Should I be worried about the village, or is he one of the friendly ones?",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=3ce1115ce7d146ec9c53424e807b6a70.mp3",
+      "duration": 5.500181405895692
+    },
+    {
+      "line": 470,
+      "script": "Sounds like a troublemaker.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=a9f20f5ffc5f4c0399da2f3c50fb6b9e.mp3",
+      "duration": 1.7739455782312925
+    },
+    {
+      "line": 474,
+      "script": "Of course. My mistake. I'll make sure to address him as Your Majesty next time.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=8a686d2166304dd5aff4b510ea647371.mp3",
+      "duration": 4.861632653061225
+    },
+    {
+      "line": 586,
+      "script": "That's a serious responsibility. Does it come with a salary, or am I being paid entirely in dragon drawings?",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=3036adb32587458f9b121aa8b3d9c87a.mp3",
+      "duration": 6.730839002267574
+    },
+    {
+      "line": 590,
+      "script": "Please don't. She already thinks I'm a menace. I'd like to maintain at least twenty-four hours of plausible innocence.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=d1d1aca47bfc428cafe75b6befbda5d1.mp3",
+      "duration": 6.951428571428572
+    },
+    {
+      "line": 678,
+      "script": "Very much. I might come back tomorrow.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=56b35e69750242e89ad80f37f8de6b6c.mp3",
+      "duration": 2.9924263038548755
     }
-  ]
+  ],
+  "notes": "31 individual Hallie pickups across 28 turns; chapter 1 existing Hallie sample in audio-production-manifest.json; gain 0.9 applied by Dex only."
 }
