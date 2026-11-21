@@ -267,8 +267,41 @@
       "number": 14,
       "title": "The Station Copy",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-014.txt"
+      "status": "ready",
+      "text": "text/elsewhere-014.txt",
+      "images": [
+        {
+          "caption": "A Brake That Lets Go",
+          "path": "series/elsewhere/episodes/episode-014/illustrations/elsewhere-14-01-a-brake-that-lets-go-e9f6cd5f4de93212.webp",
+          "start": 0
+        },
+        {
+          "caption": "The Side Entrance",
+          "path": "series/elsewhere/episodes/episode-014/illustrations/elsewhere-14-02-the-side-entrance-bb42b3350c7ea397.webp",
+          "start": 249.901
+        },
+        {
+          "caption": "Evelyn’s Counter",
+          "path": "series/elsewhere/episodes/episode-014/illustrations/elsewhere-14-03-evelyns-counter-c3a0a94ff92b739e.webp",
+          "start": 478.692
+        },
+        {
+          "caption": "Under the Clock",
+          "path": "series/elsewhere/episodes/episode-014/illustrations/elsewhere-14-04-under-the-clock-5f0ba657ba8e73c7.webp",
+          "start": 705.038
+        },
+        {
+          "caption": "The Second Copy",
+          "path": "series/elsewhere/episodes/episode-014/illustrations/elsewhere-14-05-the-second-copy-b51ee024b758e855.webp",
+          "start": 920.955
+        },
+        {
+          "caption": "A Room with Hours",
+          "path": "series/elsewhere/episodes/episode-014/illustrations/elsewhere-14-06-a-room-with-hours-e36b74051eeb9342.webp",
+          "start": 1134.475
+        }
+      ],
+      "audio": "series/elsewhere/episodes/episode-014/audio/elsewhere-episode-14-the-station-copy-547ccc54d41f3117.mp3"
     },
     {
       "id": "elsewhere-015",
