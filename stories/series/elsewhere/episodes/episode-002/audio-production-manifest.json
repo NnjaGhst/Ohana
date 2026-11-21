@@ -1,0 +1,54 @@
+{
+  "series": "Elsewhere",
+  "episode": 2,
+  "title": "The Crooked Lantern",
+  "status": "production-handoff-not-ready",
+  "canonical_script": "stories/series/elsewhere/episodes/episode-002/script.md",
+  "target_minutes": "20–25",
+  "narrator": {
+    "name": "Wade – Resonant & Narrative",
+    "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+    "speed": 1
+  },
+  "ninja": {
+    "name": "Hallie – Gentle & Expressive",
+    "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+    "speed": 1,
+    "gain": 0.9
+  },
+  "existing_assets": [
+    {
+      "role": "Wade rough narration",
+      "part": 1,
+      "scope": "Previously on and Chapters 1–2, revised script, includes Wade reading Ninja's lines",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=bc315ec225ac455d9cfce123ed54cdff.mp3"
+    },
+    {
+      "role": "Wade rough narration",
+      "part": 2,
+      "scope": "Chapters 3–5, revised script, includes Wade reading Ninja's lines",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=510a333ee5a94f92aad77de7f0a833b0.mp3"
+    },
+    {
+      "role": "Wade rough narration",
+      "part": 3,
+      "scope": "Chapters 6–7 and ending, OLD script, predates dialogue additions",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=f0d9c480927746bf968b3be15a652ef1.mp3"
+    },
+    {
+      "role": "Hallie sample",
+      "part": "dialogue-sample-1",
+      "scope": "8 noncontiguous Ninja lines, not ready for sequential insertion and not all match latest script",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=b6d54ab821d74018a3f5ca70f1f8a3d7.mp3"
+    }
+  ],
+  "critical_notes": [
+    "DO NOT publish the existing three Wade MP3s as the finished episode: Wade reads Ninja's dialogue, and part 3 is outdated.",
+    "Treat the canonical script as authoritative. Produce a speaker-by-speaker ordered cue sheet from the full script, separating every Ninja spoken line for Hallie; Wade voices narration, Hex and all other speakers.",
+    "Do not guess edit timestamps or splice by approximate timing. For clean handoffs, regenerate only the necessary short segments with exact boundaries, preserving all prose and all dialogue; use existing audio when it can be retained cleanly.",
+    "Keep Hallie at 90% gain relative to her original output, preserve pitch/tone. No bass/warmth processing.",
+    "Listen and verify dialogue order, no missing or doubled lines, clean natural pauses, no clipped words; check total duration, then prepare a single MP3 for approval BEFORE marking ready or publishing.",
+    "Create an illustration cue sheet tied to actual final audio timestamps for six scene-matched images; do not fabricate cue times.",
+    "If HeyGen URLs can be downloaded in Work, save local MP3s and use them without paying again. Do not claim existing rough recordings are the final mix."
+  ]
+}
