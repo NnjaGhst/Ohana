@@ -209,8 +209,27 @@
       "number": 12,
       "title": "A Place at the Table",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-012.txt"
+      "status": "ready",
+      "text": "text/elsewhere-012.txt",
+      "audio": "series/elsewhere/episodes/episode-012/audio/elsewhere-episode-12-a-place-at-the-table-4714cc931edcf866.mp3",
+      "images": [
+        {
+          "caption": "The Missing Teaspoons",
+          "path": "series/elsewhere/episodes/episode-012/illustrations/elsewhere-12-01-the-missing-teaspoons-c918fbee856964a8.png"
+        },
+        {
+          "caption": "While It Charges",
+          "path": "series/elsewhere/episodes/episode-012/illustrations/elsewhere-12-02-while-it-charges-b18b8531889a47f8.png"
+        },
+        {
+          "caption": "One Bowl",
+          "path": "series/elsewhere/episodes/episode-012/illustrations/elsewhere-12-03-one-bowl-7006dc6311c57fa6.png"
+        },
+        {
+          "caption": "The Hall Afterward",
+          "path": "series/elsewhere/episodes/episode-012/illustrations/elsewhere-12-04-the-hall-afterward-b6b9e7c0b3f2f934.png"
+        }
+      ]
     },
     {
       "id": "elsewhere-013",
