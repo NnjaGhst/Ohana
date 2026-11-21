@@ -64,6 +64,16 @@
       "status": "ready",
       "text": "text/elsewhere-004.txt",
       "audio": "series/elsewhere/episodes/episode-004/audio/elsewhere-episode-04-the-walk-home-eab6f27306848cfc.mp3"
+    },
+    {
+      "id": "elsewhere-005",
+      "seriesId": "elsewhere",
+      "seriesName": "Elsewhere",
+      "number": 5,
+      "title": "The Things We Don’t Say",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-005.txt"
     }
   ]
 }
