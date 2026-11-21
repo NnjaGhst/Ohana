@@ -192,6 +192,16 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "draft",
       "text": "text/elsewhere-012.txt"
+    },
+    {
+      "id": "elsewhere-013",
+      "seriesId": "elsewhere",
+      "seriesName": "Elsewhere",
+      "number": 13,
+      "title": "The Back of the Receipt",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-013.txt"
     }
   ]
 }
