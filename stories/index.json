@@ -92,7 +92,25 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
       "text": "text/elsewhere-005.txt",
-      "audio": "series/elsewhere/episodes/episode-005/audio/elsewhere-episode-05-the-things-we-dont-say-5d23bd4c54a84881.mp3"
+      "audio": "series/elsewhere/episodes/episode-005/audio/elsewhere-episode-05-the-things-we-dont-say-5d23bd4c54a84881.mp3",
+      "images": [
+        {
+          "caption": "The Gate at Briar House",
+          "path": "series/elsewhere/episodes/episode-005/illustrations/ep5-01-the-gate-at-briar-house-e74c0b242a658daa.png"
+        },
+        {
+          "caption": "The Photograph on the Table",
+          "path": "series/elsewhere/episodes/episode-005/illustrations/ep5-02-the-photograph-on-the-table-e84c475fe5f88448.png"
+        },
+        {
+          "caption": "What the Apricots Were For",
+          "path": "series/elsewhere/episodes/episode-005/illustrations/ep5-03-what-the-apricots-were-for-ca7004cfea51db87.png"
+        },
+        {
+          "caption": "Don’t Leave Without Telling Me",
+          "path": "series/elsewhere/episodes/episode-005/illustrations/ep5-04-dont-leave-without-telling-me-62c973236b557c65.png"
+        }
+      ]
     }
   ]
 }
