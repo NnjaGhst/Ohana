@@ -6,32 +6,55 @@
     {
       "line": 122,
       "script": "Hello, gorgeous. Are you employed here?",
-      "url": null
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=a2d13b05e7a544209c9919a8f9d730bd.mp3"
     },
     {
       "line": 128,
       "script": "Inspector?",
-      "url": null
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=a030804aa24c4a6b94f58a6874729ae0.mp3",
+      "duration": 0.9436734693877551
     },
     {
       "line": 132,
       "script": "Management material,",
-      "url": null
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=b47e09be116745db84c13c85fd14794a.mp3",
+      "duration": 1.3831519274376418
     },
     {
       "line": 132.2,
       "script": "No meetings, no emails, and he gets to nap in the doorway. Honestly, I'd like to apply.",
-      "url": null
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=574a5327a38d4cf680da59f62e4d589e.mp3",
+      "duration": 6.475419501133787
     },
     {
       "line": 136,
       "script": "Does he accept bribes?",
-      "url": null
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=7839d3e157c04d6080c36a6327ec39ee.mp3",
+      "duration": 1.7005215419501134
     },
     {
       "line": 140,
       "script": "Finally. A reasonable boss.",
-      "url": null
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=2c05ff83c92f4c8a82d3682a8fc585ca.mp3",
+      "duration": 2.5873922902494333
+    },
+    {
+      "line": 148,
+      "script": "Excellent recommendation.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=e4cd06f53f404319b045cf7158e18a7b.mp3",
+      "duration": 1.6487755102040815
+    },
+    {
+      "line": 152,
+      "script": "Now I absolutely have to read it. If the ending is terrible, I'm coming back to complain.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=5f2f6eae2f714afa82957e11c46c3bce.mp3",
+      "duration": 5.7556009070294785
+    },
+    {
+      "line": 156,
+      "script": "Good. I'll bring a detailed report. Possibly diagrams.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=92710bfa07dc4059a1ff59da7eae90c0.mp3",
+      "duration": 4.269523809523809
     }
   ]
 }
