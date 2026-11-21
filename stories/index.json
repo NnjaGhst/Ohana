@@ -182,6 +182,16 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "draft",
       "text": "text/elsewhere-011.txt"
+    },
+    {
+      "id": "elsewhere-012",
+      "seriesId": "elsewhere",
+      "seriesName": "Elsewhere",
+      "number": 12,
+      "title": "A Place at the Table",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-012.txt"
     }
   ]
 }
