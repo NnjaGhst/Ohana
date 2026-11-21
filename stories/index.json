@@ -172,6 +172,16 @@
       "status": "ready",
       "text": "text/elsewhere-010.txt",
       "audio": "series/elsewhere/episodes/episode-010/audio/elsewhere-episode-10-streaming-ec3beb9c41565720.mp3"
+    },
+    {
+      "id": "elsewhere-011",
+      "seriesId": "elsewhere",
+      "seriesName": "Elsewhere",
+      "number": 11,
+      "title": "What Iona Kept",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-011.txt"
     }
   ]
 }
