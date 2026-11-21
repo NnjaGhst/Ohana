@@ -238,8 +238,27 @@
       "number": 13,
       "title": "The Back of the Receipt",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-013.txt"
+      "status": "ready",
+      "text": "text/elsewhere-013.txt",
+      "audio": "series/elsewhere/episodes/episode-013/audio/elsewhere-episode-13-the-back-of-the-receipt-7e438e91c03d60bf.mp3",
+      "images": [
+        {
+          "caption": "Three Pieces of Paper",
+          "path": "series/elsewhere/episodes/episode-013/illustrations/elsewhere-13-01-three-pieces-of-paper-6db6b1b29720c0ab.png"
+        },
+        {
+          "caption": "The Bicycle Shop",
+          "path": "series/elsewhere/episodes/episode-013/illustrations/elsewhere-13-02-the-bicycle-shop-4fb9c483dc9f8ba6.png"
+        },
+        {
+          "caption": "Under the Grey Cover",
+          "path": "series/elsewhere/episodes/episode-013/illustrations/elsewhere-13-03-under-the-grey-cover-f621d8d29e102cc6.png"
+        },
+        {
+          "caption": "The Patient Chair",
+          "path": "series/elsewhere/episodes/episode-013/illustrations/elsewhere-13-04-the-patient-chair-dcb203d64b2d71ad.png"
+        }
+      ]
     }
   ]
 }
