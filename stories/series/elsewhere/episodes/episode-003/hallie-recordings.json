@@ -1,0 +1,327 @@
+{
+  "episode": 3,
+  "status": "six-hallie-batch-recordings-awaiting-precise-dialogue-splicing",
+  "voice": "8f71d16d1fa84544a4db41a18264d613",
+  "mix_gain": 0.9,
+  "recordings": [
+    {
+      "part": 1,
+      "lines": [
+        {
+          "line": 18,
+          "text": "If you're a ghost, you're going to have to wait until I've had coffee."
+        },
+        {
+          "line": 22,
+          "text": "Rude."
+        },
+        {
+          "line": 34,
+          "text": "Only because I negotiated a ceasefire."
+        },
+        {
+          "line": 42,
+          "text": "You're going to feed me until I can't leave, aren't you?"
+        },
+        {
+          "line": 46,
+          "text": "Diabolical. I respect it."
+        },
+        {
+          "line": 54,
+          "text": "Some of it,"
+        },
+        {
+          "line": 64,
+          "text": "Who's Inspector?"
+        },
+        {
+          "line": 68,
+          "text": "Finally. Recognition from someone important."
+        },
+        {
+          "line": 74,
+          "text": "Good morning, sir. I've come for my performance review."
+        },
+        {
+          "line": 78,
+          "text": "Excellent. Promotion already."
+        },
+        {
+          "line": 84,
+          "text": "That's because I understand his management style. Minimal effort, maximum snacks."
+        }
+      ],
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=4afd3dcd127e4f9091c6f83de5be03ce.mp3",
+      "duration_seconds": 27.517800453514734
+    },
+    {
+      "part": 2,
+      "lines": [
+        {
+          "line": 188,
+          "text": "Where did you get the dress?"
+        },
+        {
+          "line": 194,
+          "text": "The woman in this book. She's been chased through a swamp for three chapters and she's wearing silk. I need answers."
+        },
+        {
+          "line": 200,
+          "text": "That would honestly explain more than the plot does."
+        },
+        {
+          "line": 214,
+          "text": "Is that a village rule?"
+        },
+        {
+          "line": 226,
+          "text": "What is this supposed to be?"
+        },
+        {
+          "line": 232,
+          "text": "Of course. I was just testing you."
+        }
+      ],
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=8007502cde234a96912e58bb6d432eac.mp3",
+      "duration_seconds": 16.6624716553288
+    },
+    {
+      "part": 3,
+      "lines": [
+        {
+          "line": 260,
+          "text": "Your stew has compromised my independence."
+        },
+        {
+          "line": 264,
+          "text": "Is there a loyalty card?"
+        },
+        {
+          "line": 270,
+          "text": "You can start early. This one deserves it."
+        },
+        {
+          "line": 276,
+          "text": "She changed dresses in a swamp."
+        },
+        {
+          "line": 282,
+          "text": "Don't tell me. I need to experience the full tragedy."
+        }
+      ],
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=5534e83631df465c86441b69ac7fa9e2.mp3",
+      "duration_seconds": 12.826077097505669
+    },
+    {
+      "part": 4,
+      "lines": [
+        {
+          "line": 350,
+          "text": "Maeve, I have a formal complaint."
+        },
+        {
+          "line": 356,
+          "text": "The heroine has now survived the swamp, a kidnapping, and an inexplicable costume change. Nobody has offered her a sandwich."
+        },
+        {
+          "line": 360,
+          "text": "Exactly."
+        },
+        {
+          "line": 374,
+          "text": "Are you the village's emergency glass distributor?"
+        },
+        {
+          "line": 380,
+          "text": "It's Friday."
+        },
+        {
+          "line": 388,
+          "text": "I'm Ninja,"
+        },
+        {
+          "line": 398,
+          "text": "Nice to meet you, Elias."
+        },
+        {
+          "line": 410,
+          "text": "Have you read this?"
+        },
+        {
+          "line": 416,
+          "text": "Absolutely not. Unless you've ever wondered how a person can change clothes in the middle of a swamp."
+        },
+        {
+          "line": 420,
+          "text": "Well, now you will."
+        },
+        {
+          "line": 426,
+          "text": "There it is,"
+        },
+        {
+          "line": 430,
+          "text": "A smile. I was beginning to think Bellwether had a strict ration."
+        },
+        {
+          "line": 434,
+          "text": "Understandable. Difficult climate."
+        },
+        {
+          "line": 446,
+          "text": "Does he?"
+        },
+        {
+          "line": 454,
+          "text": "That sounds like a full-time job."
+        },
+        {
+          "line": 466,
+          "text": "Finally, a professional I understand."
+        },
+        {
+          "line": 476,
+          "text": "Enjoy your illegal glass-distribution career, Elias."
+        }
+      ],
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=ba79d78d5cd14f86a78abc410baf0b48.mp3",
+      "duration_seconds": 42.29079365079364
+    },
+    {
+      "part": 5,
+      "lines": [
+        {
+          "line": 506,
+          "text": "Quick question."
+        },
+        {
+          "line": 512,
+          "text": "Is there actually a sensible way to get to the old bridge, or does the village require a sacrifice to the fountain?"
+        },
+        {
+          "line": 518,
+          "text": "The one by the café. I managed to approach it from three directions and somehow ended up behind the florist."
+        },
+        {
+          "line": 522,
+          "text": "Thank you. I've been practising."
+        },
+        {
+          "line": 528,
+          "text": "So I turn left where the road looks like it should go right."
+        },
+        {
+          "line": 532,
+          "text": "And ignore the sign."
+        },
+        {
+          "line": 536,
+          "text": "Are you sure you're not trying to get rid of me?"
+        },
+        {
+          "line": 546,
+          "text": "You're not from here,"
+        },
+        {
+          "line": 550,
+          "text": "Me neither. Although I think Inspector's considering adopting me."
+        },
+        {
+          "line": 554,
+          "text": "You know him?"
+        },
+        {
+          "line": 558,
+          "text": "He's a good judge of character."
+        },
+        {
+          "line": 564,
+          "text": "Nobody's perfect."
+        },
+        {
+          "line": 568,
+          "text": "You can sit for a minute, if you're not busy. I promise not to ask you to fix anything."
+        },
+        {
+          "line": 578,
+          "text": "That explains everything,"
+        },
+        {
+          "line": 588,
+          "text": "Have you lived here long?"
+        },
+        {
+          "line": 592,
+          "text": "Do you like it?"
+        },
+        {
+          "line": 598,
+          "text": "That sounds suspiciously like a compliment."
+        },
+        {
+          "line": 602,
+          "text": "Your secret's safe."
+        },
+        {
+          "line": 612,
+          "text": "I needed somewhere different,"
+        },
+        {
+          "line": 620,
+          "text": "I think so. It's nice being somewhere nobody knows my whole story."
+        },
+        {
+          "line": 632,
+          "text": "Yeah, Sometimes it is."
+        }
+      ],
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=cd9bd3b2bba1474083d7d63e7f570ec1.mp3",
+      "duration_seconds": 50.23773242630386
+    },
+    {
+      "part": 6,
+      "lines": [
+        {
+          "line": 640,
+          "text": "Well, Elias, thank you for the directions and the excellent professional advice about illegally distributing glasses."
+        },
+        {
+          "line": 644,
+          "text": "Careful. I might take you seriously."
+        },
+        {
+          "line": 652,
+          "text": "I specifically ordered better weather."
+        },
+        {
+          "line": 656,
+          "text": "I've noticed."
+        },
+        {
+          "line": 672,
+          "text": "Don't say it."
+        },
+        {
+          "line": 676,
+          "text": "You absolutely were."
+        },
+        {
+          "line": 682,
+          "text": "Right. Obviously. I was testing you."
+        },
+        {
+          "line": 688,
+          "text": "Goodnight, Elias."
+        },
+        {
+          "line": 694,
+          "text": "Try smiling again sometime. It suits you."
+        }
+      ],
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=1843f3053c01464193e35cd368b7f906.mp3",
+      "duration_seconds": 21.785827664399093
+    }
+  ],
+  "notes": "Each batch contains Ninja dialogue turns separated by blank lines. Editor must isolate each utterance by listening/aligning; do not insert a batch as a single continuous scene. Two split narration tags (line 18 and 632) need special handling. Check every dialogue assignment and exact canonical text before finalizing."
+}
