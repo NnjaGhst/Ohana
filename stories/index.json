@@ -279,6 +279,16 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "draft",
       "text": "text/elsewhere-015.txt"
+    },
+    {
+      "id": "elsewhere-016",
+      "seriesId": "elsewhere",
+      "seriesName": "Elsewhere",
+      "number": 16,
+      "title": "The Last Crossing",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-016.txt"
     }
   ]
 }
