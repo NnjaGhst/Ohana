@@ -72,8 +72,9 @@
       "number": 5,
       "title": "The Things We Don’t Say",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-005.txt"
+      "status": "ready",
+      "text": "text/elsewhere-005.txt",
+      "audio": "series/elsewhere/episodes/episode-005/audio/elsewhere-episode-05-the-things-we-dont-say-5d23bd4c54a84881.mp3"
     }
   ]
 }
