@@ -259,6 +259,16 @@
           "path": "series/elsewhere/episodes/episode-013/illustrations/elsewhere-13-04-the-patient-chair-dcb203d64b2d71ad.png"
         }
       ]
+    },
+    {
+      "id": "elsewhere-014",
+      "seriesId": "elsewhere",
+      "seriesName": "Elsewhere",
+      "number": 14,
+      "title": "The Station Copy",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-014.txt"
     }
   ]
 }
