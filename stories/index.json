@@ -128,6 +128,16 @@
           "path": "series/elsewhere/episodes/episode-006/illustrations/ep6-nine-ten-on-the-platform-2545c60e770209e9.png"
         }
       ]
+    },
+    {
+      "id": "elsewhere-007",
+      "seriesId": "elsewhere",
+      "seriesName": "Elsewhere",
+      "number": 7,
+      "title": "The Voice on the Tape",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-007.txt"
     }
   ]
 }
