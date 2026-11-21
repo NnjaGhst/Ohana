@@ -50,8 +50,9 @@
       "number": 3,
       "title": "The Stranger at the Bar",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-003.txt"
+      "status": "ready",
+      "text": "text/elsewhere-003.txt",
+      "audio": "series/elsewhere/episodes/episode-003/audio/elsewhere-episode-03-the-stranger-at-the-bar-ca5dabd579f0ac8f.mp3"
     }
   ]
 }
