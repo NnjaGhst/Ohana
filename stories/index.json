@@ -150,6 +150,16 @@
       "status": "ready",
       "text": "text/elsewhere-008.txt",
       "audio": "series/elsewhere/episodes/episode-008/audio/elsewhere-episode-08-the-green-paperclip-7618233c57951edc.mp3"
+    },
+    {
+      "id": "elsewhere-009",
+      "seriesId": "elsewhere",
+      "seriesName": "Elsewhere",
+      "number": 9,
+      "title": "The Ferry Shelter",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-009.txt"
     }
   ]
 }
