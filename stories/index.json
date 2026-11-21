@@ -61,8 +61,9 @@
       "number": 4,
       "title": "The Walk Home",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-004.txt"
+      "status": "ready",
+      "text": "text/elsewhere-004.txt",
+      "audio": "series/elsewhere/episodes/episode-004/audio/elsewhere-episode-04-the-walk-home-671ca6075b88f21c.mp3"
     }
   ]
 }
