@@ -111,6 +111,16 @@
           "path": "series/elsewhere/episodes/episode-005/illustrations/ep5-04-dont-leave-without-telling-me-62c973236b557c65.png"
         }
       ]
+    },
+    {
+      "id": "elsewhere-006",
+      "seriesId": "elsewhere",
+      "seriesName": "Elsewhere",
+      "number": 6,
+      "title": "The Door at Bellwether Station",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-006.txt"
     }
   ]
 }
