@@ -63,7 +63,25 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
       "text": "text/elsewhere-004.txt",
-      "audio": "series/elsewhere/episodes/episode-004/audio/elsewhere-episode-04-the-walk-home-eab6f27306848cfc.mp3"
+      "audio": "series/elsewhere/episodes/episode-004/audio/elsewhere-episode-04-the-walk-home-eab6f27306848cfc.mp3",
+      "images": [
+        {
+          "caption": "The Street with Two Names",
+          "path": "series/elsewhere/episodes/episode-004/illustrations/ep4-01-the-street-with-two-names-df6cfab0b9d3be02.png"
+        },
+        {
+          "caption": "Morning at the Old Bridge",
+          "path": "series/elsewhere/episodes/episode-004/illustrations/ep4-02-morning-at-the-old-bridge-dcc188053416403e.png"
+        },
+        {
+          "caption": "The Car at the Bend",
+          "path": "series/elsewhere/episodes/episode-004/illustrations/ep4-03-the-car-at-the-bend-e9ed4436ca5fc1e9.png"
+        },
+        {
+          "caption": "See You Around, Elias",
+          "path": "series/elsewhere/episodes/episode-004/illustrations/ep4-04-see-you-around-elias-54e27a3d492682b6.png"
+        }
+      ]
     },
     {
       "id": "elsewhere-005",
