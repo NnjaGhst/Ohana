@@ -161,6 +161,16 @@
       "status": "ready",
       "text": "text/elsewhere-009.txt",
       "audio": "series/elsewhere/episodes/episode-009/audio/elsewhere-episode-09-the-ferry-shelter-a673264c8d43cd2e.mp3"
+    },
+    {
+      "id": "elsewhere-010",
+      "seriesId": "elsewhere",
+      "seriesName": "Elsewhere",
+      "number": 10,
+      "title": "The Room Upstairs",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-010.txt"
     }
   ]
 }
