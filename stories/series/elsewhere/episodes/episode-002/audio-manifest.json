@@ -30,9 +30,195 @@
       "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=b6d54ab821d74018a3f5ca70f1f8a3d7.mp3",
       "sha256": "e89b2bf1d7cafce93e2c24c946c32212b65927cca7482b621079dbbe6be84098",
       "durationSeconds": 21.368125
+    },
+    {
+      "id": "hallie-01",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=a2d13b05e7a544209c9919a8f9d730bd.mp3",
+      "sha256": "45a653cf7ba6f454d1339e082aaa2ee5131f15977badb9377c5bdba9d5571a8a",
+      "durationSeconds": 2.847375
+    },
+    {
+      "id": "hallie-02",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=a030804aa24c4a6b94f58a6874729ae0.mp3",
+      "sha256": "33305b0ca195784a84d8c116965f3c80e8527e307775e732f94e870dc2e2b36d",
+      "durationSeconds": 0.9926875
+    },
+    {
+      "id": "hallie-03",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=b47e09be116745db84c13c85fd14794a.mp3",
+      "sha256": "b4c063123a30073e9efc52137ffdd2fa2138d242283b809b3e7b07cb929c2e65",
+      "durationSeconds": 1.410625
+    },
+    {
+      "id": "hallie-04",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=574a5327a38d4cf680da59f62e4d589e.mp3",
+      "sha256": "a98573f4d819ae4f6e0691fb5f3704f23a8ae11368a1c9c73ad3e569df7e85f5",
+      "durationSeconds": 6.5045
+    },
+    {
+      "id": "hallie-05",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=7839d3e157c04d6080c36a6327ec39ee.mp3",
+      "sha256": "24efe52d6598dfe23bc2738945c6b6d1054ee9637567363600f883f29c47ffa6",
+      "durationSeconds": 1.7501875
+    },
+    {
+      "id": "hallie-06",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=2c05ff83c92f4c8a82d3682a8fc585ca.mp3",
+      "sha256": "049db164ce9f1de01ca1fdf3413b41d8cb93c26ca0ebb9763a6fbd6d5a98bd26",
+      "durationSeconds": 2.638375
+    },
+    {
+      "id": "hallie-07",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=e4cd06f53f404319b045cf7158e18a7b.mp3",
+      "sha256": "aa0db6c8f382038347b339f84aae26c02d43bf481019b858145684f1809ae59d",
+      "durationSeconds": 1.698
+    },
+    {
+      "id": "hallie-08",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=5f2f6eae2f714afa82957e11c46c3bce.mp3",
+      "sha256": "279ccc2a36be3c0f0e63421427758b6b3f11c9387775bc73800e88020c777c78",
+      "durationSeconds": 5.7991875
+    },
+    {
+      "id": "hallie-09",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=92710bfa07dc4059a1ff59da7eae90c0.mp3",
+      "sha256": "ab9db4434b3c41ce1ceab4408369f5e64d4316f5732e7292b38200f7eb3562f9",
+      "durationSeconds": 4.3101875
+    },
+    {
+      "id": "hallie-10",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=6dc7cb5101824c349ceb2da7732d2242.mp3",
+      "sha256": "52d2ad3987cdc5c2e85a7b34f7c4d611a30df8d12f2100477ba549d15f1fcec5",
+      "durationSeconds": 1.54125
+    },
+    {
+      "id": "hallie-11",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=0c710111bb9b4049801e89ac6d3d4730.mp3",
+      "sha256": "80abdb35c3f63f7873b3d05e1cc6b3a9ba7fcfbb551e19fe53c7843af14eed35",
+      "durationSeconds": 7.2359375
+    },
+    {
+      "id": "hallie-12",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=44e00881ccb946b888e5dc488e69b07f.mp3",
+      "sha256": "253c6967c73a8f89d61e10f41828b7d7726244c61a728e8a5107823f40909b22",
+      "durationSeconds": 1.149375
+    },
+    {
+      "id": "hallie-13",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=06051a194ac442a19f53bfac6119af18.mp3",
+      "sha256": "5b6be174ee8c5c1825f093e975f5fbc392b50b3fdb48c273014fcd044def36ab",
+      "durationSeconds": 1.358375
+    },
+    {
+      "id": "hallie-14",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=0b6c024f278942ab8358d42cd5129379.mp3",
+      "sha256": "2ad167a1010cca46eeff4eb2d6cb4085e37fb22755a8f36b0bf4a5eb3f039354",
+      "durationSeconds": 0.9404375
+    },
+    {
+      "id": "hallie-15",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=05a40829bf8a41f894eb43e3f88103f4.mp3",
+      "sha256": "4a28d98dd02d2639c539db7cbf04bf731f9ab796308006a589d6107f1f1c7e62",
+      "durationSeconds": 2.978
+    },
+    {
+      "id": "hallie-16",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=8c17a0f201734dbfb6569d002dcbbce9.mp3",
+      "sha256": "9bab5a3fe13fce1c09c7016fdafaebb7a7f73deba7865990482ceb59126917dc",
+      "durationSeconds": 6.8701875
+    },
+    {
+      "id": "hallie-17",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=89d5986d88f14d88af611d611c39e41f.mp3",
+      "sha256": "b473c6aa381b2441f84ba883ae2ad838a0ac3b249d7e4a8fcb167c62ef9e1ad3",
+      "durationSeconds": 7.653875
+    },
+    {
+      "id": "hallie-18",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=570241d5a58e4391ad04a3184ebfa2a7.mp3",
+      "sha256": "0f07c27f9fe88138a7bc7f340e70fd6fcb3a151efabf69bae7912ad1cef24164",
+      "durationSeconds": 0.9926875
+    },
+    {
+      "id": "hallie-19",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=d072a0b0e9924fadb924d6d9640806f8.mp3",
+      "sha256": "9eccd48c85ed0d000274b2e406550a58f6ff09979047f1fa76d70e72dc7b8a6d",
+      "durationSeconds": 3.0824375
+    },
+    {
+      "id": "hallie-20",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=732826ceb0eb4952aaeba61966c22b1b.mp3",
+      "sha256": "619b3194bd7b7c956b4824dd513b79691e5a177d7918c3b51d3b2a0b41f273bd",
+      "durationSeconds": 4.7804375
+    },
+    {
+      "id": "hallie-21",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=94918b5a73644d98b049b16cb2de2b3c.mp3",
+      "sha256": "52c35c72d314c4112261c1b962ffd129288ddc98cd7152f8a521f2e6cc718680",
+      "durationSeconds": 7.1575625
+    },
+    {
+      "id": "hallie-22",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=8d6e1e35136d404bbbfe8c42f92933a5.mp3",
+      "sha256": "6903ca9ae8a035fdf4e380f6180affdf68058aefff4a87bb86bfcb7ef8e474ef",
+      "durationSeconds": 1.22775
+    },
+    {
+      "id": "hallie-23",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=271ec271ff7d49c5b281126d4e4d679c.mp3",
+      "sha256": "b0fb220684d883ea88668c0a037e42a2fe58cf45e0d7f016f758604f08a98ec2",
+      "durationSeconds": 1.671875
+    },
+    {
+      "id": "hallie-24",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=69da70e03f5f4b7d880c7c0e53a4ee2b.mp3",
+      "sha256": "f25cfbe6e49e92b0e6e05aa5c52d7bffa63cb95673ce93967dfee5ee54d484a4",
+      "durationSeconds": 6.0604375
+    },
+    {
+      "id": "hallie-25",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=122d87bd3a7a427da327ee4245c88f7b.mp3",
+      "sha256": "fde6e8042952727d191982794d4d248051e441d97f077b2a749aa0082247fc4f",
+      "durationSeconds": 1.9591875
+    },
+    {
+      "id": "hallie-26",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=3ce1115ce7d146ec9c53424e807b6a70.mp3",
+      "sha256": "d328cff3fe8b4514c859beebc812d4cc6d99bca3dac4c83e7efb73e8c7dff121",
+      "durationSeconds": 5.538
+    },
+    {
+      "id": "hallie-27",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=a9f20f5ffc5f4c0399da2f3c50fb6b9e.mp3",
+      "sha256": "b2a52c1b97d315072573bb62efa43a6bf9377ee1aa75a229d26ca1dfb3ebdd88",
+      "durationSeconds": 1.8024375
+    },
+    {
+      "id": "hallie-28",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=8a686d2166304dd5aff4b510ea647371.mp3",
+      "sha256": "a25a15af7b4921dcaddd1ac7e8bcfd0053159036532ef34b0afc905816b71ec9",
+      "durationSeconds": 4.911
+    },
+    {
+      "id": "hallie-29",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=3036adb32587458f9b121aa8b3d9c87a.mp3",
+      "sha256": "6d556e11c3d053cb0da0305ccc82c5ec5aa557caa31a0ab93c0e2cbc6d4f9dc8",
+      "durationSeconds": 6.76575
+    },
+    {
+      "id": "hallie-30",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=d1d1aca47bfc428cafe75b6befbda5d1.mp3",
+      "sha256": "cd67292718bcfadd70cbd0d8a71ee611c48b00410fb8c74383480c204b14603d",
+      "durationSeconds": 7.0008125
+    },
+    {
+      "id": "hallie-31",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=56b35e69750242e89ad80f37f8de6b6c.mp3",
+      "sha256": "bf697189163619776871e43ece28e24e33b3ca697445e5d7270948cf9ff8c6d9",
+      "durationSeconds": 3.0301875
     }
   ],
-  "recordingRequestForHex": "Record the exact text of each needs_recording cue in its own Hallie file at speed 1.0 and original level. Recover prior attempts if possible. Keep Wade’s interleaved tags separate. Supply each verified audio link with its script line and part. Verify the Wade cue marked check_wording and make that exact pickup only if needed.",
+  "recordingRequestForHex": "Please record the Chapter 6 line 558 pickup with Wade, at speed 1.0 and original pitch and level. Exact sentence: “Empty, except for the reflected glow of the lamps in puddles.” Add the verified audio link for this cue. All 31 new Hallie source clips have been verified.",
   "editorialCues": [
     {
       "sequence": 1,
@@ -896,14 +1082,14 @@
       "line": 122,
       "speaker": "ninja",
       "text": "Hello, gorgeous. Are you employed here?",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-01",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 2.847375,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
+      "status": "source_range_verified",
       "part": 1,
-      "attempt": "Recorded attempt reported; no recoverable audio verified. Recover the original if possible, otherwise record this exact text."
+      "gainApplied": false
     },
     {
       "sequence": 67,
@@ -937,14 +1123,14 @@
       "line": 128,
       "speaker": "ninja",
       "text": "Inspector?",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-02",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 0.9926875,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
+      "status": "source_range_verified",
       "part": 1,
-      "attempt": "Recorded attempt reported; no recoverable audio verified. Recover the original if possible, otherwise record this exact text."
+      "gainApplied": false
     },
     {
       "sequence": 70,
@@ -965,14 +1151,14 @@
       "line": 132,
       "speaker": "ninja",
       "text": "Management material,",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-03",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 1.410625,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
+      "status": "source_range_verified",
       "part": 1,
-      "attempt": "Recorded attempt reported; no recoverable audio verified. Recover the original if possible, otherwise record this exact text."
+      "gainApplied": false
     },
     {
       "sequence": 72,
@@ -993,14 +1179,14 @@
       "line": 132,
       "speaker": "ninja",
       "text": "No meetings, no emails, and he gets to nap in the doorway. Honestly, I'd like to apply.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-04",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.5045,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
+      "status": "source_range_verified",
       "part": 2,
-      "attempt": "Recorded attempt reported; no recoverable audio verified. Recover the original if possible, otherwise record this exact text."
+      "gainApplied": false
     },
     {
       "sequence": 74,
@@ -1021,14 +1207,14 @@
       "line": 136,
       "speaker": "ninja",
       "text": "Does he accept bribes?",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-05",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 1.7501875,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
+      "status": "source_range_verified",
       "part": 1,
-      "attempt": "Recorded attempt reported; no recoverable audio verified. Recover the original if possible, otherwise record this exact text."
+      "gainApplied": false
     },
     {
       "sequence": 76,
@@ -1062,14 +1248,14 @@
       "line": 140,
       "speaker": "ninja",
       "text": "Finally. A reasonable boss.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-06",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 2.638375,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
+      "status": "source_range_verified",
       "part": 1,
-      "attempt": "Recorded attempt reported; no recoverable audio verified. Recover the original if possible, otherwise record this exact text."
+      "gainApplied": false
     },
     {
       "sequence": 79,
@@ -1116,13 +1302,14 @@
       "line": 148,
       "speaker": "ninja",
       "text": "Excellent recommendation.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-07",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 1.698,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 83,
@@ -1143,13 +1330,14 @@
       "line": 152,
       "speaker": "ninja",
       "text": "Now I absolutely have to read it. If the ending is terrible, I'm coming back to complain.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-08",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 5.7991875,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 85,
@@ -1170,13 +1358,14 @@
       "line": 156,
       "speaker": "ninja",
       "text": "Good. I'll bring a detailed report. Possibly diagrams.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-09",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 4.3101875,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 87,
@@ -1392,13 +1581,14 @@
       "line": 190,
       "speaker": "ninja",
       "text": "Is it that obvious?",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-10",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 1.54125,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 104,
@@ -1419,13 +1609,14 @@
       "line": 194,
       "speaker": "ninja",
       "text": "It's a pretty good one. The cat's my favourite character. He has the confidence of someone who's never paid rent in his life.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-11",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.2359375,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 106,
@@ -1485,13 +1676,14 @@
       "line": 204,
       "speaker": "ninja",
       "text": "Are they usually?",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-12",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 1.149375,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 111,
@@ -2370,13 +2562,15 @@
       "line": 340,
       "speaker": "ninja",
       "text": "Don't judge me,",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-13",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 1,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false,
+      "note": "Verified the first complete ‘Don't judge me’ and trimmed the repeated ‘don't’ after the pause."
     },
     {
       "sequence": 179,
@@ -2488,13 +2682,15 @@
       "line": 356,
       "speaker": "ninja",
       "text": "Elise,",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-14",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 0.9404375,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false,
+      "note": "Verified the isolated name ‘Elise’ with a focused transcription check."
     },
     {
       "sequence": 188,
@@ -2515,13 +2711,14 @@
       "line": 356,
       "speaker": "ninja",
       "text": "you would have complained about the walk all the way up.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-15",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 2.978,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 2
+      "status": "source_range_verified",
+      "part": 2,
+      "gainApplied": false
     },
     {
       "sequence": 190,
@@ -2542,13 +2739,14 @@
       "line": 360,
       "speaker": "ninja",
       "text": "Actually, you'd have made me carry your bag. Then you'd tell everyone you practically dragged me to the summit.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-16",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.8701875,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 192,
@@ -2569,13 +2767,15 @@
       "line": 364,
       "speaker": "ninja",
       "text": "I wish I could show you this. I wish I could tell you about the ridiculous cat and the woman who runs the guesthouse like a tiny dictatorship.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-17",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.18,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false,
+      "note": "Checked the complete sentence in the isolated source and retained its verified ending."
     },
     {
       "sequence": 194,
@@ -2752,13 +2952,14 @@
       "line": 392,
       "speaker": "ninja",
       "text": "Fine,",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-18",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 0.9926875,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 208,
@@ -2779,13 +2980,14 @@
       "line": 392,
       "speaker": "ninja",
       "text": "You win. I'm having a holiday.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-19",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 3.0824375,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 2
+      "status": "source_range_verified",
+      "part": 2,
+      "gainApplied": false
     },
     {
       "sequence": 210,
@@ -2806,13 +3008,14 @@
       "line": 396,
       "speaker": "ninja",
       "text": "And yes, I'm going to eat another cinnamon bun tomorrow. Don't start.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-20",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 4.7804375,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 212,
@@ -2989,13 +3192,14 @@
       "line": 424,
       "speaker": "ninja",
       "text": "Is there a village-wide announcement system? Because if there is, I'd like to request that my getting lost remain classified.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-21",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.1575625,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 226,
@@ -3016,13 +3220,14 @@
       "line": 428,
       "speaker": "ninja",
       "text": "Terrifying.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-22",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 1.22775,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 228,
@@ -3147,13 +3352,15 @@
       "line": 448,
       "speaker": "ninja",
       "text": "Yes.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-23",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 0.7,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false,
+      "note": "Verified a single ‘Yes’ using the first occurrence before the repeated words."
     },
     {
       "sequence": 238,
@@ -3174,13 +3381,14 @@
       "line": 452,
       "speaker": "ninja",
       "text": "Ask me after I've survived the roads. At this point I'm convinced the fountain moves when nobody's looking.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-24",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.0604375,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 240,
@@ -3201,13 +3409,14 @@
       "line": 456,
       "speaker": "ninja",
       "text": "Does everyone know about the fountain?",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-25",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 1.9591875,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 242,
@@ -3267,13 +3476,15 @@
       "line": 466,
       "speaker": "ninja",
       "text": "Your dragon escaped. Should I be worried about the village, or is he one of the friendly ones?",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-26",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 5.538,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false,
+      "note": "Checked the complete dialogue. The transcription's ‘You're’ and script's ‘Your’ have the same spoken form here."
     },
     {
       "sequence": 247,
@@ -3294,13 +3505,14 @@
       "line": 470,
       "speaker": "ninja",
       "text": "Sounds like a troublemaker.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-27",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 1.8024375,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 249,
@@ -3321,13 +3533,14 @@
       "line": 474,
       "speaker": "ninja",
       "text": "Of course. My mistake. I'll make sure to address him as Your Majesty next time.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-28",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 4.911,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 251,
@@ -3881,13 +4094,13 @@
       "line": 558,
       "speaker": "wade",
       "text": "Empty, except for the reflected glow of the lamps in puddles.",
-      "source": "wade-3",
+      "source": null,
       "sourceInSeconds": null,
       "sourceOutSeconds": null,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "check_wording",
-      "note": "If Part 3 says ‘lamps and puddles’, record this exact sentence with Wade."
+      "status": "needs_recording",
+      "note": "Focused local transcription checks on the original Wade Part 3 heard ‘lamps and puddles’ rather than the canonical ‘lamps in puddles’. Request only this sentence."
     },
     {
       "sequence": 294,
@@ -4064,13 +4277,14 @@
       "line": 586,
       "speaker": "ninja",
       "text": "That's a serious responsibility. Does it come with a salary, or am I being paid entirely in dragon drawings?",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-29",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.76575,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 308,
@@ -4091,13 +4305,14 @@
       "line": 590,
       "speaker": "ninja",
       "text": "Please don't. She already thinks I'm a menace. I'd like to maintain at least twenty-four hours of plausible innocence.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-30",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.0008125,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 310,
@@ -4664,13 +4879,14 @@
       "line": 678,
       "speaker": "ninja",
       "text": "Very much. I might come back tomorrow.",
-      "source": null,
-      "sourceInSeconds": null,
-      "sourceOutSeconds": null,
+      "source": "hallie-31",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 3.0301875,
       "targetInSeconds": null,
       "targetOutSeconds": null,
-      "status": "needs_recording",
-      "part": 1
+      "status": "source_range_verified",
+      "part": 1,
+      "gainApplied": false
     },
     {
       "sequence": 354,
@@ -5115,5 +5331,6 @@
       "status": "needs_boundary_check"
     }
   ],
-  "previewApprovalRequired": true
+  "previewApprovalRequired": true,
+  "halliePickupManifestBlob": "683d3be2374a8f80bccd861752b931f2e8c05cce"
 }
