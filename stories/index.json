@@ -180,8 +180,27 @@
       "number": 11,
       "title": "What Iona Kept",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-011.txt"
+      "status": "ready",
+      "text": "text/elsewhere-011.txt",
+      "audio": "series/elsewhere/episodes/episode-011/audio/elsewhere-episode-11-what-iona-kept-470d132be0d7a2f4.mp3",
+      "images": [
+        {
+          "caption": "Two Rolls",
+          "path": "series/elsewhere/episodes/episode-011/illustrations/elsewhere-11-01-two-rolls-cd2810edf85f13b9.png"
+        },
+        {
+          "caption": "The Polite Meeting",
+          "path": "series/elsewhere/episodes/episode-011/illustrations/elsewhere-11-02-the-polite-meeting-1307e64b4e1aa5a7.png"
+        },
+        {
+          "caption": "A Spare Key",
+          "path": "series/elsewhere/episodes/episode-011/illustrations/elsewhere-11-03-a-spare-key-a4c2299071a5d18a.png"
+        },
+        {
+          "caption": "The Other Chair",
+          "path": "series/elsewhere/episodes/episode-011/illustrations/elsewhere-11-04-the-other-chair-2ecdec5200e42a9c.png"
+        }
+      ]
     },
     {
       "id": "elsewhere-012",
