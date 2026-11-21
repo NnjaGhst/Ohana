@@ -136,8 +136,9 @@
       "number": 7,
       "title": "The Voice on the Tape",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-007.txt"
+      "status": "ready",
+      "text": "text/elsewhere-007.txt",
+      "audio": "series/elsewhere/episodes/episode-007/audio/elsewhere-episode-07-the-voice-on-the-tape-9880acd0a50a64c9.mp3"
     }
   ]
 }
