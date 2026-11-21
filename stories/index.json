@@ -39,8 +39,9 @@
       "number": 2,
       "title": "The Crooked Lantern",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-002.txt"
+      "status": "ready",
+      "text": "text/elsewhere-002.txt",
+      "audio": "series/elsewhere/episodes/episode-002/audio/elsewhere-episode-02-the-crooked-lantern-5dc40095c52e7aaf.mp3"
     },
     {
       "id": "elsewhere-003",
