@@ -1,0 +1,37 @@
+{
+  "status": "partial",
+  "voice": "Hallie",
+  "mix_gain": 0.9,
+  "clips": [
+    {
+      "line": 122,
+      "script": "Hello, gorgeous. Are you employed here?",
+      "url": null
+    },
+    {
+      "line": 128,
+      "script": "Inspector?",
+      "url": null
+    },
+    {
+      "line": 132,
+      "script": "Management material,",
+      "url": null
+    },
+    {
+      "line": 132.2,
+      "script": "No meetings, no emails, and he gets to nap in the doorway. Honestly, I'd like to apply.",
+      "url": null
+    },
+    {
+      "line": 136,
+      "script": "Does he accept bribes?",
+      "url": null
+    },
+    {
+      "line": 140,
+      "script": "Finally. A reasonable boss.",
+      "url": null
+    }
+  ]
+}
