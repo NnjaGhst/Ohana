@@ -51,7 +51,9 @@ She led Ninja upstairs past framed landscape photographs and a staircase that co
 
 “Breakfast is downstairs at eight,” Ada said. “Unless you sleep in. Then it's at nine. Unless I sleep in, in which case we negotiate.”
 
-“Sounds fair.”
+“Sounds fair. Although I should warn you, I'm very competitive at sleeping in.”
+
+“Then you've come to the right establishment,” Ada said. “I haven't lost a morning yet.”
 
 “There's hot water, mostly. The radiator knocks when the wind changes. That's normal.”
 
@@ -127,9 +129,15 @@ A voice from inside the shop said, “That's Inspector.”
 
 “He supervises everyone. Doesn't do any work.”
 
-“Management material,” Ninja said.
+“Management material,” Ninja said. “No meetings, no emails, and he gets to nap in the doorway. Honestly, I'd like to apply.”
 
 The florist laughed.
+
+“Does he accept bribes?” Ninja asked.
+
+“Only biscuits.”
+
+“Finally. A reasonable boss.”
 
 At the bookshop, she bought a second-hand paperback because the cover featured a dramatic woman running across a moor in a dress wholly unsuitable for running across a moor.
 
@@ -141,7 +149,11 @@ The bookseller, a narrow man with round spectacles, studied her purchase.
 
 “The ending makes no sense.”
 
-“Now I absolutely have to read it.”
+“Now I absolutely have to read it. If the ending is terrible, I'm coming back to complain.”
+
+“People usually do.”
+
+“Good. I'll bring a detailed report. Possibly diagrams.”
 
 He wrapped it in brown paper and pointed her toward a café beside the old bridge.
 
@@ -179,7 +191,7 @@ The café owner appeared beside her table with a small glass of water.
 
 “You're looking at the square like it's a television programme.”
 
-“It's a pretty good one. The cat's my favourite character.”
+“It's a pretty good one. The cat's my favourite character. He has the confidence of someone who's never paid rent in his life.”
 
 “That's Mayor. Not officially. He just believes it.”
 
@@ -343,6 +355,14 @@ The thought came without warning, but not with the sharpness it once had. More l
 
 “Elise,” she said under her breath, “you would have complained about the walk all the way up.”
 
+She rested her elbows on the cold stone.
+
+“Actually, you'd have made me carry your bag. Then you'd tell everyone you practically dragged me to the summit.”
+
+Her smile wavered.
+
+“I wish I could show you this. I wish I could tell you about the ridiculous cat and the woman who runs the guesthouse like a tiny dictatorship.”
+
 And Elise would have done it theatrically, stopping every fifty steps to announce that her younger sister was trying to murder her for the sake of a photograph.
 
 Ninja laughed softly.
@@ -371,6 +391,10 @@ Ninja brushed moisture from her cheek before deciding whether it was rain.
 
 “Fine,” she murmured. “You win. I'm having a holiday.”
 
+She looked down at the village lights.
+
+“And yes, I'm going to eat another cinnamon bun tomorrow. Don't start.”
+
 Below her, the lights of The Crooked Lantern flickered on.
 
 ### Chapter Five — Supper at the Lantern
@@ -397,7 +421,7 @@ A woman behind the bar looked up.
 
 Ninja stopped.
 
-“Is there a village-wide announcement system?”
+“Is there a village-wide announcement system? Because if there is, I'd like to request that my getting lost remain classified.”
 
 “Only Ada.”
 
@@ -425,7 +449,7 @@ Maeve brought the stew in a heavy ceramic bowl.
 
 “Good choice?”
 
-“Ask me after I've survived the roads.”
+“Ask me after I've survived the roads. At this point I'm convinced the fountain moves when nobody's looking.”
 
 “Ah. The fountain.”
 
@@ -439,7 +463,7 @@ At one point, a little girl at a nearby table dropped a wooden toy beneath Ninja
 
 Ninja retrieved it and handed it back.
 
-“Your dragon escaped.”
+“Your dragon escaped. Should I be worried about the village, or is he one of the friendly ones?”
 
 “He does that,” the girl said gravely.
 
@@ -447,7 +471,7 @@ Ninja retrieved it and handed it back.
 
 “He's a very good dragon.”
 
-“Of course. My mistake.”
+“Of course. My mistake. I'll make sure to address him as Your Majesty next time.”
 
 The girl's father thanked her, and the child spent the next five minutes explaining, with extraordinary seriousness, the dragon's entire family history.
 
@@ -559,11 +583,11 @@ The little girl with the toy dragon had left behind a paper napkin covered in dr
 
 Ninja studied the scribbles.
 
-“That's a serious responsibility.”
+“That's a serious responsibility. Does it come with a salary, or am I being paid entirely in dragon drawings?”
 
 “I'll have to warn Ada.”
 
-“Please don't. She already thinks I'm a menace.”
+“Please don't. She already thinks I'm a menace. I'd like to maintain at least twenty-four hours of plausible innocence.”
 
 Maeve laughed and returned to the bar.
 
