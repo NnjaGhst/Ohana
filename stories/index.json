@@ -310,8 +310,41 @@
       "number": 15,
       "title": "Window Hours",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-015.txt"
+      "status": "ready",
+      "text": "text/elsewhere-015.txt",
+      "images": [
+        {
+          "caption": "Two Chairs and a Third",
+          "path": "series/elsewhere/episodes/episode-015/illustrations/elsewhere-15-01-two-chairs-and-a-third-da67d9f3c3135d70.webp",
+          "start": 0
+        },
+        {
+          "caption": "The Woman Who Waited",
+          "path": "series/elsewhere/episodes/episode-015/illustrations/elsewhere-15-02-the-woman-who-waited-d57526b3d3ad483e.webp",
+          "start": 241.448
+        },
+        {
+          "caption": "Something to Bring",
+          "path": "series/elsewhere/episodes/episode-015/illustrations/elsewhere-15-03-something-to-bring-be237f10278cf4fc.webp",
+          "start": 443.098
+        },
+        {
+          "caption": "One Name at a Time",
+          "path": "series/elsewhere/episodes/episode-015/illustrations/elsewhere-15-04-one-name-at-a-time-728efe3dc22b81f4.webp",
+          "start": 647.879
+        },
+        {
+          "caption": "The Visitor on the Landing",
+          "path": "series/elsewhere/episodes/episode-015/illustrations/elsewhere-15-05-the-visitor-on-the-landing-98ed1098f5569a5c.webp",
+          "start": 856.053
+        },
+        {
+          "caption": "Two Minutes Past",
+          "path": "series/elsewhere/episodes/episode-015/illustrations/elsewhere-15-06-two-minutes-past-5e66caadb06aba3a.webp",
+          "start": 1054.565
+        }
+      ],
+      "audio": "series/elsewhere/episodes/episode-015/audio/elsewhere-episode-15-window-hours-46612b0be43dbaa6.mp3"
     },
     {
       "id": "elsewhere-016",
@@ -320,8 +353,41 @@
       "number": 16,
       "title": "The Last Crossing",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-016.txt"
+      "status": "ready",
+      "text": "text/elsewhere-016.txt",
+      "images": [
+        {
+          "caption": "First Ride",
+          "path": "series/elsewhere/episodes/episode-016/illustrations/elsewhere-16-01-first-ride-2eb650e0db47b9b9.webp",
+          "start": 0
+        },
+        {
+          "caption": "Low Water",
+          "path": "series/elsewhere/episodes/episode-016/illustrations/elsewhere-16-02-low-water-b58d57bf2640d3b0.webp",
+          "start": 226.522
+        },
+        {
+          "caption": "From the Far Bank",
+          "path": "series/elsewhere/episodes/episode-016/illustrations/elsewhere-16-03-from-the-far-bank-832d6ce8708bc9d2.webp",
+          "start": 424.864
+        },
+        {
+          "caption": "The Blue Folder",
+          "path": "series/elsewhere/episodes/episode-016/illustrations/elsewhere-16-04-the-blue-folder-5008963bcac8965e.webp",
+          "start": 629.325
+        },
+        {
+          "caption": "What the Letter Said",
+          "path": "series/elsewhere/episodes/episode-016/illustrations/elsewhere-16-05-what-the-letter-said-e6b1550e29bc3912.webp",
+          "start": 838.107
+        },
+        {
+          "caption": "The Bell on the Way Home",
+          "path": "series/elsewhere/episodes/episode-016/illustrations/elsewhere-16-06-the-bell-on-the-way-home-504a4ba00dfc512e.webp",
+          "start": 1036.246
+        }
+      ],
+      "audio": "series/elsewhere/episodes/episode-016/audio/elsewhere-episode-16-the-last-crossing-90885cff0166420a.mp3"
     }
   ]
 }
