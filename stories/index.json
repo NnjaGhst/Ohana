@@ -147,8 +147,9 @@
       "number": 8,
       "title": "The Green Paperclip",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-008.txt"
+      "status": "ready",
+      "text": "text/elsewhere-008.txt",
+      "audio": "series/elsewhere/episodes/episode-008/audio/elsewhere-episode-08-the-green-paperclip-7618233c57951edc.mp3"
     }
   ]
 }
