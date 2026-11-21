@@ -158,8 +158,9 @@
       "number": 9,
       "title": "The Ferry Shelter",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-009.txt"
+      "status": "ready",
+      "text": "text/elsewhere-009.txt",
+      "audio": "series/elsewhere/episodes/episode-009/audio/elsewhere-episode-09-the-ferry-shelter-a673264c8d43cd2e.mp3"
     }
   ]
 }
