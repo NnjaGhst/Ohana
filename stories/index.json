@@ -41,6 +41,16 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "draft",
       "text": "text/elsewhere-002.txt"
+    },
+    {
+      "id": "elsewhere-003",
+      "seriesId": "elsewhere",
+      "seriesName": "Elsewhere",
+      "number": 3,
+      "title": "The Stranger at the Bar",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-003.txt"
     }
   ]
 }
