@@ -119,8 +119,15 @@
       "number": 6,
       "title": "The Door at Bellwether Station",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-006.txt"
+      "status": "ready",
+      "text": "text/elsewhere-006.txt",
+      "audio": "series/elsewhere/episodes/episode-006/audio/elsewhere-episode-06-the-door-at-bellwether-station-4984f20dca5adc5d.mp3",
+      "images": [
+        {
+          "caption": "Nine Ten on the Platform",
+          "path": "series/elsewhere/episodes/episode-006/illustrations/ep6-nine-ten-on-the-platform-2545c60e770209e9.png"
+        }
+      ]
     }
   ]
 }
