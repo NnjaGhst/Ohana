@@ -493,27 +493,23 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
       "text": "text/elsewhere-hidden-valley-004.txt",
-      "audio": "series/elsewhere-hidden-valley/episodes/episode-004/audio/elsewhere-hidden-valley-episode-04-expanded-8b6bad30462d4130.mp3",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-004/audio/hidden-valley-rewrite-04-the-name-at-the-door-8f208baa4532e5ed.mp3",
       "images": [
         {
-          "caption": "The Knock at Room Six",
           "path": "series/elsewhere-hidden-valley/episodes/episode-004/illustrations/ep4-art-1-764523d1f93a2ce7.webp",
-          "start": 0
+          "caption": "The Knock at Room Six"
         },
         {
-          "caption": "Elise’s Letter",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-004/illustrations/ep4-art-2-b9a53c288d0392ed.webp",
-          "start": 347.265
-        },
-        {
-          "caption": "Tea at the Crooked Lantern",
           "path": "series/elsewhere-hidden-valley/episodes/episode-004/illustrations/ep4-art-3-49273787534fd645.webp",
-          "start": 755.019
+          "caption": "Tea at the Crooked Lantern"
         },
         {
-          "caption": "The Road Beyond the Market",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-004/illustrations/ep4-art-2-b9a53c288d0392ed.webp",
+          "caption": "Elise’s Letter"
+        },
+        {
           "path": "series/elsewhere-hidden-valley/episodes/episode-004/illustrations/ep4-art-4-c341c85252869964.webp",
-          "start": 1186.556
+          "caption": "The Road Beyond the Market"
         }
       ]
     },
