@@ -398,7 +398,7 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
       "text": "text/elsewhere-hidden-valley-001.txt",
-      "audio": "series/elsewhere-hidden-valley/episodes/episode-001/audio/elsewhere-hidden-valley-01-the-light-in-the-hall-b31d50e4c0e434bf.mp3",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-001/audio/elsewhere-hidden-valley-01-the-light-in-the-hall-natural-fff2bbc727a4d562.mp3",
       "images": [
         {
           "caption": "The Corner Shop",
@@ -408,32 +408,32 @@
         {
           "caption": "Two Plates",
           "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-02-two-plates-525d0987ef527a15.webp",
-          "start": 181.971
+          "start": 93.539
         },
         {
           "caption": "The Bookshop",
           "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-03-the-bookshop-b101540c45d03f6b.webp",
-          "start": 550.853
+          "start": 601.497
         },
         {
           "caption": "The Knock",
           "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-04-the-knock-0f37aa190682ec58.webp",
-          "start": 918.8
+          "start": 797.162
         },
         {
           "caption": "The Funeral",
           "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-05-the-funeral-786917b9ea9f4c92.webp",
-          "start": 1272.865
+          "start": 979.283
         },
         {
           "caption": "The Lamp in the Hall",
           "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-06-the-lamp-in-the-hall-d60b5b0ab3a8b9e8.webp",
-          "start": 1569.201
+          "start": 1567.624
         },
         {
           "caption": "Room Six",
           "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-07-room-six-ab2d123906d67ae2.webp",
-          "start": 1874.872
+          "start": 2029.342
         }
       ]
     },
@@ -446,7 +446,7 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
       "text": "text/elsewhere-hidden-valley-002.txt",
-      "audio": "series/elsewhere-hidden-valley/episodes/episode-002/audio/elsewhere-hidden-valley-02-the-name-on-the-garage-83678019bb0b453f.mp3",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-002/audio/elsewhere-hidden-valley-02-the-name-on-the-garage-natural-fi-a8995cd754613b6f.mp3",
       "images": [
         {
           "caption": "Wheel in the Workshop",
@@ -456,32 +456,32 @@
         {
           "caption": "The Photograph",
           "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/hex-02-the-photograph-4f58b2ee3d23abc7.webp",
-          "start": 447.097
+          "start": 550.999
         },
         {
           "caption": "Elise’s Call",
           "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/hex-03-elises-call-c2402f613de9e29e.webp",
-          "start": 688.295
+          "start": 676.099
         },
         {
           "caption": "The Club by the River",
           "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/hex-04-the-club-by-the-river-1d5df7c53a4de8c4.webp",
-          "start": 896.719
+          "start": 785.569
         },
         {
           "caption": "The First Train",
           "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/hex-05-the-first-train-a65e90cbdbea9249.webp",
-          "start": 1240.666
+          "start": 965.235
         },
         {
           "caption": "Elias at the Garage",
           "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/hex-06-elias-at-the-garage-7957ba35cb0973e1.webp",
-          "start": 1430.403
+          "start": 1334.76
         },
         {
           "caption": "The Crooked Lantern",
           "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/hex-07-the-crooked-lantern-8d80020910baa81b.webp",
-          "start": 1974.049
+          "start": 2055.194
         }
       ]
     },
