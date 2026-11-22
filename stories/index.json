@@ -492,8 +492,27 @@
       "number": 3,
       "title": "The Whiskey Across the Room",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-hidden-valley-003.txt"
+      "status": "ready",
+      "text": "text/elsewhere-hidden-valley-003.txt",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-003/audio/elsewhere-hidden-valley-episode-03-7e925f87e32400aa.mp3",
+      "images": [
+        {
+          "caption": "Rain at the Crooked Lantern",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-1-1b7ffe84205f0356.webp"
+        },
+        {
+          "caption": "The Whiskey Across the Room",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-2-fad5d4d300db4f34.webp"
+        },
+        {
+          "caption": "The One-Eyed Trout",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-3-dcd0177e20b53dfb.webp"
+        },
+        {
+          "caption": "The Stairs Before Breakfast",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-4-d5d14a6e6c8d8661.webp"
+        }
+      ]
     },
     {
       "id": "elsewhere-hidden-valley-004",
