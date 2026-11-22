@@ -550,6 +550,16 @@
           "start": 1186.556
         }
       ]
+    },
+    {
+      "id": "elsewhere-hidden-valley-005",
+      "seriesId": "elsewhere-hidden-valley",
+      "seriesName": "Elsewhere: The Hidden Valley",
+      "number": 5,
+      "title": "The Road Under the Rain",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-hidden-valley-005.txt"
     }
   ]
 }
