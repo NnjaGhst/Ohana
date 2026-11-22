@@ -559,7 +559,25 @@
       "title": "The Road Under the Rain",
       "narrator": "Wade – Resonant & Narrative",
       "status": "draft",
-      "text": "text/elsewhere-hidden-valley-005.txt"
+      "text": "text/elsewhere-hidden-valley-005.txt",
+      "images": [
+        {
+          "caption": "The Ridge in Rain",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-1-2844699135bde4ba.webp"
+        },
+        {
+          "caption": "The Pump House",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-2-2f6c0dd998df723d.webp"
+        },
+        {
+          "caption": "Across the Water",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-3-325070e2d4ed28b0.webp"
+        },
+        {
+          "caption": "The Old Post Office",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-4-1ddba8a267f9c07a.webp"
+        }
+      ]
     },
     {
       "id": "elsewhere-hidden-valley-006",
