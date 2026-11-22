@@ -468,19 +468,23 @@
       "images": [
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-1-1b7ffe84205f0356.webp",
-          "caption": "Rain at the Crooked Lantern"
+          "caption": "Rain at the Crooked Lantern",
+          "start": 0
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-2-fad5d4d300db4f34.webp",
-          "caption": "The Whiskey Across the Room"
+          "caption": "The Whiskey Across the Room",
+          "start": 36.026
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-3-dcd0177e20b53dfb.webp",
-          "caption": "The Key to Room Six"
+          "caption": "The Key to Room Six",
+          "start": 931.169
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-4-d5d14a6e6c8d8661.webp",
-          "caption": "The Stairs Before Breakfast"
+          "caption": "The Stairs Before Breakfast",
+          "start": 1273.577
         }
       ]
     },
@@ -497,19 +501,23 @@
       "images": [
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-004/illustrations/ep4-art-1-764523d1f93a2ce7.webp",
-          "caption": "The Knock at Room Six"
+          "caption": "The Knock at Room Six",
+          "start": 0
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-004/illustrations/ep4-art-3-49273787534fd645.webp",
-          "caption": "Tea at the Crooked Lantern"
+          "caption": "Tea at the Crooked Lantern",
+          "start": 640.107
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-004/illustrations/ep4-art-2-b9a53c288d0392ed.webp",
-          "caption": "Elise’s Letter"
+          "caption": "Elise’s Letter",
+          "start": 957.632
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-004/illustrations/ep4-art-4-c341c85252869964.webp",
-          "caption": "The Road Beyond the Market"
+          "caption": "The Road Beyond the Market",
+          "start": 1139.67
         }
       ]
     },
