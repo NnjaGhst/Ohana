@@ -396,8 +396,9 @@
       "number": 1,
       "title": "The Light in the Hall",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-hidden-valley-001.txt"
+      "status": "ready",
+      "text": "text/elsewhere-hidden-valley-001.txt",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-001/audio/elsewhere-hidden-valley-01-the-light-in-the-hall-b31d50e4c0e434bf.mp3"
     },
     {
       "id": "elsewhere-hidden-valley-002",
