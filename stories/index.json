@@ -407,8 +407,9 @@
       "number": 2,
       "title": "The Name on the Garage",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
-      "text": "text/elsewhere-hidden-valley-002.txt"
+      "status": "ready",
+      "text": "text/elsewhere-hidden-valley-002.txt",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-002/audio/elsewhere-hidden-valley-02-the-name-on-the-garage-83678019bb0b453f.mp3"
     },
     {
       "id": "elsewhere-hidden-valley-003",
