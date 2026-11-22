@@ -431,27 +431,23 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
       "text": "text/elsewhere-hidden-valley-002.txt",
-      "audio": "series/elsewhere-hidden-valley/episodes/episode-002/audio/hidden-valley-rewrite-02-the-name-on-the-garage-25f10e9b8e3f677b.mp3",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-002/audio/hidden-valley-rewrite-02-the-name-on-the-garage-b4913e156b4214ff.mp3",
       "images": [
         {
           "caption": "The Price of the Job",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/rewrite-2-1-the-price-of-the-job-dfa8a48da2699229.webp",
-          "start": 0
+          "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/rewrite-2-1-the-price-of-the-job-dfa8a48da2699229.webp"
         },
         {
           "caption": "The Photograph in the Folder",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/rewrite-2-2-the-photograph-in-the-folder-002165d106a3fb50.webp",
-          "start": 417.796
+          "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/rewrite-2-2-the-photograph-in-the-folder-002165d106a3fb50.webp"
         },
         {
           "caption": "The Riverside Warehouse",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/rewrite-2-3-the-riverside-warehouse-d3f6a1ad2571b695.webp",
-          "start": 682.862
+          "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/rewrite-2-3-the-riverside-warehouse-d3f6a1ad2571b695.webp"
         },
         {
           "caption": "Across the Crooked Lantern",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/rewrite-2-4-across-the-crooked-lantern-532e2855cb05024a.webp",
-          "start": 1557.395
+          "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/rewrite-2-4-across-the-crooked-lantern-532e2855cb05024a.webp"
         }
       ]
     },
