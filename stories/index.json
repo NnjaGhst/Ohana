@@ -398,6 +398,16 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "draft",
       "text": "text/elsewhere-hidden-valley-001.txt"
+    },
+    {
+      "id": "elsewhere-hidden-valley-002",
+      "seriesId": "elsewhere-hidden-valley",
+      "seriesName": "Elsewhere: The Hidden Valley",
+      "number": 2,
+      "title": "The Whiskey Across the Room",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-hidden-valley-002.txt"
     }
   ]
 }
