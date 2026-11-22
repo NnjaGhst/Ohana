@@ -398,7 +398,7 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
       "text": "text/elsewhere-hidden-valley-001.txt",
-      "audio": "series/elsewhere-hidden-valley/episodes/episode-001/audio/elsewhere-hidden-valley-01-the-light-in-the-hall-natural-fff2bbc727a4d562.mp3",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-001/audio/elsewhere-hidden-valley-01-the-light-in-the-hall-clean-joins-bdab8184e4562fb3.mp3",
       "images": [
         {
           "caption": "The Corner Shop",
@@ -408,32 +408,32 @@
         {
           "caption": "Two Plates",
           "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-02-two-plates-525d0987ef527a15.webp",
-          "start": 93.539
+          "start": 87.351
         },
         {
           "caption": "The Bookshop",
           "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-03-the-bookshop-b101540c45d03f6b.webp",
-          "start": 601.497
+          "start": 571.112
         },
         {
           "caption": "The Knock",
           "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-04-the-knock-0f37aa190682ec58.webp",
-          "start": 797.162
+          "start": 754.03
         },
         {
           "caption": "The Funeral",
           "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-05-the-funeral-786917b9ea9f4c92.webp",
-          "start": 979.283
+          "start": 931.339
         },
         {
           "caption": "The Lamp in the Hall",
           "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-06-the-lamp-in-the-hall-d60b5b0ab3a8b9e8.webp",
-          "start": 1567.624
+          "start": 1507.669
         },
         {
           "caption": "Room Six",
           "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-07-room-six-ab2d123906d67ae2.webp",
-          "start": 2029.342
+          "start": 1956.504
         }
       ]
     },
@@ -446,7 +446,7 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
       "text": "text/elsewhere-hidden-valley-002.txt",
-      "audio": "series/elsewhere-hidden-valley/episodes/episode-002/audio/elsewhere-hidden-valley-02-the-name-on-the-garage-natural-fi-a8995cd754613b6f.mp3",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-002/audio/elsewhere-hidden-valley-02-the-name-on-the-garage-clean-join-2f33c869e96d9662.mp3",
       "images": [
         {
           "caption": "Wheel in the Workshop",
@@ -456,32 +456,32 @@
         {
           "caption": "The Photograph",
           "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/hex-02-the-photograph-4f58b2ee3d23abc7.webp",
-          "start": 550.999
+          "start": 531.931
         },
         {
           "caption": "Elise’s Call",
           "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/hex-03-elises-call-c2402f613de9e29e.webp",
-          "start": 676.099
+          "start": 649.592
         },
         {
           "caption": "The Club by the River",
           "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/hex-04-the-club-by-the-river-1d5df7c53a4de8c4.webp",
-          "start": 785.569
+          "start": 750.449
         },
         {
           "caption": "The First Train",
           "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/hex-05-the-first-train-a65e90cbdbea9249.webp",
-          "start": 965.235
+          "start": 916.299
         },
         {
           "caption": "Elias at the Garage",
           "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/hex-06-elias-at-the-garage-7957ba35cb0973e1.webp",
-          "start": 1334.76
+          "start": 1272.544
         },
         {
           "caption": "The Crooked Lantern",
           "path": "series/elsewhere-hidden-valley/episodes/episode-002/illustrations/hex-07-the-crooked-lantern-8d80020910baa81b.webp",
-          "start": 2055.194
+          "start": 1971.729
         }
       ]
     },
