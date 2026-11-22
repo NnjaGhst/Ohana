@@ -398,42 +398,23 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
       "text": "text/elsewhere-hidden-valley-001.txt",
-      "audio": "series/elsewhere-hidden-valley/episodes/episode-001/audio/elsewhere-hidden-valley-01-the-light-in-the-hall-clean-joins-bdab8184e4562fb3.mp3",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-001/audio/hidden-valley-rewrite-01-the-light-in-the-hall-64ea15abf36f4d7a.mp3",
       "images": [
         {
-          "caption": "The Corner Shop",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-01-the-corner-shop-3a8b20b0e986cc22.webp",
-          "start": 0
+          "caption": "Before Everything Changed",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/rewrite-1-1-before-everything-changed-640b9d5ec1860144.webp"
         },
         {
-          "caption": "Two Plates",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-02-two-plates-525d0987ef527a15.webp",
-          "start": 87.351
+          "caption": "The Knock Before Dawn",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/rewrite-1-2-the-knock-before-dawn-117d8a25ff68360f.webp"
         },
         {
-          "caption": "The Bookshop",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-03-the-bookshop-b101540c45d03f6b.webp",
-          "start": 571.112
+          "caption": "A Ticket to Bellwether",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/rewrite-1-3-a-ticket-to-bellwether-ebdced75e5845d3e.webp"
         },
         {
-          "caption": "The Knock",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-04-the-knock-0f37aa190682ec58.webp",
-          "start": 754.03
-        },
-        {
-          "caption": "The Funeral",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-05-the-funeral-786917b9ea9f4c92.webp",
-          "start": 931.339
-        },
-        {
-          "caption": "The Lamp in the Hall",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-06-the-lamp-in-the-hall-d60b5b0ab3a8b9e8.webp",
-          "start": 1507.669
-        },
-        {
-          "caption": "Room Six",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/ninja-07-room-six-ab2d123906d67ae2.webp",
-          "start": 1956.504
+          "caption": "The Whiskey",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-001/illustrations/rewrite-1-4-the-whiskey-bd0a141a475fd329.webp"
         }
       ]
     },
