@@ -464,27 +464,23 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
       "text": "text/elsewhere-hidden-valley-003.txt",
-      "audio": "series/elsewhere-hidden-valley/episodes/episode-003/audio/elsewhere-hidden-valley-episode-03-expanded-d6665c9e87357b7d.mp3",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-003/audio/hidden-valley-rewrite-03-the-whiskey-across-the-room-0ae9e3bd89f2ed4b.mp3",
       "images": [
         {
-          "caption": "Rain at the Crooked Lantern",
           "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-1-1b7ffe84205f0356.webp",
-          "start": 0
+          "caption": "Rain at the Crooked Lantern"
         },
         {
-          "caption": "The Whiskey Across the Room",
           "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-2-fad5d4d300db4f34.webp",
-          "start": 290.187
+          "caption": "The Whiskey Across the Room"
         },
         {
-          "caption": "The One-Eyed Trout",
           "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-3-dcd0177e20b53dfb.webp",
-          "start": 960.593
+          "caption": "The Key to Room Six"
         },
         {
-          "caption": "The Stairs Before Breakfast",
           "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-4-d5d14a6e6c8d8661.webp",
-          "start": 1306.704
+          "caption": "The Stairs Before Breakfast"
         }
       ]
     },
