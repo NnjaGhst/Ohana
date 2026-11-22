@@ -388,6 +388,16 @@
         }
       ],
       "audio": "series/elsewhere/episodes/episode-016/audio/elsewhere-episode-16-the-last-crossing-90885cff0166420a.mp3"
+    },
+    {
+      "id": "elsewhere-hidden-valley-001",
+      "seriesId": "elsewhere-hidden-valley",
+      "seriesName": "Elsewhere: The Hidden Valley",
+      "number": 1,
+      "title": "The Whiskey Across the Room",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft",
+      "text": "text/elsewhere-hidden-valley-001.txt"
     }
   ]
 }
