@@ -587,7 +587,25 @@
       "title": "The Blue Page",
       "narrator": "Wade – Resonant & Narrative",
       "status": "draft",
-      "text": "text/elsewhere-hidden-valley-006.txt"
+      "text": "text/elsewhere-hidden-valley-006.txt",
+      "images": [
+        {
+          "caption": "The Kitchen in the Valley",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-1-dd66c9067719a4f3.webp"
+        },
+        {
+          "caption": "The Post Office Ledger",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-2-654433a3e659ea4a.webp"
+        },
+        {
+          "caption": "The Bench Behind the Orchard",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-3-6a0b3cbb0baac803.webp"
+        },
+        {
+          "caption": "A Light in the Upper Room",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-4-4181557e95b825eb.webp"
+        }
+      ]
     }
   ]
 }
