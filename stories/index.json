@@ -558,26 +558,31 @@
       "number": 5,
       "title": "The Road Under the Rain",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
+      "status": "ready",
       "text": "text/elsewhere-hidden-valley-005.txt",
       "images": [
         {
           "caption": "The Ridge in Rain",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-1-2844699135bde4ba.webp"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-1-2844699135bde4ba.webp",
+          "start": 0
         },
         {
           "caption": "The Pump House",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-2-2f6c0dd998df723d.webp"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-2-2f6c0dd998df723d.webp",
+          "start": 285.586
         },
         {
           "caption": "Across the Water",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-3-325070e2d4ed28b0.webp"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-3-325070e2d4ed28b0.webp",
+          "start": 565.529
         },
         {
           "caption": "The Old Post Office",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-4-1ddba8a267f9c07a.webp"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-4-1ddba8a267f9c07a.webp",
+          "start": 853.648
         }
-      ]
+      ],
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-005/audio/elsewhere-hidden-valley-episode-05-13790aeaa7916b03.mp3"
     },
     {
       "id": "elsewhere-hidden-valley-006",
@@ -586,26 +591,31 @@
       "number": 6,
       "title": "The Blue Page",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft",
+      "status": "ready",
       "text": "text/elsewhere-hidden-valley-006.txt",
       "images": [
         {
           "caption": "The Kitchen in the Valley",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-1-dd66c9067719a4f3.webp"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-1-dd66c9067719a4f3.webp",
+          "start": 0
         },
         {
           "caption": "The Post Office Ledger",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-2-654433a3e659ea4a.webp"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-2-654433a3e659ea4a.webp",
+          "start": 290.209
         },
         {
           "caption": "The Bench Behind the Orchard",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-3-6a0b3cbb0baac803.webp"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-3-6a0b3cbb0baac803.webp",
+          "start": 569.107
         },
         {
           "caption": "A Light in the Upper Room",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-4-4181557e95b825eb.webp"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-4-4181557e95b825eb.webp",
+          "start": 847.588
         }
-      ]
+      ],
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-006/audio/elsewhere-hidden-valley-episode-06-2ccf1de0027c9969.mp3"
     }
   ]
 }
