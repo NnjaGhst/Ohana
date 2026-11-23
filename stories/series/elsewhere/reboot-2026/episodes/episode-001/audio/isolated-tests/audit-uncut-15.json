@@ -1,0 +1,117 @@
+{
+  "method": "standalone-whole-recordings-only",
+  "status": "test-not-published",
+  "seconds": 56.085,
+  "file_size": 898655,
+  "voice_changes": 14,
+  "cut_points_inside_speech": 0,
+  "stereo_overlap_count": 0,
+  "no_source_timing_based_edits": true,
+  "segments": [
+    {
+      "run": 21,
+      "speaker": "narrator",
+      "start": 0.25,
+      "end": 3.598,
+      "text": "Cassian glanced at the split skin on her knuckles."
+    },
+    {
+      "run": 22,
+      "speaker": "cassian",
+      "start": 3.878,
+      "end": 5.057,
+      "text": "With your face?"
+    },
+    {
+      "run": 23,
+      "speaker": "ninja",
+      "start": 5.337,
+      "end": 6.238,
+      "text": "Shut up."
+    },
+    {
+      "run": 24,
+      "speaker": "narrator",
+      "start": 6.588,
+      "end": 17.707,
+      "text": "He laughed, despite trying not to. Then he cleaned her knee with water from a bottle, tearing a strip from an old cloth when they ran out of proper bandages. She hissed when the cold water touched the scrape."
+    },
+    {
+      "run": 25,
+      "speaker": "cassian",
+      "start": 17.987,
+      "end": 19.993,
+      "text": "Hold still, menace."
+    },
+    {
+      "run": 26,
+      "speaker": "ninja",
+      "start": 20.273,
+      "end": 22.089,
+      "text": "You're pulling my leg off."
+    },
+    {
+      "run": 27,
+      "speaker": "cassian",
+      "start": 22.439,
+      "end": 25.706,
+      "text": "Yes. That's the treatment. All doctors do it."
+    },
+    {
+      "run": 28,
+      "speaker": "narrator",
+      "start": 25.986,
+      "end": 30.128,
+      "text": "When he was done, he crouched in front of her and held out his hands."
+    },
+    {
+      "run": 29,
+      "speaker": "cassian",
+      "start": 30.408,
+      "end": 37.328,
+      "text": "Okay. Here's the important part. If somebody bigger than you starts trouble, you don't have to stand there and prove you're fearless."
+    },
+    {
+      "run": 30,
+      "speaker": "ninja",
+      "start": 37.608,
+      "end": 39.014,
+      "text": "I wasn't scared."
+    },
+    {
+      "run": 31,
+      "speaker": "cassian",
+      "start": 39.364,
+      "end": 42.31,
+      "text": "Then you should've been. Fear can be useful."
+    },
+    {
+      "run": 32,
+      "speaker": "narrator",
+      "start": 42.59,
+      "end": 46.139,
+      "text": "She hated that answer. Cassian tilted his head."
+    },
+    {
+      "run": 33,
+      "speaker": "cassian",
+      "start": 46.419,
+      "end": 51.025,
+      "text": "Look at me. Nin. Being brave isn't the same as being stupid."
+    },
+    {
+      "run": 34,
+      "speaker": "ninja",
+      "start": 51.305,
+      "end": 52.463,
+      "text": "You're stupid."
+    },
+    {
+      "run": 35,
+      "speaker": "cassian",
+      "start": 52.813,
+      "end": 55.805,
+      "text": "Frequently. That's how I've gathered all this wisdom."
+    }
+  ]
+}
