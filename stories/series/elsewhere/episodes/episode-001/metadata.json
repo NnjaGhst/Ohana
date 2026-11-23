@@ -15,16 +15,23 @@
   },
   "audio_file": "series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-preview.mp3",
   "illustrations": [
-    "series/elsewhere/episodes/episode-001/illustrations/01-arrival-d3162f8171599efd.jpg",
-    "series/elsewhere/episodes/episode-001/illustrations/02-cassian-bandage-acfc009303f813c9.jpg",
-    "series/elsewhere/episodes/episode-001/illustrations/03-cassian-protects-d5e2297429daf293.jpg",
-    "series/elsewhere/episodes/episode-001/illustrations/04-last-happy-evening-fixed-18a7ba84b42aced0.jpg",
-    "series/elsewhere/episodes/episode-001/illustrations/05-grief-6c0eb037be5b0ede.jpg",
-    "series/elsewhere/episodes/episode-001/illustrations/06-cassian-apartment-eef91eb84443075d.jpg",
-    "series/elsewhere/episodes/episode-001/illustrations/06-crooked-lantern-c5dd4875ae01ac9a.jpg"
+    "series/elsewhere/episodes/episode-001/illustrations/iphone14/01-episode-001-iphone14.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/iphone14/02-episode-001-iphone14.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/iphone14/03-episode-001-iphone14.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/iphone14/04-episode-001-iphone14.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/iphone14/05-episode-001-iphone14.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/iphone14/06-episode-001-iphone14.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/iphone14/07-episode-001-iphone14.jpg"
   ],
   "published_to_ohana": true,
   "script_file": "series/elsewhere/reboot-2026/episodes/episode-001/published-story.txt",
   "note": "Episode 1 reboot published in Ohana with verified cue-count mix and seven scene illustrations. Old episode assets retained in repository as archive.",
-  "actual_duration_seconds": 1976.978
+  "actual_duration_seconds": 1976.978,
+  "illustration_canvas": {
+    "width": 1170,
+    "height": 2532,
+    "orientation": "portrait",
+    "fit": "cover",
+    "device": "iPhone 14"
+  }
 }
