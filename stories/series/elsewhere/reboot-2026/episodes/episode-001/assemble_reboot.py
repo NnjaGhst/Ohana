@@ -13,6 +13,7 @@ OUT = Path(os.getenv("OUTPUT_DIR", str(BASE / "build")))
 OUT.mkdir(exist_ok=True, parents=True)
 read=lambda name:json.loads((BASE / name).read_text())
 W, H, T, C = (read(x) for x in ("wade-recordings.json", "hallie-dialogue-recordings.json", "hallie-thoughts-recordings.json", "production-cues.json"))
+A=read("wade-apartment-scene.json")
 
 def source_file(url, name):
     target=OUT / name
@@ -35,6 +36,7 @@ for clip in W["clips"]:
 hpart=H["parts"][0]
 audio[("H",1)]=AudioSegment.from_file(source_file(hpart["url"],"hallie_dialogue.wav")).set_channels(1).set_frame_rate(44100)
 audio[("T",1)]=AudioSegment.from_file(source_file(T["url"],"hallie_thoughts.wav")).set_channels(1).set_frame_rate(44100)
+audio[("A",1)]=AudioSegment.from_file(source_file(A["url"],"wade_apartment.wav")).set_channels(1).set_frame_rate(44100)
 
 def align_first(wav,text):
     import stable_whisper
@@ -123,7 +125,15 @@ for thought in C["thoughts"]:
     replacements[part].append({"type":"thought","id":thought["id"],"start":st,"end":en,
         "new":apply_gain(audio[("T",1)][round(hs*1000):round(he*1000)],0.80)})
 
-expected=67+4
+# Insert the newly recorded extra scene immediately after the final grief vignette.
+anchor=A["insertAfter"]
+anchor_start=wtext[3].index(anchor)
+anchor_end=anchor_start+len(anchor)
+insert_at=text_bounds(wtext[3],anchor_start,anchor_end,W["clips"][3]["chars_timing"])[1]
+interlude=AudioSegment.silent(duration=300,frame_rate=44100)+audio[("A",1)]+AudioSegment.silent(duration=450,frame_rate=44100)
+replacements[4].append({"type":"insertion","id":"apartment-scene","start":insert_at,"end":insert_at,"new":interlude})
+
+expected=67+4+1
 if sum(len(x) for x in replacements.values())!=expected:raise RuntimeError("Missing replacement cues")
 
 finished=AudioSegment.silent(duration=0,frame_rate=44100)
@@ -135,9 +145,13 @@ for part in range(1,6):
     piece=AudioSegment.silent(duration=0,frame_rate=44100)
     for cue in spans:
         # Small guard avoids preceding consonants and following words being removed.
-        st=max(cursor,round(cue["start"]*1000)-15)
-        en=min(len(seg),round(cue["end"]*1000)+15)
-        if en<=st:raise RuntimeError(f"Invalid cue time: {part} {cue['id']}")
+        if cue["type"]=="insertion":
+            st=round(cue["start"]*1000)
+            en=st
+        else:
+            st=max(cursor,round(cue["start"]*1000)-15)
+            en=min(len(seg),round(cue["end"]*1000)+15)
+        if en<st:raise RuntimeError(f"Invalid cue time: {part} {cue['id']}")
         if st < cursor:raise RuntimeError(f"Overlapping cues: {part} {cue['id']}")
         piece += seg[cursor:st]
         new=cue["new"].fade_in(12).fade_out(12)
@@ -155,7 +169,7 @@ reportpath=OUT/"edit-report.json"
 reportpath.write_text(json.dumps({"source_duration":sum(float(x["duration"]) for x in W["clips"]),
     "final_seconds":len(finished)/1000,"file_size":output.stat().st_size,
     "first_clip_word_match":match,
-    "source_chunks":len(W["clips"]),"hallie_lines":67,"hallie_thoughts":4,
+    "source_chunks":len(W["clips"]),"extra_narrative_scene_seconds":A["duration"],"hallie_lines":67,"hallie_thoughts":4,
     "cues":report},indent=2))
 if output.stat().st_size>25*1024*1024:raise RuntimeError("MP3 exceeds Ohana upload limit")
 if not (25*60<len(finished)/1000<65*60):raise RuntimeError("Unexpected final runtime")
