@@ -1,9 +1,10 @@
 {
   "source_duration": 1614.0949206349205,
-  "final_seconds": 1617.892,
-  "file_size": 19415397,
+  "final_seconds": 1976.978,
+  "file_size": 23724661,
   "first_clip_word_match": 0.9903846153846154,
   "source_chunks": 5,
+  "extra_narrative_scene_seconds": 358.33562358276646,
   "hallie_lines": 67,
   "hallie_thoughts": 4,
   "cues": [
@@ -526,6 +527,14 @@
       "wadeStart": 274.876,
       "wadeEnd": 276.751,
       "insertedSeconds": 1.749
+    },
+    {
+      "part": 4,
+      "id": "apartment-scene",
+      "type": "insertion",
+      "wadeStart": 303.066,
+      "wadeEnd": 303.066,
+      "insertedSeconds": 359.086
     },
     {
       "part": 5,
