@@ -1,0 +1,579 @@
+{
+  "source_duration": 1614.0949206349205,
+  "final_seconds": 1617.892,
+  "file_size": 19415397,
+  "first_clip_word_match": 0.9903846153846154,
+  "source_chunks": 5,
+  "hallie_lines": 67,
+  "hallie_thoughts": 4,
+  "cues": [
+    {
+      "part": 1,
+      "id": 1,
+      "type": "dialogue",
+      "wadeStart": 22.665,
+      "wadeEnd": 23.195,
+      "insertedSeconds": 0.327
+    },
+    {
+      "part": 1,
+      "id": 2,
+      "type": "dialogue",
+      "wadeStart": 26.245,
+      "wadeEnd": 26.755,
+      "insertedSeconds": 0.796
+    },
+    {
+      "part": 1,
+      "id": 4,
+      "type": "dialogue",
+      "wadeStart": 62.665,
+      "wadeEnd": 63.415,
+      "insertedSeconds": 0.683
+    },
+    {
+      "part": 1,
+      "id": 5,
+      "type": "dialogue",
+      "wadeStart": 64.705,
+      "wadeEnd": 65.575,
+      "insertedSeconds": 1.024
+    },
+    {
+      "part": 1,
+      "id": 7,
+      "type": "dialogue",
+      "wadeStart": 66.985,
+      "wadeEnd": 68.295,
+      "insertedSeconds": 1.707
+    },
+    {
+      "part": 1,
+      "id": 9,
+      "type": "dialogue",
+      "wadeStart": 92.145,
+      "wadeEnd": 93.095,
+      "insertedSeconds": 1.166
+    },
+    {
+      "part": 1,
+      "id": 1,
+      "type": "thought",
+      "wadeStart": 133.085,
+      "wadeEnd": 144.695,
+      "insertedSeconds": 11.844
+    },
+    {
+      "part": 1,
+      "id": 12,
+      "type": "dialogue",
+      "wadeStart": 173.485,
+      "wadeEnd": 174.475,
+      "insertedSeconds": 1.024
+    },
+    {
+      "part": 1,
+      "id": 14,
+      "type": "dialogue",
+      "wadeStart": 177.525,
+      "wadeEnd": 178.335,
+      "insertedSeconds": 0.796
+    },
+    {
+      "part": 1,
+      "id": 16,
+      "type": "dialogue",
+      "wadeStart": 179.745,
+      "wadeEnd": 180.715,
+      "insertedSeconds": 0.725
+    },
+    {
+      "part": 1,
+      "id": 18,
+      "type": "dialogue",
+      "wadeStart": 183.825,
+      "wadeEnd": 184.755,
+      "insertedSeconds": 0.555
+    },
+    {
+      "part": 1,
+      "id": 20,
+      "type": "dialogue",
+      "wadeStart": 198.185,
+      "wadeEnd": 199.155,
+      "insertedSeconds": 1.095
+    },
+    {
+      "part": 1,
+      "id": 23,
+      "type": "dialogue",
+      "wadeStart": 214.405,
+      "wadeEnd": 215.095,
+      "insertedSeconds": 0.996
+    },
+    {
+      "part": 1,
+      "id": 26,
+      "type": "dialogue",
+      "wadeStart": 225.585,
+      "wadeEnd": 226.075,
+      "insertedSeconds": 0.804
+    },
+    {
+      "part": 1,
+      "id": 29,
+      "type": "dialogue",
+      "wadeStart": 240.525,
+      "wadeEnd": 241.375,
+      "insertedSeconds": 0.896
+    },
+    {
+      "part": 1,
+      "id": 31,
+      "type": "dialogue",
+      "wadeStart": 267.025,
+      "wadeEnd": 267.975,
+      "insertedSeconds": 0.825
+    },
+    {
+      "part": 1,
+      "id": 33,
+      "type": "dialogue",
+      "wadeStart": 271.445,
+      "wadeEnd": 271.975,
+      "insertedSeconds": 0.626
+    },
+    {
+      "part": 1,
+      "id": 37,
+      "type": "dialogue",
+      "wadeStart": 293.825,
+      "wadeEnd": 295.055,
+      "insertedSeconds": 1.72
+    },
+    {
+      "part": 1,
+      "id": 39,
+      "type": "dialogue",
+      "wadeStart": 300.465,
+      "wadeEnd": 300.955,
+      "insertedSeconds": 0.555
+    },
+    {
+      "part": 2,
+      "id": 40,
+      "type": "dialogue",
+      "wadeStart": 9.969,
+      "wadeEnd": 10.81,
+      "insertedSeconds": 0.824
+    },
+    {
+      "part": 2,
+      "id": 42,
+      "type": "dialogue",
+      "wadeStart": 12.102,
+      "wadeEnd": 12.593,
+      "insertedSeconds": 0.625
+    },
+    {
+      "part": 2,
+      "id": 44,
+      "type": "dialogue",
+      "wadeStart": 15.262,
+      "wadeEnd": 16.222,
+      "insertedSeconds": 1.01
+    },
+    {
+      "part": 2,
+      "id": 48,
+      "type": "dialogue",
+      "wadeStart": 31.392,
+      "wadeEnd": 32.736,
+      "insertedSeconds": 1.465
+    },
+    {
+      "part": 2,
+      "id": 50,
+      "type": "dialogue",
+      "wadeStart": 34.806,
+      "wadeEnd": 36.064,
+      "insertedSeconds": 1.209
+    },
+    {
+      "part": 2,
+      "id": 53,
+      "type": "dialogue",
+      "wadeStart": 78.898,
+      "wadeEnd": 80.8,
+      "insertedSeconds": 2.038
+    },
+    {
+      "part": 2,
+      "id": 55,
+      "type": "dialogue",
+      "wadeStart": 82.97,
+      "wadeEnd": 84.331,
+      "insertedSeconds": 1.408
+    },
+    {
+      "part": 2,
+      "id": 57,
+      "type": "dialogue",
+      "wadeStart": 86.554,
+      "wadeEnd": 88.269,
+      "insertedSeconds": 1.664
+    },
+    {
+      "part": 2,
+      "id": 59,
+      "type": "dialogue",
+      "wadeStart": 98.004,
+      "wadeEnd": 99.015,
+      "insertedSeconds": 0.995
+    },
+    {
+      "part": 2,
+      "id": 62,
+      "type": "dialogue",
+      "wadeStart": 124.703,
+      "wadeEnd": 125.049,
+      "insertedSeconds": 0.37
+    },
+    {
+      "part": 2,
+      "id": 64,
+      "type": "dialogue",
+      "wadeStart": 126.495,
+      "wadeEnd": 127.528,
+      "insertedSeconds": 1.01
+    },
+    {
+      "part": 2,
+      "id": 65,
+      "type": "dialogue",
+      "wadeStart": 165.413,
+      "wadeEnd": 168.028,
+      "insertedSeconds": 2.332
+    },
+    {
+      "part": 2,
+      "id": 67,
+      "type": "dialogue",
+      "wadeStart": 238.56,
+      "wadeEnd": 239.051,
+      "insertedSeconds": 0.654
+    },
+    {
+      "part": 2,
+      "id": 69,
+      "type": "dialogue",
+      "wadeStart": 242.101,
+      "wadeEnd": 243.368,
+      "insertedSeconds": 1.044
+    },
+    {
+      "part": 2,
+      "id": 71,
+      "type": "dialogue",
+      "wadeStart": 244.405,
+      "wadeEnd": 245.472,
+      "insertedSeconds": 1.223
+    },
+    {
+      "part": 2,
+      "id": 73,
+      "type": "dialogue",
+      "wadeStart": 253.642,
+      "wadeEnd": 254.03,
+      "insertedSeconds": 0.541
+    },
+    {
+      "part": 2,
+      "id": 75,
+      "type": "dialogue",
+      "wadeStart": 255.221,
+      "wadeEnd": 256.138,
+      "insertedSeconds": 0.896
+    },
+    {
+      "part": 2,
+      "id": 77,
+      "type": "dialogue",
+      "wadeStart": 257.098,
+      "wadeEnd": 257.845,
+      "insertedSeconds": 0.583
+    },
+    {
+      "part": 2,
+      "id": 79,
+      "type": "dialogue",
+      "wadeStart": 259.678,
+      "wadeEnd": 263.399,
+      "insertedSeconds": 3.869
+    },
+    {
+      "part": 2,
+      "id": 81,
+      "type": "dialogue",
+      "wadeStart": 269.278,
+      "wadeEnd": 271.043,
+      "insertedSeconds": 1.337
+    },
+    {
+      "part": 2,
+      "id": 83,
+      "type": "dialogue",
+      "wadeStart": 276.685,
+      "wadeEnd": 278.016,
+      "insertedSeconds": 1.223
+    },
+    {
+      "part": 3,
+      "id": 94,
+      "type": "dialogue",
+      "wadeStart": 142.686,
+      "wadeEnd": 143.449,
+      "insertedSeconds": 0.63
+    },
+    {
+      "part": 3,
+      "id": 98,
+      "type": "dialogue",
+      "wadeStart": 159.303,
+      "wadeEnd": 162.251,
+      "insertedSeconds": 3.498
+    },
+    {
+      "part": 3,
+      "id": 100,
+      "type": "dialogue",
+      "wadeStart": 163.441,
+      "wadeEnd": 164.975,
+      "insertedSeconds": 1.479
+    },
+    {
+      "part": 3,
+      "id": 103,
+      "type": "dialogue",
+      "wadeStart": 189.937,
+      "wadeEnd": 190.598,
+      "insertedSeconds": 0.882
+    },
+    {
+      "part": 3,
+      "id": 105,
+      "type": "dialogue",
+      "wadeStart": 210.077,
+      "wadeEnd": 211.288,
+      "insertedSeconds": 1.323
+    },
+    {
+      "part": 3,
+      "id": 107,
+      "type": "dialogue",
+      "wadeStart": 213.81,
+      "wadeEnd": 215.568,
+      "insertedSeconds": 1.792
+    },
+    {
+      "part": 3,
+      "id": 109,
+      "type": "dialogue",
+      "wadeStart": 239.537,
+      "wadeEnd": 239.899,
+      "insertedSeconds": 0.498
+    },
+    {
+      "part": 3,
+      "id": 111,
+      "type": "dialogue",
+      "wadeStart": 240.902,
+      "wadeEnd": 241.871,
+      "insertedSeconds": 1.044
+    },
+    {
+      "part": 3,
+      "id": 113,
+      "type": "dialogue",
+      "wadeStart": 253.739,
+      "wadeEnd": 254.409,
+      "insertedSeconds": 0.74
+    },
+    {
+      "part": 3,
+      "id": 115,
+      "type": "dialogue",
+      "wadeStart": 257.637,
+      "wadeEnd": 258.998,
+      "insertedSeconds": 1.209
+    },
+    {
+      "part": 3,
+      "id": 118,
+      "type": "dialogue",
+      "wadeStart": 278.321,
+      "wadeEnd": 279.127,
+      "insertedSeconds": 0.952
+    },
+    {
+      "part": 3,
+      "id": 120,
+      "type": "dialogue",
+      "wadeStart": 323.607,
+      "wadeEnd": 324.004,
+      "insertedSeconds": 0.469
+    },
+    {
+      "part": 3,
+      "id": 121,
+      "type": "dialogue",
+      "wadeStart": 327.211,
+      "wadeEnd": 327.774,
+      "insertedSeconds": 0.569
+    },
+    {
+      "part": 4,
+      "id": 122,
+      "type": "dialogue",
+      "wadeStart": 14.529,
+      "wadeEnd": 14.884,
+      "insertedSeconds": 0.412
+    },
+    {
+      "part": 4,
+      "id": 124,
+      "type": "dialogue",
+      "wadeStart": 16.364,
+      "wadeEnd": 16.682,
+      "insertedSeconds": 0.44
+    },
+    {
+      "part": 4,
+      "id": 125,
+      "type": "dialogue",
+      "wadeStart": 17.772,
+      "wadeEnd": 18.431,
+      "insertedSeconds": 0.782
+    },
+    {
+      "part": 4,
+      "id": 127,
+      "type": "dialogue",
+      "wadeStart": 22.039,
+      "wadeEnd": 23.813,
+      "insertedSeconds": 2.275
+    },
+    {
+      "part": 4,
+      "id": 129,
+      "type": "dialogue",
+      "wadeStart": 44.395,
+      "wadeEnd": 45.279,
+      "insertedSeconds": 1.134
+    },
+    {
+      "part": 4,
+      "id": 2,
+      "type": "thought",
+      "wadeStart": 80.966,
+      "wadeEnd": 90.03,
+      "insertedSeconds": 9.401
+    },
+    {
+      "part": 4,
+      "id": 130,
+      "type": "dialogue",
+      "wadeStart": 120.93,
+      "wadeEnd": 124.203,
+      "insertedSeconds": 3.101
+    },
+    {
+      "part": 4,
+      "id": 132,
+      "type": "dialogue",
+      "wadeStart": 138.577,
+      "wadeEnd": 139.119,
+      "insertedSeconds": 0.512
+    },
+    {
+      "part": 4,
+      "id": 133,
+      "type": "dialogue",
+      "wadeStart": 178.763,
+      "wadeEnd": 179.333,
+      "insertedSeconds": 0.668
+    },
+    {
+      "part": 4,
+      "id": 135,
+      "type": "dialogue",
+      "wadeStart": 181.92,
+      "wadeEnd": 182.88,
+      "insertedSeconds": 1.024
+    },
+    {
+      "part": 4,
+      "id": 137,
+      "type": "dialogue",
+      "wadeStart": 184.352,
+      "wadeEnd": 185.694,
+      "insertedSeconds": 0.839
+    },
+    {
+      "part": 4,
+      "id": 138,
+      "type": "dialogue",
+      "wadeStart": 274.876,
+      "wadeEnd": 276.751,
+      "insertedSeconds": 1.749
+    },
+    {
+      "part": 5,
+      "id": 139,
+      "type": "dialogue",
+      "wadeStart": 45.856,
+      "wadeEnd": 46.825,
+      "insertedSeconds": 0.896
+    },
+    {
+      "part": 5,
+      "id": 3,
+      "type": "thought",
+      "wadeStart": 61.867,
+      "wadeEnd": 69.782,
+      "insertedSeconds": 8.53
+    },
+    {
+      "part": 5,
+      "id": 141,
+      "type": "dialogue",
+      "wadeStart": 116.486,
+      "wadeEnd": 117.633,
+      "insertedSeconds": 1.172
+    },
+    {
+      "part": 5,
+      "id": 143,
+      "type": "dialogue",
+      "wadeStart": 119.686,
+      "wadeEnd": 121.444,
+      "insertedSeconds": 1.791
+    },
+    {
+      "part": 5,
+      "id": 145,
+      "type": "dialogue",
+      "wadeStart": 127.109,
+      "wadeEnd": 127.726,
+      "insertedSeconds": 0.943
+    },
+    {
+      "part": 5,
+      "id": 4,
+      "type": "thought",
+      "wadeStart": 265.763,
+      "wadeEnd": 278.087,
+      "insertedSeconds": 11.909
+    }
+  ]
+}
