@@ -533,19 +533,23 @@
       "images": [
         {
           "caption": "The footbridge",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/5-bridge-7cd550b381ad0b2a.png"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/5-bridge-7cd550b381ad0b2a.png",
+          "start": 0
         },
         {
           "caption": "The bus shelter",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/5-shelter-09a15aac594ba814.png"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/5-shelter-09a15aac594ba814.png",
+          "start": 226.301
         },
         {
           "caption": "The laundrette",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/5-laundrette-2926fdf30aeddccf.png"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/5-laundrette-2926fdf30aeddccf.png",
+          "start": 474.889
         },
         {
           "caption": "The blue van",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/5-van-92dd5a1c1436825d.png"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/5-van-92dd5a1c1436825d.png",
+          "start": 1073.391
         }
       ],
       "audio": "series/elsewhere-hidden-valley/episodes/episode-005/audio/hidden-valley-05-the-road-under-the-rain-1e462176300d7f75.mp3"
@@ -562,19 +566,23 @@
       "images": [
         {
           "caption": "Mara’s kitchen",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/6-kitchen-0cffba432dc65174.png"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/6-kitchen-0cffba432dc65174.png",
+          "start": 0
         },
         {
           "caption": "Elise’s blue page",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/6-page-cf0dd5b057ba13f1.png"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/6-page-cf0dd5b057ba13f1.png",
+          "start": 231.587
         },
         {
           "caption": "The kitchen window",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/6-window-ce1d935552150b02.png"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/6-window-ce1d935552150b02.png",
+          "start": 709.792
         },
         {
           "caption": "The recording",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/6-recording-cbda0024bbfa1125.png"
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/6-recording-cbda0024bbfa1125.png",
+          "start": 1092.258
         }
       ],
       "audio": "series/elsewhere-hidden-valley/episodes/episode-006/audio/hidden-valley-06-the-blue-page-92afcd2000066804.mp3"
