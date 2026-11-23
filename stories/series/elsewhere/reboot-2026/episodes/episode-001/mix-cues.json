@@ -1,0 +1,1535 @@
+{
+  "episode": "elsewhere-reboot-001",
+  "version": 2,
+  "status": "cue-mapped-assembly-pending",
+  "pinnedDraft2ScriptSha": "095bbe91cbb67135cf985e3d81f3bb030fb541e3",
+  "latestDraft3Addendum": "wade-addendum.json",
+  "wadeManifest": "wade-recordings.json",
+  "hallieManifest": "hallie-recordings.json",
+  "method": "Replace full Ninja dialogue paragraphs and explicitly marked Ninja thought paragraphs; retain Wade for all other narration. Insert Wade's Cassian-apartment addendum immediately before the paragraph 'The idea of leaving came quietly...' in Part 4.",
+  "gainRules": {
+    "wade": 1,
+    "hallieDialogue": 0.9,
+    "hallieThought": 0.8
+  },
+  "insertAdditionalWadeAudio": {
+    "beforePart": 4,
+    "beforeChar": 5497,
+    "beforeSec": 303.493,
+    "addendum": "wade-addendum.json"
+  },
+  "splices": [
+    {
+      "id": "ninja-001",
+      "line": 14,
+      "section": "The Road to Bellwether",
+      "kind": "dialogue",
+      "sourceText": "\"Yeah,\" Ninja muttered at it. \"You and me both.\"",
+      "insertText": "Yeah. You and me both.",
+      "wade": {
+        "part": 1,
+        "charStart": 408,
+        "charEnd": 456,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 0.299,
+        "timeEnd": 1.849
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-002",
+      "line": 28,
+      "section": "The Road to Bellwether",
+      "kind": "dialogue",
+      "sourceText": "\"That depends,\" Ninja said. \"Does the room have a bed?\"",
+      "insertText": "That depends. Does the room have a bed?",
+      "wade": {
+        "part": 1,
+        "charStart": 1097,
+        "charEnd": 1152,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 2.304,
+        "timeEnd": 4.693
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-003",
+      "line": 32,
+      "section": "The Road to Bellwether",
+      "kind": "dialogue",
+      "sourceText": "\"Then yes. Definitely me.\"",
+      "insertText": "Then yes. Definitely me.",
+      "wade": {
+        "part": 1,
+        "charStart": 1166,
+        "charEnd": 1192,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 5.035,
+        "timeEnd": 6.613
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-004",
+      "line": 40,
+      "section": "The Road to Bellwether",
+      "kind": "dialogue",
+      "sourceText": "\"I've lived with worse.\"",
+      "insertText": "I've lived with worse.",
+      "wade": {
+        "part": 1,
+        "charStart": 1604,
+        "charEnd": 1628,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 6.784,
+        "timeEnd": 8.149
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-005",
+      "line": 60,
+      "section": "The Road to Bellwether",
+      "kind": "thought",
+      "sourceText": "If I unpack, it means I'm staying. If I stay, somebody will eventually ask why I came. And what am I supposed to tell them? That I drove halfway across the country because every street back home still knows his name?",
+      "insertText": "If I unpack, it means I'm staying. If I stay, somebody will eventually ask why I came. And what am I supposed to tell them? That I drove halfway across the country because every street back home still knows his name?",
+      "wade": {
+        "part": 1,
+        "charStart": 2269,
+        "charEnd": 2485,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 8.491,
+        "timeEnd": 19.759
+      },
+      "gain": 0.8,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-006",
+      "line": 76,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"He was being an idiot.\"",
+      "insertText": "He was being an idiot.",
+      "wade": {
+        "part": 1,
+        "charStart": 3002,
+        "charEnd": 3026,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 20.129,
+        "timeEnd": 21.196
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-007",
+      "line": 80,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"He took my bag.\"",
+      "insertText": "He took my bag.",
+      "wade": {
+        "part": 1,
+        "charStart": 3071,
+        "charEnd": 3088,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 21.452,
+        "timeEnd": 22.277
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-008",
+      "line": 84,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"I took it back.\"",
+      "insertText": "I took it back.",
+      "wade": {
+        "part": 1,
+        "charStart": 3102,
+        "charEnd": 3119,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 22.561,
+        "timeEnd": 23.258
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-009",
+      "line": 90,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"Shut up.\"",
+      "insertText": "Shut up.",
+      "wade": {
+        "part": 1,
+        "charStart": 3192,
+        "charEnd": 3202,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 23.543,
+        "timeEnd": 24.04
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-010",
+      "line": 98,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"You're pulling my leg off.\"",
+      "insertText": "You're pulling my leg off.",
+      "wade": {
+        "part": 1,
+        "charStart": 3438,
+        "charEnd": 3466,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 24.183,
+        "timeEnd": 25.329
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-011",
+      "line": 106,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"I wasn't scared.\"",
+      "insertText": "I wasn't scared.",
+      "wade": {
+        "part": 1,
+        "charStart": 3725,
+        "charEnd": 3743,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 25.658,
+        "timeEnd": 26.54
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-012",
+      "line": 116,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"You're stupid.\"",
+      "insertText": "You're stupid.",
+      "wade": {
+        "part": 1,
+        "charStart": 3907,
+        "charEnd": 3923,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 26.853,
+        "timeEnd": 27.792
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-013",
+      "line": 124,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"Can I punch you now?\"",
+      "insertText": "Can I punch you now?",
+      "wade": {
+        "part": 1,
+        "charStart": 4194,
+        "charEnd": 4216,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 28.133,
+        "timeEnd": 29.029
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-014",
+      "line": 138,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"That's not my age,\" she said.",
+      "insertText": "That's not my age,",
+      "wade": {
+        "part": 1,
+        "charStart": 4687,
+        "charEnd": 4717,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 29.37,
+        "timeEnd": 30.181
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-015",
+      "line": 142,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"I'm ten.\"",
+      "insertText": "I'm ten.",
+      "wade": {
+        "part": 1,
+        "charStart": 4776,
+        "charEnd": 4786,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 30.437,
+        "timeEnd": 31.02
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-016",
+      "line": 152,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"My birthday. My rules.\"",
+      "insertText": "My birthday. My rules.",
+      "wade": {
+        "part": 1,
+        "charStart": 5183,
+        "charEnd": 5207,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 31.418,
+        "timeEnd": 33.168
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-017",
+      "line": 158,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"Good teacher.\"",
+      "insertText": "Good teacher.",
+      "wade": {
+        "part": 1,
+        "charStart": 5289,
+        "charEnd": 5304,
+        "timeStart": null,
+        "timeEnd": null
+      },
+      "hallie": {
+        "timeStart": 33.85,
+        "timeEnd": 34.405
+      },
+      "gain": 0.9,
+      "status": "needs-wade-time-alignment"
+    },
+    {
+      "id": "ninja-018",
+      "line": 172,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"Why are you out here?\"",
+      "insertText": "Why are you out here?",
+      "wade": {
+        "part": 2,
+        "charStart": 173,
+        "charEnd": 196,
+        "timeStart": 9.835,
+        "timeEnd": 10.88
+      },
+      "hallie": {
+        "timeStart": 34.832,
+        "timeEnd": 35.785
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-019",
+      "line": 176,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"From what?\"",
+      "insertText": "From what?",
+      "wade": {
+        "part": 2,
+        "charStart": 213,
+        "charEnd": 225,
+        "timeStart": 12.04,
+        "timeEnd": 12.655
+      },
+      "hallie": {
+        "timeStart": 36.069,
+        "timeEnd": 36.723
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-020",
+      "line": 180,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"There aren't any spiders.\"",
+      "insertText": "There aren't any spiders.",
+      "wade": {
+        "part": 2,
+        "charStart": 260,
+        "charEnd": 287,
+        "timeStart": 15.183,
+        "timeEnd": 16.284
+      },
+      "hallie": {
+        "timeStart": 37.093,
+        "timeEnd": 38.217
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-021",
+      "line": 190,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"Why would we want them to slam?\"",
+      "insertText": "Why would we want them to slam?",
+      "wade": {
+        "part": 2,
+        "charStart": 558,
+        "charEnd": 591,
+        "timeStart": 31.271,
+        "timeEnd": 32.841
+      },
+      "hallie": {
+        "timeStart": 38.586,
+        "timeEnd": 40.04
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-022",
+      "line": 194,
+      "section": "Before There Were Secrets",
+      "kind": "dialogue",
+      "sourceText": "\"I'm already annoyed with you.\"",
+      "insertText": "I'm already annoyed with you.",
+      "wade": {
+        "part": 2,
+        "charStart": 631,
+        "charEnd": 662,
+        "timeStart": 34.744,
+        "timeEnd": 36.126
+      },
+      "hallie": {
+        "timeStart": 40.474,
+        "timeEnd": 41.811
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-023",
+      "line": 214,
+      "section": "The Person Who Stayed",
+      "kind": "dialogue",
+      "sourceText": "\"Wonderful. Saves me explaining.\"",
+      "insertText": "Wonderful. Saves me explaining.",
+      "wade": {
+        "part": 2,
+        "charStart": 1414,
+        "charEnd": 1447,
+        "timeStart": 78.795,
+        "timeEnd": 80.909
+      },
+      "hallie": {
+        "timeStart": 42.01,
+        "timeEnd": 44.129
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-024",
+      "line": 218,
+      "section": "The Person Who Stayed",
+      "kind": "dialogue",
+      "sourceText": "\"Did the van also break your phone?\"",
+      "insertText": "Did the van also break your phone?",
+      "wade": {
+        "part": 2,
+        "charStart": 1480,
+        "charEnd": 1516,
+        "timeStart": 82.883,
+        "timeEnd": 84.41
+      },
+      "hallie": {
+        "timeStart": 44.698,
+        "timeEnd": 46.248
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-025",
+      "line": 222,
+      "section": "The Person Who Stayed",
+      "kind": "dialogue",
+      "sourceText": "\"Finally, a diagnosis.\"",
+      "insertText": "Finally, a diagnosis.",
+      "wade": {
+        "part": 2,
+        "charStart": 1553,
+        "charEnd": 1576,
+        "timeStart": 86.509,
+        "timeEnd": 88.361
+      },
+      "hallie": {
+        "timeStart": 46.533,
+        "timeEnd": 48.225
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-026",
+      "line": 232,
+      "section": "The Person Who Stayed",
+      "kind": "dialogue",
+      "sourceText": "\"Did you get extra chips?\"",
+      "insertText": "Did you get extra chips?",
+      "wade": {
+        "part": 2,
+        "charStart": 1740,
+        "charEnd": 1766,
+        "timeStart": 97.848,
+        "timeEnd": 99.128
+      },
+      "hallie": {
+        "timeStart": 48.623,
+        "timeEnd": 49.647
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-027",
+      "line": 248,
+      "section": "The Person Who Stayed",
+      "kind": "dialogue",
+      "sourceText": "\"Yes.\"",
+      "insertText": "Yes.",
+      "wade": {
+        "part": 2,
+        "charStart": 2205,
+        "charEnd": 2211,
+        "timeStart": 124.581,
+        "timeEnd": 125.136
+      },
+      "hallie": {
+        "timeStart": 49.989,
+        "timeEnd": 50.358
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-028",
+      "line": 252,
+      "section": "The Person Who Stayed",
+      "kind": "dialogue",
+      "sourceText": "\"Because you know how it ends.\"",
+      "insertText": "Because you know how it ends.",
+      "wade": {
+        "part": 2,
+        "charStart": 2240,
+        "charEnd": 2271,
+        "timeStart": 126.459,
+        "timeEnd": 127.619
+      },
+      "hallie": {
+        "timeStart": 50.757,
+        "timeEnd": 51.909
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-029",
+      "line": 272,
+      "section": "The Person Who Stayed",
+      "kind": "dialogue",
+      "sourceText": "\"At midnight? You don't even take this route.\"",
+      "insertText": "At midnight? You don't even take this route.",
+      "wade": {
+        "part": 2,
+        "charStart": 2948,
+        "charEnd": 2994,
+        "timeStart": 165.219,
+        "timeEnd": 168.167
+      },
+      "hallie": {
+        "timeStart": 52.25,
+        "timeEnd": 54.629
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-030",
+      "line": 296,
+      "section": "The Money He Didn't Explain",
+      "kind": "dialogue",
+      "sourceText": "\"What's that?\"",
+      "insertText": "What's that?",
+      "wade": {
+        "part": 2,
+        "charStart": 4314,
+        "charEnd": 4328,
+        "timeStart": 238.415,
+        "timeEnd": 239.155
+      },
+      "hallie": {
+        "timeStart": 54.864,
+        "timeEnd": 55.404
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-031",
+      "line": 302,
+      "section": "The Money He Didn't Explain",
+      "kind": "dialogue",
+      "sourceText": "\"I pay my own rent.\"",
+      "insertText": "I pay my own rent.",
+      "wade": {
+        "part": 2,
+        "charStart": 4376,
+        "charEnd": 4396,
+        "timeStart": 242.052,
+        "timeEnd": 243.439
+      },
+      "hallie": {
+        "timeStart": 55.632,
+        "timeEnd": 56.741
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-032",
+      "line": 306,
+      "section": "The Money He Didn't Explain",
+      "kind": "dialogue",
+      "sourceText": "\"Then why are you paying it?\"",
+      "insertText": "Then why are you paying it?",
+      "wade": {
+        "part": 2,
+        "charStart": 4409,
+        "charEnd": 4438,
+        "timeStart": 244.335,
+        "timeEnd": 245.555
+      },
+      "hallie": {
+        "timeStart": 57.083,
+        "timeEnd": 58.178
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-033",
+      "line": 312,
+      "section": "The Money He Didn't Explain",
+      "kind": "dialogue",
+      "sourceText": "\"Cass.\"",
+      "insertText": "Cass.",
+      "wade": {
+        "part": 2,
+        "charStart": 4594,
+        "charEnd": 4601,
+        "timeStart": 253.529,
+        "timeEnd": 254.118
+      },
+      "hallie": {
+        "timeStart": 58.491,
+        "timeEnd": 58.974
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-034",
+      "line": 316,
+      "section": "The Money He Didn't Explain",
+      "kind": "dialogue",
+      "sourceText": "\"Where did it come from?\"",
+      "insertText": "Where did it come from?",
+      "wade": {
+        "part": 2,
+        "charStart": 4611,
+        "charEnd": 4636,
+        "timeStart": 255.116,
+        "timeEnd": 256.2
+      },
+      "hallie": {
+        "timeStart": 59.429,
+        "timeEnd": 60.339
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-035",
+      "line": 320,
+      "section": "The Money He Didn't Explain",
+      "kind": "dialogue",
+      "sourceText": "\"What work?\"",
+      "insertText": "What work?",
+      "wade": {
+        "part": 2,
+        "charStart": 4647,
+        "charEnd": 4659,
+        "timeStart": 257.028,
+        "timeEnd": 257.949
+      },
+      "hallie": {
+        "timeStart": 60.539,
+        "timeEnd": 61.107
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-036",
+      "line": 324,
+      "section": "The Money He Didn't Explain",
+      "kind": "dialogue",
+      "sourceText": "\"You'd complain about boring work. You complain when your socks are too boring.\"",
+      "insertText": "You'd complain about boring work. You complain when your socks are too boring.",
+      "wade": {
+        "part": 2,
+        "charStart": 4681,
+        "charEnd": 4761,
+        "timeStart": 259.553,
+        "timeEnd": 263.533
+      },
+      "hallie": {
+        "timeStart": 61.477,
+        "timeEnd": 65.417
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-037",
+      "line": 332,
+      "section": "The Money He Didn't Explain",
+      "kind": "dialogue",
+      "sourceText": "\"I don't need you to buy me a life.\"",
+      "insertText": "I don't need you to buy me a life.",
+      "wade": {
+        "part": 2,
+        "charStart": 4861,
+        "charEnd": 4897,
+        "timeStart": 269.219,
+        "timeEnd": 271.183
+      },
+      "hallie": {
+        "timeStart": 65.701,
+        "timeEnd": 67.355
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-038",
+      "line": 338,
+      "section": "The Money He Didn't Explain",
+      "kind": "dialogue",
+      "sourceText": "\"Then tell me what you are doing.\"",
+      "insertText": "Then tell me what you are doing.",
+      "wade": {
+        "part": 2,
+        "charStart": 4999,
+        "charEnd": 5033,
+        "timeStart": 276.572,
+        "timeEnd": 278.193
+      },
+      "hallie": {
+        "timeStart": 67.845,
+        "timeEnd": 69.083
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-039",
+      "line": 412,
+      "section": "The Money He Didn't Explain",
+      "kind": "dialogue",
+      "sourceText": "\"What's funny?\" she demanded.",
+      "insertText": "What's funny?",
+      "wade": {
+        "part": 3,
+        "charStart": 2614,
+        "charEnd": 2643,
+        "timeStart": 142.635,
+        "timeEnd": 144.266
+      },
+      "hallie": {
+        "timeStart": 69.509,
+        "timeEnd": 70.078
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-040",
+      "line": 424,
+      "section": "The Money He Didn't Explain",
+      "kind": "dialogue",
+      "sourceText": "Then: \"Well, you've heard it. It remains incredibly charming.\"",
+      "insertText": "Well, you've heard it. It remains incredibly charming.",
+      "wade": {
+        "part": 3,
+        "charStart": 2901,
+        "charEnd": 2963,
+        "timeStart": 158.592,
+        "timeEnd": 162.339
+      },
+      "hallie": {
+        "timeStart": 70.448,
+        "timeEnd": 73.548
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-041",
+      "line": 428,
+      "section": "The Money He Didn't Explain",
+      "kind": "dialogue",
+      "sourceText": "\"Come over Sunday. I'll cook.\"",
+      "insertText": "Come over Sunday. I'll cook.",
+      "wade": {
+        "part": 3,
+        "charStart": 2979,
+        "charEnd": 3009,
+        "timeStart": 163.362,
+        "timeEnd": 165.142
+      },
+      "hallie": {
+        "timeStart": 73.947,
+        "timeEnd": 75.397
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-042",
+      "line": 440,
+      "section": "The Last Ordinary Evening",
+      "kind": "dialogue",
+      "sourceText": "\"A drunk one?\"",
+      "insertText": "A drunk one?",
+      "wade": {
+        "part": 3,
+        "charStart": 3434,
+        "charEnd": 3448,
+        "timeStart": 189.807,
+        "timeEnd": 190.703
+      },
+      "hallie": {
+        "timeStart": 75.739,
+        "timeEnd": 76.478
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-043",
+      "line": 448,
+      "section": "The Last Ordinary Evening",
+      "kind": "dialogue",
+      "sourceText": "\"Where did you even find this?\"",
+      "insertText": "Where did you even find this?",
+      "wade": {
+        "part": 3,
+        "charStart": 3780,
+        "charEnd": 3811,
+        "timeStart": 209.964,
+        "timeEnd": 211.389
+      },
+      "hallie": {
+        "timeStart": 76.848,
+        "timeEnd": 78.114
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-044",
+      "line": 452,
+      "section": "The Last Ordinary Evening",
+      "kind": "dialogue",
+      "sourceText": "\"You have mysterious debts, probably.\"",
+      "insertText": "You have mysterious debts, probably.",
+      "wade": {
+        "part": 3,
+        "charStart": 3843,
+        "charEnd": 3881,
+        "timeStart": 213.705,
+        "timeEnd": 215.787
+      },
+      "hallie": {
+        "timeStart": 78.427,
+        "timeEnd": 80.176
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-045",
+      "line": 464,
+      "section": "The Last Ordinary Evening",
+      "kind": "dialogue",
+      "sourceText": "\"You okay?\"",
+      "insertText": "You okay?",
+      "wade": {
+        "part": 3,
+        "charStart": 4289,
+        "charEnd": 4300,
+        "timeStart": 239.37,
+        "timeEnd": 240.004
+      },
+      "hallie": {
+        "timeStart": 80.603,
+        "timeEnd": 81.019
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-046",
+      "line": 468,
+      "section": "The Last Ordinary Evening",
+      "kind": "dialogue",
+      "sourceText": "\"That sounded rehearsed.\"",
+      "insertText": "That sounded rehearsed.",
+      "wade": {
+        "part": 3,
+        "charStart": 4311,
+        "charEnd": 4336,
+        "timeStart": 240.84,
+        "timeEnd": 241.941
+      },
+      "hallie": {
+        "timeStart": 81.426,
+        "timeEnd": 82.535
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-047",
+      "line": 478,
+      "section": "The Last Ordinary Evening",
+      "kind": "dialogue",
+      "sourceText": "\"Call me tomorrow,\" she said.",
+      "insertText": "Call me tomorrow,",
+      "wade": {
+        "part": 3,
+        "charStart": 4535,
+        "charEnd": 4564,
+        "timeStart": 253.562,
+        "timeEnd": 255.062
+      },
+      "hallie": {
+        "timeStart": 82.877,
+        "timeEnd": 83.645
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-048",
+      "line": 484,
+      "section": "The Last Ordinary Evening",
+      "kind": "dialogue",
+      "sourceText": "\"And don't do anything stupid.\"",
+      "insertText": "And don't do anything stupid.",
+      "wade": {
+        "part": 3,
+        "charStart": 4604,
+        "charEnd": 4635,
+        "timeStart": 257.555,
+        "timeEnd": 259.077
+      },
+      "hallie": {
+        "timeStart": 83.901,
+        "timeEnd": 85.138
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-049",
+      "line": 496,
+      "section": "The Last Ordinary Evening",
+      "kind": "dialogue",
+      "sourceText": "\"I always do.\"",
+      "insertText": "I always do.",
+      "wade": {
+        "part": 3,
+        "charStart": 4962,
+        "charEnd": 4976,
+        "timeStart": 278.112,
+        "timeEnd": 279.205
+      },
+      "hallie": {
+        "timeStart": 85.309,
+        "timeEnd": 86.091
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-050",
+      "line": 524,
+      "section": "The Knock",
+      "kind": "dialogue",
+      "sourceText": "\"Why?\"",
+      "insertText": "Why?",
+      "wade": {
+        "part": 3,
+        "charStart": 5786,
+        "charEnd": 5792,
+        "timeStart": 323.515,
+        "timeEnd": 324.144
+      },
+      "hallie": {
+        "timeStart": 86.461,
+        "timeEnd": 86.944
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-051",
+      "line": 530,
+      "section": "The Knock",
+      "kind": "dialogue",
+      "sourceText": "\"What happened?\"",
+      "insertText": "What happened?",
+      "wade": {
+        "part": 3,
+        "charStart": 5840,
+        "charEnd": 5856,
+        "timeStart": 327.044,
+        "timeEnd": 327.951
+      },
+      "hallie": {
+        "timeStart": 87.314,
+        "timeEnd": 87.869
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-052",
+      "line": 538,
+      "section": "The Knock",
+      "kind": "dialogue",
+      "sourceText": "\"Killed?\"",
+      "insertText": "Killed?",
+      "wade": {
+        "part": 4,
+        "charStart": 278,
+        "charEnd": 287,
+        "timeStart": 14.331,
+        "timeEnd": 14.979
+      },
+      "hallie": {
+        "timeStart": 88.381,
+        "timeEnd": 88.779
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-053",
+      "line": 542,
+      "section": "The Knock",
+      "kind": "dialogue",
+      "sourceText": "\"Where?\"",
+      "insertText": "Where?",
+      "wade": {
+        "part": 4,
+        "charStart": 308,
+        "charEnd": 316,
+        "timeStart": 16.277,
+        "timeEnd": 16.742
+      },
+      "hallie": {
+        "timeStart": 89.149,
+        "timeEnd": 89.533
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-054",
+      "line": 546,
+      "section": "The Knock",
+      "kind": "dialogue",
+      "sourceText": "\"Was he alone?\"",
+      "insertText": "Was he alone?",
+      "wade": {
+        "part": 4,
+        "charStart": 334,
+        "charEnd": 349,
+        "timeStart": 17.68,
+        "timeEnd": 18.534
+      },
+      "hallie": {
+        "timeStart": 89.959,
+        "timeEnd": 90.699
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-055",
+      "line": 552,
+      "section": "The Knock",
+      "kind": "dialogue",
+      "sourceText": "\"Did he call anyone? Did he say anything?\"",
+      "insertText": "Did he call anyone? Did he say anything?",
+      "wade": {
+        "part": 4,
+        "charStart": 412,
+        "charEnd": 454,
+        "timeStart": 21.968,
+        "timeEnd": 23.92
+      },
+      "hallie": {
+        "timeStart": 91.069,
+        "timeEnd": 93.344
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-056",
+      "line": 566,
+      "section": "The Knock",
+      "kind": "dialogue",
+      "sourceText": "\"When can I see him?\" she asked.",
+      "insertText": "When can I see him?",
+      "wade": {
+        "part": 4,
+        "charStart": 855,
+        "charEnd": 887,
+        "timeStart": 44.229,
+        "timeEnd": 45.975
+      },
+      "hallie": {
+        "timeStart": 93.885,
+        "timeEnd": 94.795
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-057",
+      "line": 594,
+      "section": "The Knock",
+      "kind": "thought",
+      "sourceText": "You said you'd call tomorrow. You always called. I don't understand how the world can keep moving when you've stopped. I don't know what I'm supposed to do with all the things I haven't told you.",
+      "insertText": "You said you'd call tomorrow. You always called. I don't understand how the world can keep moving when you've stopped. I don't know what I'm supposed to do with all the things I haven't told you.",
+      "wade": {
+        "part": 4,
+        "charStart": 1515,
+        "charEnd": 1710,
+        "timeStart": 80.981,
+        "timeEnd": 90.015
+      },
+      "hallie": {
+        "timeStart": 95.079,
+        "timeEnd": 104.303
+      },
+      "gain": 0.8,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-058",
+      "line": 614,
+      "section": "A House Full of Missing Things",
+      "kind": "dialogue",
+      "sourceText": "\"He's smiling like that because someone dared him to eat everything,\" she said.",
+      "insertText": "He's smiling like that because someone dared him to eat everything,",
+      "wade": {
+        "part": 4,
+        "charStart": 2238,
+        "charEnd": 2317,
+        "timeStart": 120.817,
+        "timeEnd": 124.771
+      },
+      "hallie": {
+        "timeStart": 104.723,
+        "timeEnd": 107.696
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-059",
+      "line": 622,
+      "section": "A House Full of Missing Things",
+      "kind": "dialogue",
+      "sourceText": "\"He was,\" she managed.",
+      "insertText": "He was,",
+      "wade": {
+        "part": 4,
+        "charStart": 2557,
+        "charEnd": 2579,
+        "timeStart": 138.421,
+        "timeEnd": 139.985
+      },
+      "hallie": {
+        "timeStart": 107.923,
+        "timeEnd": 108.336
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-060",
+      "line": 634,
+      "section": "A House Full of Missing Things",
+      "kind": "dialogue",
+      "sourceText": "\"About what?\" Ninja asked.",
+      "insertText": "About what?",
+      "wade": {
+        "part": 4,
+        "charStart": 3290,
+        "charEnd": 3316,
+        "timeStart": 178.639,
+        "timeEnd": 180.271
+      },
+      "hallie": {
+        "timeStart": 108.563,
+        "timeEnd": 109.374
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-061",
+      "line": 638,
+      "section": "A House Full of Missing Things",
+      "kind": "dialogue",
+      "sourceText": "\"What would you like me to say?\"",
+      "insertText": "What would you like me to say?",
+      "wade": {
+        "part": 4,
+        "charStart": 3336,
+        "charEnd": 3368,
+        "timeStart": 181.824,
+        "timeEnd": 182.942
+      },
+      "hallie": {
+        "timeStart": 109.801,
+        "timeEnd": 110.796
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-062",
+      "line": 642,
+      "section": "A House Full of Missing Things",
+      "kind": "dialogue",
+      "sourceText": "\"I know what you thought.\"",
+      "insertText": "I know what you thought.",
+      "wade": {
+        "part": 4,
+        "charStart": 3389,
+        "charEnd": 3415,
+        "timeStart": 184.367,
+        "timeEnd": 185.796
+      },
+      "hallie": {
+        "timeStart": 111.166,
+        "timeEnd": 112.09
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-063",
+      "line": 682,
+      "section": "A House Full of Missing Things",
+      "kind": "dialogue",
+      "sourceText": "Halfway through the meal she heard herself say, \"Cass, this is disgusting.\"",
+      "insertText": "Cass, this is disgusting.",
+      "wade": {
+        "part": 4,
+        "charStart": 4925,
+        "charEnd": 5000,
+        "timeStart": 272.502,
+        "timeEnd": 276.875
+      },
+      "hallie": {
+        "timeStart": 112.574,
+        "timeEnd": 114.423
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-064",
+      "line": 730,
+      "section": "Somewhere Else",
+      "kind": "dialogue",
+      "sourceText": "\"Well, Cass,\" she said softly, looking at the empty passenger seat.",
+      "insertText": "Well, Cass,",
+      "wade": {
+        "part": 5,
+        "charStart": 894,
+        "charEnd": 961,
+        "timeStart": 45.647,
+        "timeEnd": 49.868
+      },
+      "hallie": {
+        "timeStart": 114.793,
+        "timeEnd": 115.902
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-065",
+      "line": 746,
+      "section": "Somewhere Else",
+      "kind": "thought",
+      "sourceText": "Somewhere nobody knows him. That's all I asked for. One evening where I can just be the woman ordering a drink, instead of the woman with the dead brother.",
+      "insertText": "Somewhere nobody knows him. That's all I asked for. One evening where I can just be the woman ordering a drink, instead of the woman with the dead brother.",
+      "wade": {
+        "part": 5,
+        "charStart": 1182,
+        "charEnd": 1337,
+        "timeStart": 61.882,
+        "timeEnd": 69.767
+      },
+      "hallie": {
+        "timeStart": 116.158,
+        "timeEnd": 123.877
+      },
+      "gain": 0.8,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-066",
+      "line": 774,
+      "section": "The Crooked Lantern",
+      "kind": "dialogue",
+      "sourceText": "\"Whiskey, please.\"",
+      "insertText": "Whiskey, please.",
+      "wade": {
+        "part": 5,
+        "charStart": 2140,
+        "charEnd": 2158,
+        "timeStart": 116.395,
+        "timeEnd": 117.798
+      },
+      "hallie": {
+        "timeStart": 124.418,
+        "timeEnd": 125.612
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-067",
+      "line": 778,
+      "section": "The Crooked Lantern",
+      "kind": "dialogue",
+      "sourceText": "\"The one that doesn't ask personal questions.\"",
+      "insertText": "The one that doesn't ask personal questions.",
+      "wade": {
+        "part": 5,
+        "charStart": 2179,
+        "charEnd": 2225,
+        "timeStart": 119.53,
+        "timeEnd": 121.706
+      },
+      "hallie": {
+        "timeStart": 126.124,
+        "timeEnd": 127.874
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-068",
+      "line": 784,
+      "section": "The Crooked Lantern",
+      "kind": "dialogue",
+      "sourceText": "\"Then your favorite.\"",
+      "insertText": "Then your favorite.",
+      "wade": {
+        "part": 5,
+        "charStart": 2305,
+        "charEnd": 2326,
+        "timeStart": 127.014,
+        "timeEnd": 127.829
+      },
+      "hallie": {
+        "timeStart": 128.556,
+        "timeEnd": 129.239
+      },
+      "gain": 0.9,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-069",
+      "line": 860,
+      "section": "The Crooked Lantern",
+      "kind": "thought",
+      "sourceText": "Who are you?",
+      "insertText": "Who are you?",
+      "wade": {
+        "part": 5,
+        "charStart": 4668,
+        "charEnd": 4680,
+        "timeStart": 265.778,
+        "timeEnd": 266.731
+      },
+      "hallie": {
+        "timeStart": 129.666,
+        "timeEnd": 130.269
+      },
+      "gain": 0.8,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-070",
+      "line": 862,
+      "section": "The Crooked Lantern",
+      "kind": "thought",
+      "sourceText": "You look like the kind of man who has an answer prepared for everything, and not one of them is the truth.",
+      "insertText": "You look like the kind of man who has an answer prepared for everything, and not one of them is the truth.",
+      "wade": {
+        "part": 5,
+        "charStart": 4682,
+        "charEnd": 4788,
+        "timeStart": 267.186,
+        "timeEnd": 272.263
+      },
+      "hallie": {
+        "timeStart": 130.623,
+        "timeEnd": 136.127
+      },
+      "gain": 0.8,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-071",
+      "line": 864,
+      "section": "The Crooked Lantern",
+      "kind": "thought",
+      "sourceText": "Don't start. Don't make somebody else's silence into your problem.",
+      "insertText": "Don't start. Don't make somebody else's silence into your problem.",
+      "wade": {
+        "part": 5,
+        "charStart": 4790,
+        "charEnd": 4856,
+        "timeStart": 272.605,
+        "timeEnd": 276.081
+      },
+      "hallie": {
+        "timeStart": 136.81,
+        "timeEnd": 140.237
+      },
+      "gain": 0.8,
+      "status": "timestamps-derived-needs-audition"
+    },
+    {
+      "id": "ninja-072",
+      "line": 866,
+      "section": "The Crooked Lantern",
+      "kind": "thought",
+      "sourceText": "So why haven't you looked away?",
+      "insertText": "So why haven't you looked away?",
+      "wade": {
+        "part": 5,
+        "charStart": 4858,
+        "charEnd": 4889,
+        "timeStart": 276.764,
+        "timeEnd": 278.072
+      },
+      "hallie": {
+        "timeStart": 140.778,
+        "timeEnd": 142.3029931972789
+      },
+      "gain": 0.8,
+      "status": "timestamps-derived-needs-audition"
+    }
+  ]
+}
