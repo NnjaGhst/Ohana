@@ -1,6 +1,6 @@
 # Elsewhere
 ## Episode 1 — A Place That Doesn't Remember
-### Reboot manuscript · Draft 2 — extended duration
+### Reboot manuscript · Draft 3 — unabridged extended duration
 **Narration:** Wade at normal mix level. **Ninja's spoken dialogue:** Hallie at 90%. **Ninja's internal thoughts:** Hallie at 80% of original volume (absolute gain, not 80% of 90%). **Status:** extended draft, not recorded or published. Bracketed thought labels are production cues, not read aloud.
 
 ### The Road to Bellwether
@@ -696,6 +696,108 @@ She laughed, one startled, broken sound.
 Then she cried so hard she had to put the player down.
 
 It was the first time she'd allowed herself to do both in the same moment.
+
+### The Apartment That Still Had His Name
+
+The first time Ninja returned to Cassian's apartment after the funeral, she stood outside the door for eleven minutes.
+
+She knew because she watched the numbers change on her phone. The display was cracked at one corner. Cassian had offered to replace it twice, and twice she'd refused because it worked perfectly well. He would have been insufferably pleased to discover that the screen still worked even when she felt as though nothing else did.
+
+She had his key in her palm.
+
+For years, the existence of that key had been comforting. It meant there was somewhere she could walk into without knocking, somewhere she'd be welcomed with an insult and a cup of terrible coffee. Now it opened a room that could not answer her.
+
+Eventually she turned the lock.
+
+The apartment smelled faintly of washing powder and the cheap coffee Cassian always bought despite her sustained campaign against it. His jacket hung on the same hook by the door. A half-read paperback lay face down beside the sofa. There was a shopping list on the refrigerator, written in the hurried capitals she remembered from notes he'd left her when they were children.
+
+Bread. Eggs. Batteries. Something green so Ninja stops complaining.
+
+She put her hand over her mouth.
+
+He had been planning to go shopping.
+
+It was an absurd thing to find unbearable. A dead man had left a list of things he meant to buy, and suddenly she could see the afternoon he would never have. Cassian standing in a supermarket aisle, looking at two identical cartons and choosing the wrong one. Cassian sending her a photograph of a vegetable and asking whether it counted as something green. Cassian arriving with a bag of food she didn't need, acting as though he'd merely happened to be in the neighborhood.
+
+She sat on the floor and waited for the tightness in her chest to pass.
+
+It didn't.
+
+After a while, she began opening cupboards. Not because she was ready to pack anything, but because looking for ordinary objects was easier than standing still.
+
+He'd kept the cheap ceramic bowl they used to eat cereal from when money was scarce. A chipped corner had been glued back into place years earlier. In a drawer, beneath a tangled collection of phone chargers, she found photographs from a summer they spent trying to pretend a camping holiday hadn't been ruined by rain.
+
+One showed Cassian sheltering under a ridiculous pink umbrella, grinning as though he had personally invented bad weather.
+
+She remembered that day.
+
+They'd argued about the directions, eaten sandwiches in the car, and finally given up on the campsite after discovering that their tent leaked from the ceiling. On the drive home, Cassian had made up a deeply unconvincing story about a famous explorer who also gave up on bad weather.
+
+The photo made her smile.
+
+Then she realized that smiling didn't hurt quite as much as the guilt that arrived afterward.
+
+She'd begun to think of grief as a kind of loyalty test. If she enjoyed something, was she leaving him further behind? If she moved his books, was she making the room less his? If she laughed without him, was she becoming somebody he wouldn't recognize?
+
+She knew how unreasonable those questions sounded.
+
+Knowing didn't make them disappear.
+
+Near the bottom of the desk drawer was a folder of ordinary papers: bills, insurance documents, old warranties. She sorted them into piles because it gave her hands somewhere to be.
+
+A receipt for a parking garage caught her attention.
+
+She didn't recognize the street. She checked the date. It was from the week before he died.
+
+There was nothing unusual about a person using a parking garage. Nothing that proved anything. But she remembered the unfamiliar car outside his building and the thick envelope of money he'd insisted was simply from work.
+
+She set the receipt beside the documents the authorities had given her.
+
+There were so many words in those papers that sounded official and meant almost nothing. An incident at an address. An ongoing investigation. No further details available. A conclusion that seemed to have arrived before any of the questions she wanted answered.
+
+She tried calling the number printed on the letter.
+
+Someone answered with a professional tone and asked for a reference number. Ninja gave it. She explained that she was Cassian's sister. She asked whether there had been witnesses and whether anybody knew why he was in that building.
+
+The person on the telephone was polite. They were also unable to provide more information.
+
+She hung up before she said something she'd regret.
+
+The parking receipt lay between two photographs of her brother. She turned it face down. It was an ordinary bit of paper, and perhaps that was all it would ever be.
+
+But something about the official explanation had felt wrong from the beginning, and every closed door made that feeling harder to set aside.
+
+A few days later, one of Cassian's neighbors stopped her in the hallway carrying a basket of laundry.
+
+The woman told Ninja how sorry she was. She said Cassian had sometimes brought her groceries when her knees were bad, and that he had fixed a loose handle on her kitchen cupboard without accepting payment.
+
+Then she asked whether Ninja was moving his things out.
+
+Not yet, Ninja told her.
+
+The woman nodded, but she didn't leave.
+
+For a moment she looked as though she might say something else. Her eyes moved toward the stairwell, then back to Ninja. Whatever she had been about to mention stayed unsaid.
+
+Instead she squeezed Ninja's hand and went inside.
+
+Ninja stood there with the key still in her fingers.
+
+She wondered how many people carried fragments of Cassian she'd never know. How many knew the gentle version of him, and how many knew the worried man he'd become. How many things he had done out of love, or fear, or a stubborn conviction that he should handle every problem alone.
+
+The question was almost worse than the silence.
+
+That evening she made one careful box. She packed the old camping photographs, the cracked cereal bowl, and the shopping list from the refrigerator. She left the rest in place.
+
+Before closing the door, she looked around at the room and tried to imagine what Cassian would think of her standing there like a stranger.
+
+He'd probably tell her to stop looking so miserable and come eat something.
+
+He'd probably say the same ridiculous thing three different ways until she smiled.
+
+She shut off the light.
+
+For the first time, she understood that she might need to leave the city—not because it held too little of him, but because it held him everywhere, and none of those places would let her live without having to say goodbye again.
 
 ### Somewhere Else
 
