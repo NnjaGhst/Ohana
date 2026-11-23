@@ -594,7 +594,27 @@
       "number": 7,
       "title": "The Letter in the Drawer",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft"
+      "status": "ready",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-007/audio/hidden-valley-07-the-letter-in-the-drawer-abc89b6a29e7a5fd.mp3",
+      "images": [
+        {
+          "path": "series/elsewhere-hidden-valley/episodes/episode-007/illustrations/7-aunt-f245d0a92fd902d0.png",
+          "caption": "The call from the kitchen"
+        },
+        {
+          "path": "series/elsewhere-hidden-valley/episodes/episode-007/illustrations/7-callum-64c58085eba69c1a.png",
+          "caption": "Callum’s door"
+        },
+        {
+          "path": "series/elsewhere-hidden-valley/episodes/episode-007/illustrations/7-depot-85cb0a2200397159.png",
+          "caption": "The old bus shelter"
+        },
+        {
+          "path": "series/elsewhere-hidden-valley/episodes/episode-007/illustrations/7-return-4b28f36eee61cc50.png",
+          "caption": "Back above the florist"
+        }
+      ],
+      "text": "text/elsewhere-hidden-valley-007.txt"
     },
     {
       "id": "elsewhere-hidden-valley-008",
