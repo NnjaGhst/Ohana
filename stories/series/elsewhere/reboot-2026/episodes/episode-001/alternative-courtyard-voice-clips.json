@@ -1,0 +1,21 @@
+{
+  "purpose": "Alternative standalone takes to diagnose extra syllable at speaker handoff",
+  "clips": [
+    {
+      "speaker": "Hallie",
+      "text": "You're pulling my leg off!",
+      "result": {
+        "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=b7194100c9fe4c6c8ab548f23c8137d2.wav",
+        "duration": 1.8185260770975056
+      }
+    },
+    {
+      "speaker": "Wade",
+      "text": "Yes. That's the treatment. All doctors do it.",
+      "result": {
+        "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=c6f2b4b56290411f9dc839582acd541c.wav",
+        "duration": 3.2413151927437642
+      }
+    }
+  ]
+}
