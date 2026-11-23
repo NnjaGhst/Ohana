@@ -1,0 +1,46 @@
+name: Elsewhere - Ada full cast voice preview
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - .github/workflows/elsewhere-ada-cast-preview.yml
+      - stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_ada_demo.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/ada-first-meeting-voice-test.json
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_ada_demo.py
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install audio tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pydub
+      - name: Combine full lines with natural pauses, no replacement splices
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_ada_demo.py
+      - name: Save voice preview on the reboot branch only
+        run: |
+          set -e
+          root=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/full-cast-previews
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$root/ada-first-meeting-clean-voices-preview.mp3" "$root/ada-scene-report.json"
+          git commit -m "Record full-cast Ada first meeting, no in-line audio cuts" || exit 0
+          for try in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
