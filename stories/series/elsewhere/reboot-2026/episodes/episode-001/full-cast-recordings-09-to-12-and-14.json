@@ -1,0 +1,450 @@
+{
+  "recordings": [
+    {
+      "batch_id": "batch-09",
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=597fe9a649764531a066b49e8faf1fdd.wav",
+      "duration_seconds": 182.09081632653061,
+      "character_timing_count": 3322,
+      "expected_characters": 3322,
+      "segments": [
+        {
+          "run_id": 192,
+          "start_seconds": 0.341,
+          "end_seconds": 134.897
+        },
+        {
+          "run_id": 193,
+          "start_seconds": 135.409,
+          "end_seconds": 181.89081632653063
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    },
+    {
+      "batch_id": "batch-10",
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=1d67b8e39fb043fa8e060f1f96b29b50.wav",
+      "duration_seconds": 190.92743764172334,
+      "character_timing_count": 3327,
+      "expected_characters": 3327,
+      "segments": [
+        {
+          "run_id": 195,
+          "start_seconds": 0.341,
+          "end_seconds": 11.051
+        },
+        {
+          "run_id": 197,
+          "start_seconds": 11.683,
+          "end_seconds": 56.177
+        },
+        {
+          "run_id": 202,
+          "start_seconds": 56.561,
+          "end_seconds": 57.969
+        },
+        {
+          "run_id": 205,
+          "start_seconds": 58.396,
+          "end_seconds": 91.064
+        },
+        {
+          "run_id": 207,
+          "start_seconds": 91.533,
+          "end_seconds": 190.727
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    },
+    {
+      "batch_id": "batch-11",
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=1bf44263a0134984bd45d6470403dbc6.wav",
+      "duration_seconds": 20.117755102040817,
+      "character_timing_count": 316,
+      "expected_characters": 316,
+      "segments": [
+        {
+          "run_id": 209,
+          "start_seconds": 0.341,
+          "end_seconds": 19.917755102040815
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    },
+    {
+      "batch_id": "batch-12",
+      "actor": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=1456d71177a848a0875f352280d7bb96.wav",
+      "duration_seconds": 94.67278911564625,
+      "character_timing_count": 1929,
+      "expected_characters": 1929,
+      "segments": [
+        {
+          "run_id": 1,
+          "start_seconds": 0.256,
+          "end_seconds": 1.365
+        },
+        {
+          "run_id": 16,
+          "start_seconds": 2,
+          "end_seconds": 3.029
+        },
+        {
+          "run_id": 18,
+          "start_seconds": 3.38,
+          "end_seconds": 4.096
+        },
+        {
+          "run_id": 20,
+          "start_seconds": 4.48,
+          "end_seconds": 5.12
+        },
+        {
+          "run_id": 23,
+          "start_seconds": 5.67,
+          "end_seconds": 6.187
+        },
+        {
+          "run_id": 26,
+          "start_seconds": 6.571,
+          "end_seconds": 7.552
+        },
+        {
+          "run_id": 30,
+          "start_seconds": 7.69,
+          "end_seconds": 8.661
+        },
+        {
+          "run_id": 34,
+          "start_seconds": 8.99,
+          "end_seconds": 9.685
+        },
+        {
+          "run_id": 38,
+          "start_seconds": 10.069,
+          "end_seconds": 10.795
+        },
+        {
+          "run_id": 41,
+          "start_seconds": 11.343,
+          "end_seconds": 12.196
+        },
+        {
+          "run_id": 43,
+          "start_seconds": 12.588,
+          "end_seconds": 13.007
+        },
+        {
+          "run_id": 47,
+          "start_seconds": 13.647,
+          "end_seconds": 15.055
+        },
+        {
+          "run_id": 50,
+          "start_seconds": 15.61,
+          "end_seconds": 15.993
+        },
+        {
+          "run_id": 52,
+          "start_seconds": 16.634,
+          "end_seconds": 17.444
+        },
+        {
+          "run_id": 54,
+          "start_seconds": 17.708,
+          "end_seconds": 18.169
+        },
+        {
+          "run_id": 56,
+          "start_seconds": 18.767,
+          "end_seconds": 19.663
+        },
+        {
+          "run_id": 60,
+          "start_seconds": 20.09,
+          "end_seconds": 21.369
+        },
+        {
+          "run_id": 62,
+          "start_seconds": 21.939,
+          "end_seconds": 23.347
+        },
+        {
+          "run_id": 66,
+          "start_seconds": 23.859,
+          "end_seconds": 25.779
+        },
+        {
+          "run_id": 68,
+          "start_seconds": 26.462,
+          "end_seconds": 27.785
+        },
+        {
+          "run_id": 70,
+          "start_seconds": 28.339,
+          "end_seconds": 29.79
+        },
+        {
+          "run_id": 74,
+          "start_seconds": 29.973,
+          "end_seconds": 31.155
+        },
+        {
+          "run_id": 78,
+          "start_seconds": 31.533,
+          "end_seconds": 31.795
+        },
+        {
+          "run_id": 80,
+          "start_seconds": 32.549,
+          "end_seconds": 33.615
+        },
+        {
+          "run_id": 82,
+          "start_seconds": 34.059,
+          "end_seconds": 36.389
+        },
+        {
+          "run_id": 85,
+          "start_seconds": 36.819,
+          "end_seconds": 37.242
+        },
+        {
+          "run_id": 88,
+          "start_seconds": 37.754,
+          "end_seconds": 38.735
+        },
+        {
+          "run_id": 90,
+          "start_seconds": 39.333,
+          "end_seconds": 40.314
+        },
+        {
+          "run_id": 93,
+          "start_seconds": 40.655,
+          "end_seconds": 40.954
+        },
+        {
+          "run_id": 95,
+          "start_seconds": 41.594,
+          "end_seconds": 42.362
+        },
+        {
+          "run_id": 97,
+          "start_seconds": 42.933,
+          "end_seconds": 43.616
+        },
+        {
+          "run_id": 99,
+          "start_seconds": 44.085,
+          "end_seconds": 47.968
+        },
+        {
+          "run_id": 103,
+          "start_seconds": 48.462,
+          "end_seconds": 49.76
+        },
+        {
+          "run_id": 106,
+          "start_seconds": 50.357,
+          "end_seconds": 51.424
+        },
+        {
+          "run_id": 123,
+          "start_seconds": 51.936,
+          "end_seconds": 52.32
+        },
+        {
+          "run_id": 128,
+          "start_seconds": 52.946,
+          "end_seconds": 56.188
+        },
+        {
+          "run_id": 130,
+          "start_seconds": 56.7,
+          "end_seconds": 58.023
+        },
+        {
+          "run_id": 133,
+          "start_seconds": 58.45,
+          "end_seconds": 59.047
+        },
+        {
+          "run_id": 136,
+          "start_seconds": 59.474,
+          "end_seconds": 60.541
+        },
+        {
+          "run_id": 138,
+          "start_seconds": 61.181,
+          "end_seconds": 62.717
+        },
+        {
+          "run_id": 142,
+          "start_seconds": 63.484,
+          "end_seconds": 63.698
+        },
+        {
+          "run_id": 144,
+          "start_seconds": 64.549,
+          "end_seconds": 65.573
+        },
+        {
+          "run_id": 147,
+          "start_seconds": 66.127,
+          "end_seconds": 66.682
+        },
+        {
+          "run_id": 150,
+          "start_seconds": 67.407,
+          "end_seconds": 68.559
+        },
+        {
+          "run_id": 155,
+          "start_seconds": 68.858,
+          "end_seconds": 69.412
+        },
+        {
+          "run_id": 159,
+          "start_seconds": 69.796,
+          "end_seconds": 70.052
+        },
+        {
+          "run_id": 161,
+          "start_seconds": 70.65,
+          "end_seconds": 70.991
+        },
+        {
+          "run_id": 163,
+          "start_seconds": 71.503,
+          "end_seconds": 71.759
+        },
+        {
+          "run_id": 165,
+          "start_seconds": 72.356,
+          "end_seconds": 72.527
+        },
+        {
+          "run_id": 167,
+          "start_seconds": 72.812,
+          "end_seconds": 73.722
+        },
+        {
+          "run_id": 170,
+          "start_seconds": 73.942,
+          "end_seconds": 76.176
+        },
+        {
+          "run_id": 173,
+          "start_seconds": 76.768,
+          "end_seconds": 77.542
+        },
+        {
+          "run_id": 177,
+          "start_seconds": 78.096,
+          "end_seconds": 80.87
+        },
+        {
+          "run_id": 181,
+          "start_seconds": 81.318,
+          "end_seconds": 81.68
+        },
+        {
+          "run_id": 183,
+          "start_seconds": 82.363,
+          "end_seconds": 82.832
+        },
+        {
+          "run_id": 185,
+          "start_seconds": 83.338,
+          "end_seconds": 84.198
+        },
+        {
+          "run_id": 187,
+          "start_seconds": 84.508,
+          "end_seconds": 85.179
+        },
+        {
+          "run_id": 189,
+          "start_seconds": 86.126,
+          "end_seconds": 87.747
+        },
+        {
+          "run_id": 194,
+          "start_seconds": 88.216,
+          "end_seconds": 89.07
+        },
+        {
+          "run_id": 199,
+          "start_seconds": 89.624,
+          "end_seconds": 90.478
+        },
+        {
+          "run_id": 201,
+          "start_seconds": 91.118,
+          "end_seconds": 92.483
+        },
+        {
+          "run_id": 204,
+          "start_seconds": 93.161,
+          "end_seconds": 94.47278911564626
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    },
+    {
+      "batch_id": "batch-14",
+      "actor": "ninja_thought",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=6035abd82fa4411f9dec65b750f50ff1.wav",
+      "duration_seconds": 44.632131519274374,
+      "character_timing_count": 811,
+      "expected_characters": 811,
+      "segments": [
+        {
+          "run_id": 13,
+          "start_seconds": 0.256,
+          "end_seconds": 12.459
+        },
+        {
+          "run_id": 175,
+          "start_seconds": 13.231,
+          "end_seconds": 22.788
+        },
+        {
+          "run_id": 196,
+          "start_seconds": 23.467,
+          "end_seconds": 31.232
+        },
+        {
+          "run_id": 208,
+          "start_seconds": 32.043,
+          "end_seconds": 44.432
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    }
+  ],
+  "status": "recorded"
+}
