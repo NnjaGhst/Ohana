@@ -1,0 +1,55 @@
+name: Elsewhere Cassian scene - more breathing room
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - '.github/workflows/elsewhere-breathing-room.yml'
+      - 'stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_with_breathing_room.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_with_breathing_room.py
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/isolated-cassian-scene-test-manifest.json
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/isolated-hallie-line-26-correction.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install audio tooling
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pydub
+      - name: Join full clips with extended pauses
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/space-preview
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_with_breathing_room.py
+      - name: Save test preview on development branch only
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/space-preview
+        run: |
+          set -e
+          target=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/isolated-tests
+          mkdir -p "$target"
+          cp "$OUTPUT_DIR/cassian-15-uncut-turns-more-breathing-room.mp3" "$target/"
+          cp "$OUTPUT_DIR/breathing-room-test-report.json" "$target/"
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$target/cassian-15-uncut-turns-more-breathing-room.mp3" "$target/breathing-room-test-report.json"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Add longer breathing room between uncut Clay and Hallie voice turns"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
