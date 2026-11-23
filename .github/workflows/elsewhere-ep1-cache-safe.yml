@@ -1,0 +1,63 @@
+name: Point Ohana at corrected Episode 1 audio (cache-safe)
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - '.github/workflows/elsewhere-ep1-cache-safe.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update-player:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          sparse-checkout: |
+            stories/index.json
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio
+            stories/series/elsewhere/episodes/episode-001/metadata.json
+          sparse-checkout-cone-mode: false
+      - name: Copy verified revised MP3 to fresh URL and repoint the catalog
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,shutil
+          root=Path("stories")
+          rel="series/elsewhere/reboot-2026/episodes/episode-001/audio"
+          src=root/rel/"episode-001-preview.mp3"
+          dst=root/rel/"episode-001-corrected-v2.mp3"
+          report=json.loads((root/rel/"edit-report.json").read_text())
+          assert report.get("mix_version")=="2-clean-pauses-and-attributions"
+          assert src.stat().st_size==report["file_size"]
+          shutil.copy2(src,dst)
+          idx=root/"index.json"
+          cat=json.loads(idx.read_text())
+          item=next(e for e in cat["episodes"] if e["id"]=="elsewhere-001")
+          item["audio"]=rel+"/episode-001-corrected-v2.mp3"
+          idx.write_text(json.dumps(cat,indent=2,ensure_ascii=False)+"\n")
+          mdp=root/"series/elsewhere/episodes/episode-001/metadata.json"
+          md=json.loads(mdp.read_text())
+          md["audio_file"]=item["audio"]
+          md["audio_edit_version"]="v2-clean-pauses-and-attributions"
+          md["actual_duration_seconds"]=report["final_seconds"]
+          mdp.write_text(json.dumps(md,indent=2,ensure_ascii=False)+"\n")
+          print("Audio URL updated, duration",report["final_seconds"])
+          PY
+      - name: Publish to main
+        shell: bash
+        run: |
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stories/index.json stories/series/elsewhere/episodes/episode-001/metadata.json stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-corrected-v2.mp3
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Point Ohana to clean Elsewhere Episode 1 audio using fresh cache-safe URL"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git rebase origin/main
+          done
+          exit 1
