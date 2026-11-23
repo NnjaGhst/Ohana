@@ -51,11 +51,9 @@ Unpacking made a place feel like a decision. Right now, the best she could manag
 
 She pulled on her black jacket, checked the room key twice, and went back out.
 
-There was no reason to stay indoors listening to the unfamiliar silence.
+Unfamiliar silence had a habit of bringing familiar voices with it.
 
-Unfortunately, unfamiliar silence had a habit of bringing familiar voices with it.
-
-And hers was already beginning to sound like Cassian's.
+And hers already sounded like Cassian's.
 
 ### Before There Were Secrets
 
@@ -129,11 +127,9 @@ That evening they ate toast for dinner because the cupboards were nearly empty. 
 
 Years later, she would remember that lie more clearly than almost anything he ever taught her.
 
-Their home wasn't always dangerous. Sometimes it was ordinary in the way that made the bad days harder to explain.
+Their home wasn't always dangerous. Sometimes somebody cooked and the radio played old songs. Other nights, voices came through the walls and doors slammed hard enough to rattle the glasses.
 
-There were evenings when somebody cooked properly and the radio played old songs. There were mornings when laughter floated out of the kitchen. And there were nights when voices came through the walls, when a door slammed hard enough to make the glasses rattle, when Cassian turned up the television and said, too casually, "Want to see if you can beat me?"
-
-Ninja learned early to listen for footsteps. Cassian learned to make those footsteps seem less important than whatever ridiculous game he invented.
+Ninja learned to listen for footsteps. Cassian learned to turn up the television and invent a game whenever the footsteps became too loud.
 
 On one particular night, when she was eleven and he was sixteen, the house finally went quiet long after midnight.
 
@@ -207,9 +203,9 @@ She tried not to smile.
 
 He saw it anyway.
 
-As they grew older, their bond changed shape without ever breaking. Ninja started doing things for him, too: putting meals in the fridge when she knew he'd work late, telling him when someone was taking advantage of his generosity, and occasionally dragging him out of situations he had entered with far more confidence than sense.
+As they grew older, Ninja started taking care of him, too: saving him dinner, warning him when people took advantage, and occasionally dragging him out of trouble.
 
-There was a day, in her late teens, when he came home exhausted and lay down fully dressed on the sofa. She sat on the floor and put on a dreadful action film they'd seen a dozen times.
+One evening he came home exhausted and collapsed on the sofa. She put on a dreadful action film they'd seen a dozen times.
 
 Halfway through, he opened one eye.
 
@@ -233,9 +229,9 @@ A text when someone got home.
 
 The comfortable insult that meant, I'm happy you're alive.
 
-For most of her life, Ninja believed that whatever happened, there would always be at least one person who could translate the worst day into something survivable.
+Ninja believed there would always be someone who could turn the worst day into something survivable.
 
-She didn't realize how completely she'd built her idea of home around that belief.
+She'd built her idea of home around that belief.
 
 ### The Money He Didn't Explain
 
@@ -305,7 +301,7 @@ And all of that was true.
 
 It wasn't the whole truth.
 
-The jobs had begun as favors, and the favors had begun as something he could justify. A delivery for a man someone knew. Holding an envelope for two hours. Taking a passenger to a place where questions were not appreciated. The pay was good, the work oddly simple, and every request arrived wrapped in the reassurance that it would be the last.
+The jobs had begun as justifiable favors. A delivery. An envelope held for a few hours. A passenger taken somewhere he wasn't supposed to ask about. The pay was good, and every request came with the promise that it would be the last.
 
 By the time Cassian understood how much other people knew about him, refusing had begun to feel less like a decision and more like a threat.
 
@@ -449,7 +445,7 @@ It made no sense.
 
 Cassian would have called. Cassian would have argued. Cassian would have found a way to say something ridiculous and then come home with a bruise and an apology.
 
-There was no version of the world in which he simply stopped.
+There was no world in which he simply stopped.
 
 "When can I see him?" she asked.
 
@@ -457,13 +453,11 @@ The older one inhaled slowly.
 
 She hated that, too.
 
-Inside the flat, the mug remained in the sink.
-
-She let them in eventually. There were details to discuss, forms, names, a number to call. She answered questions with a steadiness that seemed to surprise all three of them.
+The mug remained in the sink. She eventually let them in, answered questions, accepted a number to call.
 
 She didn't cry while they were there.
 
-She wasn't holding herself together. She hadn't yet understood that there was something to fall apart.
+She wasn't holding herself together. She hadn't yet understood there was something to fall apart.
 
 After they left, she found the phone on the table and called Cassian.
 
@@ -495,7 +489,7 @@ They couldn't possibly know that.
 
 She looked down at her hands because she didn't trust what might happen if she answered.
 
-For a while, grief had no obvious shape. It didn't look like the dramatic collapse people expected. It looked like reaching for her phone when something funny happened, then remembering halfway through the motion. It looked like buying too much food. It looked like leaving his messages unread because the little notification made her feel, for one impossible second, that he might still answer.
+Grief didn't look like the collapse people expected. It looked like reaching for her phone to tell him something funny. Buying too much food. Leaving his messages unread because, for one impossible second, the notification made her believe he might answer.
 
 She slept badly. She became angry at ordinary conversations.
 
@@ -535,9 +529,7 @@ Eventually she stopped asking out loud.
 
 But she never stopped thinking about them.
 
-Months passed in ways she couldn't reliably measure.
-
-She walked familiar streets and saw him everywhere: outside the shop where he always bought the wrong brand of coffee, leaning against the railing where he used to wait for her, laughing in the glow of a bus window that belonged to somebody else.
+Months passed. She saw him everywhere: outside the coffee shop, leaning against familiar railings, reflected in bus windows that belonged to strangers.
 
 The city was full of places that remembered him.
 
@@ -557,9 +549,7 @@ It was the first time she'd allowed herself to do both in the same moment.
 
 ### Somewhere Else
 
-The idea of leaving did not arrive like a decision.
-
-It appeared quietly, while she was scrolling through places she might go and jobs she might do and rooms she might be able to afford.
+The idea of leaving came quietly, while she scrolled through jobs, rooms, and places she might afford.
 
 A village in the mountains caught her attention.
 
@@ -567,11 +557,7 @@ Bellwether.
 
 A room over a bakery. A street full of shops. Forest trails nearby. Rain, apparently, as a permanent civic policy.
 
-She looked at the photographs longer than she expected.
-
-Not because she thought a village would fix anything.
-
-It wouldn't.
+She studied the photographs. She didn't imagine a village could fix anything.
 
 Cassian would still be dead when she woke up there. Whatever had happened to him would still have happened. She would still know what his voice sounded like and hate that she couldn't hear it again without pressing play.
 
@@ -673,9 +659,9 @@ She almost did.
 
 But the refusal stalled somewhere between thought and speech.
 
-She kept her eyes on the amber surface of her own whiskey, annoyed by the hesitation. Once, she might have enjoyed this kind of interaction. A stranger, a clever response, the little contest of figuring out who somebody was before they figured out you.
+She stared at her whiskey, annoyed by the hesitation. Once, she might have enjoyed the contest of figuring out a stranger before they figured out her.
 
-That person felt a long way off.
+That person felt far away.
 
 She lifted her gaze anyway.
 
@@ -693,7 +679,7 @@ That caught her attention.
 
 She studied him in return.
 
-The way he held himself suggested he was accustomed to choosing seats where he could see exits. His expression was controlled, but the control looked deliberate, something built and maintained rather than effortless.
+He sat where he could see the exits. His control looked practiced, maintained rather than effortless.
 
 There were people like that. People who carried too much while insisting they were perfectly capable of carrying more.
 
@@ -707,19 +693,17 @@ Don't start, she told herself.
 
 You came here to be nobody. Not to collect somebody else's problems.
 
-A simple nod would be enough. Or nothing at all. She could leave the second drink untouched, turn back to the window, and make it clear she wanted to spend the evening alone.
+She could leave the second drink untouched, turn away, and make her wishes clear.
 
-She knew how to do that.
+She was exceptionally good at that.
 
-She was exceptionally good at it.
-
-But she was suddenly curious about what this particular stranger might sound like if he spoke. Whether his voice would match the guarded way he sat. Whether he was here because he belonged, or because, like her, he needed somewhere nobody would ask questions.
+But she was curious about his voice. Whether he belonged here, or whether, like her, he needed somewhere nobody would ask questions.
 
 The thought made her angry at herself.
 
 She didn't know him. She had no reason to care.
 
-And still, something in his expression made her wonder whether he, too, had once been the sort of person who believed that if he could just keep moving, the past would eventually give up.
+Something in his expression suggested he, too, had once believed that moving far enough might finally outrun the past.
 
 She held his gaze.
 
