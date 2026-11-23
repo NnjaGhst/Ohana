@@ -16,6 +16,10 @@ jobs:
           sparse-checkout: |
             stories/series/elsewhere/reboot-2026/episodes/episode-001/audio
           sparse-checkout-cone-mode: false
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
       - name: Extract fixed-time excerpts from V5 source MP3
         shell: bash
         run: |
