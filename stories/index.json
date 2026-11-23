@@ -497,7 +497,7 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
       "text": "text/elsewhere-hidden-valley-004.txt",
-      "audio": "series/elsewhere-hidden-valley/episodes/episode-004/audio/hidden-valley-rewrite-04-the-name-at-the-door-98dd78ae3652dc98.mp3",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-004/audio/hidden-valley-rewrite-04-the-name-at-the-door-dc037673ab847a84.mp3",
       "images": [
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-004/illustrations/ep4-art-1-764523d1f93a2ce7.webp",
@@ -507,17 +507,17 @@
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-004/illustrations/ep4-art-3-49273787534fd645.webp",
           "caption": "Tea at the Crooked Lantern",
-          "start": 639.643
+          "start": 632.221
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-004/illustrations/ep4-art-2-b9a53c288d0392ed.webp",
           "caption": "Elise’s Letter",
-          "start": 956.419
+          "start": 943.108
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-004/illustrations/ep4-art-4-c341c85252869964.webp",
           "caption": "The Road Beyond the Market",
-          "start": 1138.093
+          "start": 1123
         }
       ]
     },
