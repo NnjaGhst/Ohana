@@ -160,16 +160,27 @@ for thought in C["thoughts"]:
 # Remove only unneeded name/speech attributions immediately after Ninja's
 # quoted speech. Never strip story-bearing action or other character speakers.
 # Wade will still narrate surrounding action and all of Cassian's dialogue.
-tag_pattern = re.compile(r'"[^"\\n]+"\\s+(Ninja muttered at it\\.|Ninja said\\.|she said\\.|she demanded\\.|she asked\\.|Ninja asked\\.|she managed\\.)')
+redundant_tags = [
+    "Ninja muttered at it.", "Ninja said.", "she said.",
+    "she demanded.", "she asked.", "Ninja asked.", "she managed."
+]
 removed_tags=[]
 for part,source in enumerate(wtext,1):
     marks=W["clips"][part-1].get("chars_timing")
-    for match in tag_pattern.finditer(source):
-        start,end=match.span(1)
-        st,en=text_bounds(source,start,end,marks)
-        replacements[part].append({"type":"attribution","id":f"tag-{part}-{start}","start":st,
-            "end":en,"new":AudioSegment.silent(duration=40,frame_rate=44100)})
-        removed_tags.append({"part":part,"text":match.group(1),"start":round(st,3),"end":round(en,3)})
+    for phrase in redundant_tags:
+        offset=0
+        while True:
+            start=source.find(phrase,offset)
+            if start<0:break
+            offset=start+len(phrase)
+            # Quote marks just before the tag distinguish speech attribution
+            # from important narration containing 'she asked' / 'she said'.
+            if '"' not in source[max(0,start-7):start]:continue
+            end=start+len(phrase)
+            st,en=text_bounds(source,start,end,marks)
+            replacements[part].append({"type":"attribution","id":f"tag-{part}-{start}","start":st,
+                "end":en,"new":AudioSegment.silent(duration=40,frame_rate=44100)})
+            removed_tags.append({"part":part,"text":phrase,"start":round(st,3),"end":round(en,3)})
 if len(removed_tags)<6:
     raise RuntimeError("Could not locate expected redundant speaker tags; review script revision")
 print("Redundant attribution tags to remove:",removed_tags,flush=True)
