@@ -1,0 +1,160 @@
+{
+  "recordings": [
+    {
+      "batch_id": "batch-16",
+      "actor": "courier",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/eae6fca42aae4b78b992533e96ab43c9/id=8a93ec209e084667a00f3693908873e0.wav",
+      "duration_seconds": 2.8647165532879817,
+      "character_timing_count": 39,
+      "expected_characters": 39,
+      "segments": [
+        {
+          "run_id": 111,
+          "start_seconds": 0.256,
+          "end_seconds": 0.811
+        },
+        {
+          "run_id": 113,
+          "start_seconds": 1.323,
+          "end_seconds": 2.664716553287982
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    },
+    {
+      "batch_id": "batch-17",
+      "actor": "handler",
+      "voice_id": "e8ad4ba6c5e241549c1920fda63eb878",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/e8ad4ba6c5e241549c1920fda63eb878/id=4a9eba63f5ef40ad95c18a757cb76a8d.wav",
+      "duration_seconds": 8.792925170068028,
+      "character_timing_count": 165,
+      "expected_characters": 165,
+      "segments": [
+        {
+          "run_id": 115,
+          "start_seconds": 0.341,
+          "end_seconds": 1.579
+        },
+        {
+          "run_id": 118,
+          "start_seconds": 1.94,
+          "end_seconds": 4.224
+        },
+        {
+          "run_id": 121,
+          "start_seconds": 4.693,
+          "end_seconds": 8.592925170068026
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    },
+    {
+      "batch_id": "batch-18",
+      "actor": "police",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/eae6fca42aae4b78b992533e96ab43c9/id=32b28f2eee3c4a8d9b76c1c4dc07a5c9.wav",
+      "duration_seconds": 7.0791383219954644,
+      "character_timing_count": 145,
+      "expected_characters": 145,
+      "segments": [
+        {
+          "run_id": 157,
+          "start_seconds": 0.256,
+          "end_seconds": 1.323
+        },
+        {
+          "run_id": 164,
+          "start_seconds": 2.08,
+          "end_seconds": 2.816
+        },
+        {
+          "run_id": 169,
+          "start_seconds": 3.14,
+          "end_seconds": 5.163
+        },
+        {
+          "run_id": 171,
+          "start_seconds": 5.589,
+          "end_seconds": 6.879
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    },
+    {
+      "batch_id": "batch-19",
+      "actor": "female_support",
+      "voice_id": "4270665fc47f44aa989c093bb3dc2b99",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/4270665fc47f44aa989c093bb3dc2b99/id=14a5a2203dc34be79e265407dba48254.wav",
+      "duration_seconds": 4.36952380952381,
+      "character_timing_count": 81,
+      "expected_characters": 81,
+      "segments": [
+        {
+          "run_id": 179,
+          "start_seconds": 0.299,
+          "end_seconds": 1.664
+        },
+        {
+          "run_id": 184,
+          "start_seconds": 2.05,
+          "end_seconds": 2.816
+        },
+        {
+          "run_id": 186,
+          "start_seconds": 3.11,
+          "end_seconds": 4.16952380952381
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    },
+    {
+      "batch_id": "batch-20",
+      "actor": "bartender",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/eae6fca42aae4b78b992533e96ab43c9/id=9433635809054b4db028354f366260ae.wav",
+      "duration_seconds": 6.231609977324263,
+      "character_timing_count": 120,
+      "expected_characters": 120,
+      "segments": [
+        {
+          "run_id": 198,
+          "start_seconds": 0.299,
+          "end_seconds": 0.597
+        },
+        {
+          "run_id": 200,
+          "start_seconds": 1.07,
+          "end_seconds": 1.621
+        },
+        {
+          "run_id": 203,
+          "start_seconds": 2.091,
+          "end_seconds": 4.053
+        },
+        {
+          "run_id": 206,
+          "start_seconds": 4.523,
+          "end_seconds": 6.031609977324263
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    }
+  ],
+  "status": "recorded"
+}
