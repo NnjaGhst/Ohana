@@ -623,7 +623,27 @@
       "number": 8,
       "title": "The Name He Gave",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft"
+      "status": "ready",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-008/audio/hidden-valley-08-the-name-he-gave-c9c6c7c64430788c.mp3",
+      "images": [
+        {
+          "path": "series/elsewhere-hidden-valley/episodes/episode-008/illustrations/8-office-8d8aa9f1bea9af1c.png",
+          "caption": "A room off the corridor"
+        },
+        {
+          "path": "series/elsewhere-hidden-valley/episodes/episode-008/illustrations/8-steps-fe3c2918f4882136.png",
+          "caption": "The outside steps"
+        },
+        {
+          "path": "series/elsewhere-hidden-valley/episodes/episode-008/illustrations/8-cafe-9b94ef21ddb15c23.png",
+          "caption": "The other breakfast"
+        },
+        {
+          "path": "series/elsewhere-hidden-valley/episodes/episode-008/illustrations/8-garage-8c0918b82974b0b4.png",
+          "caption": "The closed shutters"
+        }
+      ],
+      "text": "text/elsewhere-hidden-valley-008.txt"
     }
   ]
 }
