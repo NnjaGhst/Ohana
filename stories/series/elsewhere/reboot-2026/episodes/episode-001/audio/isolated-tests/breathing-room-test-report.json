@@ -1,0 +1,134 @@
+{
+  "kind": "breathing-room-test-not-published",
+  "duration_seconds": 61.153,
+  "word_cuts": 0,
+  "trimmed_voice_clips": 0,
+  "crossfades": 0,
+  "narration_gap_ms": 570,
+  "dialogue_gap_ms": 700,
+  "source_voice": "Clay for Cassian, Hallie for Ninja, Wade narrator",
+  "correction": "Verified clean alternate Hallie line 26",
+  "runs": [
+    {
+      "run_id": 21,
+      "speaker": "narrator",
+      "start_ms": 200,
+      "end_ms": 3548,
+      "text": "Cassian glanced at the split skin on her knuckles.",
+      "source_untrimmed": true
+    },
+    {
+      "run_id": 22,
+      "speaker": "cassian",
+      "start_ms": 4118,
+      "end_ms": 5297,
+      "text": "With your face?",
+      "source_untrimmed": true
+    },
+    {
+      "run_id": 23,
+      "speaker": "ninja",
+      "start_ms": 5997,
+      "end_ms": 6898,
+      "text": "Shut up.",
+      "source_untrimmed": true
+    },
+    {
+      "run_id": 24,
+      "speaker": "narrator",
+      "start_ms": 7598,
+      "end_ms": 18717,
+      "text": "He laughed, despite trying not to. Then he cleaned her knee with water from a bottle, tearing a strip from an old cloth when they ran out of proper bandages. She hissed when the cold water touched the scrape.",
+      "source_untrimmed": true
+    },
+    {
+      "run_id": 25,
+      "speaker": "cassian",
+      "start_ms": 19287,
+      "end_ms": 21293,
+      "text": "Hold still, menace.",
+      "source_untrimmed": true
+    },
+    {
+      "run_id": 26,
+      "speaker": "ninja",
+      "start_ms": 21993,
+      "end_ms": 23677,
+      "text": "You're pulling my leg off.",
+      "source_untrimmed": true
+    },
+    {
+      "run_id": 27,
+      "speaker": "cassian",
+      "start_ms": 24377,
+      "end_ms": 27643,
+      "text": "Yes. That's the treatment. All doctors do it.",
+      "source_untrimmed": true
+    },
+    {
+      "run_id": 28,
+      "speaker": "narrator",
+      "start_ms": 28343,
+      "end_ms": 32485,
+      "text": "When he was done, he crouched in front of her and held out his hands.",
+      "source_untrimmed": true
+    },
+    {
+      "run_id": 29,
+      "speaker": "cassian",
+      "start_ms": 33055,
+      "end_ms": 39975,
+      "text": "Okay. Here's the important part. If somebody bigger than you starts trouble, you don't have to stand there and prove you're fearless.",
+      "source_untrimmed": true
+    },
+    {
+      "run_id": 30,
+      "speaker": "ninja",
+      "start_ms": 40675,
+      "end_ms": 42081,
+      "text": "I wasn't scared.",
+      "source_untrimmed": true
+    },
+    {
+      "run_id": 31,
+      "speaker": "cassian",
+      "start_ms": 42781,
+      "end_ms": 45727,
+      "text": "Then you should've been. Fear can be useful.",
+      "source_untrimmed": true
+    },
+    {
+      "run_id": 32,
+      "speaker": "narrator",
+      "start_ms": 46427,
+      "end_ms": 49977,
+      "text": "She hated that answer. Cassian tilted his head.",
+      "source_untrimmed": true
+    },
+    {
+      "run_id": 33,
+      "speaker": "cassian",
+      "start_ms": 50547,
+      "end_ms": 55153,
+      "text": "Look at me. Nin. Being brave isn't the same as being stupid.",
+      "source_untrimmed": true
+    },
+    {
+      "run_id": 34,
+      "speaker": "ninja",
+      "start_ms": 55853,
+      "end_ms": 57010,
+      "text": "You're stupid.",
+      "source_untrimmed": true
+    },
+    {
+      "run_id": 35,
+      "speaker": "cassian",
+      "start_ms": 57710,
+      "end_ms": 60703,
+      "text": "Frequently. That's how I've gathered all this wisdom.",
+      "source_untrimmed": true
+    }
+  ],
+  "file_bytes": 979321
+}
