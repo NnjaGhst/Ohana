@@ -1,0 +1,333 @@
+{
+  "recordings": [
+    {
+      "batch_id": "batch-13",
+      "actor": "ada",
+      "voice_id": "0c15ff66590e451e8a60f466a64ee8a2",
+      "voice_name": "Kendall – Soulful & Immersive",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/0c15ff66590e451e8a60f466a64ee8a2/id=9b0b048f5f67422da408de767c54bee4.wav",
+      "duration_seconds": 10.68984126984127,
+      "character_timing_count": 191,
+      "expected_characters": 191,
+      "segments": [
+        {
+          "run_id": 4,
+          "start_seconds": 0.299,
+          "end_seconds": 1.408
+        },
+        {
+          "run_id": 6,
+          "start_seconds": 1.92,
+          "end_seconds": 2.176
+        },
+        {
+          "run_id": 9,
+          "start_seconds": 2.66,
+          "end_seconds": 8.789
+        },
+        {
+          "run_id": 11,
+          "start_seconds": 9.259,
+          "end_seconds": 10.48984126984127
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    },
+    {
+      "batch_id": "batch-15",
+      "actor": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "voice_name": "Clay – Clear & Analytical",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=3f208da1ddd44f6e8bc0fc458c04603d.wav",
+      "duration_seconds": 110.15972789115646,
+      "character_timing_count": 2285,
+      "expected_characters": 2285,
+      "segments": [
+        {
+          "run_id": 15,
+          "start_seconds": 0.299,
+          "end_seconds": 0.853
+        },
+        {
+          "run_id": 17,
+          "start_seconds": 1.11,
+          "end_seconds": 3.285
+        },
+        {
+          "run_id": 19,
+          "start_seconds": 3.797,
+          "end_seconds": 4.139
+        },
+        {
+          "run_id": 22,
+          "start_seconds": 4.37,
+          "end_seconds": 4.992
+        },
+        {
+          "run_id": 25,
+          "start_seconds": 5.504,
+          "end_seconds": 6.699
+        },
+        {
+          "run_id": 27,
+          "start_seconds": 6.88,
+          "end_seconds": 9.728
+        },
+        {
+          "run_id": 29,
+          "start_seconds": 10.06,
+          "end_seconds": 16.252
+        },
+        {
+          "run_id": 31,
+          "start_seconds": 16.636,
+          "end_seconds": 18.556
+        },
+        {
+          "run_id": 33,
+          "start_seconds": 18.724,
+          "end_seconds": 22.681
+        },
+        {
+          "run_id": 35,
+          "start_seconds": 22.98,
+          "end_seconds": 25.284
+        },
+        {
+          "run_id": 37,
+          "start_seconds": 25.753,
+          "end_seconds": 25.924
+        },
+        {
+          "run_id": 39,
+          "start_seconds": 26.308,
+          "end_seconds": 27.033
+        },
+        {
+          "run_id": 42,
+          "start_seconds": 27.545,
+          "end_seconds": 29.636
+        },
+        {
+          "run_id": 44,
+          "start_seconds": 30.434,
+          "end_seconds": 33.463
+        },
+        {
+          "run_id": 46,
+          "start_seconds": 33.847,
+          "end_seconds": 35.426
+        },
+        {
+          "run_id": 49,
+          "start_seconds": 35.81,
+          "end_seconds": 37.175
+        },
+        {
+          "run_id": 53,
+          "start_seconds": 37.73,
+          "end_seconds": 38.284
+        },
+        {
+          "run_id": 55,
+          "start_seconds": 38.529,
+          "end_seconds": 40.46
+        },
+        {
+          "run_id": 57,
+          "start_seconds": 41.116,
+          "end_seconds": 42.737
+        },
+        {
+          "run_id": 59,
+          "start_seconds": 43.377,
+          "end_seconds": 47.217
+        },
+        {
+          "run_id": 61,
+          "start_seconds": 47.644,
+          "end_seconds": 48.924
+        },
+        {
+          "run_id": 63,
+          "start_seconds": 49.265,
+          "end_seconds": 51.014
+        },
+        {
+          "run_id": 65,
+          "start_seconds": 51.526,
+          "end_seconds": 51.782
+        },
+        {
+          "run_id": 67,
+          "start_seconds": 52.398,
+          "end_seconds": 53.635
+        },
+        {
+          "run_id": 69,
+          "start_seconds": 53.971,
+          "end_seconds": 55.811
+        },
+        {
+          "run_id": 72,
+          "start_seconds": 56.11,
+          "end_seconds": 57.262
+        },
+        {
+          "run_id": 75,
+          "start_seconds": 57.859,
+          "end_seconds": 58.841
+        },
+        {
+          "run_id": 77,
+          "start_seconds": 59.225,
+          "end_seconds": 60.761
+        },
+        {
+          "run_id": 79,
+          "start_seconds": 61.23,
+          "end_seconds": 62.169
+        },
+        {
+          "run_id": 83,
+          "start_seconds": 62.937,
+          "end_seconds": 65.07
+        },
+        {
+          "run_id": 86,
+          "start_seconds": 65.582,
+          "end_seconds": 66.82
+        },
+        {
+          "run_id": 89,
+          "start_seconds": 67.289,
+          "end_seconds": 67.502
+        },
+        {
+          "run_id": 91,
+          "start_seconds": 68.263,
+          "end_seconds": 73.554
+        },
+        {
+          "run_id": 94,
+          "start_seconds": 73.839,
+          "end_seconds": 74.279
+        },
+        {
+          "run_id": 96,
+          "start_seconds": 74.749,
+          "end_seconds": 75.005
+        },
+        {
+          "run_id": 98,
+          "start_seconds": 75.517,
+          "end_seconds": 76.114
+        },
+        {
+          "run_id": 101,
+          "start_seconds": 76.455,
+          "end_seconds": 77.437
+        },
+        {
+          "run_id": 105,
+          "start_seconds": 78.055,
+          "end_seconds": 78.951
+        },
+        {
+          "run_id": 108,
+          "start_seconds": 79.249,
+          "end_seconds": 80.829
+        },
+        {
+          "run_id": 110,
+          "start_seconds": 81.255,
+          "end_seconds": 81.554
+        },
+        {
+          "run_id": 112,
+          "start_seconds": 82.407,
+          "end_seconds": 83.815
+        },
+        {
+          "run_id": 117,
+          "start_seconds": 84.285,
+          "end_seconds": 85.394
+        },
+        {
+          "run_id": 119,
+          "start_seconds": 85.949,
+          "end_seconds": 86.546
+        },
+        {
+          "run_id": 124,
+          "start_seconds": 87.569,
+          "end_seconds": 91.409
+        },
+        {
+          "run_id": 126,
+          "start_seconds": 91.793,
+          "end_seconds": 93.499
+        },
+        {
+          "run_id": 129,
+          "start_seconds": 93.969,
+          "end_seconds": 94.31
+        },
+        {
+          "run_id": 132,
+          "start_seconds": 94.694,
+          "end_seconds": 97.851
+        },
+        {
+          "run_id": 134,
+          "start_seconds": 98.278,
+          "end_seconds": 100.641
+        },
+        {
+          "run_id": 137,
+          "start_seconds": 101.068,
+          "end_seconds": 102.305
+        },
+        {
+          "run_id": 140,
+          "start_seconds": 102.689,
+          "end_seconds": 103.287
+        },
+        {
+          "run_id": 143,
+          "start_seconds": 103.628,
+          "end_seconds": 103.756
+        },
+        {
+          "run_id": 145,
+          "start_seconds": 104.012,
+          "end_seconds": 105.463
+        },
+        {
+          "run_id": 149,
+          "start_seconds": 105.804,
+          "end_seconds": 106.103
+        },
+        {
+          "run_id": 151,
+          "start_seconds": 106.529,
+          "end_seconds": 107.937
+        },
+        {
+          "run_id": 153,
+          "start_seconds": 108.279,
+          "end_seconds": 109.965
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    }
+  ],
+  "voice_selection": "User-selected Clay (Cassian), Kendall (Ada) only",
+  "status": "recorded"
+}
