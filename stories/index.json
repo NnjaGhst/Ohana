@@ -464,7 +464,7 @@
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
       "text": "text/elsewhere-hidden-valley-003.txt",
-      "audio": "series/elsewhere-hidden-valley/episodes/episode-003/audio/hidden-valley-rewrite-03-the-whiskey-across-the-room-4c84f6f218034743.mp3",
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-003/audio/hidden-valley-rewrite-03-the-whiskey-across-the-room-4e9185137372672c.mp3",
       "images": [
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-1-1b7ffe84205f0356.webp",
@@ -479,12 +479,12 @@
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-3-dcd0177e20b53dfb.webp",
           "caption": "The Key to Room Six",
-          "start": 928.549
+          "start": 922.575
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-003/illustrations/ep3-art-4-d5d14a6e6c8d8661.webp",
           "caption": "The Stairs Before Breakfast",
-          "start": 1270.426
+          "start": 1260.846
         }
       ]
     },
