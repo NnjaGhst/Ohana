@@ -1,30 +1,30 @@
 {
   "series": "Elsewhere",
   "episode": 1,
-  "title": "The Photograph",
-  "status": "assets-prepared",
+  "title": "A Place That Doesn't Remember",
+  "status": "ready",
   "narration": {
     "narrator": "Wade – Resonant & Narrative",
     "narrator_voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
-    "ninja_voice": "Hallie",
+    "ninja_voice": "Hallie – Gentle & Expressive",
     "ninja_voice_id": "8f71d16d1fa84544a4db41a18264d613",
-    "ninja_volume": 0.9,
+    "ninja_dialogue_volume": 0.9,
+    "ninja_thought_volume": 0.8,
+    "hex_thought_volume": 0.8,
     "speed": 1
   },
-  "target_duration_minutes": [
-    20,
-    25
-  ],
-  "audio_file": "Elsewhere_Episode_01_The_Photograph.mp3",
+  "audio_file": "series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-preview.mp3",
   "illustrations": [
-    "Elsewhere_Ep1_Illustration_1.png",
-    "Elsewhere_Ep1_Illustration_2.png",
-    "Elsewhere_Ep1_Illustration_3.png",
-    "Elsewhere_Ep1_Illustration_4.png",
-    "Elsewhere_Ep1_Illustration_5.png",
-    "Elsewhere_Ep1_Illustration_6.png"
+    "series/elsewhere/episodes/episode-001/illustrations/01-arrival-d3162f8171599efd.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/02-cassian-bandage-acfc009303f813c9.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/03-cassian-protects-d5e2297429daf293.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/04-last-happy-evening-fixed-18a7ba84b42aced0.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/05-grief-6c0eb037be5b0ede.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/06-cassian-apartment-eef91eb84443075d.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/06-crooked-lantern-c5dd4875ae01ac9a.jpg"
   ],
-  "published_to_ohana": false,
-  "script_file": "script.md",
-  "note": "Audio and six illustrations are prepared in a downloadable local bundle; not yet uploaded to the live Ohana app."
+  "published_to_ohana": true,
+  "script_file": "series/elsewhere/reboot-2026/episodes/episode-001/published-story.txt",
+  "note": "Episode 1 reboot published in Ohana with verified cue-count mix and seven scene illustrations. Old episode assets retained in repository as archive.",
+  "actual_duration_seconds": 1976.978
 }
