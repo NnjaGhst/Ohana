@@ -2,7 +2,9 @@ name: Elsewhere Episode 1 - isolate Ninja Cassian handoff artifact
 on:
   push:
     branches: [elsewhere-reboot-2026]
-    paths: ['.github/workflows/elsewhere-handoff-tests.yml']
+    paths:
+      - '.github/workflows/elsewhere-handoff-tests.yml'
+      - 'stories/series/elsewhere/reboot-2026/episodes/episode-001/diagnose_speaker_join.py'
   workflow_dispatch:
 permissions:
   contents: write
