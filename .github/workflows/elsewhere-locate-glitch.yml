@@ -1,0 +1,43 @@
+name: Elsewhere Ep1 - locate glitch using physical audio slices
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths: ['.github/workflows/elsewhere-locate-glitch.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  slices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio
+          sparse-checkout-cone-mode: false
+      - name: Extract fixed-time excerpts from V5 source MP3
+        shell: bash
+        run: |
+          set -euo pipefail
+          ffmpeg -version | head -n 1
+          root=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio
+          source="$root/episode-001-v5-unreviewed.mp3"
+          for mark in 180 190 200 210 220; do
+            ffmpeg -hide_banner -loglevel error -y -ss "$mark" -i "$source" -t 15 -c:a libmp3lame -b:a 128k "$root/diagnose-v5-$mark.mp3"
+          done
+      - name: Save diagnostic clips only on reboot branch
+        shell: bash
+        run: |
+          set -e
+          root=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$root"/diagnose-v5-*.mp3
+          git commit -m "Add exact-time audio diagnostics of 3:18 join" || exit 0
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
