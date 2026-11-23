@@ -18,13 +18,13 @@
       "mix_gain": 0.8
     },
     "cassian": {
-      "name": "Brodie – Breezy & Genuine",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "name": "Clay – Clear & Analytical",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "mix_gain": 1
     },
     "ada": {
-      "name": "Joanna – Warm & Conversational",
-      "voice_id": "776f9d2ff401499a8f1f2bcb4ca46004",
+      "name": "Kendall – Soulful & Immersive",
+      "voice_id": "0c15ff66590e451e8a60f466a64ee8a2",
       "mix_gain": 1
     },
     "courier": {
@@ -53,7 +53,7 @@
       "mix_gain": 1
     }
   },
-  "notes": "9 existing standalone Ada first-meeting clips reused, remainder generated in batches with deliberate [pause] and original_characters timing. Never insert/recover voice lines by cutting the narrator; each run belongs to its own original speaker. This is not published.",
+  "notes": "User-approved voice cast: Clay for Cassian, Kendall for Ada. Ignore previously recorded Brodie and Joanna test clips. Wade batches 01–03 have already been recorded and are unchanged. No public publishing until clean cast-aligned master checked.",
   "runs": [
     {
       "run_id": 0,
@@ -108,17 +108,12 @@
     {
       "run_id": 4,
       "character": "ada",
-      "voice_id": "776f9d2ff401499a8f1f2bcb4ca46004",
+      "voice_id": "0c15ff66590e451e8a60f466a64ee8a2",
       "gain": 1,
       "text": "You must be the new guest.",
       "source_paragraphs": [
         11
-      ],
-      "prerecorded": {
-        "id": "scene-ada-02",
-        "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/776f9d2ff401499a8f1f2bcb4ca46004/id=2a2241eb310141d2907856f628e3e387.wav",
-        "duration_seconds": 1.9695691609977324
-      }
+      ]
     },
     {
       "run_id": 5,
@@ -138,17 +133,12 @@
     {
       "run_id": 6,
       "character": "ada",
-      "voice_id": "776f9d2ff401499a8f1f2bcb4ca46004",
+      "voice_id": "0c15ff66590e451e8a60f466a64ee8a2",
       "gain": 1,
       "text": "Usually.",
       "source_paragraphs": [
         13
-      ],
-      "prerecorded": {
-        "id": "scene-ada-04",
-        "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/776f9d2ff401499a8f1f2bcb4ca46004/id=b02c9acb708742559f775feb544a5e5f.wav",
-        "duration_seconds": 1.0504081632653062
-      }
+      ]
     },
     {
       "run_id": 7,
@@ -184,17 +174,12 @@
     {
       "run_id": 9,
       "character": "ada",
-      "voice_id": "776f9d2ff401499a8f1f2bcb4ca46004",
+      "voice_id": "0c15ff66590e451e8a60f466a64ee8a2",
       "gain": 1,
       "text": "Upstairs, then. You'll find the kettle by the window. Mind the third step. It makes a noise like a dying goose.",
       "source_paragraphs": [
         17
-      ],
-      "prerecorded": {
-        "id": "scene-ada-07",
-        "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/776f9d2ff401499a8f1f2bcb4ca46004/id=5407b8673dc84905b51c664a78992141.wav",
-        "duration_seconds": 7.589977324263039
-      }
+      ]
     },
     {
       "run_id": 10,
@@ -214,17 +199,12 @@
     {
       "run_id": 11,
       "character": "ada",
-      "voice_id": "776f9d2ff401499a8f1f2bcb4ca46004",
+      "voice_id": "0c15ff66590e451e8a60f466a64ee8a2",
       "gain": 1,
       "text": "Oh, haven't we all.",
       "source_paragraphs": [
         19
-      ],
-      "prerecorded": {
-        "id": "scene-ada-09",
-        "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/776f9d2ff401499a8f1f2bcb4ca46004/id=f7cc9455c0c64b498528ab1a936505ba.wav",
-        "duration_seconds": 1.6689795918367347
-      }
+      ]
     },
     {
       "run_id": 12,
@@ -268,7 +248,7 @@
     {
       "run_id": 15,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Tell me what happened.",
       "source_paragraphs": [
@@ -288,7 +268,7 @@
     {
       "run_id": 17,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "That's a condition, not an explanation.",
       "source_paragraphs": [
@@ -308,7 +288,7 @@
     {
       "run_id": 19,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "And you?",
       "source_paragraphs": [
@@ -338,7 +318,7 @@
     {
       "run_id": 22,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "With your face?",
       "source_paragraphs": [
@@ -369,7 +349,7 @@
     {
       "run_id": 25,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Hold still, menace.",
       "source_paragraphs": [
@@ -389,7 +369,7 @@
     {
       "run_id": 27,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Yes. That's the treatment. All doctors do it.",
       "source_paragraphs": [
@@ -409,7 +389,7 @@
     {
       "run_id": 29,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Okay. Here's the important part. If somebody bigger than you starts trouble, you don't have to stand there and prove you're fearless.",
       "source_paragraphs": [
@@ -429,7 +409,7 @@
     {
       "run_id": 31,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Then you should've been. Fear can be useful.",
       "source_paragraphs": [
@@ -450,7 +430,7 @@
     {
       "run_id": 33,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Look at me. Nin. Being brave isn't the same as being stupid.",
       "source_paragraphs": [
@@ -470,7 +450,7 @@
     {
       "run_id": 35,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Frequently. That's how I've gathered all this wisdom.",
       "source_paragraphs": [
@@ -490,7 +470,7 @@
     {
       "run_id": 37,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Good.",
       "source_paragraphs": [
@@ -510,7 +490,7 @@
     {
       "run_id": 39,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Absolutely not.",
       "source_paragraphs": [
@@ -544,7 +524,7 @@
     {
       "run_id": 42,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "That's because you're a very advanced seven-year-old.",
       "source_paragraphs": [
@@ -564,7 +544,7 @@
     {
       "run_id": 44,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Then you're an extremely immature ten-year-old. Blow it out.",
       "source_paragraphs": [
@@ -585,7 +565,7 @@
     {
       "run_id": 46,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Birthday law. You get the big piece.",
       "source_paragraphs": [
@@ -615,7 +595,7 @@
     {
       "run_id": 49,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "You're becoming dangerously difficult.",
       "source_paragraphs": [
@@ -660,7 +640,7 @@
     {
       "run_id": 53,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Guard duty.",
       "source_paragraphs": [
@@ -680,7 +660,7 @@
     {
       "run_id": 55,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Spiders. Very serious threat.",
       "source_paragraphs": [
@@ -700,7 +680,7 @@
     {
       "run_id": 57,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Exactly. You're welcome.",
       "source_paragraphs": [
@@ -721,7 +701,7 @@
     {
       "run_id": 59,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "One day, we're going to have a place with doors that only slam when we want them to.",
       "source_paragraphs": [
@@ -741,7 +721,7 @@
     {
       "run_id": 61,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Because you'll be annoyed with me.",
       "source_paragraphs": [
@@ -761,7 +741,7 @@
     {
       "run_id": 63,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "See? We've got a promising future.",
       "source_paragraphs": [
@@ -786,7 +766,7 @@
     {
       "run_id": 65,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "I know.",
       "source_paragraphs": [
@@ -806,7 +786,7 @@
     {
       "run_id": 67,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "The van at work broke down.",
       "source_paragraphs": [
@@ -826,7 +806,7 @@
     {
       "run_id": 69,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "No. That was me being an idiot.",
       "source_paragraphs": [
@@ -856,7 +836,7 @@
     {
       "run_id": 72,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "I was wrong. I'm sorry.",
       "source_paragraphs": [
@@ -887,7 +867,7 @@
     {
       "run_id": 75,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Do I look suicidal?",
       "source_paragraphs": [
@@ -911,7 +891,7 @@
     {
       "run_id": 77,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Didn't we agree this movie was terrible?",
       "source_paragraphs": [
@@ -931,7 +911,7 @@
     {
       "run_id": 79,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Why are we watching it?",
       "source_paragraphs": [
@@ -979,7 +959,7 @@
     {
       "run_id": 83,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Maybe I've developed an interest in public transport.",
       "source_paragraphs": [
@@ -1017,7 +997,7 @@
     {
       "run_id": 86,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Rent. And a bit extra.",
       "source_paragraphs": [
@@ -1047,7 +1027,7 @@
     {
       "run_id": 89,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "I know.",
       "source_paragraphs": [
@@ -1067,7 +1047,7 @@
     {
       "run_id": 91,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Because you spent half your childhood eating the worst toast ever made, and I'd like to correct the historical record.",
       "source_paragraphs": [
@@ -1097,7 +1077,7 @@
     {
       "run_id": 94,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Nin.",
       "source_paragraphs": [
@@ -1117,7 +1097,7 @@
     {
       "run_id": 96,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Work.",
       "source_paragraphs": [
@@ -1137,7 +1117,7 @@
     {
       "run_id": 98,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "The boring kind.",
       "source_paragraphs": [
@@ -1167,7 +1147,7 @@
     {
       "run_id": 101,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Seriously. It's fine.",
       "source_paragraphs": [
@@ -1207,7 +1187,7 @@
     {
       "run_id": 105,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "That's not what I'm doing.",
       "source_paragraphs": [
@@ -1238,7 +1218,7 @@
     {
       "run_id": 108,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Trying to make something easier for once.",
       "source_paragraphs": [
@@ -1262,7 +1242,7 @@
     {
       "run_id": 110,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "What's inside?",
       "source_paragraphs": [
@@ -1282,7 +1262,7 @@
     {
       "run_id": 112,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "That's an expensive courier service.",
       "source_paragraphs": [
@@ -1335,7 +1315,7 @@
     {
       "run_id": 117,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Is that supposed to be a compliment?",
       "source_paragraphs": [
@@ -1355,7 +1335,7 @@
     {
       "run_id": 119,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "What if I'm finished?",
       "source_paragraphs": [
@@ -1418,7 +1398,7 @@
     {
       "run_id": 124,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Nothing. You. The fact that shelving has become a combat sport.",
       "source_paragraphs": [
@@ -1439,7 +1419,7 @@
     {
       "run_id": 126,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "No. Just wanted to hear your voice.",
       "source_paragraphs": [
@@ -1469,7 +1449,7 @@
     {
       "run_id": 129,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Debatable.",
       "source_paragraphs": [
@@ -1501,7 +1481,7 @@
     {
       "run_id": 132,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Before you ask, yes, the wrapping was done by a human being.",
       "source_paragraphs": [
@@ -1521,7 +1501,7 @@
     {
       "run_id": 134,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "An artist. Unappreciated in his time.",
       "source_paragraphs": [
@@ -1552,7 +1532,7 @@
     {
       "run_id": 137,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "I have mysterious talents.",
       "source_paragraphs": [
@@ -1583,7 +1563,7 @@
     {
       "run_id": 140,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Both can be true.",
       "source_paragraphs": [
@@ -1614,7 +1594,7 @@
     {
       "run_id": 143,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Yeah.",
       "source_paragraphs": [
@@ -1634,7 +1614,7 @@
     {
       "run_id": 145,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Everything's all right. Nin.",
       "source_paragraphs": [
@@ -1676,7 +1656,7 @@
     {
       "run_id": 149,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "I will.",
       "source_paragraphs": [
@@ -1696,7 +1676,7 @@
     {
       "run_id": 151,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "You're taking all my hobbies away.",
       "source_paragraphs": [
@@ -1717,7 +1697,7 @@
     {
       "run_id": 153,
       "character": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Lock up behind me, menace.",
       "source_paragraphs": [
@@ -3844,6 +3824,47 @@
     },
     {
       "batch_id": "batch-13",
+      "actor": "ada",
+      "voice_id": "0c15ff66590e451e8a60f466a64ee8a2",
+      "gain": 1,
+      "text": "You must be the new guest.\n[pause]\nUsually.\n[pause]\nUpstairs, then. You'll find the kettle by the window. Mind the third step. It makes a noise like a dying goose.\n[pause]\nOh, haven't we all.",
+      "segments": [
+        {
+          "run_id": 4,
+          "start_index": 0,
+          "end_index": 26,
+          "source_paragraphs": [
+            11
+          ]
+        },
+        {
+          "run_id": 6,
+          "start_index": 35,
+          "end_index": 43,
+          "source_paragraphs": [
+            13
+          ]
+        },
+        {
+          "run_id": 9,
+          "start_index": 52,
+          "end_index": 163,
+          "source_paragraphs": [
+            17
+          ]
+        },
+        {
+          "run_id": 11,
+          "start_index": 172,
+          "end_index": 191,
+          "source_paragraphs": [
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "batch_id": "batch-14",
       "actor": "ninja_thought",
       "voice_id": "8f71d16d1fa84544a4db41a18264d613",
       "gain": 0.8,
@@ -3887,9 +3908,9 @@
       ]
     },
     {
-      "batch_id": "batch-14",
+      "batch_id": "batch-15",
       "actor": "cassian",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "gain": 1,
       "text": "Tell me what happened.\n[pause]\nThat's a condition, not an explanation.\n[pause]\nAnd you?\n[pause]\nWith your face?\n[pause]\nHold still, menace.\n[pause]\nYes. That's the treatment. All doctors do it.\n[pause]\nOkay. Here's the important part. If somebody bigger than you starts trouble, you don't have to stand there and prove you're fearless.\n[pause]\nThen you should've been. Fear can be useful.\n[pause]\nLook at me. Nin. Being brave isn't the same as being stupid.\n[pause]\nFrequently. That's how I've gathered all this wisdom.\n[pause]\nGood.\n[pause]\nAbsolutely not.\n[pause]\nThat's because you're a very advanced seven-year-old.\n[pause]\nThen you're an extremely immature ten-year-old. Blow it out.\n[pause]\nBirthday law. You get the big piece.\n[pause]\nYou're becoming dangerously difficult.\n[pause]\nGuard duty.\n[pause]\nSpiders. Very serious threat.\n[pause]\nExactly. You're welcome.\n[pause]\nOne day, we're going to have a place with doors that only slam when we want them to.\n[pause]\nBecause you'll be annoyed with me.\n[pause]\nSee? We've got a promising future.\n[pause]\nI know.\n[pause]\nThe van at work broke down.\n[pause]\nNo. That was me being an idiot.\n[pause]\nI was wrong. I'm sorry.\n[pause]\nDo I look suicidal?\n[pause]\nDidn't we agree this movie was terrible?\n[pause]\nWhy are we watching it?\n[pause]\nMaybe I've developed an interest in public transport.\n[pause]\nRent. And a bit extra.\n[pause]\nI know.\n[pause]\nBecause you spent half your childhood eating the worst toast ever made, and I'd like to correct the historical record.\n[pause]\nNin.\n[pause]\nWork.\n[pause]\nThe boring kind.\n[pause]\nSeriously. It's fine.\n[pause]\nThat's not what I'm doing.\n[pause]\nTrying to make something easier for once.\n[pause]\nWhat's inside?\n[pause]\nThat's an expensive courier service.\n[pause]\nIs that supposed to be a compliment?\n[pause]\nWhat if I'm finished?\n[pause]\nNothing. You. The fact that shelving has become a combat sport.\n[pause]\nNo. Just wanted to hear your voice.\n[pause]\nDebatable.\n[pause]\nBefore you ask, yes, the wrapping was done by a human being.\n[pause]\nAn artist. Unappreciated in his time.\n[pause]\nI have mysterious talents.\n[pause]\nBoth can be true.\n[pause]\nYeah.\n[pause]\nEverything's all right. Nin.\n[pause]\nI will.\n[pause]\nYou're taking all my hobbies away.\n[pause]\nLock up behind me, menace.",
       "segments": [
@@ -4336,7 +4357,7 @@
       ]
     },
     {
-      "batch_id": "batch-15",
+      "batch_id": "batch-16",
       "actor": "courier",
       "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
       "gain": 1,
@@ -4361,7 +4382,7 @@
       ]
     },
     {
-      "batch_id": "batch-16",
+      "batch_id": "batch-17",
       "actor": "handler",
       "voice_id": "e8ad4ba6c5e241549c1920fda63eb878",
       "gain": 1,
@@ -4394,7 +4415,7 @@
       ]
     },
     {
-      "batch_id": "batch-17",
+      "batch_id": "batch-18",
       "actor": "police",
       "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
       "gain": 1,
@@ -4435,7 +4456,7 @@
       ]
     },
     {
-      "batch_id": "batch-18",
+      "batch_id": "batch-19",
       "actor": "female_support",
       "voice_id": "4270665fc47f44aa989c093bb3dc2b99",
       "gain": 1,
@@ -4468,7 +4489,7 @@
       ]
     },
     {
-      "batch_id": "batch-19",
+      "batch_id": "batch-20",
       "actor": "bartender",
       "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
       "gain": 1,
@@ -4508,5 +4529,14 @@
         }
       ]
     }
-  ]
+  ],
+  "superseded_test_voices": {
+    "ada": "Joanna – Warm & Conversational",
+    "cassian": "Brodie – Breezy & Genuine"
+  },
+  "active_cast_selection": {
+    "ada": "Kendall – Soulful & Immersive",
+    "cassian": "Clay – Clear & Analytical",
+    "selected_by_user": true
+  }
 }
