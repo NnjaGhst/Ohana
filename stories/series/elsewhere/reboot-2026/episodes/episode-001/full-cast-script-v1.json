@@ -20,13 +20,13 @@
       "mix_gain": 0.8
     },
     "cassian": {
-      "name": "Brodie – Breezy & Genuine",
-      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "name": "Clay – Clear & Analytical",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
       "mix_gain": 1
     },
     "ada": {
-      "name": "Joanna – Warm & Conversational",
-      "voice_id": "776f9d2ff401499a8f1f2bcb4ca46004",
+      "name": "Kendall – Soulful & Immersive",
+      "voice_id": "0c15ff66590e451e8a60f466a64ee8a2",
       "mix_gain": 1
     },
     "courier": {
@@ -55,7 +55,7 @@
       "mix_gain": 1
     }
   },
-  "notes": "All 140 dialogue paragraphs assigned a single actor; no dialogue will ever be recorded inside Wade's narration. Four inner monologues assigned to Hallie. Secondary roles receive distinct supporting voices.",
+  "notes": "Each character has only their own lines. User-selected casting: Clay as Cassian, Kendall as Ada. Previous Brodie/Joanna samples were tests and are not approved for inclusion in the full episode. Wade narration and Hallie Ninja voice unchanged.",
   "events": [
     {
       "section": "The Road to Bellwether",
