@@ -1,0 +1,73 @@
+name: Elsewhere Episode 1 - Full Cassian dialogue audit V5
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - '.github/workflows/elsewhere-cassian-v5.yml'
+      - 'stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_clean_v5.py'
+  workflow_dispatch:
+concurrency:
+  group: elsewhere-ep1-full-cassian-v5
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  rebuild-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install audio processing
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pydub stable-ts
+      - name: Rebuild full episode and five section QA files
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/elsewhere-v5
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_clean_v5.py
+      - name: Save branch-only preview and audit evidence
+        if: success()
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/elsewhere-v5
+        run: |
+          set -e
+          target=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio
+          mkdir -p "$target"
+          cp "$OUTPUT_DIR/Elsewhere_Episode_01_Clean_V5_Cassian_Scene.mp3" "$target/episode-001-v5-unreviewed.mp3"
+          cp "$OUTPUT_DIR/edit-report-v5.json" "$target/edit-report-v5.json"
+          cp "$OUTPUT_DIR/around-3m18s-v5.mp3" "$target/around-3m18s-v5.mp3"
+          cp "$OUTPUT_DIR/around-5m00s-v5.mp3" "$target/around-5m00s-v5.mp3"
+          for n in 1 2 3 4 5; do
+            cp "$OUTPUT_DIR/audit-part-$n-v5.mp3" "$target/audit-part-$n-v5.mp3"
+          done
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$target"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Save complete V5 Ninja Cassian preview and five auditable sections"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: elsewhere-episode1-v5-audit
+          path: |
+            ${{ runner.temp }}/elsewhere-v5/Elsewhere_Episode_01_Clean_V5_Cassian_Scene.mp3
+            ${{ runner.temp }}/elsewhere-v5/edit-report-v5.json
+            ${{ runner.temp }}/elsewhere-v5/around-3m18s-v5.mp3
+            ${{ runner.temp }}/elsewhere-v5/around-5m00s-v5.mp3
+          retention-days: 7
+          if-no-files-found: warn
