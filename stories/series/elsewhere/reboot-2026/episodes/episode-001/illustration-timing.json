@@ -1,0 +1,42 @@
+{
+  "episodeId": "elsewhere-001",
+  "policy": "One scene-specific illustration every five minutes of finished audio, with the last image at the final partial interval.",
+  "status": "prepared-unlinked",
+  "images": [
+    {
+      "seconds": 0,
+      "caption": "Arrival in rainy Bellwether",
+      "path": "stories/series/elsewhere/episodes/episode-001/illustrations/01-arrival-d3162f8171599efd.jpg"
+    },
+    {
+      "seconds": 300,
+      "caption": "Cassian looks after young Ninja",
+      "path": "stories/series/elsewhere/episodes/episode-001/illustrations/02-cassian-bandage-acfc009303f813c9.jpg"
+    },
+    {
+      "seconds": 600,
+      "caption": "A brother keeping watch",
+      "path": "stories/series/elsewhere/episodes/episode-001/illustrations/03-cassian-protects-d5e2297429daf293.jpg"
+    },
+    {
+      "seconds": 900,
+      "caption": "One of their last happy evenings",
+      "path": "stories/series/elsewhere/episodes/episode-001/illustrations/04-last-happy-evening-569cbbb961fdbe88.jpg"
+    },
+    {
+      "seconds": 1200,
+      "caption": "The first days without Cassian",
+      "path": "stories/series/elsewhere/episodes/episode-001/illustrations/05-grief-6c0eb037be5b0ede.jpg"
+    },
+    {
+      "seconds": 1500,
+      "caption": "The apartment filled with memories",
+      "path": "stories/series/elsewhere/episodes/episode-001/illustrations/06-cassian-apartment-eef91eb84443075d.jpg"
+    },
+    {
+      "seconds": 1800,
+      "caption": "Eyes meet at the Crooked Lantern",
+      "path": "stories/series/elsewhere/episodes/episode-001/illustrations/06-crooked-lantern-c5dd4875ae01ac9a.jpg"
+    }
+  ]
+}
