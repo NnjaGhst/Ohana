@@ -599,19 +599,23 @@
       "images": [
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-007/illustrations/7-aunt-f245d0a92fd902d0.png",
-          "caption": "The call from the kitchen"
+          "caption": "The call from the kitchen",
+          "start": 0
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-007/illustrations/7-callum-64c58085eba69c1a.png",
-          "caption": "Callum’s door"
+          "caption": "Callum’s door",
+          "start": 254.925
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-007/illustrations/7-depot-85cb0a2200397159.png",
-          "caption": "The old bus shelter"
+          "caption": "The old bus shelter",
+          "start": 559.668
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-007/illustrations/7-return-4b28f36eee61cc50.png",
-          "caption": "Back above the florist"
+          "caption": "Back above the florist",
+          "start": 1115.328
         }
       ],
       "text": "text/elsewhere-hidden-valley-007.txt"
@@ -628,19 +632,23 @@
       "images": [
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-008/illustrations/8-office-8d8aa9f1bea9af1c.png",
-          "caption": "A room off the corridor"
+          "caption": "A room off the corridor",
+          "start": 0
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-008/illustrations/8-steps-fe3c2918f4882136.png",
-          "caption": "The outside steps"
+          "caption": "The outside steps",
+          "start": 309.061
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-008/illustrations/8-cafe-9b94ef21ddb15c23.png",
-          "caption": "The other breakfast"
+          "caption": "The other breakfast",
+          "start": 587.75
         },
         {
           "path": "series/elsewhere-hidden-valley/episodes/episode-008/illustrations/8-garage-8c0918b82974b0b4.png",
-          "caption": "The closed shutters"
+          "caption": "The closed shutters",
+          "start": 935.895
         }
       ],
       "text": "text/elsewhere-hidden-valley-008.txt"
