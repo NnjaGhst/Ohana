@@ -47,3 +47,11 @@ audit={"method":"standalone-whole-recordings-only","status":"test-not-published"
        "no_source_timing_based_edits":True,"segments":report}
 (out/"audit-uncut-15.json").write_text(json.dumps(audit,indent=2),encoding="utf-8")
 print(json.dumps({k:v for k,v in audit.items() if k!="segments"},indent=2))
+
+# Diagnostics: pad each standalone voice clip with quiet space so speech
+# recognition can identify whether the stray word is in the source WAV.
+for target_id in (25,26,27):
+    source=out/("clip-"+str(target_id)+".wav")
+    raw=AudioSegment.from_file(source).set_frame_rate(44100).set_channels(1)
+    padded=AudioSegment.silent(duration=850,frame_rate=44100)+raw+AudioSegment.silent(duration=1200,frame_rate=44100)
+    padded.export(out/("solo-"+str(target_id)+".mp3"),format="mp3",bitrate="128k")
