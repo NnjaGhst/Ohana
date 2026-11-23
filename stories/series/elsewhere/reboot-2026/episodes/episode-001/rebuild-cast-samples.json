@@ -1,0 +1,21 @@
+{
+  "notes": "Voice identification samples for clean full-cast episode reboot. They do not replace the published episode.",
+  "voices": [
+    {
+      "character": "Ada",
+      "name": "Joanna – Warm & Conversational",
+      "id": "776f9d2ff401499a8f1f2bcb4ca46004",
+      "script": "You must be the new guest. Upstairs, then. You'll find the kettle by the window. Mind the third step. It makes a noise like a dying goose.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/776f9d2ff401499a8f1f2bcb4ca46004/id=bd21f902c73c4935b39d9a9d6087060c.wav",
+      "duration_seconds": 8.820634920634921
+    },
+    {
+      "character": "Cassian",
+      "name": "Brodie – Breezy & Genuine",
+      "id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "script": "Tell me what happened. Hold still, menace. Yes. That's the treatment. All doctors do it.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/c30ecab014cb4a8d816d07f6b2b625c8/id=fa8a6717ed1f4c2d8adc1732652e2453.wav",
+      "duration_seconds": 6.312879818594104
+    }
+  ]
+}
