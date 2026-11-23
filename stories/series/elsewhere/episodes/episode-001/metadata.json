@@ -13,7 +13,7 @@
     "hex_thought_volume": 0.8,
     "speed": 1
   },
-  "audio_file": "series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-preview.mp3",
+  "audio_file": "series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-corrected-v2.mp3",
   "illustrations": [
     "series/elsewhere/episodes/episode-001/illustrations/iphone14/01-episode-001-iphone14.jpg",
     "series/elsewhere/episodes/episode-001/illustrations/iphone14/02-episode-001-iphone14.jpg",
@@ -26,12 +26,13 @@
   "published_to_ohana": true,
   "script_file": "series/elsewhere/reboot-2026/episodes/episode-001/published-story.txt",
   "note": "Episode 1 reboot published in Ohana with verified cue-count mix and seven scene illustrations. Old episode assets retained in repository as archive.",
-  "actual_duration_seconds": 1976.978,
+  "actual_duration_seconds": 2005.998,
   "illustration_canvas": {
     "width": 1170,
     "height": 2532,
     "orientation": "portrait",
     "fit": "cover",
     "device": "iPhone 14"
-  }
+  },
+  "audio_edit_version": "v2-clean-pauses-and-attributions"
 }
