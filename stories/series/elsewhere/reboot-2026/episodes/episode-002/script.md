@@ -1,6 +1,6 @@
 # Elsewhere
 ## Episode 2 — The Man in the Corner
-### Reboot manuscript · Draft 1 — extended 30–36 minute target
+### Reboot manuscript · Draft 2 — 30–36 minute target
 
 **Production:** Wade narrates and voices Hex. Hex's spoken dialogue: Wade 100%. Hex's isolated inner monologues: Wade 80% absolute gain, without changing pitch or pace. Ninja's spoken dialogue (if any): Hallie 90%; Ninja's inner thoughts: Hallie 80%. Markers are editing cues, never spoken. Draft only; no recordings generated or published.
 
@@ -70,28 +70,6 @@ Roan lived four doors down. He was the sort of boy who collected scrapes, debts,
 
 He had an enormous talent for turning a reasonable plan into an incident that required explanations.
 
-When they were fifteen, Roan insisted he knew a shortcut over the roofs behind the shops. By the time they arrived at the next street, he had torn his jacket, lost a shoe, and accidentally upset a flock of pigeons that apparently considered the entire roof their ancestral territory.
-
-Hex climbed down by the actual stairs.
-
-Roan appeared at the bottom a minute later with one sock and a very offended expression.
-
-"You abandoned me."
-
-"I told you the stairs existed."
-
-"You could have sounded more supportive."
-
-"I was supportive. I shouted 'use the stairs' six times."
-
-Roan stared at the missing shoe.
-
-"Do you think the pigeons stole it?"
-
-"I think it made a decision to leave."
-
-They laughed so hard they had to sit down.
-
 On the hard days, they didn't always laugh.
 
 Once, when they were seventeen, Roan arrived at Hex's door after midnight. His lip was split and his knuckles were swollen, and the normally endless stream of talking had stopped.
@@ -135,10 +113,6 @@ Roan managed half a smile.
 "No."
 
 "Thought so."
-
-They grew up imagining that adulthood would solve the things childhood couldn't. They pictured jobs, homes with working locks, money left over after rent, weekends that belonged to them.
-
-They didn't understand that adulthood sometimes just meant becoming legally responsible for the same problems.
 
 In their early twenties, Hex was holding down regular work and helping people where he could. Roan had started doing favors for anyone whose situation looked worse than his own. Most ended with somebody grateful. One didn't.
 
@@ -240,10 +214,6 @@ No office. No public name. No advertisement.
 
 Just a contact and a place to meet.
 
-Hex knew it sounded wrong.
-
-He also knew Roan's time was running out.
-
 ### The Offer
 
 The woman who met him wore a dark coat and an expensive watch. They sat in a hotel lounge where the music was soft enough to be ignored and the staff were discreet enough not to remember them.
@@ -320,7 +290,7 @@ He called the woman back.
 
 The job itself was frighteningly ordinary until the final minutes.
 
-Hex was given instructions, a contact number, and one small window of opportunity. He learned more than he had ever wanted to know about the man whose photograph had been in the folder.
+Hex was given instructions, a contact number, and one small window of opportunity. 
 
 The man was not a monster.
 
@@ -353,28 +323,6 @@ He looked at the man's hand on the floor. There was a pale ring where a wedding 
 He had expected horror to arrive like a thunderclap.
 
 Instead there was a terrible, practical silence. A clock ticked. Something dripped in the next room. Somewhere outside a delivery truck reversed with a shrill warning sound, entirely indifferent to the fact that a person had just died.
-
-The woman from the hotel called that evening.
-
-"The account has been settled."
-
-Hex said nothing.
-
-"Your friend is no longer in danger from that debt."
-
-He closed his eyes.
-
-"You said it would be contained."
-
-"It was."
-
-He wanted to shout. To tell her that she'd made him kill someone who had been trying to escape. To demand the man's name be said aloud, properly, by somebody who regarded it as more than a line of work.
-
-But he hadn't been tricked about the essential fact.
-
-He knew what the job was.
-
-He had chosen to do it.
 
 **[INNER MONOLOGUE — HEX — WADE 80% — EDIT CUE ONLY]**
 
@@ -454,14 +402,6 @@ Hex gripped the phone.
 
 He didn't answer.
 
-That was the second job.
-
-The third came a month later. Each was described as necessary, limited, a way of preventing some larger harm. Occasionally, there really was somebody dangerous at the other end of the assignment. Occasionally, he believed that removing them protected other people.
-
-But the network made no distinction between protecting the innocent and protecting its own interests.
-
-It was simply good at making the two things sound alike.
-
 As the years passed, Hex became trusted because he was observant, calm when others panicked, and capable of taking responsibility for choices everyone else preferred not to acknowledge. He could enter a room and see who was afraid, who was lying, who was close to breaking.
 
 People in the network praised his composure.
@@ -469,10 +409,6 @@ People in the network praised his composure.
 They did not see what it cost him.
 
 He learned how to keep his expression still while somebody described a human life as a complication. He learned how to answer with sarcasm before an uncomfortable question got close to anything true. He learned the particular usefulness of being the man who seemed in control.
-
-One colleague called him the responsible one.
-
-Hex laughed in the man's face.
 
 **[INNER MONOLOGUE — HEX — WADE 80% — EDIT CUE ONLY]**
 
@@ -494,8 +430,6 @@ Yet each time he heard it, he did what was required.
 
 It was years before he understood what the first job had helped create.
 
-A name began appearing in files, at first as a peripheral contact and then as a point through which different kinds of power seemed to flow.
-
 Elias Voss.
 
 He didn't control a territory or command men on street corners. He connected people who needed information hidden, money moved, witnesses frightened, or introductions made discreetly.
@@ -511,8 +445,6 @@ Further down, buried among dry, impersonal language, was a note.
 Hex read it again.
 
 A man had been killed. Roan's debt had been cleared. Elias Voss had become more powerful.
-
-The chain was obvious when placed in front of him. It had simply never been shown to him before.
 
 He took the report to his handler.
 
@@ -537,8 +469,6 @@ She folded her hands.
 "You've benefited from our arrangements, too."
 
 Hex stood very still.
-
-He wanted to deny it. Instead he thought about the years of work, the money that had kept Roan safe, the doors that had opened and the people who had died because somebody had decided they were inconvenient.
 
 The handler watched his face.
 
@@ -574,8 +504,6 @@ Then he reached the final section.
 
 Associated persons.
 
-There were names, phone numbers, traces of addresses, and photographs attached to potential connections. Most were listed as couriers, financial associates, or individuals to be monitored.
-
 One line identified Cassian as a lower-level contact, possibly under pressure. A note suggested he had personal ties outside the network's immediate interests.
 
 Beneath it was a photograph.
@@ -585,8 +513,6 @@ A young woman with pink hair, dark clothing, and the kind of expression that sug
 Hex paused.
 
 He couldn't have explained why.
-
-It wasn't the prettiness of the picture alone. He'd seen countless faces. This one gave him an uncomfortable sense that he was seeing a whole person rather than an entry on a page. Someone who would laugh at the wrong moment and argue on principle and have no idea how close the machinery of his work had come to her life.
 
 The note beneath the photograph read:
 
@@ -638,17 +564,7 @@ That should have ended the matter.
 
 Hex set the photograph back in the folder.
 
-Later he would tell himself that he'd been unsettled by the casual violation of somebody's private life.
-
-That was true.
-
-It wasn't the only reason he remembered.
-
 ### The Night He Couldn't Bury
-
-The operation began with the certainty that everything had been accounted for.
-
-That certainty lasted less than a minute.
 
 There were people inside who weren't in the brief. Voices where there should have been silence. Doors opening in the wrong sequence. A shouted warning.
 
@@ -682,8 +598,6 @@ Completed.
 
 Hex stood in a corridor long after the others had moved on, looking at the blood that had no place in the briefing and thinking of the photograph that had no place in his mind.
 
-He didn't understand the connection yet in the way he eventually would. He only knew that the dead man on the floor had been real, that the woman in the file was real, and that the job had swallowed something it had no right to take.
-
 He hadn't pulled the trigger that killed the man.
 
 It wasn't enough to make him innocent.
@@ -697,8 +611,6 @@ Exposure.
 Containment.
 
 Loose ends.
-
-A colleague stopped answering messages. Another was reported to have died in an accident no one would discuss. Hex noticed that files he'd once been permitted to see now disappeared before he could open them.
 
 He confronted his handler over the telephone.
 
@@ -762,10 +674,6 @@ That night, he removed every predictable habit from his life.
 
 He left behind the apartment, the car, the job title he had never spoken aloud. He abandoned the people who might be used to find him and the routines that made him recognizable.
 
-It wasn't a clever escape or a beautiful one.
-
-It was a man with one bag walking away from the last pieces of a life he had already made unrecognizable.
-
 **[INNER MONOLOGUE — HEX — WADE 80% — EDIT CUE ONLY]**
 
 *You wanted one more job.*
@@ -782,8 +690,6 @@ It was a man with one bag walking away from the last pieces of a life he had alr
 
 Bellwether was not the first place he hid.
 
-There were rented rooms above garages, cheap motels with unreliable locks, bus stations where he sat until morning because moving felt safer than sleeping. He changed routes for no good reason and sometimes left an entire town because he recognized a car he'd seen twice.
-
 Eventually the running became quieter.
 
 He reached a mountain village where nobody asked for an account of the previous decade, provided he turned up when he said he would.
@@ -793,8 +699,6 @@ He repaired engines and stubborn household machinery for local people. He helped
 He made acquaintances.
 
 Friendship was harder.
-
-The villagers knew him as Hex. Most assumed it was a nickname he'd earned somewhere interesting. He let them assume whatever they liked.
 
 The local repair shop owner, Tomas, had a habit of asking questions disguised as observations.
 
@@ -812,8 +716,6 @@ The local repair shop owner, Tomas, had a habit of asking questions disguised as
 
 Tomas laughed, then passed him another screwdriver.
 
-Nobody in Bellwether had reason to connect Hex to the contract network. Every new day without a sign of pursuit was a day he tried not to ruin with fear.
-
 But he still chose seats near doors.
 
 He still woke at sounds other people slept through.
@@ -827,14 +729,6 @@ Not because he knew Ninja. He didn't.
 He didn't know how she laughed, what music she liked, or whether she'd hate everything about him if they ever met.
 
 He could only imagine what it would be to have a brother whose name appeared in a hidden folder, and then to lose him without ever learning why.
-
-Sometimes he wondered if the woman had been told the truth.
-
-He doubted it.
-
-Sometimes he imagined finding her, explaining what had happened, and accepting whatever she might do with the knowledge.
-
-He never tried.
 
 The network had already shown what it did to people associated with its operations. Finding her might be the same as handing over her location.
 
@@ -866,8 +760,6 @@ A certain table. A certain whiskey. A repair job to complain about and somebody 
 
 He ordered his drink and sat down.
 
-Tomas left after a while to meet a friend. Hex stayed. Rain clattered softly against the windows, and somewhere by the fireplace two people argued over the correct way to cook potatoes.
-
 It was ordinary.
 
 For once, he wanted ordinary.
@@ -878,15 +770,9 @@ Then the door opened.
 
 She came through the door like she belonged in a different life.
 
-For one absurd, stretched-out second, Hex thought he was seeing something his mind had invented to punish him.
-
 Pink hair damp from the rain. Dark jacket. A face he'd looked at in a file half a decade earlier and never quite managed to forget.
 
 The actual person stood just inside the Crooked Lantern, taking in the room with the tired irritation of somebody who had already had enough of the day.
-
-The photograph had not prepared him for movement.
-
-For the way she shook rain from her sleeve. For the small, impatient adjustment of her bag. For the fact that a stranger could be the center of his worst memory and still be doing something as ordinary as choosing a place to sit.
 
 His heart hit against his ribs.
 
@@ -919,10 +805,6 @@ She crossed to the bar.
 He watched her order a whiskey.
 
 That, at least, was almost funny. A photograph couldn't have told him what she'd drink. It couldn't have told him she'd choose the bar stool with her shoulder turned away from the room, as though she wanted to be left alone but refused to surrender the option of seeing who came in.
-
-He should have looked elsewhere.
-
-Instead he watched the bartender set down her glass and saw the tired line of her shoulders.
 
 It was the same kind of tiredness he recognized in mirrors.
 
@@ -964,10 +846,6 @@ Now a woman he didn't know sat across the room, and he felt the dangerous beginn
 
 Maybe all four.
 
-He was not foolish enough to call it love.
-
-Love required knowledge, and he had a single photograph, a file full of other people's secrets, and five years of remorse. None of those entitled him to anything.
-
 But for one moment he wanted to be the sort of man who could say hello without leaving a trail of harm behind him.
 
 He lifted two fingers toward the bartender.
@@ -993,8 +871,6 @@ It was both an answer and a confession.
 Maeve studied him, then shrugged and poured the drink.
 
 As she carried it across the room, Hex felt a ridiculous urge to call her back.
-
-He could still pretend he hadn't ordered it. He could put money on the table and walk out. He could do the sensible thing and leave this stranger to her own evening.
 
 But he was tired of disappearing.
 
