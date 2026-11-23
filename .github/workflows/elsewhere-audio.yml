@@ -4,7 +4,6 @@ on:
     branches: [elsewhere-reboot-2026]
     paths:
       - .github/workflows/elsewhere-audio.yml
-      - stories/series/elsewhere/reboot-2026/episodes/episode-001/*.json
       - stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_reboot.py
   workflow_dispatch:
 concurrency:
@@ -39,6 +38,7 @@ jobs:
           python stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_reboot.py
       - name: Publish private-to-branch preview files
         if: success()
+        continue-on-error: true
         env:
           OUTPUT_DIR: ${{ runner.temp }}/elsewhere-audio
         run: |
@@ -50,12 +50,23 @@ jobs:
           git config user.name "Elsewhere Audio Builder"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "$target"
-          if git diff --cached --quiet; then echo "No preview changes"; else git commit -m "Add Elsewhere reboot episode 1 audio preview"; git push; fi
+          if git diff --cached --quiet; then
+            echo "No preview changes"
+          else
+            git commit -m "Add Elsewhere reboot episode 1 audio preview"
+            for attempt in 1 2 3; do
+              if git push; then break; fi
+              git fetch origin elsewhere-reboot-2026
+              git rebase -X theirs origin/elsewhere-reboot-2026
+              if [ "$attempt" = 3 ]; then git push; fi
+            done
+          fi
       - uses: actions/upload-artifact@v4
-        if: success()
+        if: always()
         with:
           name: elsewhere-reboot-ep1-audio-preview
           path: |
             ${{ runner.temp }}/elsewhere-audio/Elsewhere_Episode_01_A_Place_That_Doesnt_Remember.mp3
             ${{ runner.temp }}/elsewhere-audio/edit-report.json
           retention-days: 7
+          if-no-files-found: warn
