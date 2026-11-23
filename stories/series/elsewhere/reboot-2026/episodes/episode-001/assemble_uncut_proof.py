@@ -55,3 +55,27 @@ for target_id in (25,26,27):
     raw=AudioSegment.from_file(source).set_frame_rate(44100).set_channels(1)
     padded=AudioSegment.silent(duration=850,frame_rate=44100)+raw+AudioSegment.silent(duration=1200,frame_rate=44100)
     padded.export(out/("solo-"+str(target_id)+".mp3"),format="mp3",bitrate="128k")
+
+# Second pass: use a NEW standalone Hallie recording for run 26.
+# The old full clip contains an extra spoken "you're" after "off".
+# Every clip remains uncut and no voice overlaps.
+correction=json.loads((root/"isolated-hallie-line-26-correction.json").read_text())
+assert correction["run_id"]==26 and correction["character"]=="ninja"
+take=out/"clip-26-fixed.wav"
+if not take.exists() or take.stat().st_size<5000:
+    req=urllib.request.Request(correction["audio_url"],headers={"User-Agent":"Mozilla/5.0"})
+    with urllib.request.urlopen(req,timeout=150) as response,take.open("wb") as target:
+        while True:
+            data=response.read(1024*1024)
+            if not data:break
+            target.write(data)
+revised=AudioSegment.silent(duration=250,frame_rate=44100)
+for c in clips:
+    source=take if c["run_id"]==26 else out/("clip-"+str(c["run_id"])+".wav")
+    segment=AudioSegment.from_file(source).set_frame_rate(44100).set_channels(1)
+    if c["gain"]!=1:segment=segment.apply_gain(20*math.log10(c["gain"]))
+    revised+=segment
+    revised+=AudioSegment.silent(duration=350 if c["actor"]=="ninja" else 280,frame_rate=44100)
+replacement_output=out/"cassian-15-uncut-turns-corrected.mp3"
+revised.export(replacement_output,format="mp3",bitrate="128k")
+print("CORRECTED TAKE",len(revised)/1000,"seconds",replacement_output.stat().st_size,"bytes")
