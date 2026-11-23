@@ -43,10 +43,17 @@ def align_first(wav,text):
     words=[]
     for seg in result.segments:
         for item in seg.words:
-            obj=item if isinstance(item,dict) else item.__dict__
-            token=obj.get("word",obj.get("text","")).strip()
+            if isinstance(item,dict):
+                token=str(item.get("word",item.get("text",""))).strip()
+                begin=item.get("start",item.get("_start"))
+                finish=item.get("end",item.get("_end"))
+            else:
+                token=str(getattr(item,"word",getattr(item,"text",""))).strip()
+                begin=getattr(item,"start",getattr(item,"_start",None))
+                finish=getattr(item,"end",getattr(item,"_end",None))
             norm=re.sub("[^a-z0-9]","",token.lower())
-            if norm: words.append((norm,float(obj["start"]),float(obj["end"])))
+            if norm and begin is not None and finish is not None:
+                words.append((norm,float(begin),float(finish)))
     src=[(m.group(),m.start(),m.end()) for m in re.finditer(r"[A-Za-z0-9]+(?:'[A-Za-z]+)?",text)]
     a=[re.sub("[^a-z0-9]","",item[0].lower()) for item in src]
     b=[item[0] for item in words]
