@@ -1,0 +1,10 @@
+{
+  "run_id": 26,
+  "character": "ninja",
+  "voice_name": "Hallie",
+  "speech": "You're pulling my leg off!",
+  "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=435d008147c24001aec9eaaeff899074.wav",
+  "duration_seconds": 1.6841269841269841,
+  "reason": "Original uncut Hallie source audibly adds repeated 'you're' after line; new standalone take for quality check",
+  "status": "not yet validated"
+}
