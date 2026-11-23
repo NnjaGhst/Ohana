@@ -6,31 +6,38 @@
       "seriesId": "elsewhere",
       "seriesName": "Elsewhere",
       "number": 1,
-      "title": "The Photograph",
+      "title": "A Place That Doesn't Remember",
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
       "metadata": "series/elsewhere/episodes/episode-001/metadata.json",
-      "audio": "series/elsewhere/episodes/episode-001/audio/elsewhere-episode-01-the-photograph-a2829b2a028f1746.mp3",
+      "audio": "series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-preview.mp3",
       "images": [
         {
-          "path": "series/elsewhere/episodes/episode-001/illustrations/elsewhere-ep1-illustration-1-b86d1a943de857d2.png"
+          "path": "series/elsewhere/episodes/episode-001/illustrations/01-arrival-d3162f8171599efd.jpg",
+          "caption": "Ninja arrives in rainy Bellwether"
         },
         {
-          "path": "series/elsewhere/episodes/episode-001/illustrations/elsewhere-ep1-illustration-2-48ad1469bc0e588f.png"
+          "path": "series/elsewhere/episodes/episode-001/illustrations/02-cassian-bandage-acfc009303f813c9.jpg",
+          "caption": "Cassian bandages Ninja's knee"
         },
         {
-          "path": "series/elsewhere/episodes/episode-001/illustrations/elsewhere-ep1-illustration-3-1e70367dc760b8ec.png"
+          "path": "series/elsewhere/episodes/episode-001/illustrations/03-cassian-protects-d5e2297429daf293.jpg",
+          "caption": "A moment of safety with Cassian"
         },
         {
-          "path": "series/elsewhere/episodes/episode-001/illustrations/elsewhere-ep1-illustration-4-674187cb2c777318.png"
+          "path": "series/elsewhere/episodes/episode-001/illustrations/04-last-happy-evening-fixed-18a7ba84b42aced0.jpg",
+          "caption": "A rare happy evening together"
         },
         {
-          "path": "series/elsewhere/episodes/episode-001/illustrations/elsewhere-ep1-illustration-5-7dcb1e9b694babfb.png"
+          "path": "series/elsewhere/episodes/episode-001/illustrations/05-grief-6c0eb037be5b0ede.jpg",
+          "caption": "The first days after losing Cassian"
         },
         {
-          "path": "series/elsewhere/episodes/episode-001/illustrations/elsewhere-ep1-illustration-6-26aa96894242430f.png"
+          "path": "series/elsewhere/episodes/episode-001/illustrations/06-crooked-lantern-c5dd4875ae01ac9a.jpg",
+          "caption": "The stranger at the Crooked Lantern"
         }
-      ]
+      ],
+      "text": "text/elsewhere-001.txt"
     },
     {
       "id": "elsewhere-002",
