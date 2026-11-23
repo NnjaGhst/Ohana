@@ -1,0 +1,15 @@
+{
+  "version": "6-remove-repeated-youre-at-3m29",
+  "source": "episode-001-v5-unreviewed.mp3",
+  "source_duration_seconds": 1993.07,
+  "final_duration_seconds": 1993.07,
+  "edited_time_range_ms": [
+    208880,
+    209820
+  ],
+  "method": "replace 0.94 seconds of verified stray speech with silence; 60ms fades at edges",
+  "original_word_sequence": "You're pulling my leg off. You're- Yes, that's the treatment.",
+  "expected_word_sequence": "You're pulling my leg off. Yes, that's the treatment.",
+  "file_size": 23917758,
+  "status": "preview only; listen and transcribe before updating Ohana"
+}
