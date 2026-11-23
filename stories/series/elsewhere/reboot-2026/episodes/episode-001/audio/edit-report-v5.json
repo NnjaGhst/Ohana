@@ -1,0 +1,827 @@
+{
+  "mix_version": "5-entire-cassian-conversation-repair",
+  "duration_seconds": 1993.07,
+  "file_size": 23917758,
+  "first_clip_alignment_fraction": 0.9903846153846154,
+  "spliced_paragraphs": 78,
+  "ninja_dialogue_lines": 67,
+  "thought_blocks": 4,
+  "removed_dialogue_tags": [
+    "Ninja muttered",
+    "Ninja said",
+    "she said",
+    "she demanded",
+    "she said",
+    "she asked",
+    "she said",
+    "she managed",
+    "Ninja asked",
+    "she said"
+  ],
+  "audio_editing_rule": "No midword / mid-tag edits; all Ninja content replaces entire Wade paragraph at acoustic paragraph boundaries",
+  "clip_overlap_count": 0,
+  "cassian_atomic_paragraphs": 6,
+  "cassian_entire_scene_paragraphs": 9,
+  "ninja_atomic_quotes": [
+    18,
+    20,
+    23,
+    26,
+    29,
+    39
+  ],
+  "dialogue_conversations_checked": "All 67 Ninja speech lines, 8 re-recorded Cassian tagged or glitching lines, one nine-paragraph scene reconstruction and 4 inner-monologue blocks",
+  "publishing_status": "preview-only, requires listening signoff",
+  "replacements": [
+    {
+      "part": 1,
+      "paragraph": 4,
+      "kind": "dialogue",
+      "wade_source_start": 22.465,
+      "wade_source_end": 26.815,
+      "removed_wade_text": "\"Yeah,\" Ninja muttered at it. \"You and me both.\"",
+      "replacement_text": "Yeah. You and me both.",
+      "inserted_audio_seconds": 1.738
+    },
+    {
+      "part": 1,
+      "paragraph": 11,
+      "kind": "dialogue",
+      "wade_source_start": 62.215,
+      "wade_source_end": 65.775,
+      "removed_wade_text": "\"That depends,\" Ninja said. \"Does the room have a bed?\"",
+      "replacement_text": "That depends. Does the room have a bed?",
+      "inserted_audio_seconds": 2.553
+    },
+    {
+      "part": 1,
+      "paragraph": 13,
+      "kind": "dialogue",
+      "wade_source_start": 66.665,
+      "wade_source_end": 68.685,
+      "removed_wade_text": "\"Then yes. Definitely me.\"",
+      "replacement_text": "Then yes. Definitely me.",
+      "inserted_audio_seconds": 1.975
+    },
+    {
+      "part": 1,
+      "paragraph": 17,
+      "kind": "dialogue",
+      "wade_source_start": 91.745,
+      "wade_source_end": 93.225,
+      "removed_wade_text": "\"I've lived with worse.\"",
+      "replacement_text": "I've lived with worse.",
+      "inserted_audio_seconds": 1.486
+    },
+    {
+      "part": 1,
+      "paragraph": 26,
+      "kind": "thought",
+      "wade_source_start": 132.675,
+      "wade_source_end": 145.125,
+      "removed_wade_text": "If I unpack, it means I'm staying. If I stay, somebody will eventually ask why I came. And what am I supposed to tell them? That I drove halfway across the country because every street back home still knows his name?",
+      "replacement_text": "If I unpack, it means I'm staying. If I stay, somebody will eventually ask why I came. And what am I supposed to tell them? That I drove halfway across the country because every street back home still knows his name?",
+      "inserted_audio_seconds": 12.043
+    },
+    {
+      "part": 1,
+      "paragraph": 32,
+      "kind": "dialogue",
+      "wade_source_start": 173.275,
+      "wade_source_end": 174.795,
+      "removed_wade_text": "\"He was being an idiot.\"",
+      "replacement_text": "He was being an idiot.",
+      "inserted_audio_seconds": 1.339
+    },
+    {
+      "part": 1,
+      "paragraph": 34,
+      "kind": "dialogue",
+      "wade_source_start": 177.535,
+      "wade_source_end": 178.575,
+      "removed_wade_text": "\"He took my bag.\"",
+      "replacement_text": "He took my bag.",
+      "inserted_audio_seconds": 1.014
+    },
+    {
+      "part": 1,
+      "paragraph": 36,
+      "kind": "dialogue",
+      "wade_source_start": 179.435,
+      "wade_source_end": 180.775,
+      "removed_wade_text": "\"I took it back.\"",
+      "replacement_text": "I took it back.",
+      "inserted_audio_seconds": 0.943
+    },
+    {
+      "part": 1,
+      "paragraph": 37,
+      "kind": "group-atomic",
+      "paragraph_range": [
+        37,
+        45
+      ],
+      "wade_source_start": 180.775,
+      "wade_source_end": 206.805,
+      "ninja_quote_ids": [
+        18,
+        20
+      ],
+      "cassian_clean_lines": 4,
+      "replacement_text": "Cassian glanced ... With your face? / Shut up. / He laughed ... Hold still, menace. / You're pulling my leg off. / Yes, that's the treatment ... / When he was done ...",
+      "inserted_audio_seconds": 29.72
+    },
+    {
+      "part": 1,
+      "paragraph": 47,
+      "kind": "dialogue",
+      "wade_source_start": 213.875,
+      "wade_source_end": 215.375,
+      "removed_wade_text": "\"I wasn't scared.\"",
+      "replacement_text": "I wasn't scared.",
+      "inserted_audio_seconds": 1.347
+    },
+    {
+      "part": 1,
+      "paragraph": 52,
+      "kind": "dialogue",
+      "wade_source_start": 225.225,
+      "wade_source_end": 226.375,
+      "removed_wade_text": "\"You're stupid.\"",
+      "replacement_text": "You're stupid.",
+      "inserted_audio_seconds": 1.248
+    },
+    {
+      "part": 1,
+      "paragraph": 55,
+      "kind": "cassian-atomic",
+      "wade_source_start": 238.235,
+      "wade_source_end": 240.155,
+      "removed_wade_text": "\"Good,\" he said at last.",
+      "replacement_text": "\"Good,\"",
+      "inserted_audio_seconds": 0.81
+    },
+    {
+      "part": 1,
+      "paragraph": 56,
+      "kind": "dialogue",
+      "wade_source_start": 240.155,
+      "wade_source_end": 241.645,
+      "removed_wade_text": "\"Can I punch you now?\"",
+      "replacement_text": "Can I punch you now?",
+      "inserted_audio_seconds": 1.461
+    },
+    {
+      "part": 1,
+      "paragraph": 63,
+      "kind": "dialogue",
+      "wade_source_start": 266.575,
+      "wade_source_end": 268.595,
+      "removed_wade_text": "\"That's not my age,\" she said.",
+      "replacement_text": "That's not my age,",
+      "inserted_audio_seconds": 1.068
+    },
+    {
+      "part": 1,
+      "paragraph": 65,
+      "kind": "dialogue",
+      "wade_source_start": 271.355,
+      "wade_source_end": 272.205,
+      "removed_wade_text": "\"I'm ten.\"",
+      "replacement_text": "I'm ten.",
+      "inserted_audio_seconds": 0.972
+    },
+    {
+      "part": 1,
+      "paragraph": 69,
+      "kind": "cassian-atomic",
+      "wade_source_start": 290.615,
+      "wade_source_end": 293.765,
+      "removed_wade_text": "\"Birthday law,\" he said. \"You get the big piece.\"",
+      "replacement_text": "\"Birthday law,\" \"You get the big piece.\"",
+      "inserted_audio_seconds": 2.691
+    },
+    {
+      "part": 1,
+      "paragraph": 70,
+      "kind": "dialogue",
+      "wade_source_start": 293.765,
+      "wade_source_end": 295.115,
+      "removed_wade_text": "\"My birthday. My rules.\"",
+      "replacement_text": "My birthday. My rules.",
+      "inserted_audio_seconds": 2.14
+    },
+    {
+      "part": 1,
+      "paragraph": 72,
+      "kind": "cassian-atomic",
+      "wade_source_start": 297.735,
+      "wade_source_end": 300.185,
+      "removed_wade_text": "\"You're becoming dangerously difficult.\"",
+      "replacement_text": "\"You're becoming dangerously difficult.\"",
+      "inserted_audio_seconds": 2.535
+    },
+    {
+      "part": 1,
+      "paragraph": 73,
+      "kind": "dialogue",
+      "wade_source_start": 300.185,
+      "wade_source_end": 301.375,
+      "removed_wade_text": "\"Good teacher.\"",
+      "replacement_text": "Good teacher.",
+      "inserted_audio_seconds": 1.02
+    },
+    {
+      "part": 2,
+      "paragraph": 3,
+      "kind": "dialogue",
+      "wade_source_start": 9.551,
+      "wade_source_end": 10.885,
+      "removed_wade_text": "\"Why are you out here?\"",
+      "replacement_text": "Why are you out here?",
+      "inserted_audio_seconds": 1.106
+    },
+    {
+      "part": 2,
+      "paragraph": 5,
+      "kind": "dialogue",
+      "wade_source_start": 11.902,
+      "wade_source_end": 12.78,
+      "removed_wade_text": "\"From what?\"",
+      "replacement_text": "From what?",
+      "inserted_audio_seconds": 0.894
+    },
+    {
+      "part": 2,
+      "paragraph": 7,
+      "kind": "dialogue",
+      "wade_source_start": 15.15,
+      "wade_source_end": 16.429,
+      "removed_wade_text": "\"There aren't any spiders.\"",
+      "replacement_text": "There aren't any spiders.",
+      "inserted_audio_seconds": 1.33
+    },
+    {
+      "part": 2,
+      "paragraph": 11,
+      "kind": "cassian-atomic",
+      "wade_source_start": 25.393,
+      "wade_source_end": 31.123,
+      "removed_wade_text": "\"One day,\" he said quietly, \"we're going to have a place with doors that only slam when we want them to.\"",
+      "replacement_text": "\"One day,\" he said quietly, \"we're going to have a place with doors that only slam when we want them to.\"",
+      "inserted_audio_seconds": 4.687
+    },
+    {
+      "part": 2,
+      "paragraph": 12,
+      "kind": "dialogue",
+      "wade_source_start": 31.123,
+      "wade_source_end": 33.006,
+      "removed_wade_text": "\"Why would we want them to slam?\"",
+      "replacement_text": "Why would we want them to slam?",
+      "inserted_audio_seconds": 1.773
+    },
+    {
+      "part": 2,
+      "paragraph": 14,
+      "kind": "dialogue",
+      "wade_source_start": 34.715,
+      "wade_source_end": 36.271,
+      "removed_wade_text": "\"I'm already annoyed with you.\"",
+      "replacement_text": "I'm already annoyed with you.",
+      "inserted_audio_seconds": 1.466
+    },
+    {
+      "part": 2,
+      "paragraph": 22,
+      "kind": "cassian-atomic",
+      "wade_source_start": 77.004,
+      "wade_source_end": 78.606,
+      "removed_wade_text": "\"I know,\" he said immediately.",
+      "replacement_text": "\"I know,\" he said immediately.",
+      "inserted_audio_seconds": 0.735
+    },
+    {
+      "part": 2,
+      "paragraph": 23,
+      "kind": "dialogue",
+      "wade_source_start": 78.606,
+      "wade_source_end": 81.024,
+      "removed_wade_text": "\"Wonderful. Saves me explaining.\"",
+      "replacement_text": "Wonderful. Saves me explaining.",
+      "inserted_audio_seconds": 2.294
+    },
+    {
+      "part": 2,
+      "paragraph": 25,
+      "kind": "dialogue",
+      "wade_source_start": 82.873,
+      "wade_source_end": 84.585,
+      "removed_wade_text": "\"Did the van also break your phone?\"",
+      "replacement_text": "Did the van also break your phone?",
+      "inserted_audio_seconds": 1.728
+    },
+    {
+      "part": 2,
+      "paragraph": 27,
+      "kind": "dialogue",
+      "wade_source_start": 86.495,
+      "wade_source_end": 88.496,
+      "removed_wade_text": "\"Finally, a diagnosis.\"",
+      "replacement_text": "Finally, a diagnosis.",
+      "inserted_audio_seconds": 2.009
+    },
+    {
+      "part": 2,
+      "paragraph": 32,
+      "kind": "dialogue",
+      "wade_source_start": 97.682,
+      "wade_source_end": 99.263,
+      "removed_wade_text": "\"Did you get extra chips?\"",
+      "replacement_text": "Did you get extra chips?",
+      "inserted_audio_seconds": 1.353
+    },
+    {
+      "part": 2,
+      "paragraph": 40,
+      "kind": "dialogue",
+      "wade_source_start": 124.513,
+      "wade_source_end": 125.291,
+      "removed_wade_text": "\"Yes.\"",
+      "replacement_text": "Yes.",
+      "inserted_audio_seconds": 0.715
+    },
+    {
+      "part": 2,
+      "paragraph": 42,
+      "kind": "dialogue",
+      "wade_source_start": 126.451,
+      "wade_source_end": 127.774,
+      "removed_wade_text": "\"Because you know how it ends.\"",
+      "replacement_text": "Because you know how it ends.",
+      "inserted_audio_seconds": 1.33
+    },
+    {
+      "part": 2,
+      "paragraph": 52,
+      "kind": "dialogue",
+      "wade_source_start": 165.207,
+      "wade_source_end": 168.182,
+      "removed_wade_text": "\"At midnight? You don't even take this route.\"",
+      "replacement_text": "At midnight? You don't even take this route.",
+      "inserted_audio_seconds": 2.576
+    },
+    {
+      "part": 2,
+      "paragraph": 63,
+      "kind": "dialogue",
+      "wade_source_start": 238.29,
+      "wade_source_end": 239.35,
+      "removed_wade_text": "\"What's that?\"",
+      "replacement_text": "What's that?",
+      "inserted_audio_seconds": 0.924
+    },
+    {
+      "part": 2,
+      "paragraph": 66,
+      "kind": "dialogue",
+      "wade_source_start": 241.989,
+      "wade_source_end": 243.604,
+      "removed_wade_text": "\"I pay my own rent.\"",
+      "replacement_text": "I pay my own rent.",
+      "inserted_audio_seconds": 1.382
+    },
+    {
+      "part": 2,
+      "paragraph": 68,
+      "kind": "dialogue",
+      "wade_source_start": 244.329,
+      "wade_source_end": 245.65,
+      "removed_wade_text": "\"Then why are you paying it?\"",
+      "replacement_text": "Then why are you paying it?",
+      "inserted_audio_seconds": 1.573
+    },
+    {
+      "part": 2,
+      "paragraph": 71,
+      "kind": "dialogue",
+      "wade_source_start": 253.308,
+      "wade_source_end": 254.203,
+      "removed_wade_text": "\"Cass.\"",
+      "replacement_text": "Cass.",
+      "inserted_audio_seconds": 0.937
+    },
+    {
+      "part": 2,
+      "paragraph": 73,
+      "kind": "dialogue",
+      "wade_source_start": 255.102,
+      "wade_source_end": 256.345,
+      "removed_wade_text": "\"Where did it come from?\"",
+      "replacement_text": "Where did it come from?",
+      "inserted_audio_seconds": 1.211
+    },
+    {
+      "part": 2,
+      "paragraph": 75,
+      "kind": "dialogue",
+      "wade_source_start": 256.922,
+      "wade_source_end": 258.104,
+      "removed_wade_text": "\"What work?\"",
+      "replacement_text": "What work?",
+      "inserted_audio_seconds": 0.839
+    },
+    {
+      "part": 2,
+      "paragraph": 77,
+      "kind": "dialogue",
+      "wade_source_start": 259.467,
+      "wade_source_end": 263.598,
+      "removed_wade_text": "\"You'd complain about boring work. You complain when your socks are too boring.\"",
+      "replacement_text": "You'd complain about boring work. You complain when your socks are too boring.",
+      "inserted_audio_seconds": 4.151
+    },
+    {
+      "part": 2,
+      "paragraph": 81,
+      "kind": "dialogue",
+      "wade_source_start": 269.214,
+      "wade_source_end": 271.328,
+      "removed_wade_text": "\"I don't need you to buy me a life.\"",
+      "replacement_text": "I don't need you to buy me a life.",
+      "inserted_audio_seconds": 1.683
+    },
+    {
+      "part": 2,
+      "paragraph": 84,
+      "kind": "dialogue",
+      "wade_source_start": 276.56,
+      "wade_source_end": 278.398,
+      "removed_wade_text": "\"Then tell me what you are doing.\"",
+      "replacement_text": "Then tell me what you are doing.",
+      "inserted_audio_seconds": 1.602
+    },
+    {
+      "part": 3,
+      "paragraph": 25,
+      "kind": "dialogue",
+      "wade_source_start": 142.579,
+      "wade_source_end": 144.531,
+      "removed_wade_text": "\"What's funny?\" she demanded.",
+      "replacement_text": "What's funny?",
+      "inserted_audio_seconds": 0.993
+    },
+    {
+      "part": 3,
+      "paragraph": 29,
+      "kind": "cassian-atomic",
+      "wade_source_start": 152.132,
+      "wade_source_end": 155.284,
+      "removed_wade_text": "\"No,\" he said. \"Just wanted to hear your voice.\"",
+      "replacement_text": "\"No,\" \"Just wanted to hear your voice.\"",
+      "inserted_audio_seconds": 2.744
+    },
+    {
+      "part": 3,
+      "paragraph": 31,
+      "kind": "dialogue",
+      "wade_source_start": 158.501,
+      "wade_source_end": 162.514,
+      "removed_wade_text": "Then: \"Well, you've heard it. It remains incredibly charming.\"",
+      "replacement_text": "Well, you've heard it. It remains incredibly charming.",
+      "inserted_audio_seconds": 3.874
+    },
+    {
+      "part": 3,
+      "paragraph": 33,
+      "kind": "dialogue",
+      "wade_source_start": 163.35,
+      "wade_source_end": 165.307,
+      "removed_wade_text": "\"Come over Sunday. I'll cook.\"",
+      "replacement_text": "Come over Sunday. I'll cook.",
+      "inserted_audio_seconds": 1.812
+    },
+    {
+      "part": 3,
+      "paragraph": 37,
+      "kind": "cassian-atomic",
+      "wade_source_start": 184.743,
+      "wade_source_end": 189.642,
+      "removed_wade_text": "\"Before you ask,\" he said, \"yes, the wrapping was done by a human being.\"",
+      "replacement_text": "\"Before you ask,\" he said, \"yes, the wrapping was done by a human being.\"",
+      "inserted_audio_seconds": 4.316
+    },
+    {
+      "part": 3,
+      "paragraph": 38,
+      "kind": "dialogue",
+      "wade_source_start": 189.642,
+      "wade_source_end": 190.838,
+      "removed_wade_text": "\"A drunk one?\"",
+      "replacement_text": "A drunk one?",
+      "inserted_audio_seconds": 1.125
+    },
+    {
+      "part": 3,
+      "paragraph": 42,
+      "kind": "dialogue",
+      "wade_source_start": 209.843,
+      "wade_source_end": 211.524,
+      "removed_wade_text": "\"Where did you even find this?\"",
+      "replacement_text": "Where did you even find this?",
+      "inserted_audio_seconds": 1.578
+    },
+    {
+      "part": 3,
+      "paragraph": 44,
+      "kind": "dialogue",
+      "wade_source_start": 213.661,
+      "wade_source_end": 216.172,
+      "removed_wade_text": "\"You have mysterious debts, probably.\"",
+      "replacement_text": "You have mysterious debts, probably.",
+      "inserted_audio_seconds": 2.137
+    },
+    {
+      "part": 3,
+      "paragraph": 50,
+      "kind": "dialogue",
+      "wade_source_start": 239.293,
+      "wade_source_end": 240.199,
+      "removed_wade_text": "\"You okay?\"",
+      "replacement_text": "You okay?",
+      "inserted_audio_seconds": 0.91
+    },
+    {
+      "part": 3,
+      "paragraph": 52,
+      "kind": "dialogue",
+      "wade_source_start": 240.831,
+      "wade_source_end": 242.016,
+      "removed_wade_text": "\"That sounded rehearsed.\"",
+      "replacement_text": "That sounded rehearsed.",
+      "inserted_audio_seconds": 1.416
+    },
+    {
+      "part": 3,
+      "paragraph": 57,
+      "kind": "dialogue",
+      "wade_source_start": 253.533,
+      "wade_source_end": 255.227,
+      "removed_wade_text": "\"Call me tomorrow,\" she said.",
+      "replacement_text": "Call me tomorrow,",
+      "inserted_audio_seconds": 1.04
+    },
+    {
+      "part": 3,
+      "paragraph": 60,
+      "kind": "dialogue",
+      "wade_source_start": 257.496,
+      "wade_source_end": 259.152,
+      "removed_wade_text": "\"And don't do anything stupid.\"",
+      "replacement_text": "And don't do anything stupid.",
+      "inserted_audio_seconds": 1.465
+    },
+    {
+      "part": 3,
+      "paragraph": 66,
+      "kind": "dialogue",
+      "wade_source_start": 277.859,
+      "wade_source_end": 279.31,
+      "removed_wade_text": "\"I always do.\"",
+      "replacement_text": "I always do.",
+      "inserted_audio_seconds": 1.208
+    },
+    {
+      "part": 3,
+      "paragraph": 79,
+      "kind": "dialogue",
+      "wade_source_start": 323.467,
+      "wade_source_end": 324.219,
+      "removed_wade_text": "\"Why?\"",
+      "replacement_text": "Why?",
+      "inserted_audio_seconds": 0.789
+    },
+    {
+      "part": 3,
+      "paragraph": 82,
+      "kind": "dialogue",
+      "wade_source_start": 326.966,
+      "wade_source_end": 328.006,
+      "removed_wade_text": "\"What happened?\"",
+      "replacement_text": "What happened?",
+      "inserted_audio_seconds": 0.966
+    },
+    {
+      "part": 4,
+      "paragraph": 3,
+      "kind": "dialogue",
+      "wade_source_start": 14.249,
+      "wade_source_end": 15.144,
+      "removed_wade_text": "\"Killed?\"",
+      "replacement_text": "Killed?",
+      "inserted_audio_seconds": 0.792
+    },
+    {
+      "part": 4,
+      "paragraph": 5,
+      "kind": "dialogue",
+      "wade_source_start": 16.207,
+      "wade_source_end": 16.877,
+      "removed_wade_text": "\"Where?\"",
+      "replacement_text": "Where?",
+      "inserted_audio_seconds": 0.825
+    },
+    {
+      "part": 4,
+      "paragraph": 7,
+      "kind": "dialogue",
+      "wade_source_start": 17.572,
+      "wade_source_end": 18.629,
+      "removed_wade_text": "\"Was he alone?\"",
+      "replacement_text": "Was he alone?",
+      "inserted_audio_seconds": 1.187
+    },
+    {
+      "part": 4,
+      "paragraph": 10,
+      "kind": "dialogue",
+      "wade_source_start": 21.963,
+      "wade_source_end": 24.095,
+      "removed_wade_text": "\"Did he call anyone? Did he say anything?\"",
+      "replacement_text": "Did he call anyone? Did he say anything?",
+      "inserted_audio_seconds": 2.68
+    },
+    {
+      "part": 4,
+      "paragraph": 17,
+      "kind": "dialogue",
+      "wade_source_start": 44.101,
+      "wade_source_end": 46.13,
+      "removed_wade_text": "\"When can I see him?\" she asked.",
+      "replacement_text": "When can I see him?",
+      "inserted_audio_seconds": 1.51
+    },
+    {
+      "part": 4,
+      "paragraph": 30,
+      "kind": "thought",
+      "wade_source_start": 80.812,
+      "wade_source_end": 90.2,
+      "removed_wade_text": "You said you'd call tomorrow. You always called. I don't understand how the world can keep moving when you've stopped. I don't know what I'm supposed to do with all the things I haven't told you.",
+      "replacement_text": "You said you'd call tomorrow. You always called. I don't understand how the world can keep moving when you've stopped. I don't know what I'm supposed to do with all the things I haven't told you.",
+      "inserted_audio_seconds": 9.628
+    },
+    {
+      "part": 4,
+      "paragraph": 38,
+      "kind": "dialogue",
+      "wade_source_start": 120.796,
+      "wade_source_end": 124.996,
+      "removed_wade_text": "\"He's smiling like that because someone dared him to eat everything,\" she said.",
+      "replacement_text": "He's smiling like that because someone dared him to eat everything,",
+      "inserted_audio_seconds": 3.418
+    },
+    {
+      "part": 4,
+      "paragraph": 42,
+      "kind": "dialogue",
+      "wade_source_start": 138.315,
+      "wade_source_end": 140.01,
+      "removed_wade_text": "\"He was,\" she managed.",
+      "replacement_text": "He was,",
+      "inserted_audio_seconds": 0.806
+    },
+    {
+      "part": 4,
+      "paragraph": 48,
+      "kind": "dialogue",
+      "wade_source_start": 178.497,
+      "wade_source_end": 180.506,
+      "removed_wade_text": "\"About what?\" Ninja asked.",
+      "replacement_text": "About what?",
+      "inserted_audio_seconds": 1.039
+    },
+    {
+      "part": 4,
+      "paragraph": 50,
+      "kind": "dialogue",
+      "wade_source_start": 181.777,
+      "wade_source_end": 183.087,
+      "removed_wade_text": "\"What would you like me to say?\"",
+      "replacement_text": "What would you like me to say?",
+      "inserted_audio_seconds": 1.416
+    },
+    {
+      "part": 4,
+      "paragraph": 52,
+      "kind": "dialogue",
+      "wade_source_start": 184.355,
+      "wade_source_end": 185.931,
+      "removed_wade_text": "\"I know what you thought.\"",
+      "replacement_text": "I know what you thought.",
+      "inserted_audio_seconds": 1.21
+    },
+    {
+      "part": 4,
+      "paragraph": 72,
+      "kind": "dialogue",
+      "wade_source_start": 272.316,
+      "wade_source_end": 277.07,
+      "removed_wade_text": "Halfway through the meal she heard herself say, \"Cass, this is disgusting.\"",
+      "replacement_text": "Cass, this is disgusting.",
+      "inserted_audio_seconds": 2.082
+    },
+    {
+      "part": 4,
+      "kind": "addendum",
+      "inserted_audio_seconds": 358.336
+    },
+    {
+      "part": 5,
+      "paragraph": 10,
+      "kind": "dialogue",
+      "wade_source_start": 45.524,
+      "wade_source_end": 49.923,
+      "removed_wade_text": "\"Well, Cass,\" she said softly, looking at the empty passenger seat.",
+      "replacement_text": "Well, Cass,",
+      "inserted_audio_seconds": 1.165
+    },
+    {
+      "part": 5,
+      "paragraph": 17,
+      "kind": "thought",
+      "wade_source_start": 61.747,
+      "wade_source_end": 70.042,
+      "removed_wade_text": "Somewhere nobody knows him. That's all I asked for. One evening where I can just be the woman ordering a drink, instead of the woman with the dead brother.",
+      "replacement_text": "Somewhere nobody knows him. That's all I asked for. One evening where I can just be the woman ordering a drink, instead of the woman with the dead brother.",
+      "inserted_audio_seconds": 8.863
+    },
+    {
+      "part": 5,
+      "paragraph": 29,
+      "kind": "dialogue",
+      "wade_source_start": 116.339,
+      "wade_source_end": 117.913,
+      "removed_wade_text": "\"Whiskey, please.\"",
+      "replacement_text": "Whiskey, please.",
+      "inserted_audio_seconds": 1.498
+    },
+    {
+      "part": 5,
+      "paragraph": 31,
+      "kind": "dialogue",
+      "wade_source_start": 119.304,
+      "wade_source_end": 121.751,
+      "removed_wade_text": "\"The one that doesn't ask personal questions.\"",
+      "replacement_text": "The one that doesn't ask personal questions.",
+      "inserted_audio_seconds": 2.211
+    },
+    {
+      "part": 5,
+      "paragraph": 34,
+      "kind": "dialogue",
+      "wade_source_start": 126.917,
+      "wade_source_end": 128.014,
+      "removed_wade_text": "\"Then your favorite.\"",
+      "replacement_text": "Then your favorite.",
+      "inserted_audio_seconds": 1.293
+    },
+    {
+      "part": 5,
+      "paragraph": 71,
+      "kind": "thought",
+      "wade_source_start": 265.523,
+      "wade_source_end": 266.826,
+      "removed_wade_text": "Who are you?",
+      "replacement_text": "Who are you?\n\nYou look like the kind of man who has an answer prepared for everything, and not one of them is the truth.\n\nDon't start. Don't make somebody else's silence into your problem.\n\nSo why haven't you looked away?",
+      "inserted_audio_seconds": 12.259
+    },
+    {
+      "part": 5,
+      "paragraph": 72,
+      "kind": "thought-continuation-removed",
+      "wade_source_start": 266.826,
+      "wade_source_end": 272.438,
+      "removed_wade_text": "You look like the kind of man who has an answer prepared for everything, and not one of them is the truth.",
+      "replacement_text": ""
+    },
+    {
+      "part": 5,
+      "paragraph": 73,
+      "kind": "thought-continuation-removed",
+      "wade_source_start": 272.438,
+      "wade_source_end": 276.346,
+      "removed_wade_text": "Don't start. Don't make somebody else's silence into your problem.",
+      "replacement_text": ""
+    },
+    {
+      "part": 5,
+      "paragraph": 74,
+      "kind": "thought-continuation-removed",
+      "wade_source_start": 276.346,
+      "wade_source_end": 278.317,
+      "removed_wade_text": "So why haven't you looked away?",
+      "replacement_text": ""
+    }
+  ]
+}
