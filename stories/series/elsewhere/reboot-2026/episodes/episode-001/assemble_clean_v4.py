@@ -27,10 +27,10 @@ K=read("cassian-clean-dialogue-atomics.json")
 
 def download(url,name):
     target=OUT/name
-    if target.exists() and target.stat().st_size>100000:return target
+    if target.exists() and target.stat().st_size>5000:return target
     with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"}),timeout=180) as response, open(target,"wb") as f:
         while data:=response.read(1024*1024):f.write(data)
-    if target.stat().st_size<100000:raise RuntimeError("Invalid audio: "+str(target))
+    if target.stat().st_size<5000:raise RuntimeError("Invalid audio: "+str(target))
     return target
 
 clips=[]
