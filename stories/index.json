@@ -532,27 +532,23 @@
       "text": "text/elsewhere-hidden-valley-005.txt",
       "images": [
         {
-          "caption": "The Ridge in Rain",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-1-2844699135bde4ba.webp",
-          "start": 0
+          "caption": "The footbridge",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/5-bridge-7cd550b381ad0b2a.png"
         },
         {
-          "caption": "The Pump House",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-2-2f6c0dd998df723d.webp",
-          "start": 285.586
+          "caption": "The bus shelter",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/5-shelter-09a15aac594ba814.png"
         },
         {
-          "caption": "Across the Water",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-3-325070e2d4ed28b0.webp",
-          "start": 565.529
+          "caption": "The laundrette",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/5-laundrette-2926fdf30aeddccf.png"
         },
         {
-          "caption": "The Old Post Office",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/episode-5-scene-4-1ddba8a267f9c07a.webp",
-          "start": 853.648
+          "caption": "The blue van",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-005/illustrations/5-van-92dd5a1c1436825d.png"
         }
       ],
-      "audio": "series/elsewhere-hidden-valley/episodes/episode-005/audio/elsewhere-hidden-valley-episode-05-13790aeaa7916b03.mp3"
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-005/audio/hidden-valley-05-the-road-under-the-rain-1e462176300d7f75.mp3"
     },
     {
       "id": "elsewhere-hidden-valley-006",
