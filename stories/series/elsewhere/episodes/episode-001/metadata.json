@@ -15,13 +15,13 @@
   },
   "audio_file": "series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-clean-v3-approved.mp3",
   "illustrations": [
-    "series/elsewhere/episodes/episode-001/illustrations/iphone14/01-episode-001-iphone14.jpg",
-    "series/elsewhere/episodes/episode-001/illustrations/iphone14/02-episode-001-iphone14.jpg",
-    "series/elsewhere/episodes/episode-001/illustrations/iphone14/03-episode-001-iphone14.jpg",
-    "series/elsewhere/episodes/episode-001/illustrations/iphone14/04-episode-001-iphone14.jpg",
-    "series/elsewhere/episodes/episode-001/illustrations/iphone14/05-episode-001-iphone14.jpg",
-    "series/elsewhere/episodes/episode-001/illustrations/iphone14/06-episode-001-iphone14.jpg",
-    "series/elsewhere/episodes/episode-001/illustrations/iphone14/07-episode-001-iphone14.jpg"
+    "series/elsewhere/episodes/episode-001/illustrations/img-2039-1-2dc69b040266763c.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/img-2038-1-2c039c3b530e8f04.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/img-2040-1-dfb0a01c33154189.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/img-2041-1-a9a8cfb9bd55bbe7.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/58c36d9b-6c0f-4458-b053-7e3ce6ad190e-8fdd23bec2cd393d.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/a-moody-cinematic-indoor-scene-in-a-dim-warm-ton-ec5373600db84fa0.png",
+    "series/elsewhere/episodes/episode-001/illustrations/f1c8a3e0-05b9-4d5c-8efb-84d0a10168fb-4853c3667794ee17.jpg"
   ],
   "published_to_ohana": true,
   "script_file": "series/elsewhere/reboot-2026/episodes/episode-001/published-story.txt",
@@ -35,8 +35,8 @@
     "device": "iPhone 14"
   },
   "audio_edit_version": "v3-whole-paragraph-replacements",
-  "illustration_quality_status": "native_iphone14_dimensions_verified_fullbleed_recomposition_pending",
-  "illustration_quality_note": "Seven illustrations are exported at 1170x2532 but some original images have blurred bars baked into the source. Dimensions alone do not remove those bands. Require full-bleed scene reconstruction preserving Ninja's actual facial features, pink hair and exact Sony headphones before claiming the visual issue fully resolved.",
+  "illustration_quality_status": "user_selected_portrait_illustrations_published",
+  "illustration_quality_note": "Seven selected episode images in user-supplied episode order. Scene 6 was regenerated into a full-bleed iPhone 14 aspect-ratio portrait; no blurred letterboxing. Original images preserved in repository.",
   "audio_quality_note": "User spot-checked previously choppy sections and reported they sound good on Nov 23 2026; full-episode listen not claimed.",
   "audio_preview_approved": true
 }
