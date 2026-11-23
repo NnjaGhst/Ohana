@@ -133,7 +133,11 @@ for part,text in enumerate(texts,1):
     for p in pars:
         p["spoken_start"],p["spoken_end"]=text_times(part,p["start"],p["end"])
         p["quotes"]=[x for x in C["quotes"] if x["part"]==part and x["speaker"]=="Ninja" and p["start"]<=x["start"] and x["end"]<=p["end"]]
-        p["thoughts"]=[x for x in C["thoughts"] if x["part"]==part and p["start"]<=x["start"] and x["end"]<=p["end"]]
+        p["thoughts"]=[x for x in C["thoughts"] if x["part"]==part and p["start"]<=x["start"]<p["end"]]
+        # The final thought runs across four separate paragraphs.
+        # It is synthesized as one complete Hallie segment at the start;
+        # the other three original Wade paragraphs must be removed silently.
+        p["thought_continuation"]=[x for x in C["thoughts"] if x["part"]==part and x["start"]<p["start"]<x["end"]]
     replacement_sets[part]=pars
 assert sum(len(p["quotes"]) for ps in replacement_sets.values() for p in ps)==67
 assert sum(len(p["thoughts"]) for ps in replacement_sets.values() for p in ps)==4
@@ -186,9 +190,17 @@ for part,orig in enumerate(clips,1):
     for ix,p in enumerate(pars):
         q=p["quotes"];t=p["thoughts"]
         if q and t:raise RuntimeError("Mixed thought and dialogue in one paragraph")
-        if not(q or t):
+        if not(q or t or p["thought_continuation"]):
             segment=orig[cuts[ix]:cuts[ix+1]]
             piece+=segment
+        elif p["thought_continuation"]:
+            # Continuation of a complete Hallie thought already inserted
+            # for the first paragraph; do not add Wade or a second Hallie.
+            splices+=1
+            report.append({"part":part,"paragraph":ix+1,"kind":"thought-continuation-removed",
+                "wade_source_start":round(cuts[ix]/1000,3),
+                "wade_source_end":round(cuts[ix+1]/1000,3),
+                "removed_wade_text":p["text"],"replacement_text":""})
         else:
             # The entire original Wade paragraph is removed, including all
             # spoken "Ninja said", "she said", or "she asked" tags.
@@ -224,7 +236,7 @@ for part,orig in enumerate(clips,1):
     # Natural inter-segment pause rather than artificial crossfade.
     if part<5:final+=AudioSegment.silent(duration=300,frame_rate=44100)
 
-if splices!=68:raise RuntimeError(f"Unexpected number of replaced paragraphs: {splices}")
+if splices!=72:raise RuntimeError(f"Unexpected number of replaced paragraphs: {splices}")
 if len(removed_dialogue_tags)<7:raise RuntimeError("Too few spoken Ninja tags removed")
 if len(final)<24*60*1000 or len(final)>60*60*1000:raise RuntimeError("Unexpected master length")
 
