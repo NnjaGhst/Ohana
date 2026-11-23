@@ -1,0 +1,50 @@
+name: Elsewhere Episode 1 - isolate Ninja Cassian handoff artifact
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths: ['.github/workflows/elsewhere-handoff-tests.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/diagnose_speaker_join.py
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/atomic-repairs-3m18s-5m00s.json
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/alternative-courtyard-voice-clips.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install FFmpeg and Pydub
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pydub
+      - name: Compare six standalone two-voice recordings
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/handoff-tests
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/diagnose_speaker_join.py
+      - name: Save six branch-only diagnostics
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/handoff-tests
+        run: |
+          set -e
+          dest=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/handoff-tests
+          mkdir -p "$dest"
+          cp "$OUTPUT_DIR"/*.mp3 "$dest/"
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$dest"
+          git commit -m "Add six experimental Ninja Cassian joins to diagnose repeated word" || exit 0
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
