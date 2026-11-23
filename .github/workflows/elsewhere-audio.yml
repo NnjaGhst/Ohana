@@ -20,8 +20,13 @@ jobs:
           sparse-checkout: |
             stories/series/elsewhere/reboot-2026/episodes/episode-001
           sparse-checkout-cone-mode: false
-      - name: Install speech alignment dependencies
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install audio tools and speech alignment dependencies
         run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
           python -m pip install --upgrade pip
           python -m pip install pydub stable-ts
       - name: Mix Wade narration with Hallie dialogue and inner thoughts
