@@ -1,0 +1,188 @@
+{
+  "part_range": "01-03",
+  "records": [
+    {
+      "batch_id": "batch-01",
+      "character": "narrator",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=1ae3dee54fea416882f2b5772ce11b44.wav",
+      "duration_seconds": 185.72097505668935,
+      "original_char_count": 3360,
+      "expected_char_count": 3360,
+      "segments": [
+        {
+          "run_id": 0,
+          "start_s": 0.256,
+          "end_s": 21.557
+        },
+        {
+          "run_id": 2,
+          "start_s": 22.17,
+          "end_s": 47.984
+        },
+        {
+          "run_id": 12,
+          "start_s": 48.411,
+          "end_s": 85.323
+        },
+        {
+          "run_id": 14,
+          "start_s": 85.792,
+          "end_s": 112.582
+        },
+        {
+          "run_id": 21,
+          "start_s": 113.008,
+          "end_s": 115.398
+        },
+        {
+          "run_id": 24,
+          "start_s": 115.824,
+          "end_s": 127.092
+        },
+        {
+          "run_id": 28,
+          "start_s": 127.975,
+          "end_s": 131.175
+        },
+        {
+          "run_id": 32,
+          "start_s": 131.858,
+          "end_s": 134.631
+        },
+        {
+          "run_id": 36,
+          "start_s": 135.302,
+          "end_s": 143.835
+        },
+        {
+          "run_id": 40,
+          "start_s": 144.44,
+          "end_s": 167.474
+        },
+        {
+          "run_id": 45,
+          "start_s": 168.054,
+          "end_s": 183.305
+        },
+        {
+          "run_id": 48,
+          "start_s": 183.69,
+          "end_s": 185.52097505668934
+        }
+      ],
+      "errors": []
+    },
+    {
+      "batch_id": "batch-02",
+      "character": "narrator",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=78020655d3834f3f93ed8f28a87693ea.wav",
+      "duration_seconds": 160.48868480725625,
+      "original_char_count": 2877,
+      "expected_char_count": 2877,
+      "segments": [
+        {
+          "run_id": 51,
+          "start_s": 0.299,
+          "end_s": 47.354
+        },
+        {
+          "run_id": 58,
+          "start_s": 47.651,
+          "end_s": 54.607
+        },
+        {
+          "run_id": 64,
+          "start_s": 55.162,
+          "end_s": 92.939
+        },
+        {
+          "run_id": 71,
+          "start_s": 93.684,
+          "end_s": 94.879
+        },
+        {
+          "run_id": 73,
+          "start_s": 95.392,
+          "end_s": 100.98
+        },
+        {
+          "run_id": 76,
+          "start_s": 101.492,
+          "end_s": 122.734
+        },
+        {
+          "run_id": 81,
+          "start_s": 123.289,
+          "end_s": 160.28868480725623
+        }
+      ],
+      "errors": []
+    },
+    {
+      "batch_id": "batch-03",
+      "character": "narrator",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=1b50faea05b74bd08a48dc55ddb42880.wav",
+      "duration_seconds": 157.60598639455782,
+      "original_char_count": 2928,
+      "expected_char_count": 2928,
+      "segments": [
+        {
+          "run_id": 84,
+          "start_s": 0.299,
+          "end_s": 66.815
+        },
+        {
+          "run_id": 87,
+          "start_s": 67.284,
+          "end_s": 67.839
+        },
+        {
+          "run_id": 92,
+          "start_s": 68.091,
+          "end_s": 69.29
+        },
+        {
+          "run_id": 100,
+          "start_s": 69.674,
+          "end_s": 71.807
+        },
+        {
+          "run_id": 102,
+          "start_s": 72.729,
+          "end_s": 73.924
+        },
+        {
+          "run_id": 104,
+          "start_s": 74.521,
+          "end_s": 77.55
+        },
+        {
+          "run_id": 107,
+          "start_s": 78.024,
+          "end_s": 82.841
+        },
+        {
+          "run_id": 109,
+          "start_s": 83.589,
+          "end_s": 106.613
+        },
+        {
+          "run_id": 114,
+          "start_s": 107.396,
+          "end_s": 153.916
+        },
+        {
+          "run_id": 116,
+          "start_s": 154.684,
+          "end_s": 155.879
+        },
+        {
+          "run_id": 120,
+          "start_s": 156.305,
+          "end_s": 157.40598639455783
+        }
+      ],
+      "errors": []
+    }
+  ]
+}
