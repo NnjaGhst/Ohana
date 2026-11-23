@@ -88,6 +88,25 @@ def apply_gain(seg,gain):
     import math
     return seg.apply_gain(20*math.log10(gain))
 
+# Speech timings describe words, not the fade and breaths around each word.
+# Preserve the nearby recorded air without accidentally capturing the next line.
+def extract_with_handles(seg, start, end, previous_end=None, next_start=None):
+    left = min(65, max(0, round((start - previous_end)*500))) if previous_end is not None else 65
+    right = min(105, max(0, round((next_start - end)*500))) if next_start is not None else 105
+    begin=max(0,round(start*1000)-left)
+    finish=min(len(seg),round(end*1000)+right)
+    if finish<=begin:raise RuntimeError("Empty source audio extraction")
+    return seg[begin:finish].fade_in(min(22,(finish-begin)//4)).fade_out(min(30,(finish-begin)//4))
+
+def contextual_speech(seg, kind):
+    # Quieter thought narration and spoken lines retain the exact same pitch.
+    # Gap after Ninja speaks prevents Wade entering on top of the final syllable.
+    before = 115 if kind=="thought" else 85
+    after = 285 if kind=="thought" else 225
+    return (AudioSegment.silent(duration=before,frame_rate=44100)
+            + seg
+            + AudioSegment.silent(duration=after,frame_rate=44100))
+
 # Locate exact dialogue snippets in Hallie's continuous dialogue recording.
 hcursor=0
 hspans={}
@@ -109,21 +128,51 @@ for b in T["blocks"]:
     tcursor=index+len(line)
 
 replacements={i:[] for i in range(1,6)}
+ordered_quotes = list(hpart["quoteIds"])
+ordered_thoughts = [b["id"] for b in T["blocks"]]
+
+def adjacent_times(mapping, ordered, id):
+    i=ordered.index(id)
+    prev_end=mapping[ordered[i-1]][1] if i else None
+    next_start=mapping[ordered[i+1]][0] if i+1<len(ordered) else None
+    return prev_end,next_start
+
 for q in C["quotes"]:
     if q["speaker"]!="Ninja":continue
     part=q["part"]
     marks=W["clips"][part-1].get("chars_timing")
     st,en=text_bounds(wtext[part-1],q["start"],q["end"],marks)
     hs,he=hspans[q["id"]]
+    previous_end,next_start=adjacent_times(hspans,ordered_quotes,q["id"])
+    spoken=extract_with_handles(audio[("H",1)],hs,he,previous_end,next_start)
     replacements[part].append({"type":"dialogue","id":q["id"],"start":st,"end":en,
-        "new":apply_gain(audio[("H",1)][round(hs*1000):round(he*1000)],0.90)})
+        "new":contextual_speech(apply_gain(spoken,0.90),"dialogue")})
 for thought in C["thoughts"]:
     part=thought["part"]
     marks=W["clips"][part-1].get("chars_timing")
     st,en=text_bounds(wtext[part-1],thought["start"],thought["end"],marks)
     hs,he=tspans[thought["id"]]
+    previous_end,next_start=adjacent_times(tspans,ordered_thoughts,thought["id"])
+    spoken=extract_with_handles(audio[("T",1)],hs,he,previous_end,next_start)
     replacements[part].append({"type":"thought","id":thought["id"],"start":st,"end":en,
-        "new":apply_gain(audio[("T",1)][round(hs*1000):round(he*1000)],0.80)})
+        "new":contextual_speech(apply_gain(spoken,0.80),"thought")})
+
+# Remove only unneeded name/speech attributions immediately after Ninja's
+# quoted speech. Never strip story-bearing action or other character speakers.
+# Wade will still narrate surrounding action and all of Cassian's dialogue.
+tag_pattern = re.compile(r'"[^"\\n]+"\\s+(Ninja muttered at it\\.|Ninja said\\.|she said\\.|she demanded\\.|she asked\\.|Ninja asked\\.|she managed\\.)')
+removed_tags=[]
+for part,source in enumerate(wtext,1):
+    marks=W["clips"][part-1].get("chars_timing")
+    for match in tag_pattern.finditer(source):
+        start,end=match.span(1)
+        st,en=text_bounds(source,start,end,marks)
+        replacements[part].append({"type":"attribution","id":f"tag-{part}-{start}","start":st,
+            "end":en,"new":AudioSegment.silent(duration=40,frame_rate=44100)})
+        removed_tags.append({"part":part,"text":match.group(1),"start":round(st,3),"end":round(en,3)})
+if len(removed_tags)<6:
+    raise RuntimeError("Could not locate expected redundant speaker tags; review script revision")
+print("Redundant attribution tags to remove:",removed_tags,flush=True)
 
 # Insert the newly recorded extra scene immediately after the final grief vignette.
 anchor=A["insertAfter"]
@@ -133,7 +182,7 @@ insert_at=text_bounds(wtext[3],anchor_start,anchor_end,W["clips"][3]["chars_timi
 interlude=AudioSegment.silent(duration=300,frame_rate=44100)+audio[("A",1)]+AudioSegment.silent(duration=450,frame_rate=44100)
 replacements[4].append({"type":"insertion","id":"apartment-scene","start":insert_at,"end":insert_at,"new":interlude})
 
-expected=67+4+1
+expected=67+4+1+len(removed_tags)
 if sum(len(x) for x in replacements.values())!=expected:raise RuntimeError("Missing replacement cues")
 
 finished=AudioSegment.silent(duration=0,frame_rate=44100)
@@ -149,12 +198,21 @@ for part in range(1,6):
             st=round(cue["start"]*1000)
             en=st
         else:
-            st=max(cursor,round(cue["start"]*1000)-15)
-            en=min(len(seg),round(cue["end"]*1000)+15)
+            st=round(cue["start"]*1000)-12
+            en=min(len(seg),round(cue["end"]*1000)+25)
+            # A previous recorded sentence can have tiny timestamp spillover.
+            # Clamp at the last cut rather than overlap or clip an earlier edit.
+            st=max(cursor,st)
+            en=max(st,en)
         if en<st:raise RuntimeError(f"Invalid cue time: {part} {cue['id']}")
         if st < cursor:raise RuntimeError(f"Overlapping cues: {part} {cue['id']}")
-        piece += seg[cursor:st]
-        new=cue["new"].fade_in(12).fade_out(12)
+        preserved=seg[cursor:st]
+        if cue["type"]!="insertion" and preserved:
+            preserved=preserved.fade_out(min(12,len(preserved)//4))
+        piece += preserved
+        new=cue["new"]
+        if cue["type"]=="insertion":
+            new=new.fade_in(20).fade_out(20)
         piece += new
         report.append({"part":part,"id":cue["id"],"type":cue["type"],"wadeStart":st/1000,
             "wadeEnd":en/1000,"insertedSeconds":len(new)/1000})
@@ -170,6 +228,9 @@ reportpath.write_text(json.dumps({"source_duration":sum(float(x["duration"]) for
     "final_seconds":len(finished)/1000,"file_size":output.stat().st_size,
     "first_clip_word_match":match,
     "source_chunks":len(W["clips"]),"extra_narrative_scene_seconds":A["duration"],"hallie_lines":67,"hallie_thoughts":4,
+    "mix_version":"2-clean-pauses-and-attributions", "removed_attribution_tags":removed_tags,
+    "hallie_dialogue_absolute_gain":0.90,"hallie_thoughts_absolute_gain":0.80,
+    "transition_pauses_ms":{"spoken_before":85,"spoken_after":225,"thought_before":115,"thought_after":285},
     "cues":report},indent=2))
 if output.stat().st_size>25*1024*1024:raise RuntimeError("MP3 exceeds Ohana upload limit")
 if not (25*60<len(finished)/1000<65*60):raise RuntimeError("Unexpected final runtime")
