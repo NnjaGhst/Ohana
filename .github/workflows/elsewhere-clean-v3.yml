@@ -1,0 +1,66 @@
+name: Elsewhere Ep1 - Clean dialogue reconstruction V3
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - .github/workflows/elsewhere-clean-v3.yml
+      - stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_clean_v3.py
+  workflow_dispatch:
+concurrency:
+  group: elsewhere-ep1-clean-v3
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  mix-preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Prepare narration tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pydub stable-ts
+      - name: Assemble clean paragraph-level voice mix
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/elsewhere-v3
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_clean_v3.py
+      - name: Save unreviewed V3 as branch-only candidate
+        if: success()
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/elsewhere-v3
+        run: |
+          set -e
+          target=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio
+          mkdir -p "$target"
+          cp "$OUTPUT_DIR/Elsewhere_Episode_01_Clean_V3.mp3" "$target/episode-001-v3-unreviewed.mp3"
+          cp "$OUTPUT_DIR/edit-report-v3.json" "$target/edit-report-v3.json"
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$target/episode-001-v3-unreviewed.mp3" "$target/edit-report-v3.json"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Save unreviewed whole-paragraph clean mix of Elsewhere Episode 1"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: elsewhere-ep1-v3-clean-mix-preview
+          path: |
+            ${{ runner.temp }}/elsewhere-v3/Elsewhere_Episode_01_Clean_V3.mp3
+            ${{ runner.temp }}/elsewhere-v3/edit-report-v3.json
+          retention-days: 14
+          if-no-files-found: warn
