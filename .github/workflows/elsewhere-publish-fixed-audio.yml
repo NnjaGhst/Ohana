@@ -1,0 +1,62 @@
+name: Publish corrected Elsewhere Episode 1 audio to Ohana
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - '.github/workflows/elsewhere-publish-fixed-audio.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish-audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: elsewhere-reboot-2026
+          fetch-depth: 0
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio
+            stories/index.json
+          sparse-checkout-cone-mode: false
+      - name: Check revised mix and save release payload
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          folder=Path('stories/series/elsewhere/reboot-2026/episodes/episode-001/audio')
+          info=json.loads((folder/'edit-report.json').read_text())
+          mp3=folder/'episode-001-preview.mp3'
+          assert info['mix_version']=='2-clean-pauses-and-attributions',info.get('mix_version')
+          assert info['removed_attribution_tags'] and len(info['removed_attribution_tags'])>=8
+          assert len(info['cues'])>=75
+          assert 1950<float(info['final_seconds'])<2200
+          assert mp3.exists() and mp3.stat().st_size>10_000_000
+          assert mp3.stat().st_size==info['file_size']
+          print('Validated revised master',info['final_seconds'],'seconds,',mp3.stat().st_size,'bytes')
+          import shutil
+          shutil.copy2(mp3,'/tmp/elsewhere-ep1-master.mp3')
+          shutil.copy2(folder/'edit-report.json','/tmp/elsewhere-ep1-report.json')
+          PY
+      - name: Commit corrected finished MP3 to the published main branch
+        shell: bash
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
+          dest=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio
+          mkdir -p "$dest"
+          cp /tmp/elsewhere-ep1-master.mp3 "$dest/episode-001-preview.mp3"
+          cp /tmp/elsewhere-ep1-report.json "$dest/edit-report.json"
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$dest/episode-001-preview.mp3" "$dest/edit-report.json"
+          if git diff --cached --quiet; then echo 'Already published'; exit 0; fi
+          git commit -m "Fix Elsewhere Episode 1 audio joins and redundant speaker tags"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git rebase origin/main
+          done
+          exit 1
