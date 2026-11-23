@@ -1,0 +1,41 @@
+{
+  "source": "Episode 1 targeted corrections for 3:18 and 5:00",
+  "recordings": [
+    {
+      "id": "ninja-youre-pulling-my-leg-off",
+      "text": "You're pulling my leg off.",
+      "voiceId": "8f71d16d1fa84544a4db41a18264d613",
+      "result": {
+        "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=c36246999ef74423ba5f4a08703c78a2.wav",
+        "duration": 1.77297052154195
+      }
+    },
+    {
+      "id": "cassian-yes-thats-treatment",
+      "text": "Yes. That's the treatment. All doctors do it.",
+      "voiceId": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "result": {
+        "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=8a6fb9b674dc4ba6928a441d76ad1f80.wav",
+        "duration": 3.1665759637188207
+      }
+    },
+    {
+      "id": "cassian-youre-becoming-difficult",
+      "text": "You're becoming dangerously difficult.",
+      "voiceId": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "result": {
+        "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=8e3a1537afdc4d7c8eac1a431415bcf2.wav",
+        "duration": 2.5351473922902494
+      }
+    },
+    {
+      "id": "ninja-good-teacher",
+      "text": "Good teacher.",
+      "voiceId": "8f71d16d1fa84544a4db41a18264d613",
+      "result": {
+        "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=80f52d1d8fc8429da64ffb60c4809086.wav",
+        "duration": 1.0201587301587303
+      }
+    }
+  ]
+}
