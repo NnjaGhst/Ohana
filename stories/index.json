@@ -586,6 +586,15 @@
         }
       ],
       "audio": "series/elsewhere-hidden-valley/episodes/episode-006/audio/hidden-valley-06-the-blue-page-92afcd2000066804.mp3"
+    },
+    {
+      "id": "elsewhere-hidden-valley-007",
+      "seriesId": "elsewhere-hidden-valley",
+      "seriesName": "Elsewhere: The Hidden Valley",
+      "number": 7,
+      "title": "The Letter in the Drawer",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft"
     }
   ]
 }
