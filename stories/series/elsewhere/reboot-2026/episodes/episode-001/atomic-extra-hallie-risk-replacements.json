@@ -1,0 +1,30 @@
+{
+  "purpose": "Isolated audio replacement for tightly packed Ninja/Cassian scene lines, avoids clipped Hallie source slices",
+  "voiceId": "8f71d16d1fa84544a4db41a18264d613",
+  "clips": [
+    {
+      "id": 18,
+      "text": "Shut up.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=4c7586586096410b8d6d90fd0c386b8d.wav",
+      "duration": 0.943718820861678
+    },
+    {
+      "id": 23,
+      "text": "I wasn't scared.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=39f2e061552940118bacf4158782b071.wav",
+      "duration": 1.3465532879818594
+    },
+    {
+      "id": 26,
+      "text": "You're stupid.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=4da55f1a91284b738120b0643815f6cb.wav",
+      "duration": 1.2484580498866213
+    },
+    {
+      "id": 29,
+      "text": "Can I punch you now?",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=fd20b96bac8c45768c3a79f161642efb.wav",
+      "duration": 1.460952380952381
+    }
+  ]
+}
