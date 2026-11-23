@@ -1,7 +1,7 @@
 # Elsewhere
 ## Episode 1 — A Place That Doesn't Remember
-### Reboot manuscript · Draft 1
-**Narration:** Wade. **Ninja's spoken dialogue:** Hallie, at 90% volume. **Status:** draft, not yet recorded or published.
+### Reboot manuscript · Draft 2 — extended duration
+**Narration:** Wade at normal mix level. **Ninja's spoken dialogue:** Hallie at 90%. **Ninja's internal thoughts:** Hallie at 80% of original volume (absolute gain, not 80% of 90%). **Status:** extended draft, not recorded or published. Bracketed thought labels are production cues, not read aloud.
 
 ### The Road to Bellwether
 
@@ -54,6 +54,12 @@ She pulled on her black jacket, checked the room key twice, and went back out.
 Unfamiliar silence had a habit of bringing familiar voices with it.
 
 And hers already sounded like Cassian's.
+
+**[INNER MONOLOGUE — NINJA — HALLIE 80% — NOT SPOKEN AS A LABEL]**
+
+*If I unpack, it means I'm staying. If I stay, somebody will eventually ask why I came. And what am I supposed to tell them? That I drove halfway across the country because every street back home still knows his name?*
+
+**[END INNER MONOLOGUE]**
 
 ### Before There Were Secrets
 
@@ -126,6 +132,34 @@ He looked gravely offended.
 That evening they ate toast for dinner because the cupboards were nearly empty. Cassian put the better-looking pieces on her plate and insisted he preferred the burnt ones.
 
 Years later, she would remember that lie more clearly than almost anything he ever taught her.
+
+On her tenth birthday he came home with a supermarket cake in a cardboard box and a candle shaped like the number seven.
+
+"That's not my age," she said.
+
+"That's because you're a very advanced seven-year-old."
+
+"I'm ten."
+
+"Then you're an extremely immature ten-year-old. Blow it out."
+
+He'd earned the money washing windows and had forgotten the candle until the shop was closing. She knew that much because his hands smelled of cleaning fluid. She also knew he hadn't eaten lunch.
+
+She divided the cake into two uneven pieces and pushed the larger one toward him.
+
+"Birthday law," he said. "You get the big piece."
+
+"My birthday. My rules."
+
+He looked at the piece, then at her.
+
+"You're becoming dangerously difficult."
+
+"Good teacher."
+
+He bowed his head in mock defeat.
+
+There was no party. Nobody remembered to put music on. But Cassian sang so badly that the neighbor banged on the wall, and she laughed until she nearly fell off her chair. For years afterward, when a birthday felt disappointing, he'd remind her they still had the record for the most complaints during a single birthday song.
 
 Their home wasn't always dangerous. Sometimes somebody cooked and the radio played old songs. Other nights, voices came through the walls and doors slammed hard enough to rattle the glasses.
 
@@ -233,6 +267,20 @@ Ninja believed there would always be someone who could turn the worst day into s
 
 She'd built her idea of home around that belief.
 
+Sometimes, when Ninja worked the late shift, Cassian met her at the bus stop. She always claimed she hadn't asked him to. He always replied that he was waiting for the bus himself.
+
+"At midnight? You don't even take this route."
+
+"Maybe I've developed an interest in public transport."
+
+She'd walk beside him under the streetlights, telling him about difficult customers and coworkers who treated the coffee machine like a complicated medical procedure. He'd listen, ask just enough questions to prove it, and occasionally threaten to buy a more competent coffee machine himself.
+
+Once, when she had a terrible week and couldn't decide whether to laugh or scream, he brought her a packet of biscuits and sat beside her on the curb until she could breathe normally.
+
+He didn't demand a story. He was good at that.
+
+She never realized that eventually he would need someone to sit beside him in the same way—and that he'd become too frightened to ask.
+
 ### The Money He Didn't Explain
 
 The changes in Cassian began small enough to make excuses for.
@@ -301,7 +349,43 @@ And all of that was true.
 
 It wasn't the whole truth.
 
-The jobs had begun as justifiable favors. A delivery. An envelope held for a few hours. A passenger taken somewhere he wasn't supposed to ask about. The pay was good, and every request came with the promise that it would be the last.
+The first job had sounded almost insulting in its simplicity. A man who knew a man asked Cassian to take a sealed parcel across town. Cash on delivery. No questions.
+
+He asked one anyway: "What's inside?"
+
+"Paperwork."
+
+"That's an expensive courier service."
+
+"Then enjoy your tip."
+
+He'd needed the money. He'd told himself he would be an idiot to refuse something that ordinary.
+
+The second favor involved waiting in a car while two strangers had an argument inside a building. The third meant driving somebody to a railway station and pretending not to hear the anxious phone call in the back seat. Each job ended with somebody paying him well enough to make the next invitation more difficult to reject.
+
+At first he described them to Ninja as extra shifts. She asked whether the job had dental insurance, and he said it came with a very generous selection of uncomfortable silences.
+
+Months later, in a room above a shuttered shop, a man placed a list of dates in front of him. Cassian recognized every payment. There were signatures and photographs, details he'd never knowingly agreed to leave in anyone's possession.
+
+"You've been very reliable," the man said.
+
+Cassian looked at the folder.
+
+"Is that supposed to be a compliment?"
+
+"It's an opportunity to continue being reliable."
+
+"What if I'm finished?"
+
+The man leaned back.
+
+"People who are finished don't generally leave so much unfinished business."
+
+Cassian heard the threat in the politeness. He also heard something worse: the suggestion that somebody knew where Ninja lived.
+
+He went home that night and deleted a message he'd started typing to her. It began, *I need to tell you something.* He couldn't find a second sentence that wouldn't put her closer to the danger.
+
+The jobs had begun as favors. The pay was good, and every request came with the promise that it would be the last.
 
 By the time Cassian understood how much other people knew about him, refusing had begun to feel less like a decision and more like a threat.
 
@@ -314,6 +398,38 @@ There were nights when his phone displayed a number and he stared until it stopp
 He told himself that a clean break still existed somewhere.
 
 He only had to reach it.
+
+One afternoon, Cassian sat in his parked car outside a supermarket with the engine off. He had just finished a call with somebody connected to Elias Voss. The caller had agreed, in an almost friendly tone, that of course Cassian could stop working for them.
+
+After one more errand.
+
+Cassian stared at his reflection in the rearview mirror. He looked older than he remembered.
+
+He dialed Ninja's number, waited for her to answer, and listened as she told him—without taking a breath—that her upstairs neighbor had somehow flooded the bathroom by trying to install a shelf.
+
+He laughed. It surprised him.
+
+"What's funny?" she demanded.
+
+"Nothing. You. The fact that shelving has become a combat sport."
+
+Then she asked if something was wrong.
+
+He gripped the steering wheel.
+
+"No," he said. "Just wanted to hear your voice."
+
+She went quiet long enough to make him worry he'd frightened her.
+
+Then: "Well, you've heard it. It remains incredibly charming."
+
+"Debatable."
+
+"Come over Sunday. I'll cook."
+
+He wanted to say yes. Instead he promised to try.
+
+When the call ended he sat still for a long time, making a decision he didn't yet know how to carry out: whatever else he had to do, he would find a way to keep those people away from her.
 
 ### The Last Ordinary Evening
 
@@ -473,6 +589,12 @@ The fourth time, she put the phone down without ending the call and sat on the k
 
 The voicemail continued speaking into an empty room.
 
+**[INNER MONOLOGUE — NINJA — HALLIE 80% — NOT SPOKEN AS A LABEL]**
+
+*You said you'd call tomorrow. You always called. I don't understand how the world can keep moving when you've stopped. I don't know what I'm supposed to do with all the things I haven't told you.*
+
+**[END INNER MONOLOGUE]**
+
 ### A House Full of Missing Things
 
 There was a funeral.
@@ -486,6 +608,20 @@ Ninja believed that.
 Someone else said that at least he hadn't suffered.
 
 They couldn't possibly know that.
+
+After the service, a distant acquaintance pressed a folded photograph into her palm. It showed Cassian at a barbecue, grinning with his eyes closed, holding a plate overloaded with food. Ninja had never seen it.
+
+"He's smiling like that because someone dared him to eat everything," she said.
+
+The woman smiled uncertainly.
+
+"He was always making people laugh."
+
+Ninja looked at the picture again. Cassian's left sleeve was rolled up unevenly. There was a sauce stain on his shirt. It was so completely him that her throat closed.
+
+"He was," she managed.
+
+Later, back at home, she set that photograph beside the old music player. She was furious that the world had kept photographs and hadn't kept him. The anger embarrassed her until she stopped caring whether it was reasonable.
 
 She looked down at her hands because she didn't trust what might happen if she answered.
 
@@ -534,6 +670,20 @@ Months passed. She saw him everywhere: outside the coffee shop, leaning against 
 The city was full of places that remembered him.
 
 And she was exhausted by being expected to remember him in the acceptable ways.
+
+One afternoon, she tried to make his favorite pasta sauce from memory.
+
+She knew he'd never used a recipe. He'd tasted it, added a little more of something, and announced that the essential ingredient was artistic instinct.
+
+Her attempt was watery and far too salty.
+
+She sat down to eat anyway.
+
+Halfway through the meal she heard herself say, "Cass, this is disgusting."
+
+There was no answer.
+
+She pushed the plate away and cried—not because of the sauce, but because she'd expected his reply before she remembered there couldn't be one.
 
 One evening she opened the old music player.
 
@@ -590,6 +740,12 @@ Definitely something annoying.
 She smiled despite herself.
 
 Then she started the car.
+
+**[INNER MONOLOGUE — NINJA — HALLIE 80% — NOT SPOKEN AS A LABEL]**
+
+*Somewhere nobody knows him. That's all I asked for. One evening where I can just be the woman ordering a drink, instead of the woman with the dead brother.*
+
+**[END INNER MONOLOGUE]**
 
 ### The Crooked Lantern
 
@@ -698,6 +854,18 @@ She could leave the second drink untouched, turn away, and make her wishes clear
 She was exceptionally good at that.
 
 But she was curious about his voice. Whether he belonged here, or whether, like her, he needed somewhere nobody would ask questions.
+
+**[INNER MONOLOGUE — NINJA — HALLIE 80% — NOT SPOKEN AS A LABEL]**
+
+*Who are you?*
+
+*You look like the kind of man who has an answer prepared for everything, and not one of them is the truth.*
+
+*Don't start. Don't make somebody else's silence into your problem.*
+
+*So why haven't you looked away?*
+
+**[END INNER MONOLOGUE]**
 
 The thought made her angry at herself.
 
