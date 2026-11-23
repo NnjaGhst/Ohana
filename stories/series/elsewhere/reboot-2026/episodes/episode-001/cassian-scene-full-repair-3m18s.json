@@ -1,0 +1,29 @@
+{
+  "scope": "Complete replacing source paragraphs 37-45 to eliminate source-boundary leakage at 3:18",
+  "clips": [
+    {
+      "id": "cassian-scene-37-38",
+      "text": "Cassian glanced at the split skin on her knuckles. \"With your face?\"",
+      "result": {
+        "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=e7c0df3c0af94586bfb82162b36784b5.wav",
+        "duration": 4.606213151927438
+      }
+    },
+    {
+      "id": "cassian-scene-40-42",
+      "text": "He laughed, despite trying not to. Then he cleaned her knee with water from a bottle, tearing a strip from an old cloth when they ran out of proper bandages. She hissed when the cold water touched the scrape. \"Hold still, menace.\"",
+      "result": {
+        "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=e9a1c8eb458b49488250cd193479c6d5.wav",
+        "duration": 13.162766439909298
+      }
+    },
+    {
+      "id": "cassian-scene-45",
+      "text": "When he was done, he crouched in front of her and held out his hands.",
+      "result": {
+        "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=f3bbf6ac00a54ac0b303c9d9d6b5b7a3.wav",
+        "duration": 3.9676643990929703
+      }
+    }
+  ]
+}
