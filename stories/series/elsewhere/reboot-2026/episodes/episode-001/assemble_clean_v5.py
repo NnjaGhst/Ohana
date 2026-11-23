@@ -319,6 +319,9 @@ for part,orig in enumerate(clips,1):
         if part==4 and anchor in p["text"]:
             piece+=AudioSegment.silent(duration=350,frame_rate=44100)+addendum+AudioSegment.silent(duration=550,frame_rate=44100)
             report.append({"part":4,"kind":"addendum","inserted_audio_seconds":len(addendum)/1000})
+    # QA export: listen/transcribe every original narration section separately.
+    # Audio stays on the working branch, never in Ohana until approved.
+    piece.export(OUT/(f"audit-part-{part}-v5.mp3"),format="mp3",bitrate="96k")
     final+=piece
     # Natural inter-segment pause rather than artificial crossfade.
     if part<5:final+=AudioSegment.silent(duration=300,frame_rate=44100)
