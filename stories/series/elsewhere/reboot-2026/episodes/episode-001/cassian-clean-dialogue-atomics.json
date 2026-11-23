@@ -1,0 +1,48 @@
+{
+  "purpose": "Cassian/Wade standalone speech without redundant he said and asked tags",
+  "voiceId": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+  "clips": [
+    {
+      "id": "cass-good",
+      "source": "\"Good,\" he said at last.",
+      "text": "Good.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=d6814610b5fe4e2f99cff84237e8ae5c.wav",
+      "duration": 0.8097732426303855
+    },
+    {
+      "id": "cass-birthday",
+      "source": "\"Birthday law,\" he said. \"You get the big piece.\"",
+      "text": "Birthday law. You get the big piece.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=07242d50cfab4bfea2272fd72fa9f412.wav",
+      "duration": 2.690566893424036
+    },
+    {
+      "id": "cass-one-day",
+      "source": "\"One day,\" he said quietly, \"we're going to have a place with doors that only slam when we want them to.\"",
+      "text": "One day, we're going to have a place with doors that only slam when we want them to.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=77657a9d4df5425590729dccb3c1d794.wav",
+      "duration": 4.687482993197279
+    },
+    {
+      "id": "cass-i-know",
+      "source": "\"I know,\" he said immediately.",
+      "text": "I know.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=e5a195d0a22b408183eb9ae73ea2de73.wav",
+      "duration": 0.7350113378684807
+    },
+    {
+      "id": "cass-no-just-voice",
+      "source": "\"No,\" he said. \"Just wanted to hear your voice.\"",
+      "text": "No. Just wanted to hear your voice.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=5d068f2eece34d56a877866cd0337db7.wav",
+      "duration": 2.744126984126984
+    },
+    {
+      "id": "cass-before-you-ask",
+      "source": "\"Before you ask,\" he said, \"yes, the wrapping was done by a human being.\"",
+      "text": "Before you ask, yes, the wrapping was done by a human being.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=3252b4a1da034f52880e72b18f38c879.wav",
+      "duration": 4.3159637188208615
+    }
+  ]
+}
