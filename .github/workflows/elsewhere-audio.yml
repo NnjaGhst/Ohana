@@ -7,6 +7,9 @@ on:
       - stories/series/elsewhere/reboot-2026/episodes/episode-001/*.json
       - stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_reboot.py
   workflow_dispatch:
+concurrency:
+  group: elsewhere-reboot-episode-one-audio
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
