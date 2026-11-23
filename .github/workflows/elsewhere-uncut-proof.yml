@@ -40,9 +40,10 @@ jobs:
           mkdir -p "$dest"
           cp "$OUTPUT_DIR/cassian-15-uncut-turns-test.mp3" "$dest/"
           cp "$OUTPUT_DIR/audit-uncut-15.json" "$dest/"
+          for n in 25 26 27; do cp "$OUTPUT_DIR/solo-$n.mp3" "$dest/"; done
           git config user.name "Elsewhere Audio Builder"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add --sparse "$dest/cassian-15-uncut-turns-test.mp3" "$dest/audit-uncut-15.json"
+          git add --sparse "$dest/cassian-15-uncut-turns-test.mp3" "$dest/audit-uncut-15.json" "$dest/solo-25.mp3" "$dest/solo-26.mp3" "$dest/solo-27.mp3"
           git commit -m "Save standalone uncut Ninja Cassian scene for listening QA" || exit 0
           for attempt in 1 2 3; do
             if git push; then exit 0; fi
