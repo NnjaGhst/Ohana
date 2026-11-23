@@ -1,0 +1,67 @@
+{
+  "source": "full-cast-script-v1.json",
+  "kind": "full-cast-voice-quality-demo",
+  "duration_seconds": 46.989,
+  "parts": [
+    {
+      "id": "scene-ada-01",
+      "speaker": "narrator",
+      "source_seconds": 8.29,
+      "starting_at_seconds": 0.175
+    },
+    {
+      "id": "scene-ada-02",
+      "speaker": "ada",
+      "source_seconds": 1.97,
+      "starting_at_seconds": 8.695
+    },
+    {
+      "id": "scene-ada-03",
+      "speaker": "ninja",
+      "source_seconds": 2.772,
+      "starting_at_seconds": 10.964
+    },
+    {
+      "id": "scene-ada-04",
+      "speaker": "ada",
+      "source_seconds": 1.05,
+      "starting_at_seconds": 14.036
+    },
+    {
+      "id": "scene-ada-05",
+      "speaker": "ninja",
+      "source_seconds": 2.617,
+      "starting_at_seconds": 15.387
+    },
+    {
+      "id": "scene-ada-06",
+      "speaker": "narrator",
+      "source_seconds": 16.662,
+      "starting_at_seconds": 18.303
+    },
+    {
+      "id": "scene-ada-07",
+      "speaker": "ada",
+      "source_seconds": 7.59,
+      "starting_at_seconds": 35.196
+    },
+    {
+      "id": "scene-ada-08",
+      "speaker": "ninja",
+      "source_seconds": 1.634,
+      "starting_at_seconds": 43.086
+    },
+    {
+      "id": "scene-ada-09",
+      "speaker": "ada",
+      "source_seconds": 1.669,
+      "starting_at_seconds": 45.02
+    }
+  ],
+  "max_simultaneous_speakers": 1,
+  "overlap_count": 0,
+  "cut_points_inside_spoken_lines": 0,
+  "pitch_modified": false,
+  "hallie_gain": 0.9,
+  "status": "preview-only; not published in Ohana"
+}
