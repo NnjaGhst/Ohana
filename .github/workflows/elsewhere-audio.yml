@@ -1,0 +1,28 @@
+name: Elsewhere Audio Builder - Reboot
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - .github/workflows/elsewhere-audio.yml
+      - stories/series/elsewhere/reboot-2026/episodes/episode-001/*.json
+      - stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_reboot.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect-source-audio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect HeyGen source recording
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, urllib.request, subprocess
+          p='stories/series/elsewhere/reboot-2026/episodes/episode-001/wade-recordings.json'
+          manifest=json.load(open(p))
+          clip=manifest['clips'][0]
+          urllib.request.urlretrieve(clip['url'], '/tmp/source.wav')
+          result=subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration,size','-of','json','/tmp/source.wav'])
+          print(result.decode())
+          PY
