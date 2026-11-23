@@ -13,7 +13,7 @@
     "hex_thought_volume": 0.8,
     "speed": 1
   },
-  "audio_file": "series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-corrected-v2.mp3",
+  "audio_file": "series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-clean-v3-approved.mp3",
   "illustrations": [
     "series/elsewhere/episodes/episode-001/illustrations/iphone14/01-episode-001-iphone14.jpg",
     "series/elsewhere/episodes/episode-001/illustrations/iphone14/02-episode-001-iphone14.jpg",
@@ -26,7 +26,7 @@
   "published_to_ohana": true,
   "script_file": "series/elsewhere/reboot-2026/episodes/episode-001/published-story.txt",
   "note": "Episode 1 reboot published in Ohana with verified cue-count mix and seven scene illustrations. Old episode assets retained in repository as archive.",
-  "actual_duration_seconds": 2005.998,
+  "actual_duration_seconds": 1981.923,
   "illustration_canvas": {
     "width": 1170,
     "height": 2532,
@@ -34,7 +34,9 @@
     "fit": "cover",
     "device": "iPhone 14"
   },
-  "audio_edit_version": "v2-clean-pauses-and-attributions",
+  "audio_edit_version": "v3-whole-paragraph-replacements",
   "illustration_quality_status": "native_iphone14_dimensions_verified_fullbleed_recomposition_pending",
-  "illustration_quality_note": "Seven illustrations are exported at 1170x2532 but some original images have blurred bars baked into the source. Dimensions alone do not remove those bands. Require full-bleed scene reconstruction preserving Ninja's actual facial features, pink hair and exact Sony headphones before claiming the visual issue fully resolved."
+  "illustration_quality_note": "Seven illustrations are exported at 1170x2532 but some original images have blurred bars baked into the source. Dimensions alone do not remove those bands. Require full-bleed scene reconstruction preserving Ninja's actual facial features, pink hair and exact Sony headphones before claiming the visual issue fully resolved.",
+  "audio_quality_note": "User spot-checked previously choppy sections and reported they sound good on Nov 23 2026; full-episode listen not claimed.",
+  "audio_preview_approved": true
 }
