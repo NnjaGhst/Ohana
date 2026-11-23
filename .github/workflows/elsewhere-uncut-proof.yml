@@ -1,0 +1,52 @@
+name: Elsewhere Episode 1 - 15 Uncut Turn Audio Proof
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - .github/workflows/elsewhere-uncut-proof.yml
+      - stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_uncut_proof.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  uncut-proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_uncut_proof.py
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/isolated-cassian-scene-test-manifest.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install ffmpeg and pydub
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pydub
+      - name: Create no-cut audio proof with fifteen original speech files
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/isolated-proof
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_uncut_proof.py
+      - name: Save strictly on working branch for listening test
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/isolated-proof
+        run: |
+          dest=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/isolated-tests
+          mkdir -p "$dest"
+          cp "$OUTPUT_DIR/cassian-15-uncut-turns-test.mp3" "$dest/"
+          cp "$OUTPUT_DIR/audit-uncut-15.json" "$dest/"
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$dest/cassian-15-uncut-turns-test.mp3" "$dest/audit-uncut-15.json"
+          git commit -m "Save standalone uncut Ninja Cassian scene for listening QA" || exit 0
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
