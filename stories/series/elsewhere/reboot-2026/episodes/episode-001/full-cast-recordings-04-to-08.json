@@ -1,0 +1,210 @@
+{
+  "recordings": [
+    {
+      "batch_id": "batch-04",
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=1c3e03105ed5463496867aed24a8dffb.wav",
+      "duration_seconds": 177.74789115646257,
+      "character_timing_count": 3237,
+      "expected_characters": 3237,
+      "segments": [
+        {
+          "run_id": 122,
+          "start_seconds": 0.256,
+          "end_seconds": 86.111
+        },
+        {
+          "run_id": 125,
+          "start_seconds": 86.855,
+          "end_seconds": 89.841
+        },
+        {
+          "run_id": 127,
+          "start_seconds": 89.937,
+          "end_seconds": 92.999
+        },
+        {
+          "run_id": 131,
+          "start_seconds": 93.157,
+          "end_seconds": 113.012
+        },
+        {
+          "run_id": 135,
+          "start_seconds": 113.592,
+          "end_seconds": 129.504
+        },
+        {
+          "run_id": 139,
+          "start_seconds": 130.016,
+          "end_seconds": 135.285
+        },
+        {
+          "run_id": 141,
+          "start_seconds": 136.138,
+          "end_seconds": 151.392
+        },
+        {
+          "run_id": 146,
+          "start_seconds": 151.946,
+          "end_seconds": 161.353
+        },
+        {
+          "run_id": 148,
+          "start_seconds": 161.908,
+          "end_seconds": 162.889
+        },
+        {
+          "run_id": 152,
+          "start_seconds": 163.358,
+          "end_seconds": 175.891
+        },
+        {
+          "run_id": 154,
+          "start_seconds": 176.446,
+          "end_seconds": 177.54789115646258
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    },
+    {
+      "batch_id": "batch-05",
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=0d46c6219e8e4a40926f1dd49692dce4.wav",
+      "duration_seconds": 160.86562358276643,
+      "character_timing_count": 2944,
+      "expected_characters": 2944,
+      "segments": [
+        {
+          "run_id": 156,
+          "start_seconds": 0.299,
+          "end_seconds": 38.773
+        },
+        {
+          "run_id": 158,
+          "start_seconds": 39.324,
+          "end_seconds": 42.912
+        },
+        {
+          "run_id": 160,
+          "start_seconds": 43.424,
+          "end_seconds": 45.709
+        },
+        {
+          "run_id": 162,
+          "start_seconds": 46.236,
+          "end_seconds": 63.312
+        },
+        {
+          "run_id": 166,
+          "start_seconds": 63.866,
+          "end_seconds": 64.336
+        },
+        {
+          "run_id": 168,
+          "start_seconds": 64.762,
+          "end_seconds": 65.104
+        },
+        {
+          "run_id": 172,
+          "start_seconds": 66.02,
+          "end_seconds": 84.903
+        },
+        {
+          "run_id": 174,
+          "start_seconds": 85.543,
+          "end_seconds": 118.914
+        },
+        {
+          "run_id": 176,
+          "start_seconds": 119.341,
+          "end_seconds": 148.415
+        },
+        {
+          "run_id": 178,
+          "start_seconds": 148.713,
+          "end_seconds": 149.993
+        },
+        {
+          "run_id": 180,
+          "start_seconds": 150.719,
+          "end_seconds": 160.66562358276644
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    },
+    {
+      "batch_id": "batch-06",
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=1d2f60bb9726424aa3c8cd0c4687ec86.wav",
+      "duration_seconds": 130.50836734693877,
+      "character_timing_count": 2249,
+      "expected_characters": 2249,
+      "segments": [
+        {
+          "run_id": 182,
+          "start_seconds": 0.299,
+          "end_seconds": 38.482
+        },
+        {
+          "run_id": 188,
+          "start_seconds": 38.862,
+          "end_seconds": 130.308
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    },
+    {
+      "batch_id": "batch-07",
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=f4ebde38b9a24398bf73fa2f090533d0.wav",
+      "duration_seconds": 134.55167800453515,
+      "character_timing_count": 2476,
+      "expected_characters": 2476,
+      "segments": [
+        {
+          "run_id": 190,
+          "start_seconds": 0.341,
+          "end_seconds": 134.35167800453516
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    },
+    {
+      "batch_id": "batch-08",
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=b874c107fb894756b9895968fa60d173.wav",
+      "duration_seconds": 136.62755102040816,
+      "character_timing_count": 2524,
+      "expected_characters": 2524,
+      "segments": [
+        {
+          "run_id": 191,
+          "start_seconds": 0.299,
+          "end_seconds": 136.42755102040817
+        }
+      ],
+      "validation": {
+        "characters_match": true,
+        "speech_segments_valid": true
+      }
+    }
+  ],
+  "status": "recorded"
+}
