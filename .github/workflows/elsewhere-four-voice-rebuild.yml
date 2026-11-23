@@ -1,0 +1,70 @@
+name: Elsewhere Episode 1 - Four Voice Rebuild
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - '.github/workflows/elsewhere-four-voice-rebuild.yml'
+      - 'stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_full_cast.py'
+  workflow_dispatch:
+concurrency:
+  group: elsewhere-ep1-four-voice
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  assemble-cast-preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install audio tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pydub
+      - name: Assemble strictly non-overlapping actor lines
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/elsewhere-cast-1
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_full_cast.py
+      - name: Save only the three reviewed-size preview MP3s and edit report on working branch
+        if: success()
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/elsewhere-cast-1
+        run: |
+          set -e
+          target=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/full-cast-previews
+          mkdir -p "$target"
+          cp "$OUTPUT_DIR/episode-001-full-cast-preview.mp3" "$target/"
+          cp "$OUTPUT_DIR/opening-scene-4min-preview.mp3" "$target/"
+          cp "$OUTPUT_DIR/cassian-first-scene-preview.mp3" "$target/"
+          cp "$OUTPUT_DIR/edit-report-full-cast.json" "$target/"
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$target/episode-001-full-cast-preview.mp3" "$target/opening-scene-4min-preview.mp3" "$target/cassian-first-scene-preview.mp3" "$target/edit-report-full-cast.json"
+          if git diff --cached --quiet; then echo 'No new preview'; exit 0; fi
+          git commit -m "Save separate-voice Clay Cassian Kendall Ada full Episode 1 preview"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: elsewhere-ep1-full-cast-preview
+          path: |
+            ${{ runner.temp }}/elsewhere-cast-1/episode-001-full-cast-preview.mp3
+            ${{ runner.temp }}/elsewhere-cast-1/opening-scene-4min-preview.mp3
+            ${{ runner.temp }}/elsewhere-cast-1/cassian-first-scene-preview.mp3
+            ${{ runner.temp }}/elsewhere-cast-1/edit-report-full-cast.json
+          retention-days: 14
+          if-no-files-found: warn
