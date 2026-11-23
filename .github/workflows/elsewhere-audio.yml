@@ -1,4 +1,4 @@
-name: Elsewhere Audio Builder - Reboot
+name: Elsewhere Reboot Episode 1 - Audio Assembly
 on:
   push:
     branches: [elsewhere-reboot-2026]
@@ -8,21 +8,46 @@ on:
       - stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_reboot.py
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
-  inspect-source-audio:
+  assemble:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect HeyGen source recording
-        shell: bash
+        with:
+          persist-credentials: true
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001
+          sparse-checkout-cone-mode: false
+      - name: Install speech alignment dependencies
         run: |
-          python - <<'PY'
-          import json, urllib.request, subprocess
-          p='stories/series/elsewhere/reboot-2026/episodes/episode-001/wade-recordings.json'
-          manifest=json.load(open(p))
-          clip=manifest['clips'][0]
-          urllib.request.urlretrieve(clip['url'], '/tmp/source.wav')
-          result=subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration,size','-of','json','/tmp/source.wav'])
-          print(result.decode())
-          PY
+          python -m pip install --upgrade pip
+          python -m pip install pydub stable-ts
+      - name: Mix Wade narration with Hallie dialogue and inner thoughts
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/elsewhere-audio
+        run: |
+          python stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_reboot.py
+      - name: Publish private-to-branch preview files
+        if: success()
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/elsewhere-audio
+        run: |
+          set -e
+          target=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio
+          mkdir -p "$target"
+          cp "$OUTPUT_DIR"/Elsewhere_Episode_01_A_Place_That_Doesnt_Remember.mp3 "$target/episode-001-preview.mp3"
+          cp "$OUTPUT_DIR"/edit-report.json "$target/edit-report.json"
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$target"
+          if git diff --cached --quiet; then echo "No preview changes"; else git commit -m "Add Elsewhere reboot episode 1 audio preview"; git push; fi
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: elsewhere-reboot-ep1-audio-preview
+          path: |
+            ${{ runner.temp }}/elsewhere-audio/Elsewhere_Episode_01_A_Place_That_Doesnt_Remember.mp3
+            ${{ runner.temp }}/elsewhere-audio/edit-report.json
+          retention-days: 7
