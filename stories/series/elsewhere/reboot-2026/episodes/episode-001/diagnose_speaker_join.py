@@ -34,3 +34,9 @@ for label,h,w,gap_ms in cases:
   seg=sil(600)+clips[h]+sil(gap_ms)+clips[w]+sil(700)
   seg.export(OUT/(label+".mp3"),format="mp3",bitrate="128k")
   print(label,"duration",len(seg)/1000,flush=True)
+
+# Isolate the source audio to rule out hallucinated dialogue at voice switches.
+for key,clip in clips.items():
+  padded=sil(1000)+clip+sil(1600)
+  padded.export(OUT/("solo-"+key+".mp3"),format="mp3",bitrate="128k")
+  print("solo",key,"duration",len(padded)/1000,flush=True)
