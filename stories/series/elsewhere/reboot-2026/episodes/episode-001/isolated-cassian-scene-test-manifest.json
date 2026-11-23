@@ -1,0 +1,163 @@
+{
+  "purpose": "No-cut childhood exchange: independent complete TTS per speaker turn, as a quality proof before any full-episode re-recording",
+  "cast": {
+    "ninja": "Hallie",
+    "cassian": "Clay",
+    "narrator": "Wade"
+  },
+  "run_ids": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "clips": [
+    {
+      "run_id": 21,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "text": "Cassian glanced at the split skin on her knuckles.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=03f39481c6624fa7b48bc3540819270e.wav",
+      "duration_seconds": 3.347845804988662
+    },
+    {
+      "run_id": 22,
+      "actor": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "text": "With your face?",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=7785353ae42845bdb3a495eafbc6f20c.wav",
+      "duration_seconds": 1.178798185941043
+    },
+    {
+      "run_id": 23,
+      "actor": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "text": "Shut up.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=ca6c796bd3114808930c40f5146dd292.wav",
+      "duration_seconds": 0.9014512471655329
+    },
+    {
+      "run_id": 24,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "text": "He laughed, despite trying not to. Then he cleaned her knee with water from a bottle, tearing a strip from an old cloth when they ran out of proper bandages. She hissed when the cold water touched the scrape.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=827e8479af9242dc83d26b9bbeed8169.wav",
+      "duration_seconds": 11.119410430839002
+    },
+    {
+      "run_id": 25,
+      "actor": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "text": "Hold still, menace.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=6dea0947a6b64a76bbb5356bbd0c8190.wav",
+      "duration_seconds": 2.0053061224489794
+    },
+    {
+      "run_id": 26,
+      "actor": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "text": "You're pulling my leg off.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=fd52787b622d43e0900f0e7070120f6c.wav",
+      "duration_seconds": 1.8164172335600908
+    },
+    {
+      "run_id": 27,
+      "actor": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "text": "Yes. That's the treatment. All doctors do it.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=c0130b658885446d8ed1e681afb8e113.wav",
+      "duration_seconds": 3.2665759637188208
+    },
+    {
+      "run_id": 28,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "text": "When he was done, he crouched in front of her and held out his hands.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=b7e00328b0f843a9bb361e0a3400b020.wav",
+      "duration_seconds": 4.141814058956916
+    },
+    {
+      "run_id": 29,
+      "actor": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "text": "Okay. Here's the important part. If somebody bigger than you starts trouble, you don't have to stand there and prove you're fearless.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=8bedbe19483b47d481ca9d195c6e3aec.wav",
+      "duration_seconds": 6.919954648526077
+    },
+    {
+      "run_id": 30,
+      "actor": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "text": "I wasn't scared.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=5560e536809c40e9bcc2957f5ca7cd39.wav",
+      "duration_seconds": 1.406077097505669
+    },
+    {
+      "run_id": 31,
+      "actor": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "text": "Then you should've been. Fear can be useful.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=ccf847eaea0743b481bcfaa144360f2f.wav",
+      "duration_seconds": 2.9459863945578233
+    },
+    {
+      "run_id": 32,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "text": "She hated that answer. Cassian tilted his head.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=d146cd4819874216bca369de9e4a81c2.wav",
+      "duration_seconds": 3.5497052154195012
+    },
+    {
+      "run_id": 33,
+      "actor": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "text": "Look at me. Nin. Being brave isn't the same as being stupid.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=1b7de7e433894490961706ba5fea0f8f.wav",
+      "duration_seconds": 4.606213151927438
+    },
+    {
+      "run_id": 34,
+      "actor": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "text": "You're stupid.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=00db0f691ffb4c5a96dee51fedd33199.wav",
+      "duration_seconds": 1.1571428571428573
+    },
+    {
+      "run_id": 35,
+      "actor": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "text": "Frequently. That's how I've gathered all this wisdom.",
+      "audio_url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=7bddbe266b324541b946c1ca2fc0cd1c.wav",
+      "duration_seconds": 2.992426303854875
+    }
+  ],
+  "status": "recorded"
+}
