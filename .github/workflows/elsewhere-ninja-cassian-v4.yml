@@ -1,0 +1,70 @@
+name: Elsewhere Episode 1 - Ninja Cassian dialogue V4
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - .github/workflows/elsewhere-ninja-cassian-v4.yml
+      - stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_clean_v4.py
+  workflow_dispatch:
+concurrency:
+  group: elsewhere-ep1-ninja-cassian-v4
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install audio mixing dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pydub stable-ts
+      - name: Remix all Ninja Cassian handoffs and render quick-listen excerpts
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/elsewhere-v4
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_clean_v4.py
+      - name: Save preview on reboot branch only
+        if: success()
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/elsewhere-v4
+        run: |
+          set -e
+          target=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio
+          mkdir -p "$target"
+          cp "$OUTPUT_DIR/Elsewhere_Episode_01_Clean_V4_Cassian_Dialogue.mp3" "$target/episode-001-v4-unreviewed.mp3"
+          cp "$OUTPUT_DIR/edit-report-v4.json" "$target/edit-report-v4.json"
+          cp "$OUTPUT_DIR/around-3m18s-v4.mp3" "$target/around-3m18s-v4.mp3"
+          cp "$OUTPUT_DIR/around-5m00s-v4.mp3" "$target/around-5m00s-v4.mp3"
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$target/episode-001-v4-unreviewed.mp3" "$target/edit-report-v4.json" "$target/around-3m18s-v4.mp3" "$target/around-5m00s-v4.mp3"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Save Ninja Cassian V4 cleaned dialogue audition"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: elsewhere-episode1-ninja-cassian-v4
+          path: |
+            ${{ runner.temp }}/elsewhere-v4/Elsewhere_Episode_01_Clean_V4_Cassian_Dialogue.mp3
+            ${{ runner.temp }}/elsewhere-v4/around-3m18s-v4.mp3
+            ${{ runner.temp }}/elsewhere-v4/around-5m00s-v4.mp3
+            ${{ runner.temp }}/elsewhere-v4/edit-report-v4.json
+          retention-days: 14
+          if-no-files-found: warn
