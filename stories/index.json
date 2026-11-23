@@ -561,27 +561,23 @@
       "text": "text/elsewhere-hidden-valley-006.txt",
       "images": [
         {
-          "caption": "The Kitchen in the Valley",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-1-dd66c9067719a4f3.webp",
-          "start": 0
+          "caption": "Mara’s kitchen",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/6-kitchen-0cffba432dc65174.png"
         },
         {
-          "caption": "The Post Office Ledger",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-2-654433a3e659ea4a.webp",
-          "start": 290.209
+          "caption": "Elise’s blue page",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/6-page-cf0dd5b057ba13f1.png"
         },
         {
-          "caption": "The Bench Behind the Orchard",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-3-6a0b3cbb0baac803.webp",
-          "start": 569.107
+          "caption": "The kitchen window",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/6-window-ce1d935552150b02.png"
         },
         {
-          "caption": "A Light in the Upper Room",
-          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/episode-6-scene-4-4181557e95b825eb.webp",
-          "start": 847.588
+          "caption": "The recording",
+          "path": "series/elsewhere-hidden-valley/episodes/episode-006/illustrations/6-recording-cbda0024bbfa1125.png"
         }
       ],
-      "audio": "series/elsewhere-hidden-valley/episodes/episode-006/audio/elsewhere-hidden-valley-episode-06-2ccf1de0027c9969.mp3"
+      "audio": "series/elsewhere-hidden-valley/episodes/episode-006/audio/hidden-valley-06-the-blue-page-92afcd2000066804.mp3"
     }
   ]
 }
