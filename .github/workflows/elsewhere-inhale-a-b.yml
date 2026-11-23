@@ -1,0 +1,55 @@
+name: Elsewhere - Suppress Synthetic Inhale A-B
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - '.github/workflows/elsewhere-inhale-a-b.yml'
+      - 'stories/series/elsewhere/reboot-2026/episodes/episode-001/test_reduce_inhales.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/test_reduce_inhales.py
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/isolated-cassian-scene-test-manifest.json
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/isolated-hallie-line-26-correction.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install audio tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pydub
+      - name: Produce two breath-minimized edits of original complete takes
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/inhale-tests
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/test_reduce_inhales.py
+      - name: Save previews without touching Ohana or published main
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/inhale-tests
+        run: |
+          set -e
+          dir=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/isolated-tests
+          mkdir -p "$dir"
+          cp "$OUTPUT_DIR"/cassian-dialogue-*-a-b-test.mp3 "$dir/"
+          cp "$OUTPUT_DIR/synthetic-inhale-A-B-audit.json" "$dir/"
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$dir/cassian-dialogue-soft-edges-a-b-test.mp3" "$dir/cassian-dialogue-quiet-edges-a-b-test.mp3" "$dir/synthetic-inhale-A-B-audit.json"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Save sound-boundary A/B proof for synthetic breath reduction"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
