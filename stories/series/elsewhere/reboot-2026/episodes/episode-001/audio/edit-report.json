@@ -1,532 +1,669 @@
 {
   "source_duration": 1614.0949206349205,
-  "final_seconds": 1976.978,
-  "file_size": 23724661,
+  "final_seconds": 2005.998,
+  "file_size": 24072925,
   "first_clip_word_match": 0.9903846153846154,
   "source_chunks": 5,
   "extra_narrative_scene_seconds": 358.33562358276646,
   "hallie_lines": 67,
   "hallie_thoughts": 4,
+  "mix_version": "2-clean-pauses-and-attributions",
+  "removed_attribution_tags": [
+    {
+      "part": 1,
+      "text": "Ninja muttered at it.",
+      "start": 23.86,
+      "end": 24.42
+    },
+    {
+      "part": 1,
+      "text": "Ninja said.",
+      "start": 63.54,
+      "end": 64.1
+    },
+    {
+      "part": 1,
+      "text": "she said.",
+      "start": 268.2,
+      "end": 268.56
+    },
+    {
+      "part": 3,
+      "text": "she said.",
+      "start": 254.565,
+      "end": 255.062
+    },
+    {
+      "part": 3,
+      "text": "she demanded.",
+      "start": 143.69,
+      "end": 144.266
+    },
+    {
+      "part": 4,
+      "text": "she said.",
+      "start": 124.273,
+      "end": 124.771
+    },
+    {
+      "part": 4,
+      "text": "she asked.",
+      "start": 45.434,
+      "end": 45.975
+    },
+    {
+      "part": 4,
+      "text": "Ninja asked.",
+      "start": 179.546,
+      "end": 180.271
+    },
+    {
+      "part": 4,
+      "text": "she managed.",
+      "start": 139.445,
+      "end": 139.985
+    }
+  ],
+  "hallie_dialogue_absolute_gain": 0.9,
+  "hallie_thoughts_absolute_gain": 0.8,
+  "transition_pauses_ms": {
+    "spoken_before": 85,
+    "spoken_after": 225,
+    "thought_before": 115,
+    "thought_after": 285
+  },
   "cues": [
     {
       "part": 1,
       "id": 1,
       "type": "dialogue",
-      "wadeStart": 22.665,
-      "wadeEnd": 23.195,
-      "insertedSeconds": 0.327
+      "wadeStart": 22.668,
+      "wadeEnd": 23.205,
+      "insertedSeconds": 0.807
+    },
+    {
+      "part": 1,
+      "id": "tag-1-416",
+      "type": "attribution",
+      "wadeStart": 23.848,
+      "wadeEnd": 24.445,
+      "insertedSeconds": 0.04
     },
     {
       "part": 1,
       "id": 2,
       "type": "dialogue",
-      "wadeStart": 26.245,
-      "wadeEnd": 26.755,
-      "insertedSeconds": 0.796
+      "wadeStart": 26.248,
+      "wadeEnd": 26.765,
+      "insertedSeconds": 1.276
     },
     {
       "part": 1,
       "id": 4,
       "type": "dialogue",
-      "wadeStart": 62.665,
-      "wadeEnd": 63.415,
-      "insertedSeconds": 0.683
+      "wadeStart": 62.668,
+      "wadeEnd": 63.425,
+      "insertedSeconds": 1.163
+    },
+    {
+      "part": 1,
+      "id": "tag-1-1113",
+      "type": "attribution",
+      "wadeStart": 63.528,
+      "wadeEnd": 64.125,
+      "insertedSeconds": 0.04
     },
     {
       "part": 1,
       "id": 5,
       "type": "dialogue",
-      "wadeStart": 64.705,
-      "wadeEnd": 65.575,
-      "insertedSeconds": 1.024
+      "wadeStart": 64.708,
+      "wadeEnd": 65.585,
+      "insertedSeconds": 1.504
     },
     {
       "part": 1,
       "id": 7,
       "type": "dialogue",
-      "wadeStart": 66.985,
-      "wadeEnd": 68.295,
-      "insertedSeconds": 1.707
+      "wadeStart": 66.988,
+      "wadeEnd": 68.305,
+      "insertedSeconds": 2.187
     },
     {
       "part": 1,
       "id": 9,
       "type": "dialogue",
-      "wadeStart": 92.145,
-      "wadeEnd": 93.095,
-      "insertedSeconds": 1.166
+      "wadeStart": 92.148,
+      "wadeEnd": 93.105,
+      "insertedSeconds": 1.646
     },
     {
       "part": 1,
       "id": 1,
       "type": "thought",
-      "wadeStart": 133.085,
-      "wadeEnd": 144.695,
-      "insertedSeconds": 11.844
+      "wadeStart": 133.088,
+      "wadeEnd": 144.705,
+      "insertedSeconds": 12.414
     },
     {
       "part": 1,
       "id": 12,
       "type": "dialogue",
-      "wadeStart": 173.485,
-      "wadeEnd": 174.475,
-      "insertedSeconds": 1.024
+      "wadeStart": 173.488,
+      "wadeEnd": 174.485,
+      "insertedSeconds": 1.504
     },
     {
       "part": 1,
       "id": 14,
       "type": "dialogue",
-      "wadeStart": 177.525,
-      "wadeEnd": 178.335,
-      "insertedSeconds": 0.796
+      "wadeStart": 177.528,
+      "wadeEnd": 178.345,
+      "insertedSeconds": 1.276
     },
     {
       "part": 1,
       "id": 16,
       "type": "dialogue",
-      "wadeStart": 179.745,
-      "wadeEnd": 180.715,
-      "insertedSeconds": 0.725
+      "wadeStart": 179.748,
+      "wadeEnd": 180.725,
+      "insertedSeconds": 1.205
     },
     {
       "part": 1,
       "id": 18,
       "type": "dialogue",
-      "wadeStart": 183.825,
-      "wadeEnd": 184.755,
-      "insertedSeconds": 0.555
+      "wadeStart": 183.828,
+      "wadeEnd": 184.765,
+      "insertedSeconds": 1.015
     },
     {
       "part": 1,
       "id": 20,
       "type": "dialogue",
-      "wadeStart": 198.185,
-      "wadeEnd": 199.155,
-      "insertedSeconds": 1.095
+      "wadeStart": 198.188,
+      "wadeEnd": 199.165,
+      "insertedSeconds": 1.541
     },
     {
       "part": 1,
       "id": 23,
       "type": "dialogue",
-      "wadeStart": 214.405,
-      "wadeEnd": 215.095,
-      "insertedSeconds": 0.996
+      "wadeStart": 214.408,
+      "wadeEnd": 215.105,
+      "insertedSeconds": 1.476
     },
     {
       "part": 1,
       "id": 26,
       "type": "dialogue",
-      "wadeStart": 225.585,
-      "wadeEnd": 226.075,
-      "insertedSeconds": 0.804
+      "wadeStart": 225.588,
+      "wadeEnd": 226.085,
+      "insertedSeconds": 1.258
     },
     {
       "part": 1,
       "id": 29,
       "type": "dialogue",
-      "wadeStart": 240.525,
-      "wadeEnd": 241.375,
-      "insertedSeconds": 0.896
+      "wadeStart": 240.528,
+      "wadeEnd": 241.385,
+      "insertedSeconds": 1.376
     },
     {
       "part": 1,
       "id": 31,
       "type": "dialogue",
-      "wadeStart": 267.025,
-      "wadeEnd": 267.975,
-      "insertedSeconds": 0.825
+      "wadeStart": 267.028,
+      "wadeEnd": 267.985,
+      "insertedSeconds": 1.305
+    },
+    {
+      "part": 1,
+      "id": "tag-1-4708",
+      "type": "attribution",
+      "wadeStart": 268.188,
+      "wadeEnd": 268.585,
+      "insertedSeconds": 0.04
     },
     {
       "part": 1,
       "id": 33,
       "type": "dialogue",
-      "wadeStart": 271.445,
-      "wadeEnd": 271.975,
-      "insertedSeconds": 0.626
+      "wadeStart": 271.448,
+      "wadeEnd": 271.985,
+      "insertedSeconds": 1.106
     },
     {
       "part": 1,
       "id": 37,
       "type": "dialogue",
-      "wadeStart": 293.825,
-      "wadeEnd": 295.055,
-      "insertedSeconds": 1.72
+      "wadeStart": 293.828,
+      "wadeEnd": 295.065,
+      "insertedSeconds": 2.2
     },
     {
       "part": 1,
       "id": 39,
       "type": "dialogue",
-      "wadeStart": 300.465,
-      "wadeEnd": 300.955,
-      "insertedSeconds": 0.555
+      "wadeStart": 300.468,
+      "wadeEnd": 300.965,
+      "insertedSeconds": 1.035
     },
     {
       "part": 2,
       "id": 40,
       "type": "dialogue",
-      "wadeStart": 9.969,
-      "wadeEnd": 10.81,
-      "insertedSeconds": 0.824
+      "wadeStart": 9.972,
+      "wadeEnd": 10.82,
+      "insertedSeconds": 1.299
     },
     {
       "part": 2,
       "id": 42,
       "type": "dialogue",
-      "wadeStart": 12.102,
-      "wadeEnd": 12.593,
-      "insertedSeconds": 0.625
+      "wadeStart": 12.105,
+      "wadeEnd": 12.603,
+      "insertedSeconds": 1.105
     },
     {
       "part": 2,
       "id": 44,
       "type": "dialogue",
-      "wadeStart": 15.262,
-      "wadeEnd": 16.222,
-      "insertedSeconds": 1.01
+      "wadeStart": 15.265,
+      "wadeEnd": 16.232,
+      "insertedSeconds": 1.49
     },
     {
       "part": 2,
       "id": 48,
       "type": "dialogue",
-      "wadeStart": 31.392,
-      "wadeEnd": 32.736,
-      "insertedSeconds": 1.465
+      "wadeStart": 31.395,
+      "wadeEnd": 32.746,
+      "insertedSeconds": 1.945
     },
     {
       "part": 2,
       "id": 50,
       "type": "dialogue",
-      "wadeStart": 34.806,
-      "wadeEnd": 36.064,
-      "insertedSeconds": 1.209
+      "wadeStart": 34.809,
+      "wadeEnd": 36.074,
+      "insertedSeconds": 1.683
     },
     {
       "part": 2,
       "id": 53,
       "type": "dialogue",
-      "wadeStart": 78.898,
-      "wadeEnd": 80.8,
-      "insertedSeconds": 2.038
+      "wadeStart": 78.901,
+      "wadeEnd": 80.81,
+      "insertedSeconds": 2.518
     },
     {
       "part": 2,
       "id": 55,
       "type": "dialogue",
-      "wadeStart": 82.97,
-      "wadeEnd": 84.331,
-      "insertedSeconds": 1.408
+      "wadeStart": 82.973,
+      "wadeEnd": 84.341,
+      "insertedSeconds": 1.888
     },
     {
       "part": 2,
       "id": 57,
       "type": "dialogue",
-      "wadeStart": 86.554,
-      "wadeEnd": 88.269,
-      "insertedSeconds": 1.664
+      "wadeStart": 86.557,
+      "wadeEnd": 88.279,
+      "insertedSeconds": 2.144
     },
     {
       "part": 2,
       "id": 59,
       "type": "dialogue",
-      "wadeStart": 98.004,
-      "wadeEnd": 99.015,
-      "insertedSeconds": 0.995
+      "wadeStart": 98.007,
+      "wadeEnd": 99.025,
+      "insertedSeconds": 1.475
     },
     {
       "part": 2,
       "id": 62,
       "type": "dialogue",
-      "wadeStart": 124.703,
-      "wadeEnd": 125.049,
-      "insertedSeconds": 0.37
+      "wadeStart": 124.706,
+      "wadeEnd": 125.059,
+      "insertedSeconds": 0.85
     },
     {
       "part": 2,
       "id": 64,
       "type": "dialogue",
-      "wadeStart": 126.495,
-      "wadeEnd": 127.528,
-      "insertedSeconds": 1.01
+      "wadeStart": 126.498,
+      "wadeEnd": 127.538,
+      "insertedSeconds": 1.49
     },
     {
       "part": 2,
       "id": 65,
       "type": "dialogue",
-      "wadeStart": 165.413,
-      "wadeEnd": 168.028,
-      "insertedSeconds": 2.332
+      "wadeStart": 165.416,
+      "wadeEnd": 168.038,
+      "insertedSeconds": 2.812
     },
     {
       "part": 2,
       "id": 67,
       "type": "dialogue",
-      "wadeStart": 238.56,
-      "wadeEnd": 239.051,
-      "insertedSeconds": 0.654
+      "wadeStart": 238.563,
+      "wadeEnd": 239.061,
+      "insertedSeconds": 1.134
     },
     {
       "part": 2,
       "id": 69,
       "type": "dialogue",
-      "wadeStart": 242.101,
-      "wadeEnd": 243.368,
-      "insertedSeconds": 1.044
+      "wadeStart": 242.104,
+      "wadeEnd": 243.378,
+      "insertedSeconds": 1.524
     },
     {
       "part": 2,
       "id": 71,
       "type": "dialogue",
-      "wadeStart": 244.405,
-      "wadeEnd": 245.472,
-      "insertedSeconds": 1.223
+      "wadeStart": 244.408,
+      "wadeEnd": 245.482,
+      "insertedSeconds": 1.703
     },
     {
       "part": 2,
       "id": 73,
       "type": "dialogue",
-      "wadeStart": 253.642,
-      "wadeEnd": 254.03,
-      "insertedSeconds": 0.541
+      "wadeStart": 253.645,
+      "wadeEnd": 254.04,
+      "insertedSeconds": 1.021
     },
     {
       "part": 2,
       "id": 75,
       "type": "dialogue",
-      "wadeStart": 255.221,
-      "wadeEnd": 256.138,
-      "insertedSeconds": 0.896
+      "wadeStart": 255.224,
+      "wadeEnd": 256.148,
+      "insertedSeconds": 1.376
     },
     {
       "part": 2,
       "id": 77,
       "type": "dialogue",
-      "wadeStart": 257.098,
-      "wadeEnd": 257.845,
-      "insertedSeconds": 0.583
+      "wadeStart": 257.101,
+      "wadeEnd": 257.855,
+      "insertedSeconds": 1.063
     },
     {
       "part": 2,
       "id": 79,
       "type": "dialogue",
-      "wadeStart": 259.678,
-      "wadeEnd": 263.399,
-      "insertedSeconds": 3.869
+      "wadeStart": 259.681,
+      "wadeEnd": 263.409,
+      "insertedSeconds": 4.349
     },
     {
       "part": 2,
       "id": 81,
       "type": "dialogue",
-      "wadeStart": 269.278,
-      "wadeEnd": 271.043,
-      "insertedSeconds": 1.337
+      "wadeStart": 269.281,
+      "wadeEnd": 271.053,
+      "insertedSeconds": 1.817
     },
     {
       "part": 2,
       "id": 83,
       "type": "dialogue",
-      "wadeStart": 276.685,
-      "wadeEnd": 278.016,
-      "insertedSeconds": 1.223
+      "wadeStart": 276.688,
+      "wadeEnd": 278.026,
+      "insertedSeconds": 1.703
     },
     {
       "part": 3,
       "id": 94,
       "type": "dialogue",
-      "wadeStart": 142.686,
-      "wadeEnd": 143.449,
-      "insertedSeconds": 0.63
+      "wadeStart": 142.689,
+      "wadeEnd": 143.459,
+      "insertedSeconds": 1.11
+    },
+    {
+      "part": 3,
+      "id": "tag-3-2630",
+      "type": "attribution",
+      "wadeStart": 143.678,
+      "wadeEnd": 144.291,
+      "insertedSeconds": 0.04
     },
     {
       "part": 3,
       "id": 98,
       "type": "dialogue",
-      "wadeStart": 159.303,
-      "wadeEnd": 162.251,
-      "insertedSeconds": 3.498
+      "wadeStart": 159.306,
+      "wadeEnd": 162.261,
+      "insertedSeconds": 3.978
     },
     {
       "part": 3,
       "id": 100,
       "type": "dialogue",
-      "wadeStart": 163.441,
-      "wadeEnd": 164.975,
-      "insertedSeconds": 1.479
+      "wadeStart": 163.444,
+      "wadeEnd": 164.985,
+      "insertedSeconds": 1.959
     },
     {
       "part": 3,
       "id": 103,
       "type": "dialogue",
-      "wadeStart": 189.937,
-      "wadeEnd": 190.598,
-      "insertedSeconds": 0.882
+      "wadeStart": 189.94,
+      "wadeEnd": 190.608,
+      "insertedSeconds": 1.362
     },
     {
       "part": 3,
       "id": 105,
       "type": "dialogue",
-      "wadeStart": 210.077,
-      "wadeEnd": 211.288,
-      "insertedSeconds": 1.323
+      "wadeStart": 210.08,
+      "wadeEnd": 211.298,
+      "insertedSeconds": 1.803
     },
     {
       "part": 3,
       "id": 107,
       "type": "dialogue",
-      "wadeStart": 213.81,
-      "wadeEnd": 215.568,
-      "insertedSeconds": 1.792
+      "wadeStart": 213.813,
+      "wadeEnd": 215.578,
+      "insertedSeconds": 2.272
     },
     {
       "part": 3,
       "id": 109,
       "type": "dialogue",
-      "wadeStart": 239.537,
-      "wadeEnd": 239.899,
-      "insertedSeconds": 0.498
+      "wadeStart": 239.54,
+      "wadeEnd": 239.909,
+      "insertedSeconds": 0.978
     },
     {
       "part": 3,
       "id": 111,
       "type": "dialogue",
-      "wadeStart": 240.902,
-      "wadeEnd": 241.871,
-      "insertedSeconds": 1.044
+      "wadeStart": 240.905,
+      "wadeEnd": 241.881,
+      "insertedSeconds": 1.524
     },
     {
       "part": 3,
       "id": 113,
       "type": "dialogue",
-      "wadeStart": 253.739,
-      "wadeEnd": 254.409,
-      "insertedSeconds": 0.74
+      "wadeStart": 253.742,
+      "wadeEnd": 254.419,
+      "insertedSeconds": 1.22
+    },
+    {
+      "part": 3,
+      "id": "tag-3-4555",
+      "type": "attribution",
+      "wadeStart": 254.553,
+      "wadeEnd": 255.087,
+      "insertedSeconds": 0.04
     },
     {
       "part": 3,
       "id": 115,
       "type": "dialogue",
-      "wadeStart": 257.637,
-      "wadeEnd": 258.998,
-      "insertedSeconds": 1.209
+      "wadeStart": 257.64,
+      "wadeEnd": 259.008,
+      "insertedSeconds": 1.689
     },
     {
       "part": 3,
       "id": 118,
       "type": "dialogue",
-      "wadeStart": 278.321,
-      "wadeEnd": 279.127,
-      "insertedSeconds": 0.952
+      "wadeStart": 278.324,
+      "wadeEnd": 279.137,
+      "insertedSeconds": 1.432
     },
     {
       "part": 3,
       "id": 120,
       "type": "dialogue",
-      "wadeStart": 323.607,
-      "wadeEnd": 324.004,
-      "insertedSeconds": 0.469
+      "wadeStart": 323.61,
+      "wadeEnd": 324.014,
+      "insertedSeconds": 0.949
     },
     {
       "part": 3,
       "id": 121,
       "type": "dialogue",
-      "wadeStart": 327.211,
-      "wadeEnd": 327.774,
-      "insertedSeconds": 0.569
+      "wadeStart": 327.214,
+      "wadeEnd": 327.784,
+      "insertedSeconds": 1.049
     },
     {
       "part": 4,
       "id": 122,
       "type": "dialogue",
-      "wadeStart": 14.529,
-      "wadeEnd": 14.884,
-      "insertedSeconds": 0.412
+      "wadeStart": 14.532,
+      "wadeEnd": 14.894,
+      "insertedSeconds": 0.892
     },
     {
       "part": 4,
       "id": 124,
       "type": "dialogue",
-      "wadeStart": 16.364,
-      "wadeEnd": 16.682,
-      "insertedSeconds": 0.44
+      "wadeStart": 16.367,
+      "wadeEnd": 16.692,
+      "insertedSeconds": 0.92
     },
     {
       "part": 4,
       "id": 125,
       "type": "dialogue",
-      "wadeStart": 17.772,
-      "wadeEnd": 18.431,
-      "insertedSeconds": 0.782
+      "wadeStart": 17.775,
+      "wadeEnd": 18.441,
+      "insertedSeconds": 1.262
     },
     {
       "part": 4,
       "id": 127,
       "type": "dialogue",
-      "wadeStart": 22.039,
-      "wadeEnd": 23.813,
-      "insertedSeconds": 2.275
+      "wadeStart": 22.042,
+      "wadeEnd": 23.823,
+      "insertedSeconds": 2.755
     },
     {
       "part": 4,
       "id": 129,
       "type": "dialogue",
-      "wadeStart": 44.395,
-      "wadeEnd": 45.279,
-      "insertedSeconds": 1.134
+      "wadeStart": 44.398,
+      "wadeEnd": 45.289,
+      "insertedSeconds": 1.614
+    },
+    {
+      "part": 4,
+      "id": "tag-4-877",
+      "type": "attribution",
+      "wadeStart": 45.422,
+      "wadeEnd": 46.0,
+      "insertedSeconds": 0.04
     },
     {
       "part": 4,
       "id": 2,
       "type": "thought",
-      "wadeStart": 80.966,
-      "wadeEnd": 90.03,
-      "insertedSeconds": 9.401
+      "wadeStart": 80.969,
+      "wadeEnd": 90.04,
+      "insertedSeconds": 9.971
     },
     {
       "part": 4,
       "id": 130,
       "type": "dialogue",
-      "wadeStart": 120.93,
-      "wadeEnd": 124.203,
-      "insertedSeconds": 3.101
+      "wadeStart": 120.933,
+      "wadeEnd": 124.213,
+      "insertedSeconds": 3.581
+    },
+    {
+      "part": 4,
+      "id": "tag-4-2308",
+      "type": "attribution",
+      "wadeStart": 124.261,
+      "wadeEnd": 124.796,
+      "insertedSeconds": 0.04
     },
     {
       "part": 4,
       "id": 132,
       "type": "dialogue",
-      "wadeStart": 138.577,
-      "wadeEnd": 139.119,
-      "insertedSeconds": 0.512
+      "wadeStart": 138.58,
+      "wadeEnd": 139.129,
+      "insertedSeconds": 0.992
+    },
+    {
+      "part": 4,
+      "id": "tag-4-2567",
+      "type": "attribution",
+      "wadeStart": 139.433,
+      "wadeEnd": 140.01,
+      "insertedSeconds": 0.04
     },
     {
       "part": 4,
       "id": 133,
       "type": "dialogue",
-      "wadeStart": 178.763,
-      "wadeEnd": 179.333,
-      "insertedSeconds": 0.668
+      "wadeStart": 178.766,
+      "wadeEnd": 179.343,
+      "insertedSeconds": 1.148
+    },
+    {
+      "part": 4,
+      "id": "tag-4-3304",
+      "type": "attribution",
+      "wadeStart": 179.534,
+      "wadeEnd": 180.296,
+      "insertedSeconds": 0.04
     },
     {
       "part": 4,
       "id": 135,
       "type": "dialogue",
-      "wadeStart": 181.92,
-      "wadeEnd": 182.88,
-      "insertedSeconds": 1.024
+      "wadeStart": 181.923,
+      "wadeEnd": 182.89,
+      "insertedSeconds": 1.504
     },
     {
       "part": 4,
       "id": 137,
       "type": "dialogue",
-      "wadeStart": 184.352,
-      "wadeEnd": 185.694,
-      "insertedSeconds": 0.839
+      "wadeStart": 184.355,
+      "wadeEnd": 185.704,
+      "insertedSeconds": 1.319
     },
     {
       "part": 4,
       "id": 138,
       "type": "dialogue",
-      "wadeStart": 274.876,
-      "wadeEnd": 276.751,
-      "insertedSeconds": 1.749
+      "wadeStart": 274.879,
+      "wadeEnd": 276.761,
+      "insertedSeconds": 2.229
     },
     {
       "part": 4,
@@ -540,49 +677,49 @@
       "part": 5,
       "id": 139,
       "type": "dialogue",
-      "wadeStart": 45.856,
-      "wadeEnd": 46.825,
-      "insertedSeconds": 0.896
+      "wadeStart": 45.859,
+      "wadeEnd": 46.835,
+      "insertedSeconds": 1.376
     },
     {
       "part": 5,
       "id": 3,
       "type": "thought",
-      "wadeStart": 61.867,
-      "wadeEnd": 69.782,
-      "insertedSeconds": 8.53
+      "wadeStart": 61.87,
+      "wadeEnd": 69.792,
+      "insertedSeconds": 9.1
     },
     {
       "part": 5,
       "id": 141,
       "type": "dialogue",
-      "wadeStart": 116.486,
-      "wadeEnd": 117.633,
-      "insertedSeconds": 1.172
+      "wadeStart": 116.489,
+      "wadeEnd": 117.643,
+      "insertedSeconds": 1.652
     },
     {
       "part": 5,
       "id": 143,
       "type": "dialogue",
-      "wadeStart": 119.686,
-      "wadeEnd": 121.444,
-      "insertedSeconds": 1.791
+      "wadeStart": 119.689,
+      "wadeEnd": 121.454,
+      "insertedSeconds": 2.271
     },
     {
       "part": 5,
       "id": 145,
       "type": "dialogue",
-      "wadeStart": 127.109,
-      "wadeEnd": 127.726,
-      "insertedSeconds": 0.943
+      "wadeStart": 127.112,
+      "wadeEnd": 127.736,
+      "insertedSeconds": 1.423
     },
     {
       "part": 5,
       "id": 4,
       "type": "thought",
-      "wadeStart": 265.763,
-      "wadeEnd": 278.087,
-      "insertedSeconds": 11.909
+      "wadeStart": 265.766,
+      "wadeEnd": 278.097,
+      "insertedSeconds": 12.479
     }
   ]
 }
