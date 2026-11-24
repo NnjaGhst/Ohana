@@ -1,0 +1,42 @@
+{
+  "series": "Elsewhere (2026 Reboot)",
+  "episode": 1,
+  "title": "A Place That Doesn't Remember",
+  "status": "ready",
+  "narration": {
+    "narrator": "Wade – Resonant & Narrative",
+    "narrator_voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+    "ninja_voice": "Hallie – Gentle & Expressive",
+    "ninja_voice_id": "8f71d16d1fa84544a4db41a18264d613",
+    "ninja_dialogue_volume": 0.9,
+    "ninja_thought_volume": 0.8,
+    "hex_thought_volume": 0.8,
+    "speed": 1
+  },
+  "audio_file": "series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-clean-phrases-v2-approved.mp3",
+  "illustrations": [
+    "series/elsewhere/episodes/episode-001/illustrations/img-2039-1-2dc69b040266763c.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/img-2038-1-2c039c3b530e8f04.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/img-2040-1-dfb0a01c33154189.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/img-2041-1-a9a8cfb9bd55bbe7.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/58c36d9b-6c0f-4458-b053-7e3ce6ad190e-8fdd23bec2cd393d.jpg",
+    "series/elsewhere/episodes/episode-001/illustrations/a-moody-cinematic-indoor-scene-in-a-dim-warm-ton-ec5373600db84fa0.png",
+    "series/elsewhere/episodes/episode-001/illustrations/f1c8a3e0-05b9-4d5c-8efb-84d0a10168fb-4853c3667794ee17.jpg"
+  ],
+  "published_to_ohana": true,
+  "script_file": "series/elsewhere/reboot-2026/episodes/episode-001/published-story.txt",
+  "note": "Separate Elsewhere reboot series; 35:25 complete phrase rerecording with seven illustrations.",
+  "actual_duration_seconds": 2125.076,
+  "illustration_canvas": {
+    "width": 1170,
+    "height": 2532,
+    "orientation": "portrait",
+    "fit": "cover",
+    "device": "iPhone 14"
+  },
+  "audio_edit_version": "clean-phrases-v2-scene-responsive",
+  "illustration_quality_status": "user_selected_portrait_illustrations_published",
+  "illustration_quality_note": "Seven selected episode images in user-supplied episode order. Scene 6 was regenerated into a full-bleed iPhone 14 aspect-ratio portrait; no blurred letterboxing. Original images preserved in repository.",
+  "audio_quality_note": "Complete phrase rerecording with 13 scene environments; publication requested by owner. Full listener QA not claimed.",
+  "audio_preview_approved": true
+}
