@@ -1,0 +1,67 @@
+{
+  "status": "supporting voices require selection before recording",
+  "confirmed": {
+    "Narrator": {
+      "voice": "Wade",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1
+    },
+    "Hex": {
+      "voice": "Wade",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "dialogue_gain": 1,
+      "thought_gain": 0.8
+    },
+    "Ninja": {
+      "voice": "Hallie",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "dialogue_gain": 0.9,
+      "thought_gain": 0.8,
+      "spoken_cues": 0
+    },
+    "Bartender": {
+      "voice": "Craig",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1
+    }
+  },
+  "pending": [
+    "Roan",
+    "Handler",
+    "Target",
+    "Tomas"
+  ],
+  "continuity_edits": [
+    {
+      "line": 861,
+      "before": "The Crooked Lantern was half full. Maeve, who worked behind the bar, nodded toward Hex's usual place in the far corner.",
+      "after": "The Crooked Lantern was half full. The bartender nodded toward Hex's usual place in the far corner."
+    },
+    {
+      "line": 975,
+      "before": "Maeve came over.",
+      "after": "The bartender came over."
+    },
+    {
+      "line": 983,
+      "before": "Maeve followed his glance.",
+      "after": "The bartender followed his glance."
+    },
+    {
+      "line": 993,
+      "before": "Maeve studied him, then shrugged and poured the drink.",
+      "after": "The bartender studied him, then shrugged and poured the drink."
+    },
+    {
+      "line": 995,
+      "before": "As she carried it across the room, Hex felt a ridiculous urge to call her back.",
+      "after": "As he carried it across the room, Hex felt a ridiculous urge to call him back."
+    },
+    {
+      "line": 1005,
+      "before": "Maeve set the second glass in front of Ninja.",
+      "after": "The bartender set the second glass in front of Ninja."
+    }
+  ],
+  "notes": "Narration retains manuscript dialogue tags and embedded unmarked thoughts. Explicit inner monologue markers become Hex thought cues. Section headings, production notes and end marker are not spoken; recap and next-episode teaser are retained. Narrator paragraphs grouped up to 650 chars; quote turns remain whole. No lexical omissions from continuity-corrected script."
+}
