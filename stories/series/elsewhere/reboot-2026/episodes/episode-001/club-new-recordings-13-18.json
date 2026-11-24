@@ -1,0 +1,65 @@
+{
+  "status": "recorded",
+  "clips": [
+    {
+      "cue": "club-13",
+      "run": 207,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "text": "Of course. Her first instinct was irritation, sharp and reassuringly familiar. She hadn't driven all this way to be approached by a stranger who thought a drink was an invitation to claim part of her evening. She could send it back. She almost did. But the refusal stalled somewhere between thought and speech. She stared at her whiskey, annoyed by the hesitation. Once, she might have enjoyed the contest of figuring out a stranger before they figured out her. That person felt far away.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=2a5800449543474f93118c43eb320e77.wav",
+      "duration_seconds": 27.824761904761903
+    },
+    {
+      "cue": "club-14",
+      "run": 207,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "text": "She lifted her gaze anyway. He sat alone in the corner, dark clothes against the low light, long hair, a beard, and the kind of stillness that made everyone else's movements seem slightly louder. He was already looking at her. Not with the easy confidence she'd expected. There was no smug little smile, no exaggerated charm. For a fraction of a second, he looked almost startled. As though he'd done something before he had the chance to talk himself out of it. That caught her attention.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=d6c097b5321441e88d7875f1571b0b25.wav",
+      "duration_seconds": 28.323990929705214
+    },
+    {
+      "cue": "club-15",
+      "run": 207,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "text": "She studied him in return. He sat where he could see the exits. His control looked practiced, maintained rather than effortless. There were people like that. People who carried too much while insisting they were perfectly capable of carrying more. Near the end, Cassian had sometimes sat that way. The memory stung without warning. Ninja's fingers tightened around her glass. Don't start, she told herself. You came here to be nobody. Not to collect somebody else's problems.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=45cefcb06de847fc84b0a196457a57ad.wav",
+      "duration_seconds": 27.476462585034014
+    },
+    {
+      "cue": "club-16",
+      "run": 207,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "text": "She could leave the second drink untouched, turn away, and make her wishes clear. She was exceptionally good at that. But she was curious about his voice. Whether he belonged here, or whether, like her, he needed somewhere nobody would ask questions.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=b59fb34c36f44030927a2c079819f664.wav",
+      "duration_seconds": 14.990634920634921
+    },
+    {
+      "cue": "club-17",
+      "run": 208,
+      "actor": "ninja_thought",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.8,
+      "text": "Who are you? You look like the kind of man who has an answer prepared for everything, and not one of them is the truth. Don't start. Don't make somebody else's silence into your problem. So why haven't you looked away?",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=5d505584002d4e9ea2c6f195bd2fbf06.wav",
+      "duration_seconds": 12.48938775510204
+    },
+    {
+      "cue": "club-18",
+      "run": 209,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "text": "The thought made her angry at herself. She didn't know him. She had no reason to care. Something in his expression suggested he, too, had once believed that moving far enough might finally outrun the past. She held his gaze. A second longer than she meant to. The man in the corner didn't look away. Neither did she.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=649e63164e8e4ab988fe15d7f0820be0.wav",
+      "duration_seconds": 19.47208616780045
+    }
+  ]
+}
