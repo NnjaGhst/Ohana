@@ -1,0 +1,181 @@
+{
+  "status": "recorded",
+  "records": [
+    {
+      "cue_id": "line-177",
+      "run_id": 165,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Where?",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=eb3f457790964b14b3c5a933bd5d7ec4.wav",
+      "duration": 1.7425850340136055
+    },
+    {
+      "cue_id": "line-178",
+      "run_id": 166,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "They told her.",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=3f65c64f1a7b49adb04a9c792c570c5c.wav",
+      "duration": 1.383265306122449
+    },
+    {
+      "cue_id": "line-179",
+      "run_id": 167,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Was he alone?",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=66f1644637dc4650b91b761064e32cc6.wav",
+      "duration": 1.27437641723356
+    },
+    {
+      "cue_id": "line-180",
+      "run_id": 168,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "A pause.",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=e2d1e2cb82c440238697fd25b47e1e74.wav",
+      "duration": 2.0679591836734694
+    },
+    {
+      "cue_id": "line-181",
+      "run_id": 169,
+      "speaker": "police",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1,
+      "source_text": "We're still establishing exactly what occurred.",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/eae6fca42aae4b78b992533e96ab43c9/id=5b739ca802904fe8989cd7664fc80fbe.wav",
+      "duration": 3.0388662131519273
+    },
+    {
+      "cue_id": "line-182",
+      "run_id": 170,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Did he call anyone? Did he say anything?",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=546f2fd273114cbfafae02c0bc6d1872.wav",
+      "duration": 2.7718367346938777
+    },
+    {
+      "cue_id": "line-183",
+      "run_id": 171,
+      "speaker": "police",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1,
+      "source_text": "We don't have that information.",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/eae6fca42aae4b78b992533e96ab43c9/id=f5069bb1a18e4c97ba77fa0ec751c64f.wav",
+      "duration": 2.01718820861678
+    },
+    {
+      "cue_id": "line-184",
+      "run_id": 172,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She looked from one face to the other. They were gentle. They sounded certain about some things and strangely evasive about others. It made no sense. Cassian would have called. Cassian would have argued. Cassian would have found a way to say something ridiculous and then come home with a bruise and an apology. There was no world in which he simply stopped.",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=90c701e71193463490a8e7f7f265a19c.wav",
+      "duration": 19.38419501133787
+    },
+    {
+      "cue_id": "line-185",
+      "run_id": 173,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "When can I see him?",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=1ce819fec5074cae863c2e5782face51.wav",
+      "duration": 1.4875056689342403
+    },
+    {
+      "cue_id": "line-186",
+      "run_id": 174,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "The older one inhaled slowly. She hated that, too. The mug remained in the sink. She eventually let them in, answered questions, accepted a number to call. She didn't cry while they were there. She wasn't holding herself together. She hadn't yet understood there was something to fall apart. After they left, she found the phone on the table and called Cassian. His voicemail answered. She listened to his voice all the way through. Then she called again. And again.",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=7b4d44fc797b4cff8bd0b5c46a5aef18.wav",
+      "duration": 27.03047619047619
+    },
+    {
+      "cue_id": "line-187",
+      "run_id": 174,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "The fourth time, she put the phone down without ending the call and sat on the kitchen floor. The voicemail continued speaking into an empty room.",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=89bdc028f9a54b52956380651719614b.wav",
+      "duration": 7.926666666666667
+    },
+    {
+      "cue_id": "line-188",
+      "run_id": 175,
+      "speaker": "ninja_thought",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.8,
+      "source_text": "You said you'd call tomorrow. You always called. I don't understand how the world can keep moving when you've stopped. I don't know what I'm supposed to do with all the things I haven't told you.",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=1a2866e5df2a48e991c42faa7eb9dde7.wav",
+      "duration": 9.842312925170068
+    },
+    {
+      "cue_id": "line-189",
+      "run_id": 176,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "There was a funeral. People brought flowers. Some brought food. Others brought stories she hadn't heard before, most of them kind and almost all of them unbearable. Someone called Cassian a good man. Ninja believed that. Someone else said that at least he hadn't suffered. They couldn't possibly know that. After the service, a distant acquaintance pressed a folded photograph into her palm. It showed Cassian at a barbecue, grinning with his eyes closed, holding a plate overloaded with food. Ninja had never seen it.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=5702ce88ca9443759b493a8ba638afdd.wav",
+      "duration": 31.06394557823129
+    },
+    {
+      "cue_id": "line-190",
+      "run_id": 177,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "He's smiling like that because someone dared him to eat everything.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=5d58bec0f6bd4266abd4c9611b9a2525.wav",
+      "duration": 4.095374149659864
+    },
+    {
+      "cue_id": "line-191",
+      "run_id": 178,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "The woman smiled uncertainly.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=3bba6c2fcb8b4d3294d9ccade18a3dcd.wav",
+      "duration": 2.113809523809524
+    },
+    {
+      "cue_id": "line-192",
+      "run_id": 179,
+      "speaker": "female_support",
+      "voice_id": "4270665fc47f44aa989c093bb3dc2b99",
+      "gain": 1,
+      "source_text": "He was always making people laugh.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/4270665fc47f44aa989c093bb3dc2b99/id=eeed4c03887d485ea5137fa84ff49206.wav",
+      "duration": 2.3936961451247165
+    }
+  ]
+}
