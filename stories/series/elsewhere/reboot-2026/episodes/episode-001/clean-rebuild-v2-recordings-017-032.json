@@ -1,0 +1,181 @@
+{
+  "status": "recorded",
+  "records": [
+    {
+      "cue_id": "line-017",
+      "run_id": 15,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Tell me what happened.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=65bd7c91fbd9446c8e134e6363e48180.wav",
+      "duration": 1.4139455782312924
+    },
+    {
+      "cue_id": "line-018",
+      "run_id": 16,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "He was being an idiot.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=e24e70da5fae417b89c85e65046c86d3.wav",
+      "duration": 1.9275736961451246
+    },
+    {
+      "cue_id": "line-019",
+      "run_id": 17,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "That's a condition, not an explanation.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=8ea853250a5745edba03857b1a4f5e62.wav",
+      "duration": 2.690566893424036
+    },
+    {
+      "cue_id": "line-020",
+      "run_id": 18,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "He took my bag.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=7cc8405769904ad6a164f9bff759bf00.wav",
+      "duration": 1.2447392290249433
+    },
+    {
+      "cue_id": "line-021",
+      "run_id": 19,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "And you?",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=b93d85f1b04a49ac977018b03600ee83.wav",
+      "duration": 0.8540362811791383
+    },
+    {
+      "cue_id": "line-022",
+      "run_id": 20,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "I took it back.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=235978a041794cd58dcf6ec92c6a52ef.wav",
+      "duration": 1.3066666666666666
+    },
+    {
+      "cue_id": "line-023",
+      "run_id": 21,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Cassian glanced at the split skin on her knuckles.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=891c967054de45659c796687d8cbda27.wav",
+      "duration": 3.1665759637188207
+    },
+    {
+      "cue_id": "line-024",
+      "run_id": 22,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "With your face?",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=50ca4f7b78964c49897e16ece3f4a792.wav",
+      "duration": 1.0859183673469388
+    },
+    {
+      "cue_id": "line-025",
+      "run_id": 23,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Shut up.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=505efe8bd0064b1e827044991471b9a1.wav",
+      "duration": 0.9711111111111111
+    },
+    {
+      "cue_id": "line-026",
+      "run_id": 24,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He laughed, despite trying not to. Then he cleaned her knee with water from a bottle, tearing a strip from an old cloth when they ran out of proper bandages. She hissed when the cold water touched the scrape.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=ab06b448663a49c68339bde8e64aa1d0.wav",
+      "duration": 11.695102040816327
+    },
+    {
+      "cue_id": "line-027",
+      "run_id": 25,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Hold still, menace.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=40afeb01aeab4aa4accddbaadfbbd37a.wav",
+      "duration": 1.690408163265306
+    },
+    {
+      "cue_id": "line-028",
+      "run_id": 26,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "You're pulling my leg off.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=fba165c59c154d34bc413fb60815078d.wav",
+      "duration": 1.791201814058957
+    },
+    {
+      "cue_id": "line-029",
+      "run_id": 27,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Yes. That's the treatment. All doctors do it.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=3aed02a0189f4dd3ae076d36b260d9ce.wav",
+      "duration": 3.3755555555555556
+    },
+    {
+      "cue_id": "line-030",
+      "run_id": 28,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "When he was done, he crouched in front of her and held out his hands.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=24c45f23da8f40b7bf0d0e8613c00bf6.wav",
+      "duration": 4.0141043083900225
+    },
+    {
+      "cue_id": "line-031",
+      "run_id": 29,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Okay. Here's the important part. If somebody bigger than you starts trouble, you don't have to stand there and prove you're fearless.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=bb3340fe40a04fe48bf3402d1eb20f9e.wav",
+      "duration": 7.339546485260771
+    },
+    {
+      "cue_id": "line-032",
+      "run_id": 30,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "I wasn't scared.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=7b8e6e91a3ae4e0ba624da0e64c5607f.wav",
+      "duration": 1.2891156462585034
+    }
+  ]
+}
