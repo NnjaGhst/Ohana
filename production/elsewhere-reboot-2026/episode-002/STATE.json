@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "listening_review",
   "next_owner": "Dex",
-  "next_action": "Use the checkpointed PCM audit and two verified repair candidates to resolve the signal gate and remaining word check. Produce a verified release bundle, with a genuine listening record tied to its hashes.",
+  "next_action": "Resolve remaining 48 kHz near-full-scale source checks, obtain a real listening decision for s14-r4-c001, then use the two quiet-cut candidates in the versioned production render and run its release checks.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -6224,8 +6224,8 @@
       ]
     },
     "remaining_validation": {
-      "signal": "All 239 selected source hashes verified. No exact full-scale samples. 26 takes meet the near-full-scale threshold; two other selected takes end in isolated bursts after the spoken line. Quiet-boundary exact PCM repair candidates s05-c093-r01 and s08-c148-r01 pass the targeted boundary and two-engine transcript checks. Candidates are private and not in the approved review master.",
-      "transcript": "Independent isolated and contextual checks on the exact MP3 confirmed 'Hex knew it sounded wrong' (s04-c072), with Vosk spelling 'knew' as 'new'. For s14-r4-c001, the engines alternate between 'hypervigilance' and 'hypervigilant'; no definitive listening result. Owner reviewed and cleared only the excerpts s04-c061 and s05-c089. Findings for other selections remain separate.",
+      "signal": "All 239 selected source hashes verified. No exact full-scale samples. 26 takes meet the near-full-scale threshold; two other selected takes end in isolated bursts after the spoken line. Quiet-boundary exact PCM repair candidates s05-c093-r01 and s08-c148-r01 pass the targeted boundary and two-engine transcript checks. Candidates are private and not in the approved review master. The unmodified production signal check at 48 kHz passed both quiet-cut replacements and still flagged 26 other takes. No source peak rule was changed.",
+      "transcript": "Independent isolated and contextual checks on the exact MP3 confirmed 'Hex knew it sounded wrong' (s04-c072), with Vosk spelling 'knew' as 'new'. For s14-r4-c001, the engines alternate between 'hypervigilance' and 'hypervigilant'; no definitive listening result. Owner reviewed and cleared only the excerpts s04-c061 and s05-c089. Findings for other selections remain separate. Private listening excerpt for the remaining word is available as Elsewhere_E02_Hypervigilance_Review.wav.",
       "production_bundle": "The production release gate has not cleared. Keep the exact approved review master and source recordings intact. A corrected release candidate requires matching production QA and a genuine listening record.",
       "private_artifacts": [
         {
@@ -6257,6 +6257,16 @@
           "library_file_id": "libfile_4e9d3739e4508191a4eeb67cb03142bb",
           "version": 0,
           "sha256": "3dd364b73547812d35230b688cc6ee4f68adc82f08391aceea3a0c72763bf313"
+        },
+        {
+          "filename": "Elsewhere_E02_Hypervigilance_Review.wav",
+          "library_file_id": "libfile_9f03d387d0fc81918f7b5dea93f32529",
+          "version": 0,
+          "sha256": "9a8df73816155eaccb93f6df4e98b2fcccbc5ec167a385609e7721602cbd37e7",
+          "cue_id": "s14-r4-c001",
+          "source_start_seconds": 1693.8,
+          "source_duration_seconds": 8.6,
+          "status": "needs_listening"
         }
       ]
     }
