@@ -3,9 +3,9 @@
   "episode_id": "elsewhere-reboot-2026-002",
   "title": "The Man in the Corner",
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
-  "phase": "recording",
+  "phase": "technical_qa",
   "next_owner": "Dex",
-  "next_action": "Consolidate all retained takes and QA. Resolve held cues before assembling an approval master. Keep publication blocked.",
+  "next_action": "Continue technical QA from the all-recorded seed and connected QA report. Keep held takes blocked, review three extracted candidates and the seven Wade performances, and use the approved production pipeline before requesting master approval. No publication authorization.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -5385,6 +5385,96 @@
         "performance_tag": "softly",
         "group": "connected-directed",
         "provider_account": "Ninja"
+      },
+      {
+        "role": "current Draft 4 complete source seed; no cues eligible for automatic re-record",
+        "filename": "Elsewhere_E02_Draft4_All_Recorded_Seed.json",
+        "file_id": "file_000000007a0481fd8a421bfe5b787788",
+        "library_file_id": "libfile_f06f5aa9b114819180ee31a840bc713c",
+        "version": 0,
+        "sha256": "dd37fdd50bb74aa56bde288d05fc1b9e325b1c03ac65479d7890c807338d9ee4"
+      },
+      {
+        "role": "connected raw QA, independent transcription and level report",
+        "filename": "Elsewhere_E02_Draft4_Connected_QA.json",
+        "file_id": "file_00000000c06881fdb8ec8238b71b6782",
+        "library_file_id": "libfile_975c573bbb7c819186b042dd4551aa79",
+        "version": 0,
+        "sha256": "860fb9c91e343b74d9adcf38f6052c0e9d41d0cb5cef3541ec6e37126ce64dbe"
+      },
+      {
+        "role": "directed Wade private listening reel; no approval",
+        "filename": "Elsewhere_E02_Draft4_Wade_Delivery_Review.mp3",
+        "file_id": "file_000000003cb081fd9b233e49e0359047",
+        "library_file_id": "libfile_6fd6d765791081918e6190df47c4c497",
+        "version": 0,
+        "sha256": "b0907fc4f086ed82ac1eb26fec0ca89f72a0785386db62bcb62e38ea58e08d97"
+      },
+      {
+        "role": "single-word repair candidate; listening approval pending",
+        "filename": "s03-c027-r01-listening-candidate.wav",
+        "file_id": "file_000000001eb881f59c2159ea9426f194",
+        "library_file_id": "libfile_f31b98a002dc81918dcfbc370cb8f0b5",
+        "version": 0,
+        "sha256": "74aad87d4265fc1067b9d57c1fb6bf4499e512d66c029f06e474586d812281fa",
+        "cue_id": "s03-c027",
+        "candidate_id": "s03-c027-r01",
+        "source_take_id": "s03-c027-t01",
+        "source_sha256": "986a0e3f980f93d61acd2e2a4fc3930603fec79d9ada903c1668e80ea70d7e89",
+        "bytes": 42380,
+        "duration_seconds": 0.48,
+        "sample_rate": 44100,
+        "channels": 1,
+        "extraction": {
+          "start_frame": 0,
+          "end_frame_exclusive": 21168,
+          "operation": "Exact PCM extract, no effects"
+        },
+        "independent_asr": "no"
+      },
+      {
+        "role": "single-word repair candidate; listening approval pending",
+        "filename": "s04-c068-r01-listening-candidate.wav",
+        "file_id": "file_00000000c2d081fb8726b227c297794d",
+        "library_file_id": "libfile_c2f9775feb648191afb873204c9f8b3c",
+        "version": 0,
+        "sha256": "455cbdee171f49a8c82390fa74cba10af2f6f04d4688e14b56f4a0a70584b641",
+        "cue_id": "s04-c068",
+        "candidate_id": "s04-c068-r01",
+        "source_take_id": "s04-c068-t01",
+        "source_sha256": "4124d836020fb50dd3d128addd6f6acd668d830a5500a44a7c68b22296fe1795",
+        "bytes": 61784,
+        "duration_seconds": 0.7,
+        "sample_rate": 44100,
+        "channels": 1,
+        "extraction": {
+          "start_frame": 0,
+          "end_frame_exclusive": 30870,
+          "operation": "Exact PCM extract, no effects"
+        },
+        "independent_asr": "no"
+      },
+      {
+        "role": "single-word repair candidate; listening approval pending",
+        "filename": "s11-c189-r01-listening-candidate.wav",
+        "file_id": "file_000000007ca881f58acf79caa85864ee",
+        "library_file_id": "libfile_1d220ebb569081919ee411bfaf865995",
+        "version": 0,
+        "sha256": "df4549ba1d5671c93bac645e464ebd1a988f77ca39faeb9232ce8abc3b037792",
+        "cue_id": "s11-c189",
+        "candidate_id": "s11-c189-r01",
+        "source_take_id": "s11-c189-t01",
+        "source_sha256": "82a9ab86608c2453488afeb48cd67a7217fd70df4a510d0223d8f163d0943027",
+        "bytes": 57374,
+        "duration_seconds": 0.65,
+        "sample_rate": 44100,
+        "channels": 1,
+        "extraction": {
+          "start_frame": 0,
+          "end_frame_exclusive": 28665,
+          "operation": "Exact PCM extract, no effects"
+        },
+        "independent_asr": "hex"
       }
     ],
     "open_cue_ids": [
@@ -5632,10 +5722,10 @@
     "recording_status": {
       "generated_takes": 241,
       "verified_audio_bytes": 241,
-      "transcript_match": 9,
+      "transcript_match": 184,
       "pending_cues": 0,
       "qa_open_cues": 239,
-      "blocked_reason": "Complete source recording pass reconciled; raw QA and directed Wade performance still need review before master approval.",
+      "blocked_reason": "Recording complete for all 239 Draft 4 cues. Resolve signal flags and transcript uncertainty, then perform directed performance and final master listening review. Three duplicate utterance repairs are saved as candidates; the originals remain retained.",
       "raw_qa_candidates_checked": 239,
       "raw_qa_gate_clear": 45,
       "raw_qa_uncertainty": 164,
@@ -5805,18 +5895,48 @@
       "draft_pr": 6,
       "tooling_head": "3f5a760d8b682718c1e7227cd4a3e87c7a5842b8",
       "script_sha256": "ef85205fc944b371ee7aac01c6aa2dcb2e612a0a18cd183b65bbac3443ba7f19",
-      "provider_status": "Ninja account live chat connector pilot verified; REST runner remains uncredentialed; bulk quota cap not supplied",
+      "provider_status": "All initial takes generated and privately verified via Ninja connected account. No quota errors, top-ups or account switches.",
       "left_to_record": 0,
       "plain_cues_waiting": 0,
       "directed_cues_waiting": 0,
       "remaining_characters": 0,
-      "remaining_words": 5085,
+      "remaining_words": 0,
       "reserved_new_calls": 216,
       "signal_gate_cues": [
         "s02-c010",
+        "s03-c014",
+        "s03-c023",
+        "s03-c029",
+        "s03-c034",
+        "s03-c036",
+        "s03-c039",
+        "s03-c040",
+        "s04-c051",
+        "s04-c055",
+        "s04-c061",
+        "s04-c072",
+        "s05-c093",
+        "s05-c096",
+        "s06-c097",
+        "s06-c100",
+        "s07-c136",
+        "s08-c148",
+        "s09-c158",
+        "s09-c160",
+        "s10-c173",
+        "s11-c180",
+        "s11-c186",
+        "s11-c189",
+        "s11-c197",
+        "s11-c199",
+        "s13-c214",
+        "s13-c218",
+        "s14-r4-c001",
+        "s14-r4-c017",
+        "s02-c010",
         "s03-c014"
       ],
-      "qa_pending_cues_including_approved_repair": 18,
+      "qa_pending_cues_including_approved_repair": 164,
       "pilot": {
         "state": "live_connector_roundtrip_verified",
         "account": "Ninja",
@@ -5841,8 +5961,8 @@
           "disposition": "review_pending; no listening approval"
         }
       },
-      "active_seed_sha256": "526454fdfec6b52e378574b02c1376a7fda8aa333717d4df881c02e4bfa08bf5",
-      "active_seed_library_file_id": "libfile_1d66c903b6e4819196a95d1e8fc0a109",
+      "active_seed_sha256": "dd37fdd50bb74aa56bde288d05fc1b9e325b1c03ac65479d7890c807338d9ee4",
+      "active_seed_library_file_id": "libfile_f06f5aa9b114819180ee31a840bc713c",
       "connected_bulk": {
         "authorization": "Finish required cues using connected accounts' existing credits only",
         "groups_completed": 19,
@@ -5851,6 +5971,25 @@
         "provider_calls": 215,
         "retained": 215,
         "active": null
+      },
+      "consolidated_qa": {
+        "newly_verified": 215,
+        "independent_crosschecks": 40,
+        "whisper_exact_matches": 175,
+        "both_asr_disagreements": [
+          "s03-c027",
+          "s04-c054",
+          "s04-c061",
+          "s04-c068",
+          "s05-c089",
+          "s11-c189"
+        ],
+        "repair_candidates": [
+          "s03-c027-r01",
+          "s04-c068-r01",
+          "s11-c189-r01"
+        ],
+        "directed_reel_library_file_id": "libfile_6fd6d765791081918e6190df47c4c497"
       }
     }
   },
