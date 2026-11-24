@@ -13,7 +13,7 @@
     "hex_thought_volume": 0.8,
     "speed": 1
   },
-  "audio_file": "series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-clean-phrases-v2-approved.mp3",
+  "audio_file": "series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-knock-repair-v1-approved.mp3",
   "illustrations": [
     "series/elsewhere/episodes/episode-001/illustrations/img-2039-1-2dc69b040266763c.jpg",
     "series/elsewhere/episodes/episode-001/illustrations/img-2038-1-2c039c3b530e8f04.jpg",
@@ -34,9 +34,9 @@
     "fit": "cover",
     "device": "iPhone 14"
   },
-  "audio_edit_version": "clean-phrases-v2-scene-responsive",
+  "audio_edit_version": "knock-repair-v1",
   "illustration_quality_status": "user_selected_portrait_illustrations_published",
   "illustration_quality_note": "Seven selected episode images in user-supplied episode order. Scene 6 was regenerated into a full-bleed iPhone 14 aspect-ratio portrait; no blurred letterboxing. Original images preserved in repository.",
-  "audio_quality_note": "Complete phrase rerecording with 13 scene environments; publication requested by owner. Full listener QA not claimed.",
+  "audio_quality_note": "Three repeated utterances repaired; individual takes and full scene with and without ambience transcribed. Listener approved dry scene; full episode naturalness not independently verified.",
   "audio_preview_approved": true
 }
