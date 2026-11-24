@@ -3,10 +3,29 @@
   "source": "stories/series/elsewhere/reboot-2026/episodes/episode-001/knock-repair-v1-takes.json",
   "approved_repair_commit": "41a0e5db24de9d512b8d20f36e5dc9bec37dc317",
   "approved_repair_directory": "stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/knock-repair-v1/full/",
-  "note": "Transcript regression derived from the historical audit and issue. The original rejected Where take is represented by a minimal duplicate because the takes manifest records the fresh Where take. Corrected text is the expected repair transcript. No original HeyGen asset URLs are included.",
+  "note": "Transcript fixture based on the historical repair audit and the live small.en rerun of the original approved HeyGen takes. Corrected fields are the expected repairs. No recording URLs or audio files are included.",
   "cues": [
-    {"id": "line-171", "seconds": 1092.025, "expected": "Why?", "rejected": "Why? Why? Why?", "corrected": "Why?"},
-    {"id": "line-177", "seconds": 1121.605, "expected": "Where?", "rejected": "Where? Where?", "corrected": "Where?"},
-    {"id": "line-180", "seconds": 1127.476, "expected": "A pause.", "rejected": "a pause, a pause,", "corrected": "A pause."}
-  ]
+    {
+      "id": "line-171",
+      "seconds": 1092.025,
+      "expected": "Why?",
+      "rejected": "Why? Why? Why?",
+      "corrected": "Why?"
+    },
+    {
+      "id": "line-177",
+      "seconds": 1121.605,
+      "expected": "Where?",
+      "rejected": "Where? Where? Where?",
+      "corrected": "Where?"
+    },
+    {
+      "id": "line-180",
+      "seconds": 1127.476,
+      "expected": "A pause.",
+      "rejected": "a pause, a pause,",
+      "corrected": "A pause."
+    }
+  ],
+  "original_where_source": "stories/series/elsewhere/reboot-2026/episodes/episode-001/clean-rebuild-v2-recordings-177-192.json"
 }
