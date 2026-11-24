@@ -1,0 +1,309 @@
+{
+  "type": "synthetic-inhale-boundary-A-B",
+  "status": "working-branch-only",
+  "method": "No spoken-word cuts. A soft fades at WAV boundaries; B -22dB attenuation only of low-energy material outside conservative speech core.",
+  "variants": {
+    "soft-edges": {
+      "path": "cassian-dialogue-soft-edges-a-b-test.mp3",
+      "seconds": 60.492,
+      "bytes": 968872
+    },
+    "quiet-edges": {
+      "path": "cassian-dialogue-quiet-edges-a-b-test.mp3",
+      "seconds": 60.492,
+      "bytes": 968872
+    }
+  },
+  "cues": [
+    {
+      "run_id": 21,
+      "actor": "narrator",
+      "text": "Cassian glanced at the split skin on her knuckles.",
+      "source_duration_ms": 3348,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 330,
+        "speech_end_ms": 2950,
+        "leading_ms": 330,
+        "trailing_ms": 398,
+        "silence_threshold": -43.17,
+        "segments": 2
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 220,
+        "trailing_attenuated_ms": 218
+      }
+    },
+    {
+      "run_id": 22,
+      "actor": "cassian",
+      "text": "With your face?",
+      "source_duration_ms": 1179,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 145,
+        "speech_end_ms": 770,
+        "leading_ms": 145,
+        "trailing_ms": 409,
+        "silence_threshold": -44.85,
+        "segments": 1
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 35,
+        "trailing_attenuated_ms": 229
+      }
+    },
+    {
+      "run_id": 23,
+      "actor": "ninja",
+      "text": "Shut up.",
+      "source_duration_ms": 901,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 0,
+        "speech_end_ms": 545,
+        "leading_ms": 0,
+        "trailing_ms": 356,
+        "silence_threshold": -40.3,
+        "segments": 2
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 0,
+        "trailing_attenuated_ms": 176
+      }
+    },
+    {
+      "run_id": 24,
+      "actor": "narrator",
+      "text": "He laughed, despite trying not to. Then he cleaned her knee with water from a bottle, tearing a strip from an old cloth when they ran out of proper bandages. She hissed when the cold water touched the scrape.",
+      "source_duration_ms": 11119,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 370,
+        "speech_end_ms": 10895,
+        "leading_ms": 370,
+        "trailing_ms": 224,
+        "silence_threshold": -42.66,
+        "segments": 12
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 260,
+        "trailing_attenuated_ms": 44
+      }
+    },
+    {
+      "run_id": 25,
+      "actor": "cassian",
+      "text": "Hold still, menace.",
+      "source_duration_ms": 2005,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 0,
+        "speech_end_ms": 1695,
+        "leading_ms": 0,
+        "trailing_ms": 310,
+        "silence_threshold": -41.99,
+        "segments": 3
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 0,
+        "trailing_attenuated_ms": 130
+      }
+    },
+    {
+      "run_id": 26,
+      "actor": "ninja",
+      "text": "You're pulling my leg off.",
+      "source_duration_ms": 1684,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 130,
+        "speech_end_ms": 1200,
+        "leading_ms": 130,
+        "trailing_ms": 484,
+        "silence_threshold": -36.32,
+        "segments": 2
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 20,
+        "trailing_attenuated_ms": 304
+      }
+    },
+    {
+      "run_id": 27,
+      "actor": "cassian",
+      "text": "Yes. That's the treatment. All doctors do it.",
+      "source_duration_ms": 3267,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 0,
+        "speech_end_ms": 2815,
+        "leading_ms": 0,
+        "trailing_ms": 452,
+        "silence_threshold": -42.68,
+        "segments": 4
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 0,
+        "trailing_attenuated_ms": 272
+      }
+    },
+    {
+      "run_id": 28,
+      "actor": "narrator",
+      "text": "When he was done, he crouched in front of her and held out his hands.",
+      "source_duration_ms": 4142,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 335,
+        "speech_end_ms": 3875,
+        "leading_ms": 335,
+        "trailing_ms": 267,
+        "silence_threshold": -42.69,
+        "segments": 4
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 225,
+        "trailing_attenuated_ms": 87
+      }
+    },
+    {
+      "run_id": 29,
+      "actor": "cassian",
+      "text": "Okay. Here's the important part. If somebody bigger than you starts trouble, you don't have to stand there and prove you're fearless.",
+      "source_duration_ms": 6920,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 300,
+        "speech_end_ms": 6630,
+        "leading_ms": 300,
+        "trailing_ms": 290,
+        "silence_threshold": -41.45,
+        "segments": 5
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 190,
+        "trailing_attenuated_ms": 110
+      }
+    },
+    {
+      "run_id": 30,
+      "actor": "ninja",
+      "text": "I wasn't scared.",
+      "source_duration_ms": 1406,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 100,
+        "speech_end_ms": 1000,
+        "leading_ms": 100,
+        "trailing_ms": 406,
+        "silence_threshold": -40.2,
+        "segments": 1
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 0,
+        "trailing_attenuated_ms": 226
+      }
+    },
+    {
+      "run_id": 31,
+      "actor": "cassian",
+      "text": "Then you should've been. Fear can be useful.",
+      "source_duration_ms": 2946,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 255,
+        "speech_end_ms": 2565,
+        "leading_ms": 255,
+        "trailing_ms": 381,
+        "silence_threshold": -41.36,
+        "segments": 2
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 145,
+        "trailing_attenuated_ms": 201
+      }
+    },
+    {
+      "run_id": 32,
+      "actor": "narrator",
+      "text": "She hated that answer. Cassian tilted his head.",
+      "source_duration_ms": 3550,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 290,
+        "speech_end_ms": 3290,
+        "leading_ms": 290,
+        "trailing_ms": 260,
+        "silence_threshold": -45.02,
+        "segments": 2
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 180,
+        "trailing_attenuated_ms": 80
+      }
+    },
+    {
+      "run_id": 33,
+      "actor": "cassian",
+      "text": "Look at me. Nin. Being brave isn't the same as being stupid.",
+      "source_duration_ms": 4606,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 0,
+        "speech_end_ms": 4295,
+        "leading_ms": 0,
+        "trailing_ms": 311,
+        "silence_threshold": -40.67,
+        "segments": 5
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 0,
+        "trailing_attenuated_ms": 131
+      }
+    },
+    {
+      "run_id": 34,
+      "actor": "ninja",
+      "text": "You're stupid.",
+      "source_duration_ms": 1157,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 145,
+        "speech_end_ms": 805,
+        "leading_ms": 145,
+        "trailing_ms": 352,
+        "silence_threshold": -39.03,
+        "segments": 1
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 35,
+        "trailing_attenuated_ms": 172
+      }
+    },
+    {
+      "run_id": 35,
+      "actor": "cassian",
+      "text": "Frequently. That's how I've gathered all this wisdom.",
+      "source_duration_ms": 2992,
+      "signal": {
+        "found": true,
+        "speech_start_ms": 0,
+        "speech_end_ms": 2710,
+        "leading_ms": 0,
+        "trailing_ms": 282,
+        "silence_threshold": -41.32,
+        "segments": 3
+      },
+      "edge_attenuation": {
+        "leading_attenuated_ms": 0,
+        "trailing_attenuated_ms": 102
+      }
+    }
+  ],
+  "narration_gap_ms": 550,
+  "dialogue_gap_ms": 640,
+  "clip_count": 15,
+  "word_level_edits": 0,
+  "speaker_overlaps": 0
+}
