@@ -4,8 +4,8 @@
   "title": "The Man in the Corner",
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
-  "next_owner": "Dex",
-  "next_action": "Ingest batch 002 using PRIVATE-TRANSFER.md and pinned private index; verify all eight source bytes, checksums, and version-pinned private round trips. Independently investigate s06-c099-t01 repetition without approving it; report audition listening artifacts and any required pickup. No bulk recording or release until transfer confirmed.",
+  "next_owner": "Hex",
+  "next_action": "Review the private Batch 002 audition reel for performance, request a clean single-word Lachie pickup for s06-c099-t02, and checkpoint that pickup using the verified private transfer process. Keep release blocked.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 3",
@@ -65,6 +65,193 @@
           "s14-c228"
         ],
         "take_count": 8
+      },
+      {
+        "role": "verified source WAV; listening and approval pending",
+        "filename": "s02-c004-t01.wav",
+        "file_id": "file_00000000158881fd809f9cc8657d039d",
+        "library_file_id": "libfile_9577787703008191ad8981342305df0d",
+        "version": 0,
+        "sha256": "986508fcd0335eb910119b01dfc2bdbedb529a746fa3433c2bab0eec975c6ea0",
+        "cue_id": "s02-c004",
+        "take_id": "s02-c004-t01",
+        "bytes": 1156904,
+        "duration_seconds": 13.116327,
+        "sample_rate": 44100,
+        "channels": 1,
+        "checksum_verification": "Fresh HeyGen retrieval and version-pinned private round trip matched the initially computed SHA-256."
+      },
+      {
+        "role": "verified source WAV; listening and approval pending",
+        "filename": "s02-c005-t01.wav",
+        "file_id": "file_00000000f25881fd9865ceebc29685ab",
+        "library_file_id": "libfile_5b76b19ec36c8191b5a362c7bd16f2b0",
+        "version": 0,
+        "sha256": "e6e29ce60dc752ef4de728fff96114319aa70bd486c126058aa0fcc53b85e01d",
+        "cue_id": "s02-c005",
+        "take_id": "s02-c005-t01",
+        "bytes": 252712,
+        "duration_seconds": 2.864717,
+        "sample_rate": 44100,
+        "channels": 1,
+        "checksum_verification": "Fresh HeyGen retrieval and version-pinned private round trip matched the initially computed SHA-256."
+      },
+      {
+        "role": "verified source WAV; listening and approval pending",
+        "filename": "s02-c007-t01.wav",
+        "file_id": "file_00000000a82481fd8508b7efaf50d769",
+        "library_file_id": "libfile_7f9212b119e0819197bf88280c8f8f5e",
+        "version": 0,
+        "sha256": "fac1ee4d0c7e6413cb738bfc7255c40460924dbdbbb044b1358002e8fdf9b9d9",
+        "cue_id": "s02-c007",
+        "take_id": "s02-c007-t01",
+        "bytes": 110598,
+        "duration_seconds": 1.253447,
+        "sample_rate": 44100,
+        "channels": 1,
+        "checksum_verification": "Fresh HeyGen retrieval and version-pinned private round trip matched the initially computed SHA-256."
+      },
+      {
+        "role": "verified source WAV; listening and approval pending",
+        "filename": "s02-c008-t01.wav",
+        "file_id": "file_00000000748c81fd85b6df0ed2709547",
+        "library_file_id": "libfile_192f32eb411c8191829d478bf7253ff3",
+        "version": 0,
+        "sha256": "2e98f1b5c7c44394699b134f412d5eac69a7be260587d9a75241b05c7b027116",
+        "cue_id": "s02-c008",
+        "take_id": "s02-c008-t01",
+        "bytes": 338728,
+        "duration_seconds": 3.839955,
+        "sample_rate": 44100,
+        "channels": 1,
+        "checksum_verification": "Fresh HeyGen retrieval and version-pinned private round trip matched the initially computed SHA-256."
+      },
+      {
+        "role": "verified source WAV; listening and approval pending",
+        "filename": "s05-c074-t01.wav",
+        "file_id": "file_000000006cf881fd8d2fb9ccb90e48b4",
+        "library_file_id": "libfile_d56d3cd86ea48191baa32fc9b9aed7cc",
+        "version": 0,
+        "sha256": "13569c5573813954d7626c600c1dfeadf135d7838dcadbfd6d0364a0cdab33d4",
+        "cue_id": "s05-c074",
+        "take_id": "s05-c074-t01",
+        "bytes": 255784,
+        "duration_seconds": 2.899546,
+        "sample_rate": 44100,
+        "channels": 1,
+        "checksum_verification": "Fresh HeyGen retrieval and version-pinned private round trip matched the initially computed SHA-256."
+      },
+      {
+        "role": "verified source WAV; blocked for repeated word",
+        "filename": "s06-c099-t01.wav",
+        "file_id": "file_000000006f1c81fdb8084c5230328be4",
+        "library_file_id": "libfile_7e18abe630e08191aa4dc5278b90f606",
+        "version": 0,
+        "sha256": "652ccc98c1a3722a0abea7e2bbde438169c2be4618f69e979782b23baec9888b",
+        "cue_id": "s06-c099",
+        "take_id": "s06-c099-t01",
+        "bytes": 137722,
+        "duration_seconds": 1.560975,
+        "sample_rate": 44100,
+        "channels": 1,
+        "checksum_verification": "Fresh HeyGen retrieval and version-pinned private round trip matched the initially computed SHA-256."
+      },
+      {
+        "role": "verified source WAV; listening and approval pending",
+        "filename": "s12-c206-t01.wav",
+        "file_id": "file_00000000e1b481fda239b22cddd28360",
+        "library_file_id": "libfile_2d9fc5f973208191b0701b4d9a125668",
+        "version": 0,
+        "sha256": "38e06f4cb1b98fd2931d53fa3f00d7458a3b096106a8eed7073dd5425b26681f",
+        "cue_id": "s12-c206",
+        "take_id": "s12-c206-t01",
+        "bytes": 466728,
+        "duration_seconds": 5.291202,
+        "sample_rate": 44100,
+        "channels": 1,
+        "checksum_verification": "Fresh HeyGen retrieval and version-pinned private round trip matched the initially computed SHA-256."
+      },
+      {
+        "role": "verified source WAV; listening and approval pending",
+        "filename": "s14-c228-t01.wav",
+        "file_id": "file_00000000941081fdaf113ecce5edac9a",
+        "library_file_id": "libfile_f68cdb8376748191914320e7047ba651",
+        "version": 0,
+        "sha256": "47d4efb08d0e7998a8f5adf2f04b610d16700a306272440c98974b19e274a7a5",
+        "cue_id": "s14-c228",
+        "take_id": "s14-c228-t01",
+        "bytes": 92542,
+        "duration_seconds": 1.04873,
+        "sample_rate": 44100,
+        "channels": 1,
+        "checksum_verification": "Fresh HeyGen retrieval and version-pinned private round trip matched the initially computed SHA-256."
+      },
+      {
+        "role": "private performance audition MP3; seven takes, excludes blocked Target take",
+        "filename": "Elsewhere_E02_Batch002_Voice_Audition.mp3",
+        "file_id": "file_00000000005481fdb459f6af928c9979",
+        "library_file_id": "libfile_d9b4dfca68a88191b96d63aba930b7df",
+        "version": 0,
+        "sha256": "b77b1002a9f0d5f1b48461da5251565eb749aefa0cd19811b67c8a4f0bdfd1ca",
+        "duration_seconds": 34.814,
+        "cues": [
+          {
+            "cue_id": "s02-c004",
+            "take_id": "s02-c004-t01",
+            "speaker": "Narrator",
+            "voice": "Wade",
+            "start_seconds": 0,
+            "end_seconds": 13.116
+          },
+          {
+            "cue_id": "s02-c005",
+            "take_id": "s02-c005-t01",
+            "speaker": "Roan",
+            "voice": "Brodie",
+            "start_seconds": 13.866,
+            "end_seconds": 16.731
+          },
+          {
+            "cue_id": "s02-c007",
+            "take_id": "s02-c007-t01",
+            "speaker": "Hex",
+            "voice": "Wade",
+            "start_seconds": 17.481,
+            "end_seconds": 18.734
+          },
+          {
+            "cue_id": "s02-c008",
+            "take_id": "s02-c008-t01",
+            "speaker": "Roan",
+            "voice": "Brodie",
+            "start_seconds": 19.484,
+            "end_seconds": 23.324
+          },
+          {
+            "cue_id": "s05-c074",
+            "take_id": "s05-c074-t01",
+            "speaker": "Handler",
+            "voice": "Prudence",
+            "start_seconds": 24.074,
+            "end_seconds": 26.974
+          },
+          {
+            "cue_id": "s12-c206",
+            "take_id": "s12-c206-t01",
+            "speaker": "Tomas",
+            "voice": "Neville",
+            "start_seconds": 27.724,
+            "end_seconds": 33.015
+          },
+          {
+            "cue_id": "s14-c228",
+            "take_id": "s14-c228-t01",
+            "speaker": "Bartender",
+            "voice": "Craig",
+            "start_seconds": 33.765,
+            "end_seconds": 34.814
+          }
+        ]
       }
     ],
     "open_cue_ids": [
@@ -312,11 +499,11 @@
     "cue_count": 240,
     "recording_status": {
       "generated_takes": 9,
-      "verified_audio_bytes": 1,
+      "verified_audio_bytes": 9,
       "transcript_match": 8,
       "pending_cues": 231,
       "qa_open_cues": 240,
-      "blocked_reason": "Batch 002 needs private round-trip verification; s06-c099-t01 flagged by first-pass Whisper for repeated word; performance listening pending."
+      "blocked_reason": "Private transfer verified. Performance listening remains pending; Target cue s06-c099 requires a pickup for an independently confirmed repeated word."
     },
     "transfer_workflow": "production/elsewhere-reboot-2026/episode-002/PRIVATE-TRANSFER.md",
     "batch_002": {
@@ -353,7 +540,24 @@
         ]
       },
       "listening_review": "pending; Hex has not heard playback"
-    }
+    },
+    "pickups": [
+      {
+        "cue_id": "s06-c099",
+        "rejected_take_id": "s06-c099-t01",
+        "next_take_id": "s06-c099-t02",
+        "speaker": "Target",
+        "voice": "Lachie",
+        "expected": "Please.",
+        "observed": "Please. Please.",
+        "disposition": "blocked; retain original privately for diagnosis",
+        "evidence": "First-pass Whisper flagged the repeat; Vosk small-en-us-0.15 independently returned two occurrences in the whole take and again between other cues. Nemotron returned no transcript on the isolated clip.",
+        "approximate_word_starts_seconds": [
+          0.05,
+          0.74
+        ]
+      }
+    ]
   },
   "release": {
     "status": "blocked",
@@ -362,5 +566,5 @@
     "published": false
   },
   "cast_file": "production/elsewhere-reboot-2026/episode-002/cast.json",
-  "cast_status": "selected; sample takes generated; performance listening pending"
+  "cast_status": "selected; Batch 002 performance audition ready for listening review; Target pickup pending"
 }
