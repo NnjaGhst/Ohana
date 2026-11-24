@@ -1,0 +1,71 @@
+name: Elsewhere Episode 1 - Dynamic Scene Soundscape
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - '.github/workflows/elsewhere-dynamic-soundscape.yml'
+      - 'stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_dynamic_ambience.py'
+      - 'stories/series/elsewhere/reboot-2026/episodes/episode-001/dynamic-ambience-cue-sheet.json'
+  workflow_dispatch:
+concurrency:
+  group: elsewhere-ep1-scene-soundscape
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_dynamic_ambience.py
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/dynamic-ambience-cue-sheet.json
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/full-cast-previews/episode-001-full-cast-preview.mp3
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install ffmpeg, pydub, numpy and scipy
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install numpy scipy pydub
+      - name: Render 13 smooth soundscapes, restrained Foley and full MP3
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/elsewhere-scene-soundscape
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_dynamic_ambience.py
+      - name: Save unapproved preview only to working branch
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/elsewhere-scene-soundscape
+        run: |
+          set -e
+          dest=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/dynamic-scene-soundscape
+          mkdir -p "$dest"
+          cp "$OUTPUT_DIR/episode-001-dynamic-scene-soundscape-preview.mp3" "$dest/"
+          cp "$OUTPUT_DIR/rain-bakery-courtyard.mp3" "$dest/"
+          cp "$OUTPUT_DIR/last-evening-and-the-knock.mp3" "$dest/"
+          cp "$OUTPUT_DIR/return-to-bellwether-and-pub.mp3" "$dest/"
+          cp "$OUTPUT_DIR/dynamic-ambience-edit-report.json" "$dest/"
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$dest/episode-001-dynamic-scene-soundscape-preview.mp3" "$dest/rain-bakery-courtyard.mp3" "$dest/last-evening-and-the-knock.mp3" "$dest/return-to-bellwether-and-pub.mp3" "$dest/dynamic-ambience-edit-report.json"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Save immersive 13-scene ambient preview for Elsewhere Episode 1"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: elsewhere-episode1-scene-soundscape
+          path: |
+            ${{ runner.temp }}/elsewhere-scene-soundscape/episode-001-dynamic-scene-soundscape-preview.mp3
+            ${{ runner.temp }}/elsewhere-scene-soundscape/dynamic-ambience-edit-report.json
+          retention-days: 14
+          if-no-files-found: warn
