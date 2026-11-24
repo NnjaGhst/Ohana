@@ -1,0 +1,40 @@
+{
+  "status": "preview-only; do not publish until verified",
+  "source": "clean-phrases-v2",
+  "reason": "User reported repeated words and choppiness from 18 minutes; both QA transcriptions and individual original WAV transcriptions confirmed repeats",
+  "takes": [
+    {
+      "id": "line-171",
+      "text": "Why?",
+      "gain": 0.9,
+      "oldStart": 1092.025,
+      "oldEnd": 1093.849,
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=aa50d1697f5b43e5b86ffa20120c92b6.wav",
+      "rawTranscript": "Why? Why? Why?",
+      "method": "first complete utterance only if silence boundary can be established",
+      "repeatCount": 3
+    },
+    {
+      "id": "line-177",
+      "text": "Where?",
+      "gain": 0.9,
+      "oldStart": 1121.605,
+      "oldEnd": 1123.348,
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=8679435f372046a6829a898257871cf1.wav",
+      "rawTranscript": "Where?",
+      "method": "entire verified fresh take",
+      "repeatCount": 1
+    },
+    {
+      "id": "line-180",
+      "text": "A pause.",
+      "gain": 1,
+      "oldStart": 1127.476,
+      "oldEnd": 1129.544,
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=611c948609cb45b69b960f3624a38fda.wav",
+      "rawTranscript": "a pause, a pause,",
+      "method": "first complete utterance only if silence boundary can be established",
+      "repeatCount": 2
+    }
+  ]
+}
