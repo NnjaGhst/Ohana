@@ -1,0 +1,181 @@
+{
+  "status": "recorded",
+  "records": [
+    {
+      "cue_id": "line-113",
+      "run_id": 106,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Then tell me what you are doing.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=39a8f4fd16ec4d349b4d63eb838bdd98.wav",
+      "duration": 2.226167800453515
+    },
+    {
+      "cue_id": "line-114",
+      "run_id": 107,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He took a breath. For a second she thought he would. Instead, he picked up the envelope.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=34bca38b666d4e05aee35e892dbdc933.wav",
+      "duration": 5.883310657596372
+    },
+    {
+      "cue_id": "line-115",
+      "run_id": 108,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Trying to make something easier for once.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=84c8d65832b940e7a6de2d23f7d0fb79.wav",
+      "duration": 2.5164172335600905
+    },
+    {
+      "cue_id": "line-116",
+      "run_id": 109,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She let him leave without another argument. She told herself he was an adult. That he had a right to parts of his life that weren't hers. That she could love him without interrogating him. And all of that was true. It wasn't the whole truth. The first job had sounded almost insulting in its simplicity. A man who knew a man asked Cassian to take a sealed parcel across town. Cash on delivery. No questions. He asked one anyway.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=d6b9366310c3494395be3b29638e1a95.wav",
+      "duration": 23.849047619047617
+    },
+    {
+      "cue_id": "line-117",
+      "run_id": 110,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "What's inside?",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=5acdcc57c2324146832d1082278ffb09.wav",
+      "duration": 1.0592970521541951
+    },
+    {
+      "cue_id": "line-118",
+      "run_id": 111,
+      "speaker": "courier",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1,
+      "source_text": "Paperwork.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/eae6fca42aae4b78b992533e96ab43c9/id=fb542c618fc94b73a5fbcae42e010333.wav",
+      "duration": 1.246530612244898
+    },
+    {
+      "cue_id": "line-119",
+      "run_id": 112,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "That's an expensive courier service.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=5601324a79514734a1dd82da20c2e900.wav",
+      "duration": 2.388707482993197
+    },
+    {
+      "cue_id": "line-120",
+      "run_id": 113,
+      "speaker": "courier",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1,
+      "source_text": "Then enjoy your tip.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/eae6fca42aae4b78b992533e96ab43c9/id=36dfd411807244aca4ba14b941aeb43b.wav",
+      "duration": 2.1034240362811794
+    },
+    {
+      "cue_id": "line-121",
+      "run_id": 114,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He'd needed the money. He'd told himself he would be an idiot to refuse something that ordinary. The second favor involved waiting in a car while two strangers had an argument inside a building. The third meant driving somebody to a railway station and pretending not to hear the anxious phone call in the back seat. Each job ended with somebody paying him well enough to make the next invitation more difficult to reject.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=e6e6fefab5e7408c8029649616f40828.wav",
+      "duration": 22.04124716553288
+    },
+    {
+      "cue_id": "line-122",
+      "run_id": 114,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "At first he described them to Ninja as extra shifts. She asked whether the job had dental insurance, and he said it came with a very generous selection of uncomfortable silences. Months later, in a room above a shuttered shop, a man placed a list of dates in front of him. Cassian recognized every payment. There were signatures and photographs, details he'd never knowingly agreed to leave in anyone's possession.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=2fdd74df6feb4c2088a2e6c8a8541aa8.wav",
+      "duration": 25.642086167800453
+    },
+    {
+      "cue_id": "line-123",
+      "run_id": 115,
+      "speaker": "handler",
+      "voice_id": "e8ad4ba6c5e241549c1920fda63eb878",
+      "gain": 1,
+      "source_text": "You've been very reliable.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/e8ad4ba6c5e241549c1920fda63eb878/id=3d8a1fa454c3437caf0717d4fac01a0a.wav",
+      "duration": 1.6576190476190475
+    },
+    {
+      "cue_id": "line-124",
+      "run_id": 116,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Cassian looked at the folder.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=33534a6deb744e6db222fa65c0db7f4b.wav",
+      "duration": 1.7050113378684808
+    },
+    {
+      "cue_id": "line-125",
+      "run_id": 117,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Is that supposed to be a compliment?",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=b1b5d88603bb4f50a94186cee40a9aea.wav",
+      "duration": 2.5164172335600905
+    },
+    {
+      "cue_id": "line-126",
+      "run_id": 118,
+      "speaker": "handler",
+      "voice_id": "e8ad4ba6c5e241549c1920fda63eb878",
+      "gain": 1,
+      "source_text": "It's an opportunity to continue being reliable.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/e8ad4ba6c5e241549c1920fda63eb878/id=f2ca4dc36b504604ad918dd01b42ae0f.wav",
+      "duration": 3.0736961451247167
+    },
+    {
+      "cue_id": "line-127",
+      "run_id": 119,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "What if I'm finished?",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=b6ff983da60045cc98cf8dfbb13e39fa.wav",
+      "duration": 1.261700680272109
+    },
+    {
+      "cue_id": "line-128",
+      "run_id": 120,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "The man leaned back.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=00a46f2c485c4dcd8b00378c3b16a4ec.wav",
+      "duration": 1.6542857142857144
+    }
+  ]
+}
