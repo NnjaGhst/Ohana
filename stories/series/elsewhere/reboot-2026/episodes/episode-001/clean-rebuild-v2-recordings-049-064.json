@@ -1,0 +1,174 @@
+{
+  "status": "needs-pickups",
+  "records": [
+    {
+      "cue_id": "line-049",
+      "run_id": 47,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "My birthday. My rules.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=04219c9400a44bf7acad26a4d1d4c374.wav",
+      "duration": 2.15859410430839
+    },
+    {
+      "cue_id": "line-050",
+      "run_id": 48,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He looked at the piece, then at her.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=827e8f66898247c586cc4d0dd8ddadf5.wav",
+      "duration": 2.5351473922902494
+    },
+    {
+      "cue_id": "line-051",
+      "run_id": 49,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "You're becoming dangerously difficult.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=fac58776d55548d1a15a36f916726e7b.wav",
+      "duration": 2.7370068027210883
+    },
+    {
+      "cue_id": "line-052",
+      "run_id": 50,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Good teacher.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=8198d025df024400a096f89e34e1a0f1.wav",
+      "duration": 1.116780045351474
+    },
+    {
+      "cue_id": "line-053",
+      "run_id": 51,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He bowed his head in mock defeat. There was no party. Nobody remembered to put music on. But Cassian sang so badly that the neighbor banged on the wall, and she laughed until she nearly fell off her chair. For years afterward, when a birthday felt disappointing, he'd remind her they still had the record for the most complaints during a single birthday song.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=e460311ecac140b596ded0f730e18298.wav",
+      "duration": 20.14546485260771
+    },
+    {
+      "cue_id": "line-054",
+      "error": "This tool call was blocked by OpenAI's safety checks. Please double check what you are sending."
+    },
+    {
+      "cue_id": "line-055",
+      "run_id": 52,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Why are you out here?",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=527df31e4c6e4f5a9810bd3f5e6505b4.wav",
+      "duration": 1.3912925170068027
+    },
+    {
+      "cue_id": "line-056",
+      "run_id": 53,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Guard duty.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=2eec6edea21b42578dc5ed3523c3817a.wav",
+      "duration": 0.9070748299319727
+    },
+    {
+      "cue_id": "line-057",
+      "run_id": 54,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "From what?",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=3765192bb4c14fed878f712d5d1fe9b0.wav",
+      "duration": 1.0078004535147391
+    },
+    {
+      "cue_id": "line-058",
+      "run_id": 55,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Spiders. Very serious threat.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=e1fa4df040c54e348d58a21f6cca5c8e.wav",
+      "duration": 2.6502721088435375
+    },
+    {
+      "cue_id": "line-059",
+      "run_id": 56,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "There aren't any spiders.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=ef3c4aa6824c427a9e6db2763666afdb.wav",
+      "duration": 1.9224263038548752
+    },
+    {
+      "cue_id": "line-060",
+      "run_id": 57,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Exactly. You're welcome.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=36df3efcd8cd44dc930b7e236a7ad7ac.wav",
+      "duration": 1.8137868480725623
+    },
+    {
+      "cue_id": "line-061",
+      "run_id": 58,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She sat beside him. They said nothing for a while. Eventually she leaned against his shoulder, and he rested his cheek on her head.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=cacd3c9a1cf44bef8bcc37f01f2b95f6.wav",
+      "duration": 7.604943310657596
+    },
+    {
+      "cue_id": "line-062",
+      "run_id": 59,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "One day, we're going to have a place with doors that only slam when we want them to.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=5bb694c4076b46e7b8a96a817b585655.wav",
+      "duration": 4.743900226757369
+    },
+    {
+      "cue_id": "line-063",
+      "run_id": 60,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Why would we want them to slam?",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=553e7b15b99449ddb5e9884fa80721c3.wav",
+      "duration": 2.307437641723356
+    },
+    {
+      "cue_id": "line-064",
+      "run_id": 61,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Because you'll be annoyed with me.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=c27d1010986e4c8789f8e7f0a9f4038a.wav",
+      "duration": 2.326167800453515
+    }
+  ]
+}
