@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "technical_qa",
   "next_owner": "Dex",
-  "next_action": "Continue technical QA from the all-recorded seed and connected QA report. Keep held takes blocked, review three extracted candidates and the seven Wade performances, and use the approved production pipeline before requesting master approval. No publication authorization.",
+  "next_action": "Continue technical QA with the owner-approved Wade performances pinned to the verified reel. Resolve held signal and transcript flags and review the three extracted candidates before assembling a master for listening approval. No publication authorization.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -5403,12 +5403,59 @@
         "sha256": "860fb9c91e343b74d9adcf38f6052c0e9d41d0cb5cef3541ec6e37126ce64dbe"
       },
       {
-        "role": "directed Wade private listening reel; no approval",
+        "role": "directed Wade private listening reel; owner approved creative delivery",
         "filename": "Elsewhere_E02_Draft4_Wade_Delivery_Review.mp3",
         "file_id": "file_000000003cb081fd9b233e49e0359047",
         "library_file_id": "libfile_6fd6d765791081918e6190df47c4c497",
         "version": 0,
-        "sha256": "b0907fc4f086ed82ac1eb26fec0ca89f72a0785386db62bcb62e38ea58e08d97"
+        "sha256": "b0907fc4f086ed82ac1eb26fec0ca89f72a0785386db62bcb62e38ea58e08d97",
+        "approval": {
+          "status": "owner_approved",
+          "reviewer": "Ninja",
+          "reference": "Ninja replied 'The reel sounds good' in chat, 2026-11-24 (Europe/Stockholm).",
+          "scope": "Directed Wade performance reel and its seven included takes; creative delivery only.",
+          "filename": "Elsewhere_E02_Draft4_Wade_Delivery_Review.mp3",
+          "library_file_id": "libfile_6fd6d765791081918e6190df47c4c497",
+          "version": 0,
+          "sha256": "b0907fc4f086ed82ac1eb26fec0ca89f72a0785386db62bcb62e38ea58e08d97",
+          "takes": [
+            {
+              "cue_id": "s14-r4-c004",
+              "take_id": "s14-r4-c004-t01",
+              "sha256": "509673d4a1ce0f6fa67f629594fe305b1d37f36cedf8487c9dda6c8033e003fb"
+            },
+            {
+              "cue_id": "s14-r4-c006",
+              "take_id": "s14-r4-c006-t01",
+              "sha256": "08e6716b6d6a4cdefd61931bcbe582e62d40ebff4068866c52993dd8282f9e7f"
+            },
+            {
+              "cue_id": "s14-r4-c009",
+              "take_id": "s14-r4-c009-t01",
+              "sha256": "12084c42ded72f38ad72c8c74e79a8582e0bd1355e0e89e806b24318fce90eab"
+            },
+            {
+              "cue_id": "s14-r4-c011",
+              "take_id": "s14-r4-c011-t01",
+              "sha256": "1e973187259217856986875cc1a3dcdaf9ea80ecad6d4ad5f34e4bdb64ee4a5c"
+            },
+            {
+              "cue_id": "s14-r4-c014",
+              "take_id": "s14-r4-c014-t01",
+              "sha256": "1a7725e97bd184268f3934d28795cb3b13d9c767f9ea501b930d1fb5bbf8bfaf"
+            },
+            {
+              "cue_id": "s14-r4-c015",
+              "take_id": "s14-r4-c015-t01",
+              "sha256": "aaad62a34e69c115b47c6d279a779ba179f72ad317e44352b69d2cdf4fe894de"
+            },
+            {
+              "cue_id": "s14-r4-c020",
+              "take_id": "s14-r4-c020-t01",
+              "sha256": "5b9a46b3f195f4e4aeb9c163567894ba30a2a1559d785a06cda4007af0e8ba23"
+            }
+          ]
+        }
       },
       {
         "role": "single-word repair candidate; listening approval pending",
@@ -5725,7 +5772,7 @@
       "transcript_match": 184,
       "pending_cues": 0,
       "qa_open_cues": 239,
-      "blocked_reason": "Recording complete for all 239 Draft 4 cues. Resolve signal flags and transcript uncertainty, then perform directed performance and final master listening review. Three duplicate utterance repairs are saved as candidates; the originals remain retained.",
+      "blocked_reason": "Recording complete for all 239 Draft 4 cues. Directed Wade delivery approved. Resolve signal flags, transcript uncertainty and unapproved repair candidates before final master listening review.",
       "raw_qa_candidates_checked": 239,
       "raw_qa_gate_clear": 45,
       "raw_qa_uncertainty": 164,
@@ -5989,7 +6036,54 @@
           "s04-c068-r01",
           "s11-c189-r01"
         ],
-        "directed_reel_library_file_id": "libfile_6fd6d765791081918e6190df47c4c497"
+        "directed_reel_library_file_id": "libfile_6fd6d765791081918e6190df47c4c497",
+        "directed_performance_approval": {
+          "status": "owner_approved",
+          "reviewer": "Ninja",
+          "reference": "Ninja replied 'The reel sounds good' in chat, 2026-11-24 (Europe/Stockholm).",
+          "scope": "Directed Wade performance reel and its seven included takes; creative delivery only.",
+          "filename": "Elsewhere_E02_Draft4_Wade_Delivery_Review.mp3",
+          "library_file_id": "libfile_6fd6d765791081918e6190df47c4c497",
+          "version": 0,
+          "sha256": "b0907fc4f086ed82ac1eb26fec0ca89f72a0785386db62bcb62e38ea58e08d97",
+          "takes": [
+            {
+              "cue_id": "s14-r4-c004",
+              "take_id": "s14-r4-c004-t01",
+              "sha256": "509673d4a1ce0f6fa67f629594fe305b1d37f36cedf8487c9dda6c8033e003fb"
+            },
+            {
+              "cue_id": "s14-r4-c006",
+              "take_id": "s14-r4-c006-t01",
+              "sha256": "08e6716b6d6a4cdefd61931bcbe582e62d40ebff4068866c52993dd8282f9e7f"
+            },
+            {
+              "cue_id": "s14-r4-c009",
+              "take_id": "s14-r4-c009-t01",
+              "sha256": "12084c42ded72f38ad72c8c74e79a8582e0bd1355e0e89e806b24318fce90eab"
+            },
+            {
+              "cue_id": "s14-r4-c011",
+              "take_id": "s14-r4-c011-t01",
+              "sha256": "1e973187259217856986875cc1a3dcdaf9ea80ecad6d4ad5f34e4bdb64ee4a5c"
+            },
+            {
+              "cue_id": "s14-r4-c014",
+              "take_id": "s14-r4-c014-t01",
+              "sha256": "1a7725e97bd184268f3934d28795cb3b13d9c767f9ea501b930d1fb5bbf8bfaf"
+            },
+            {
+              "cue_id": "s14-r4-c015",
+              "take_id": "s14-r4-c015-t01",
+              "sha256": "aaad62a34e69c115b47c6d279a779ba179f72ad317e44352b69d2cdf4fe894de"
+            },
+            {
+              "cue_id": "s14-r4-c020",
+              "take_id": "s14-r4-c020-t01",
+              "sha256": "5b9a46b3f195f4e4aeb9c163567894ba30a2a1559d785a06cda4007af0e8ba23"
+            }
+          ]
+        }
       }
     }
   },
