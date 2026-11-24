@@ -695,6 +695,15 @@
         }
       ],
       "text": "text/elsewhere-reboot-2026-001.txt"
+    },
+    {
+      "id": "elsewhere-reboot-2026-002",
+      "seriesId": "elsewhere-reboot-2026",
+      "seriesName": "Elsewhere (2026 Reboot)",
+      "number": 2,
+      "title": "The Man in the Corner",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft"
     }
   ]
 }
