@@ -4,8 +4,8 @@
   "title": "The Man in the Corner",
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
-  "next_owner": "Dex",
-  "next_action": "Ingest and verify private pickup index t02; confirm suspected triple repetition independently. If confirmed, retain as rejected and propose a clean single-utterance recovery strategy (prefer clean new take; any complete-utterance isolation at verified silence requires separate approval and provenance). Do not fabricate listening approval. Await genuine audition decision; no publication.",
+  "next_owner": "Ninja",
+  "next_action": "Listen to candidate r01 for a complete natural single 'Please' and review the audition reel. Preserve both rejected originals. Require explicit listening approval before Dex can consider the candidate for assembly and production QA. Keep publication blocked.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 3",
@@ -261,6 +261,42 @@
         "sha256": "57c87ae9341c1a823584a43be8627ed689d3f4cd6189cce77c0d55887561d5cf",
         "cue_id": "s06-c099",
         "take_id": "s06-c099-t02"
+      },
+      {
+        "role": "verified original pickup WAV; rejected for repeats",
+        "filename": "s06-c099-t02.wav",
+        "file_id": "file_0000000012e881fdbd4e67656b21d784",
+        "library_file_id": "libfile_4e613a7dabf8819192bb7f2d14ecc72d",
+        "version": 0,
+        "sha256": "6943f88453c0bf54553ae7e3bc3768629e873718c8f8e86275cc5e14c1c53021",
+        "cue_id": "s06-c099",
+        "bytes": 155310,
+        "duration_seconds": 1.760385,
+        "sample_rate": 44100,
+        "channels": 1,
+        "take_id": "s06-c099-t02",
+        "checksum_verification": "Fresh HeyGen retrieval and version-pinned private round trip matched."
+      },
+      {
+        "role": "isolated utterance repair candidate WAV; pending listening approval",
+        "filename": "s06-c099-r01-listening-candidate.wav",
+        "file_id": "file_00000000efb481fda91dfa0940dc1f50",
+        "library_file_id": "libfile_4970be2a99ac819185edf241f58d85d4",
+        "version": 0,
+        "sha256": "59080dcb6aa9aa1df684c0e450f1631fe259f2929fa9f2b53989efd17c1ee1d5",
+        "cue_id": "s06-c099",
+        "bytes": 56492,
+        "duration_seconds": 0.64,
+        "sample_rate": 44100,
+        "channels": 1,
+        "candidate_id": "s06-c099-r01",
+        "source_take_id": "s06-c099-t02",
+        "source_sha256": "6943f88453c0bf54553ae7e3bc3768629e873718c8f8e86275cc5e14c1c53021",
+        "extraction": {
+          "start_frame": 1764,
+          "end_frame_exclusive": 29988,
+          "operation": "Exact contiguous PCM copy. No fades, gain, speed or pitch change."
+        }
       }
     ],
     "open_cue_ids": [
@@ -508,11 +544,11 @@
     "cue_count": 240,
     "recording_status": {
       "generated_takes": 10,
-      "verified_audio_bytes": 9,
+      "verified_audio_bytes": 10,
       "transcript_match": 8,
       "pending_cues": 231,
       "qa_open_cues": 240,
-      "blocked_reason": "Batch 002 private transfer verified; original Please repeat confirmed; t02 pickup also flagged by VoiceLabs Whisper for three occurrences. Performance audition awaiting actual listening."
+      "blocked_reason": "Two original Lachie takes rejected for repeated word. A separately retained single-utterance repair candidate and the performance audition await genuine listening approval."
     },
     "transfer_workflow": "production/elsewhere-reboot-2026/episode-002/PRIVATE-TRANSFER.md",
     "batch_002": {
@@ -554,12 +590,12 @@
       {
         "cue_id": "s06-c099",
         "rejected_take_id": "s06-c099-t01",
-        "next_take_id": "s06-c099-t02",
+        "next_take_id": null,
         "speaker": "Target",
         "voice": "Lachie",
         "expected": "Please.",
         "observed": "Please. Please.",
-        "disposition": "blocked; retain original privately for diagnosis",
+        "disposition": "Originals t01 and t02 blocked. Candidate r01 requires explicit listening approval before use.",
         "evidence": "First-pass Whisper flagged the repeat; Vosk small-en-us-0.15 independently returned two occurrences in the whole take and again between other cues. Nemotron returned no transcript on the isolated clip.",
         "approximate_word_starts_seconds": [
           0.05,
@@ -567,11 +603,29 @@
         ],
         "pickup_attempt": {
           "take_id": "s06-c099-t02",
-          "status": "blocked_pending_independent_verification",
+          "status": "rejected_repetition_verified",
           "expected": "Please.",
           "observed": "Please, please, please.",
           "engine": "VoiceLabs Whisper",
-          "duration_seconds": 1.7603854875283447
+          "duration_seconds": 1.7603854875283447,
+          "independent_evidence": "Vosk small-en-us-0.15 identified two complete instances of 'please', isolated and in context. Whisper previously reported three; Vosk did not identify a third complete word."
+        },
+        "repair_candidate": {
+          "candidate_id": "s06-c099-r01",
+          "status": "pending_listening_approval",
+          "source_take_id": "s06-c099-t02",
+          "source_start_seconds": 0.04,
+          "source_end_seconds": 0.68,
+          "checks": {
+            "word_count_isolated": 1,
+            "word_count_in_context": 1,
+            "word_count_muted_control": 0,
+            "clipped_samples": 0,
+            "peak_dbfs": -7.68,
+            "first_40ms_rms_dbfs": -61.69,
+            "last_40ms_rms_dbfs": -65.13
+          },
+          "approved": false
         }
       }
     ]
