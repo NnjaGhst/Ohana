@@ -1,0 +1,13 @@
+{
+  "episode_id": "elsewhere-reboot-2026-002",
+  "master_sha256": "<preview SHA-256>",
+  "qa_sha256": "<qa.json SHA-256>",
+  "owner": "Ninja",
+  "approved": false,
+  "approval_reference": "",
+  "reviewer": "",
+  "listened_to_flagged_passages": false,
+  "listened_to_representative_joins": false,
+  "resolved_review_flags": [],
+  "review_notes": ""
+}

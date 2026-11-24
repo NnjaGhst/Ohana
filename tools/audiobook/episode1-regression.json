@@ -1,0 +1,10 @@
+{
+  "source": "https://github.com/NnjaGhst/Ohana/blob/elsewhere-reboot-2026/stories/series/elsewhere/reboot-2026/episodes/episode-001/knock-repair-v1-takes.json",
+  "repair_reference": "https://github.com/NnjaGhst/Ohana/tree/41a0e5db24de9d512b8d20f36e5dc9bec37dc317/stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/knock-repair-v1/full",
+  "note": "Transcript fixtures. Why and A pause use recorded raw transcripts. Where uses the minimum reported repetition because the take manifest only contains the fresh take.",
+  "cases": [
+    {"cue": "line-171", "seconds": 1092.025, "expected": "Why?", "rejected": "Why? Why? Why?", "corrected": "Why?"},
+    {"cue": "line-177", "seconds": 1121.605, "expected": "Where?", "rejected": "Where? Where?", "corrected": "Where?"},
+    {"cue": "line-180", "seconds": 1127.476, "expected": "A pause.", "rejected": "a pause, a pause,", "corrected": "A pause."}
+  ]
+}

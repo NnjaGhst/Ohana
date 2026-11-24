@@ -1,0 +1,12 @@
+{
+  "episode_id": "elsewhere-reboot-2026-002",
+  "series_id": "elsewhere-reboot-2026",
+  "cast": {
+    "Hex": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+    "Ninja": "8f71d16d1fa84544a4db41a18264d613"
+  },
+  "cues": [
+    {"id": "rain-001", "scene": "rain", "order": 1, "speaker": "Hex", "role": "narration", "text": "The street went quiet."},
+    {"id": "rain-002", "scene": "rain", "order": 2, "speaker": "Ninja", "role": "dialogue", "text": "Did you hear that?", "gain": 0.9}
+  ]
+}
