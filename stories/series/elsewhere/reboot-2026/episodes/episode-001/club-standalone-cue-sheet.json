@@ -1,0 +1,261 @@
+{
+  "version": "1.0",
+  "status": "needs-recording",
+  "source_script_sha": "15406989521669475bbb2280dd3449b5fab8f4aa",
+  "origin": "Compare old Ep2 audio-editing-guide: phrase-level independent clips, protect endings, do not rely on timestamp-splitting multi-line TTS",
+  "voice_match": {
+    "wade": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+    "hallie": "8f71d16d1fa84544a4db41a18264d613",
+    "bartender": "eae6fca42aae4b78b992533e96ab43c9"
+  },
+  "source_run_range": [
+    197,
+    209
+  ],
+  "cues": [
+    {
+      "cue": "club-01",
+      "run": 197,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "paragraphs": [
+        425,
+        426,
+        427,
+        428,
+        429,
+        430
+      ],
+      "text": "Back in Bellwether, rain tapped against Ninja's jacket as she walked past shuttered shopfronts. Through the bakery window, Ada was wiping down a counter. She raised one hand when she saw Ninja pass. Ninja returned the gesture. It was a small exchange, not quite a friendship, and she was grateful for how little it asked of her. At the corner, a warm light fell across the wet pavement. The Crooked Lantern."
+    },
+    {
+      "cue": "club-02",
+      "run": 197,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "paragraphs": [
+        431,
+        432,
+        433,
+        434
+      ],
+      "text": "Its door creaked when she pushed it open. The room smelled of wood polish, damp wool, and the comforting suggestion of something cooking behind the bar. A few people sat at tables. Someone had left a coat over the back of a chair. A low conversation drifted from near the fire. The place seemed to have no interest in impressing anyone. Perfect. The bartender looked up."
+    },
+    {
+      "cue": "club-03",
+      "run": 198,
+      "actor": "bartender",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1,
+      "paragraphs": [
+        435
+      ],
+      "text": "Evening."
+    },
+    {
+      "cue": "club-04",
+      "run": 199,
+      "actor": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "paragraphs": [
+        436
+      ],
+      "text": "Whiskey, please."
+    },
+    {
+      "cue": "club-05",
+      "run": 200,
+      "actor": "bartender",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1,
+      "paragraphs": [
+        437
+      ],
+      "text": "Any preference?"
+    },
+    {
+      "cue": "club-06",
+      "run": 201,
+      "actor": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "paragraphs": [
+        438
+      ],
+      "text": "The one that doesn't ask personal questions."
+    },
+    {
+      "cue": "club-07",
+      "run": 202,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "paragraphs": [
+        439
+      ],
+      "text": "One corner of his mouth lifted."
+    },
+    {
+      "cue": "club-08",
+      "run": 203,
+      "actor": "bartender",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1,
+      "paragraphs": [
+        440
+      ],
+      "text": "That narrows it down surprisingly little."
+    },
+    {
+      "cue": "club-09",
+      "run": 204,
+      "actor": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "paragraphs": [
+        441
+      ],
+      "text": "Then your favorite."
+    },
+    {
+      "cue": "club-10",
+      "run": 205,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "paragraphs": [
+        442,
+        443,
+        444,
+        445,
+        446,
+        447,
+        448
+      ],
+      "text": "He poured a glass and set it in front of her. She chose a stool with a good view of the door and her shoulder turned slightly away from the room. Old habits. Not fear, exactly. Just the relief of not offering herself to conversation. For a few minutes, it almost worked. The glass was cool beneath her fingertips. Rain slipped down the window. Nobody knew her name. Nobody asked about Cassian. She let the quiet settle. Then another glass appeared beside the first. Ninja looked at it."
+    },
+    {
+      "cue": "club-11",
+      "run": 205,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "paragraphs": [
+        449,
+        450
+      ],
+      "text": "She hadn't ordered a second. The bartender tipped his head toward a far corner."
+    },
+    {
+      "cue": "club-12",
+      "run": 206,
+      "actor": "bartender",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1,
+      "paragraphs": [
+        451
+      ],
+      "text": "From the man across the room."
+    },
+    {
+      "cue": "club-13",
+      "run": 207,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "paragraphs": [
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459
+      ],
+      "text": "Of course. Her first instinct was irritation, sharp and reassuringly familiar. She hadn't driven all this way to be approached by a stranger who thought a drink was an invitation to claim part of her evening. She could send it back. She almost did. But the refusal stalled somewhere between thought and speech. She stared at her whiskey, annoyed by the hesitation. Once, she might have enjoyed the contest of figuring out a stranger before they figured out her. That person felt far away."
+    },
+    {
+      "cue": "club-14",
+      "run": 207,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "paragraphs": [
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466
+      ],
+      "text": "She lifted her gaze anyway. He sat alone in the corner, dark clothes against the low light, long hair, a beard, and the kind of stillness that made everyone else's movements seem slightly louder. He was already looking at her. Not with the easy confidence she'd expected. There was no smug little smile, no exaggerated charm. For a fraction of a second, he looked almost startled. As though he'd done something before he had the chance to talk himself out of it. That caught her attention."
+    },
+    {
+      "cue": "club-15",
+      "run": 207,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "paragraphs": [
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474
+      ],
+      "text": "She studied him in return. He sat where he could see the exits. His control looked practiced, maintained rather than effortless. There were people like that. People who carried too much while insisting they were perfectly capable of carrying more. Near the end, Cassian had sometimes sat that way. The memory stung without warning. Ninja's fingers tightened around her glass. Don't start, she told herself. You came here to be nobody. Not to collect somebody else's problems."
+    },
+    {
+      "cue": "club-16",
+      "run": 207,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "paragraphs": [
+        475,
+        476,
+        477
+      ],
+      "text": "She could leave the second drink untouched, turn away, and make her wishes clear. She was exceptionally good at that. But she was curious about his voice. Whether he belonged here, or whether, like her, he needed somewhere nobody would ask questions."
+    },
+    {
+      "cue": "club-17",
+      "run": 208,
+      "actor": "ninja_thought",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.8,
+      "paragraphs": [
+        479,
+        480,
+        481,
+        482
+      ],
+      "text": "Who are you? You look like the kind of man who has an answer prepared for everything, and not one of them is the truth. Don't start. Don't make somebody else's silence into your problem. So why haven't you looked away?"
+    },
+    {
+      "cue": "club-18",
+      "run": 209,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "paragraphs": [
+        484,
+        485,
+        486,
+        487,
+        488,
+        489,
+        490
+      ],
+      "text": "The thought made her angry at herself. She didn't know him. She had no reason to care. Something in his expression suggested he, too, had once believed that moving far enough might finally outrun the past. She held his gaze. A second longer than she meant to. The man in the corner didn't look away. Neither did she."
+    }
+  ]
+}
