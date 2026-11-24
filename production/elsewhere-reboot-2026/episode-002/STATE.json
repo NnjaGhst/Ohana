@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
   "next_owner": "Dex",
-  "next_action": "Resume connected production from the verified receipts; hold flagged cues for QA and keep publication blocked.",
+  "next_action": "Reconcile the seven Wade delivery takes before any resubmission.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -5689,7 +5689,20 @@
         "quota_gates": [],
         "provider_calls": 208,
         "retained": 208,
-        "active": null
+        "active": {
+          "id": "connected-directed",
+          "account": "Ninja",
+          "cues": [
+            "s14-r4-c004",
+            "s14-r4-c006",
+            "s14-r4-c009",
+            "s14-r4-c011",
+            "s14-r4-c014",
+            "s14-r4-c015",
+            "s14-r4-c020"
+          ],
+          "status": "reserved_directed_delivery_before_provider_submission"
+        }
       }
     }
   },
