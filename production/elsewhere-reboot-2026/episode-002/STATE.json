@@ -4,8 +4,8 @@
   "title": "The Man in the Corner",
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
-  "next_owner": "Hex",
-  "next_action": "Complete the pending performance audition, then record a small batch of approved cast cues and hand Dex the private source index. Use PRIVATE-TRANSFER.md and verify durable transfer before scaling. Cue s01-c001 has a verified source WAV and remains open for production QA.",
+  "next_owner": "Dex",
+  "next_action": "Ingest batch 002 using PRIVATE-TRANSFER.md and pinned private index; verify all eight source bytes, checksums, and version-pinned private round trips. Independently investigate s06-c099-t01 repetition without approving it; report audition listening artifacts and any required pickup. No bulk recording or release until transfer confirmed.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 3",
@@ -47,6 +47,24 @@
         "sample_rate": 44100,
         "channels": 1,
         "checksum_verification": "First downloaded SHA-256 matched a fresh HeyGen download and a version-pinned private round trip; no provider checksum was supplied."
+      },
+      {
+        "role": "private batch source index (not audio bytes)",
+        "filename": "elsewhere-reboot-002-batch-002.json",
+        "file_id": "file_0000000057308230a95b602e329fd0ca",
+        "library_file_id": "libfile_ba7b8448d1548191931a0add0d2c7e16",
+        "sha256": "a75a1c01ca77042dde51d165ef477c03ddf70e50cc86af2ac63208b39483a68b",
+        "cue_ids": [
+          "s02-c004",
+          "s02-c005",
+          "s02-c007",
+          "s02-c008",
+          "s05-c074",
+          "s06-c099",
+          "s12-c206",
+          "s14-c228"
+        ],
+        "take_count": 8
       }
     ],
     "open_cue_ids": [
@@ -293,14 +311,49 @@
     ],
     "cue_count": 240,
     "recording_status": {
-      "generated_takes": 1,
+      "generated_takes": 9,
       "verified_audio_bytes": 1,
-      "transcript_match": 1,
-      "pending_cues": 239,
-      "blocked_reason": null,
-      "qa_open_cues": 240
+      "transcript_match": 8,
+      "pending_cues": 231,
+      "qa_open_cues": 240,
+      "blocked_reason": "Batch 002 needs private round-trip verification; s06-c099-t01 flagged by first-pass Whisper for repeated word; performance listening pending."
     },
-    "transfer_workflow": "production/elsewhere-reboot-2026/episode-002/PRIVATE-TRANSFER.md"
+    "transfer_workflow": "production/elsewhere-reboot-2026/episode-002/PRIVATE-TRANSFER.md",
+    "batch_002": {
+      "status": "awaiting_Dex_transfer_and_review",
+      "cue_ids": [
+        "s02-c004",
+        "s02-c005",
+        "s02-c007",
+        "s02-c008",
+        "s05-c074",
+        "s06-c099",
+        "s12-c206",
+        "s14-c228"
+      ],
+      "first_pass_asr": {
+        "engine": "VoiceLabs Whisper",
+        "matched_cues": [
+          "s02-c004",
+          "s02-c005",
+          "s02-c007",
+          "s02-c008",
+          "s05-c074",
+          "s12-c206",
+          "s14-c228"
+        ],
+        "flagged": [
+          {
+            "cue_id": "s06-c099",
+            "take_id": "s06-c099-t01",
+            "expected": "Please.",
+            "observed": "Please. Please.",
+            "disposition": "suspected repetition; block approval pending independent contextual verification or clean pickup"
+          }
+        ]
+      },
+      "listening_review": "pending; Hex has not heard playback"
+    }
   },
   "release": {
     "status": "blocked",
@@ -309,5 +362,5 @@
     "published": false
   },
   "cast_file": "production/elsewhere-reboot-2026/episode-002/cast.json",
-  "cast_status": "selected; active public voices verified; performance audition pending"
+  "cast_status": "selected; sample takes generated; performance listening pending"
 }
