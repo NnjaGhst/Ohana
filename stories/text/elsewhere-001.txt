@@ -1,945 +1,525 @@
-Elsewhere — Episode 1: A Place That Doesn't Remember
+# Elsewhere — Episode 1: The Photograph
+## Full pilot manuscript — draft
 
-By the time Ninja reached Bellwether, the rain had settled into the kind of steady drizzle that didn't feel dramatic enough to deserve a weather warning.
+### Prologue — The Photograph
 
-It simply got into everything.
+Five years earlier, the rain had been falling for three days.
 
-The hills around the village disappeared and reappeared behind the mist. Old stone walls followed the narrow road between fields. An elderly sheep watched her car pass with an expression of deep personal disappointment.
+At 2:17 in the morning, Hex sat in a black car outside a railway station, watching water slide down the windscreen. He was thirty-two, tired, and accustomed to being sent places without knowing why.
 
-"Yeah," Ninja muttered at it. "You and me both."
+His phone lit up.
 
-She had been driving for hours, with two bags in the back, one paperback on the passenger seat, and a cardboard box she hadn't managed to put away. The box held a chipped blue mug, a packet of photographs, and a key that no longer opened anything she owned.
+PLATFORM NINE. LOCKER FORTY-THREE. SIX MINUTES.
 
-At the village entrance, a weathered wooden sign announced BELLWETHER — WELCOME.
+“Six minutes,” he muttered. “How generous.”
 
-She almost laughed.
+He stepped into the rain and crossed the nearly empty concourse. The station smelled of wet concrete, old coffee, and electricity. Locker forty-three opened with a code sent to his phone. Inside was a brown envelope, unmarked except for black tape.
 
-It was such an innocent word. Welcome. As though arriving somewhere was the difficult part.
+He took it into an empty waiting room and broke the seal.
 
-She found the building above the bakery on her second attempt. The owner, a woman called Ada, opened the door before Ninja had managed to ring the bell.
+OPERATION GLASSHOUSE.
 
-"You must be the new guest."
+Intercept an encrypted archive taken by a courier named Elise Varen. Recover the archive. Do not engage civilian contacts.
 
-"That depends," Ninja said. "Does the room have a bed?"
+Six photographs were enclosed. The last showed a woman outside a café: pink-purple hair, dark clothes, a septum ring, and an expression halfway between amusement and defiance.
 
-"Usually."
+Hex looked at that picture longer than he intended.
 
-"Then yes. Definitely me."
+CIVILIAN REFERENCE N-17. NON-OPERATIONAL. DIRECT CONTACT PROHIBITED.
 
-Ada gave her an assessing look, but it wasn't the look Ninja had grown accustomed to. No careful lowering of the eyes. No flicker of recognition at a surname. No searching her face for evidence of whether today was a good day to mention her brother.
+Her name was Ninja.
 
-Just a woman in a cardigan holding a door.
+“And what are you doing in this mess?” he murmured.
 
-"Upstairs, then. You'll find the kettle by the window. Mind the third step. It makes a noise like a dying goose."
+His phone rang. Mara, his handler.
 
-"I've lived with worse."
+“You have the package?”
 
-"Oh, haven't we all."
+“Unfortunately. Why is a civilian in my operational file?”
 
-Ninja carried her bags up. The room was small, clean, and slightly crooked. A quilt covered the bed. The window looked over a wet street with a florist, a repair shop, and the dark-red door of a pub at the far corner.
+“She’s a reference point. Nothing more.”
 
-She placed her things down.
+“That's a strange answer.”
 
-She didn't unpack. Not her clothes, not the box, not even the phone charger.
+“It’s the only one you need. Recover the archive, Hex. No improvising.”
 
-Unpacking made a place feel like a decision. Right now, the best she could manage was an address.
+“You say that like it’s a personality defect.”
 
-She pulled on her black jacket, checked the room key twice, and went back out.
+“On you, it is.”
 
-Unfamiliar silence had a habit of bringing familiar voices with it.
+The call ended.
 
-And hers already sounded like Cassian's.
+Hex returned the photograph to its envelope. He had no idea that this woman he had never met would become the one face he could not forget.
 
-If I unpack, it means I'm staying. If I stay, somebody will eventually ask why I came. And what am I supposed to tell them? That I drove halfway across the country because every street back home still knows his name?
+### Chapter One — The Night Everything Went Wrong
 
-The first time Cassian taught her to throw a punch, Ninja was eight years old.
+The industrial compound stood beyond the city, where roads dissolved into loading bays and abandoned warehouses.
 
-It happened behind the building where they lived, on a patch of cracked concrete that somebody optimistically called a courtyard.
+Hex arrived before dawn. His assignment was supposed to be simple: find Elise Varen, intercept the archive, leave before anyone noticed.
 
-She had come home with blood on her knee, dirt on her sleeve, and the fierce conviction that she had won an argument with a boy twice her size.
+Simple was a word the Directorate used when it didn't want questions.
 
-Cassian, thirteen and already wearing the tired expression of somebody responsible for too many things, sat her on the bottom step.
+From the service road, Hex studied the guards. They weren't positioned to keep intruders out. They were positioned to keep people inside.
 
-"Tell me what happened."
+“Mara,” he said into his earpiece. “Your security layout doesn't match the briefing.”
 
-"He was being an idiot."
+“Proceed.”
 
-"That's a condition, not an explanation."
+“There are armed teams at both exits.”
 
-"He took my bag."
+“Containment.”
 
-"And you?"
+“Containment of what?”
 
-"I took it back."
+“Recover the archive.”
 
-Cassian glanced at the split skin on her knuckles.
+Then the first shot rang out.
 
-"With your face?"
+Hex moved toward the building instead of away. Inside, Elise Varen stumbled through a corridor, clutching a case against her chest. She saw him, stopped, and seemed to recognise what his presence meant. Her phone screen lit up in her hand. A message from **Ninja** read: *Please just call me when you're safe. I love you.* Hex noticed the name—the woman from the photograph—before Elise shoved the phone into her pocket.
 
-"Shut up."
+“You're too late,” she said.
 
-He laughed, despite trying not to. Then he cleaned her knee with water from a bottle, tearing a strip from an old cloth when they ran out of proper bandages.
+A second shot struck the wall. Hex pulled her behind a steel support.
 
-She hissed when the cold water touched the scrape.
+“Who are those men?”
 
-"Hold still, menace."
+Elise looked at him as though he had asked whether water was wet. “Yours.”
 
-"You're pulling my leg off."
+The fire started moments later. An explosion shook the windows. Hex heard voices beyond a locked steel door and fought the handle until the metal burned his palms.
 
-"Yes. That's the treatment. All doctors do it."
+“Mara! There are civilians trapped in here!”
 
-When he was done, he crouched in front of her and held out his hands.
+“Stand down. The archive is the priority.”
 
-"Okay. Here's the important part. If somebody bigger than you starts trouble, you don't have to stand there and prove you're fearless."
+“People are dying.”
 
-"I wasn't scared."
+“I gave you an order.”
 
-"Then you should've been. Fear can be useful."
+He stopped answering her.
 
-She hated that answer.
+He got two people out through a loading entrance. When he turned back, flames had swallowed the corridor. Elise was dead. Hex found her phone on the floor near the door, its cracked screen still showing her sister's message. He couldn't bring himself to leave it behind. Others were missing. Six people would ultimately be confirmed killed.
 
-Cassian tilted his head.
+Hex stood outside in the cold dawn, coughing smoke, and understood that the operation had never been an interception. It had been a cleanup.
 
-"Look at me, Nin. Being brave isn't the same as being stupid."
+His earpiece crackled.
 
-"You're stupid."
+“Hex. Return for debrief.”
 
-"Frequently. That's how I've gathered all this wisdom."
+He looked toward the burning warehouse.
 
-He showed her how to stand with her feet steady and how to move away from someone trying to grab her. He made her practise until she stopped trying to win and started paying attention.
-
-"Good," he said at last.
-
-"Can I punch you now?"
-
-"Absolutely not."
-
-She punched his arm anyway.
-
-He looked gravely offended.
-
-That evening they ate toast for dinner because the cupboards were nearly empty. Cassian put the better-looking pieces on her plate and insisted he preferred the burnt ones.
-
-Years later, she would remember that lie more clearly than almost anything he ever taught her.
-
-On her tenth birthday he came home with a supermarket cake in a cardboard box and a candle shaped like the number seven.
-
-"That's not my age," she said.
-
-"That's because you're a very advanced seven-year-old."
-
-"I'm ten."
-
-"Then you're an extremely immature ten-year-old. Blow it out."
-
-He'd earned the money washing windows and had forgotten the candle until the shop was closing. She knew that much because his hands smelled of cleaning fluid. She also knew he hadn't eaten lunch.
-
-She divided the cake into two uneven pieces and pushed the larger one toward him.
-
-"Birthday law," he said. "You get the big piece."
-
-"My birthday. My rules."
-
-He looked at the piece, then at her.
-
-"You're becoming dangerously difficult."
-
-"Good teacher."
-
-He bowed his head in mock defeat.
-
-There was no party. Nobody remembered to put music on. But Cassian sang so badly that the neighbor banged on the wall, and she laughed until she nearly fell off her chair. For years afterward, when a birthday felt disappointing, he'd remind her they still had the record for the most complaints during a single birthday song.
-
-Their home wasn't always dangerous. Sometimes somebody cooked and the radio played old songs. Other nights, voices came through the walls and doors slammed hard enough to rattle the glasses.
-
-Ninja learned to listen for footsteps. Cassian learned to turn up the television and invent a game whenever the footsteps became too loud.
-
-On one particular night, when she was eleven and he was sixteen, the house finally went quiet long after midnight.
-
-She found him sitting on the floor outside her bedroom.
-
-"Why are you out here?"
-
-"Guard duty."
-
-"From what?"
-
-"Spiders. Very serious threat."
-
-"There aren't any spiders."
-
-"Exactly. You're welcome."
-
-She sat beside him. They said nothing for a while.
-
-Eventually she leaned against his shoulder, and he rested his cheek on her head.
-
-"One day," he said quietly, "we're going to have a place with doors that only slam when we want them to."
-
-"Why would we want them to slam?"
-
-"Because you'll be annoyed with me."
-
-"I'm already annoyed with you."
-
-"See? We've got a promising future."
-
-She slept easier that night.
-
-Not because the world had become safe, but because someone had stayed outside the door.
-
-Cassian wasn't an angel.
-
-He forgot appointments. He borrowed things and returned them in odd places. He could turn a five-minute errand into a two-hour adventure, usually involving somebody's broken car and an extremely unconvincing explanation.
-
-When Ninja was fifteen, he forgot the afternoon they'd planned to see a film together. She waited at the cinema entrance for forty minutes before walking home alone.
-
-He arrived later, wet from rain, carrying two paper bags of takeaway and a look that was halfway between guilt and fear of what she'd do to him.
-
-"I know," he said immediately.
-
-"Wonderful. Saves me explaining."
-
-"The van at work broke down."
-
-"Did the van also break your phone?"
-
-"No. That was me being an idiot."
-
-"Finally, a diagnosis."
-
-He put the bags on the table.
-
-"I was wrong. I'm sorry."
-
-Ninja held on to her anger for another few seconds, mostly out of principle.
-
-Then she opened the bag.
-
-"Did you get extra chips?"
-
-"Do I look suicidal?"
-
-She tried not to smile.
-
-He saw it anyway.
-
-As they grew older, Ninja started taking care of him, too: saving him dinner, warning him when people took advantage, and occasionally dragging him out of trouble.
-
-One evening he came home exhausted and collapsed on the sofa. She put on a dreadful action film they'd seen a dozen times.
-
-Halfway through, he opened one eye.
-
-"Didn't we agree this movie was terrible?"
-
-"Yes."
-
-"Why are we watching it?"
-
-"Because you know how it ends."
-
-He was quiet for a moment.
-
-Then he reached down and squeezed her shoulder.
-
-That was how they understood each other. Not through grand speeches or permanent agreement. Through the mundane evidence of being there.
-
-A second mug made without asking.
-
-A text when someone got home.
-
-The comfortable insult that meant, I'm happy you're alive.
-
-Ninja believed there would always be someone who could turn the worst day into something survivable.
-
-She'd built her idea of home around that belief.
-
-Sometimes, when Ninja worked the late shift, Cassian met her at the bus stop. She always claimed she hadn't asked him to. He always replied that he was waiting for the bus himself.
-
-"At midnight? You don't even take this route."
-
-"Maybe I've developed an interest in public transport."
-
-She'd walk beside him under the streetlights, telling him about difficult customers and coworkers who treated the coffee machine like a complicated medical procedure. He'd listen, ask just enough questions to prove it, and occasionally threaten to buy a more competent coffee machine himself.
-
-Once, when she had a terrible week and couldn't decide whether to laugh or scream, he brought her a packet of biscuits and sat beside her on the curb until she could breathe normally.
-
-He didn't demand a story. He was good at that.
-
-She never realized that eventually he would need someone to sit beside him in the same way—and that he'd become too frightened to ask.
-
-The changes in Cassian began small enough to make excuses for.
-
-A shift that ran long. An unfamiliar car outside the apartment. His phone lighting up at dinner and his smile disappearing before he answered.
-
-He was in his twenties by then, and Ninja had her own life, her own work, her own habits. They didn't account for every hour of each other's days.
-
-Still, she knew the difference between ordinary tiredness and the kind of tiredness that made somebody listen to the hallway before opening the door.
-
-One evening he came over with groceries and left a thick envelope on her kitchen counter.
-
-"What's that?"
-
-"Rent. And a bit extra."
-
-She looked at him.
-
-"I pay my own rent."
-
-"I know."
-
-"Then why are you paying it?"
-
-"Because you spent half your childhood eating the worst toast ever made, and I'd like to correct the historical record."
-
-She didn't touch the envelope.
-
-"Cass."
-
-"Nin."
-
-"Where did it come from?"
-
-"Work."
-
-"What work?"
-
-"The boring kind."
-
-"You'd complain about boring work. You complain when your socks are too boring."
-
-He smiled, but it didn't reach his eyes.
-
-"Seriously. It's fine."
-
-She pushed the envelope back.
-
-"I don't need you to buy me a life."
-
-He looked hurt then, and she regretted the words almost immediately.
-
-"That's not what I'm doing."
-
-"Then tell me what you are doing."
-
-He took a breath. For a second she thought he would.
-
-Instead, he picked up the envelope.
-
-"Trying to make something easier for once."
-
-She let him leave without another argument. She told herself he was an adult. That he had a right to parts of his life that weren't hers. That she could love him without interrogating him.
-
-And all of that was true.
-
-It wasn't the whole truth.
-
-The first job had sounded almost insulting in its simplicity. A man who knew a man asked Cassian to take a sealed parcel across town. Cash on delivery. No questions.
-
-He asked one anyway: "What's inside?"
-
-"Paperwork."
-
-"That's an expensive courier service."
-
-"Then enjoy your tip."
-
-He'd needed the money. He'd told himself he would be an idiot to refuse something that ordinary.
-
-The second favor involved waiting in a car while two strangers had an argument inside a building. The third meant driving somebody to a railway station and pretending not to hear the anxious phone call in the back seat. Each job ended with somebody paying him well enough to make the next invitation more difficult to reject.
-
-At first he described them to Ninja as extra shifts. She asked whether the job had dental insurance, and he said it came with a very generous selection of uncomfortable silences.
-
-Months later, in a room above a shuttered shop, a man placed a list of dates in front of him. Cassian recognized every payment. There were signatures and photographs, details he'd never knowingly agreed to leave in anyone's possession.
-
-"You've been very reliable," the man said.
-
-Cassian looked at the folder.
-
-"Is that supposed to be a compliment?"
-
-"It's an opportunity to continue being reliable."
-
-"What if I'm finished?"
-
-The man leaned back.
-
-"People who are finished don't generally leave so much unfinished business."
-
-Cassian heard the threat in the politeness. He also heard something worse: the suggestion that somebody knew where Ninja lived.
-
-He went home that night and deleted a message he'd started typing to her. It began, *I need to tell you something.* He couldn't find a second sentence that wouldn't put her closer to the danger.
-
-The jobs had begun as favors. The pay was good, and every request came with the promise that it would be the last.
-
-By the time Cassian understood how much other people knew about him, refusing had begun to feel less like a decision and more like a threat.
-
-He didn't tell Ninja.
-
-He couldn't bear to watch the knowledge change the way she looked at him.
-
-There were nights when his phone displayed a number and he stared until it stopped ringing. There were days when he made promises to himself about finishing one final obligation and disappearing from it all.
-
-He told himself that a clean break still existed somewhere.
-
-He only had to reach it.
-
-One afternoon, Cassian sat in his parked car outside a supermarket with the engine off. He had just finished a call with somebody connected to Elias Voss. The caller had agreed, in an almost friendly tone, that of course Cassian could stop working for them.
-
-After one more errand.
-
-Cassian stared at his reflection in the rearview mirror. He looked older than he remembered.
-
-He dialed Ninja's number, waited for her to answer, and listened as she told him—without taking a breath—that her upstairs neighbor had somehow flooded the bathroom by trying to install a shelf.
-
-He laughed. It surprised him.
-
-"What's funny?" she demanded.
-
-"Nothing. You. The fact that shelving has become a combat sport."
-
-Then she asked if something was wrong.
-
-He gripped the steering wheel.
-
-"No," he said. "Just wanted to hear your voice."
-
-She went quiet long enough to make him worry he'd frightened her.
-
-Then: "Well, you've heard it. It remains incredibly charming."
-
-"Debatable."
-
-"Come over Sunday. I'll cook."
-
-He wanted to say yes. Instead he promised to try.
-
-When the call ended he sat still for a long time, making a decision he didn't yet know how to carry out: whatever else he had to do, he would find a way to keep those people away from her.
-
-The last time Ninja had dinner with Cassian, he turned up carrying a badly wrapped parcel and an apology.
-
-"Before you ask," he said, "yes, the wrapping was done by a human being."
-
-"A drunk one?"
-
-"An artist. Unappreciated in his time."
-
-Inside was an old portable music player, the same model she'd once loved and broken years earlier. Cassian had repaired it, or persuaded somebody who actually knew what they were doing to repair it, and loaded it with songs they used to play too loudly in the kitchen.
-
-She stared at it.
-
-"Where did you even find this?"
-
-"I have mysterious talents."
-
-"You have mysterious debts, probably."
-
-The joke landed strangely.
-
-Cassian looked down, just for a second. Then he smiled again.
-
-"Both can be true."
-
-They ate pasta sitting on the sofa, argued about whether one of the songs was good or simply nostalgic, and laughed until she nearly spilled her drink when he tried to imitate a singer he had absolutely no business imitating.
-
-Later, as he put on his coat, she noticed him checking his phone.
-
-"You okay?"
-
-"Yeah."
-
-"That sounded rehearsed."
-
-"Everything's all right, Nin."
-
-She moved closer.
-
-For a moment she considered making him stay, demanding an explanation, refusing to let him hide behind his usual jokes.
-
-But he looked so tired.
-
-"Call me tomorrow," she said.
-
-He tucked the phone away.
-
-"I will."
-
-"And don't do anything stupid."
-
-"You're taking all my hobbies away."
-
-She hugged him at the door. He held on a fraction longer than usual.
-
-Then he stepped back, touched her cheek lightly, and smiled in the familiar crooked way that had been making terrible things seem manageable since she was a child.
-
-"Lock up behind me, menace."
-
-She rolled her eyes.
-
-"I always do."
-
-He waited until he heard the lock turn.
-
-It was such a small thing. The two of them had repeated it a hundred times.
-
-She would spend years wishing she'd opened the door again.
-
-Three evenings later, someone knocked.
-
-Ninja was standing at the sink, rinsing a mug. She remembered that detail afterward because it was the sort of useless thing memory kept when the important parts became impossible.
-
-The tap was running.
-
-A small patch of sunlight fell across the counter.
-
-Her phone was on the table, face up.
-
-She turned off the water and went to the door.
-
-Two people stood outside. Dark coats, careful expressions, the uneasy stillness of strangers who had rehearsed what they were about to say.
-
-"Are you Cassian's sister?"
-
-Everything in her body seemed to recognize the question before her mind did.
-
-"Why?"
-
-They asked to come inside.
-
-She didn't move.
-
-"What happened?"
-
-One of them said her name. The other looked toward the stairs.
-
-They said Cassian had been killed. They said there appeared to have been a robbery. They said an investigation was ongoing, though there were indications he had simply been in the wrong place at the wrong time.
-
-The words passed through the doorway in neat, impossible pieces.
-
-"Killed?"
-
-"I'm very sorry."
-
-"Where?"
-
-They told her.
-
-"Was he alone?"
+“No.”
 
 A pause.
 
-"We're still establishing exactly what occurred."
+“Do not make this worse.”
 
-"Did he call anyone? Did he say anything?"
+“You already did.”
 
-"We don't have that information."
+He pulled the earpiece out and crushed it under his boot.
 
-She looked from one face to the other.
+Within hours, the Directorate classified him as compromised and authorised his recovery. He knew what that word meant.
 
-They were gentle. They sounded certain about some things and strangely evasive about others.
+Hex disappeared with the envelope still in his coat.
 
-It made no sense.
+### Chapter Two — The Woman Who Didn't Know
 
-Cassian would have called. Cassian would have argued. Cassian would have found a way to say something ridiculous and then come home with a bruise and an apology.
+Ninja had never heard the words Operation Glasshouse.
 
-There was no world in which he simply stopped.
+She had heard of Elise Varen, of course. Elise was her older sister.
 
-"When can I see him?" she asked.
+Elise was the one who remembered birthdays, called at inconvenient hours, and turned up with groceries when Ninja insisted she was perfectly capable of looking after herself. She was also the person Ninja trusted with the things she didn't tell anyone else.
 
-The older one inhaled slowly.
+The last time they spoke, Elise had sounded distracted.
 
-She hated that, too.
+“Something's wrong at work,” Elise admitted.
 
-The mug remained in the sink. She eventually let them in, answered questions, accepted a number to call.
+“Then leave it for tomorrow.”
 
-She didn't cry while they were there.
+“I can't. I need to sort it out.”
 
-She wasn't holding herself together. She hadn't yet understood there was something to fall apart.
+“Elise.”
 
-After they left, she found the phone on the table and called Cassian.
+“I know. I know. I'll call you when I'm done.”
 
-His voicemail answered.
+“Promise?”
 
-She listened to his voice all the way through.
+“Promise. Love you, trouble.”
 
-Then she called again.
+“Love you too.”
 
-And again.
+Ninja sent one more message later that night: *Please just call me when you're safe. I love you.*
 
-The fourth time, she put the phone down without ending the call and sat on the kitchen floor.
+Elise never replied.
 
-The voicemail continued speaking into an empty room.
+The police told Ninja her sister had died in an industrial warehouse fire. There had been confusion, they said. An accident, they said. The investigation was ongoing, they said, until it suddenly wasn't.
 
-You said you'd call tomorrow. You always called. I don't understand how the world can keep moving when you've stopped. I don't know what I'm supposed to do with all the things I haven't told you.
+Ninja remembered almost nothing about the first days afterward except the fluorescent light in the police station, the weight of Elise's spare keys in her palm, and how people kept asking whether there was someone they could call for her.
 
-There was a funeral.
+There was Elise, she wanted to say.
 
-People brought flowers. Some brought food. Others brought stories she hadn't heard before, most of them kind and almost all of them unbearable.
+But there wasn't anymore.
 
-Someone called Cassian a good man.
+The funeral was small. Ninja stood through it with her jaw clenched and her hands curled around a folded photograph. Elise was laughing in it, caught mid-sentence. Ninja kept expecting to hear that laugh from somewhere behind her.
 
-Ninja believed that.
+Then the paperwork started.
 
-Someone else said that at least he hadn't suffered.
+An account was frozen. Employment records were flagged. A complaint appeared under Ninja's name, citing transactions she had never authorised. When she tried to prove the records were wrong, the supporting documents were missing. Each person she called sent her to someone else.
 
-They couldn't possibly know that.
+Elise had once helped her correct a routine employment-record error. Ninja didn't know those legitimate records had later been copied and used to disguise a financial route connected to the archive Elise carried. When the Directorate erased the route, it left Ninja looking suspicious—and without the evidence she needed to defend herself.
 
-After the service, a distant acquaintance pressed a folded photograph into her palm. It showed Cassian at a barbecue, grinning with his eyes closed, holding a plate overloaded with food. Ninja had never seen it.
+Her work became harder. Money grew tight. People who had once been warm became careful about what they said around her. Every new letter felt like another accusation.
 
-"He's smiling like that because someone dared him to eat everything," she said.
+She was a healthcare worker. She could stay calm for other people in a crisis. But there was no training for losing the person who knew you best and then being treated as though you had done something wrong.
 
-The woman smiled uncertainly.
+At home, she sometimes reached for her phone to send Elise a ridiculous picture or complain about a terrible day. Her thumb would find the familiar contact before she remembered.
 
-"He was always making people laugh."
+On one such evening, Ninja sat at the kitchen table surrounded by letters. Her black headphones lay beside a cold cup of coffee.
 
-Ninja looked at the picture again. Cassian's left sleeve was rolled up unevenly. There was a sauce stain on his shirt. It was so completely him that her throat closed.
+“Right,” she told the paperwork, her voice unsteady. “Which one of you is ruining my life today?”
 
-"He was," she managed.
+She almost heard Elise answer: *All of them, apparently. Put the kettle on.*
 
-Later, back at home, she set that photograph beside the old music player. She was furious that the world had kept photographs and hadn't kept him. The anger embarrassed her until she stopped caring whether it was reasonable.
+That was when Ninja cried. Not at the funeral. Not in the police station. At the kitchen table, because there was nobody left who would answer her stupid jokes in exactly the right way.
 
-She looked down at her hands because she didn't trust what might happen if she answered.
+Years later, Ninja would rebuild a life around the absence. She would learn to laugh again, travel alone, and refuse to let the Directorate's lies define her.
 
-Grief didn't look like the collapse people expected. It looked like reaching for her phone to tell him something funny. Buying too much food. Leaving his messages unread because, for one impossible second, the notification made her believe he might answer.
+But she would never believe the fire was simply an accident.
 
-She slept badly. She became angry at ordinary conversations.
+And somewhere far away, a man named Hex carried a photograph of Ninja, the memory of Elise's final moments, and the knowledge that he had failed to stop what happened.
 
-A friend asked whether she had considered speaking to someone about it.
+They were strangers living on opposite sides of the same terrible night.
 
-"About what?" Ninja asked.
+Neither knew their paths were moving toward each other.
 
-"About Cassian."
 
-"What would you like me to say?"
+### Chapter Three — The Man Who Disappeared
 
-"I just thought—"
+By sunrise, the Directorate had begun looking for Hex.
 
-"I know what you thought."
+They searched the flat he had not returned to. They watched his bank accounts, his old contacts, the roads leaving the city. Every system he had once relied on was suddenly turned against him.
 
-Her friend went quiet.
+Hex knew the procedure. He had helped design parts of it.
 
-Ninja apologized later, but she didn't let the woman back inside the apartment.
+He drove a stolen delivery van through a tunnel and left it beneath an overpass. He changed clothes in a service-station bathroom, cut the identification tag from his coat, and took the first bus whose destination meant nothing to him.
 
-It was easier that way. If nobody came close enough to ask, she didn't have to explain the enormous, shapeless absence in the middle of every day.
+He was carrying three things: a little cash, the envelope from locker forty-three, and Elise Varen's damaged phone.
 
-The official account never sat right.
+He hadn't intended to take the phone. He had picked it up while searching for survivors. By the time he noticed it in his pocket, he was already running.
 
-A robbery. A bad place. Bad timing.
+Its screen was cracked like a spiderweb. The last message still glowed faintly when he pressed the button.
 
-Cassian had sometimes gone out late and come back strange. She remembered the envelope, the unanswered questions, the look on his face when she'd jokingly mentioned debts.
+Please just call me when you're safe. I love you.
 
-She wondered if there had been something he was afraid to tell her.
+Ninja.
 
-Then she hated herself for wondering.
+He stared at the words until the screen went dark.
 
-Dead people couldn't defend themselves against suspicion. They couldn't explain. They couldn't say, No, Nin, you've got it wrong.
+In the motel where he stopped that evening, the wallpaper peeled at the corners and the heater rattled like loose cutlery. He laid the envelope on the bed. Six photographs. One woman's face.
 
-She asked for information and received little. The questions grew heavier without becoming clearer.
+His own phone vibrated. An unknown number.
 
-Eventually she stopped asking out loud.
+He let it ring.
 
-But she never stopped thinking about them.
+It rang again.
 
-Months passed. She saw him everywhere: outside the coffee shop, leaning against familiar railings, reflected in bus windows that belonged to strangers.
+Finally he answered.
 
-The city was full of places that remembered him.
+“You're making this harder than it needs to be,” Mara said.
 
-And she was exhausted by being expected to remember him in the acceptable ways.
+“Six people are dead.”
 
-One afternoon, she tried to make his favorite pasta sauce from memory.
+“You don't know the whole situation.”
 
-She knew he'd never used a recipe. He'd tasted it, added a little more of something, and announced that the essential ingredient was artistic instinct.
+“I know who locked the doors.”
 
-Her attempt was watery and far too salty.
+Silence.
 
-She sat down to eat anyway.
+“Mara, tell me Elise wasn't meant to die.”
 
-Halfway through the meal she heard herself say, "Cass, this is disgusting."
+“I can't discuss operational details over an unsecured line.”
 
-There was no answer.
+He laughed once, without humour. “That's an answer.”
 
-She pushed the plate away and cried—not because of the sauce, but because she'd expected his reply before she remembered there couldn't be one.
+“Come in. We can protect you.”
 
-One evening she opened the old music player.
+“From the people you sent after me?”
 
-The first song started through a pair of headphones.
+“Hex.”
 
-Cassian had named the playlist FOR THE SMALL MENACE.
+For the first time since he'd known her, Mara sounded tired rather than commanding.
 
-She laughed, one startled, broken sound.
+“Walk away from this,” she said. “You can still have a life.”
 
-Then she cried so hard she had to put the player down.
+He looked at the photograph on the bed, at the woman whose sister had sent a message that would never be answered.
 
-It was the first time she'd allowed herself to do both in the same moment.
+“Not the one I had.”
 
-The first time Ninja returned to Cassian's apartment after the funeral, she stood outside the door for eleven minutes.
+He ended the call and broke the phone's battery connection.
 
-She knew because she watched the numbers change on her phone. The display was cracked at one corner. Cassian had offered to replace it twice, and twice she'd refused because it worked perfectly well. He would have been insufferably pleased to discover that the screen still worked even when she felt as though nothing else did.
+That night he slept for forty minutes, woke convinced someone was outside the door, and spent the rest of the hours listening to passing cars.
 
-She had his key in her palm.
+In the morning he bought a paper map.
 
-For years, the existence of that key had been comforting. It meant there was somewhere she could walk into without knocking, somewhere she'd be welcomed with an insult and a cup of terrible coffee. Now it opened a room that could not answer her.
+For the first time in his adult life, nobody was telling him where to go.
 
-Eventually she turned the lock.
+It was terrifying.
 
-The apartment smelled faintly of washing powder and the cheap coffee Cassian always bought despite her sustained campaign against it. His jacket hung on the same hook by the door. A half-read paperback lay face down beside the sofa. There was a shopping list on the refrigerator, written in the hurried capitals she remembered from notes he'd left her when they were children.
+### Chapter Four — Bellwether
 
-Bread. Eggs. Batteries. Something green so Ninja stops complaining.
+Bellwether sat between steep hills and dark pines, a village of slate roofs, wet stone, and narrow roads that curled away into the mountains.
 
-She put her hand over her mouth.
+Hex arrived there in late autumn, after weeks of moving through places he never meant to remember.
 
-He had been planning to go shopping.
+He chose the village for practical reasons. It was small. It had poor reception in the surrounding forest. And a notice outside a forestry workshop said HELP WANTED, MECHANICAL EXPERIENCE PREFERRED.
 
-It was an absurd thing to find unbearable. A dead man had left a list of things he meant to buy, and suddenly she could see the afternoon he would never have. Cassian standing in a supermarket aisle, looking at two identical cartons and choosing the wrong one. Cassian sending her a photograph of a vegetable and asking whether it counted as something green. Cassian arriving with a bag of food she didn't need, acting as though he'd merely happened to be in the neighborhood.
+The man behind the workshop desk was called Tomas. His hair was grey, his hands were permanently stained with oil, and he studied Hex as though trying to decide whether the stranger was trouble.
 
-She sat on the floor and waited for the tightness in her chest to pass.
+“Name?”
 
-It didn't.
+Hex had rehearsed the answer on the bus.
 
-After a while, she began opening cupboards. Not because she was ready to pack anything, but because looking for ordinary objects was easier than standing still.
+“Elias Ward.”
 
-He'd kept the cheap ceramic bowl they used to eat cereal from when money was scarce. A chipped corner had been glued back into place years earlier. In a drawer, beneath a tangled collection of phone chargers, she found photographs from a summer they spent trying to pretend a camping holiday hadn't been ruined by rain.
+“Ever repaired a chainsaw?”
 
-One showed Cassian sheltering under a ridiculous pink umbrella, grinning as though he had personally invented bad weather.
+“Yes.”
 
-She remembered that day.
+“Tractor?”
 
-They'd argued about the directions, eaten sandwiches in the car, and finally given up on the campsite after discovering that their tent leaked from the ceiling. On the drive home, Cassian had made up a deeply unconvincing story about a famous explorer who also gave up on bad weather.
+“Yes.”
 
-The photo made her smile.
+“Coffee machine?”
 
-Then she realized that smiling didn't hurt quite as much as the guilt that arrived afterward.
+Hex hesitated. “Probably.”
 
-She'd begun to think of grief as a kind of loyalty test. If she enjoyed something, was she leaving him further behind? If she moved his books, was she making the room less his? If she laughed without him, was she becoming somebody he wouldn't recognize?
+Tomas pointed to a dead machine on the counter. “Then start there. If you can make that thing work, I'll believe the rest.”
 
-She knew how unreasonable those questions sounded.
+It took Hex nineteen minutes.
 
-Knowing didn't make them disappear.
+Tomas drank the first cup, made a face, and said, “Tastes awful. You're hired.”
 
-Near the bottom of the desk drawer was a folder of ordinary papers: bills, insurance documents, old warranties. She sorted them into piles because it gave her hands somewhere to be.
+For a while, Elias Ward lived like a man holding his breath.
 
-A receipt for a parking garage caught her attention.
+He rented a small room above an empty shop. He woke at every noise, memorised the exits of every building, and never sat with his back to a door.
 
-She didn't recognize the street. She checked the date. It was from the week before he died.
+At the workshop, Tomas didn't ask why he had no references. He asked why Hex kept tightening bolts that were already tight.
 
-There was nothing unusual about a person using a parking garage. Nothing that proved anything. But she remembered the unfamiliar car outside his building and the thick envelope of money he'd insisted was simply from work.
+“Habit,” Hex said.
 
-She set the receipt beside the documents the authorities had given her.
+“Bad one. You'll strip the threads.”
 
-There were so many words in those papers that sounded official and meant almost nothing. An incident at an address. An ongoing investigation. No further details available. A conclusion that seemed to have arrived before any of the questions she wanted answered.
+There were ordinary problems to solve. An engine that wouldn't start. A delivery truck with a broken alternator. A farmer who insisted the strange noise in his tractor had appeared all by itself.
 
-She tried calling the number printed on the letter.
+Hex began to discover that an ordinary day could be difficult without being dangerous.
 
-Someone answered with a professional tone and asked for a reference number. Ninja gave it. She explained that she was Cassian's sister. She asked whether there had been witnesses and whether anybody knew why he was in that building.
+One winter morning, Tomas found him staring out at the mountains.
 
-The person on the telephone was polite. They were also unable to provide more information.
+“You expecting someone?” the older man asked.
 
-She hung up before she said something she'd regret.
+“No.”
 
-The parking receipt lay between two photographs of her brother. She turned it face down. It was an ordinary bit of paper, and perhaps that was all it would ever be.
+“Then stop looking like you are.”
 
-But something about the official explanation had felt wrong from the beginning, and every closed door made that feeling harder to set aside.
+Hex almost smiled.
 
-A few days later, one of Cassian's neighbors stopped her in the hallway carrying a basket of laundry.
+Years passed.
 
-The woman told Ninja how sorry she was. She said Cassian had sometimes brought her groceries when her knees were bad, and that he had fixed a loose handle on her kitchen cupboard without accepting payment.
+The mountains changed colour with the seasons. Tomas taught him which roads iced over first and which neighbours would leave soup outside his door if they thought he was sick. Hex learned to recognise footsteps on the workshop stairs without immediately reaching for a weapon.
 
-Then she asked whether Ninja was moving his things out.
+But some things didn't change.
 
-Not yet, Ninja told her.
+In a tin box beneath a loose floorboard, he kept the photograph and Elise's broken phone.
 
-The woman nodded, but she didn't leave.
+Every few months he took them out.
 
-For a moment she looked as though she might say something else. Her eyes moved toward the stairwell, then back to Ninja. Whatever she had been about to mention stayed unsaid.
+Sometimes he wondered whether Ninja had learned what happened to her sister. Sometimes he imagined going to her and telling her everything.
 
-Instead she squeezed Ninja's hand and went inside.
+Then he imagined the danger following him to her door.
 
-Ninja stood there with the key still in her fingers.
+He put the tin box away.
 
-She wondered how many people carried fragments of Cassian she'd never know. How many knew the gentle version of him, and how many knew the worried man he'd become. How many things he had done out of love, or fear, or a stubborn conviction that he should handle every problem alone.
+### Chapter Five — The Life Ninja Built
 
-The question was almost worse than the silence.
+Five years after Elise died, Ninja still had two mugs in her kitchen that had belonged to her sister.
 
-That evening she made one careful box. She packed the old camping photographs, the cracked cereal bowl, and the shopping list from the refrigerator. She left the rest in place.
+One had a chipped handle and an aggressively cheerful slogan. Elise had bought it as a joke, then refused to take it home because, as she put it, Ninja's kitchen needed personality.
 
-Before closing the door, she looked around at the room and tried to imagine what Cassian would think of her standing there like a stranger.
+Ninja kept both.
 
-He'd probably tell her to stop looking so miserable and come eat something.
+Her life was no longer the wreckage it had been in the first year. She had fought the complaints, gathered what records she could, and managed to rebuild enough stability to work and pay her bills.
 
-He'd probably say the same ridiculous thing three different ways until she smiled.
+But she had never received a satisfying explanation.
 
-She shut off the light.
+Official letters used phrases like administrative irregularities and insufficient evidence. The warehouse fire remained an accident in every public record she could find. Every time she asked another question, another door closed.
 
-For the first time, she understood that she might need to leave the city—not because it held too little of him, but because it held him everywhere, and none of those places would let her live without having to say goodbye again.
+She had learned to live around the unanswered ones.
 
-The idea of leaving came quietly, while she scrolled through jobs, rooms, and places she might afford.
+Some evenings she was fierce and funny and entirely herself. Other evenings she came home exhausted, put on her black headphones, and sat in the quiet until she could bear the world again.
 
-A village in the mountains caught her attention.
+She missed Elise most in the ordinary moments.
 
-Bellwether.
+A ridiculous advert. A badly behaved dog. A song her sister would have hated. The kind of tiny, pointless discoveries that had once been worth a phone call.
 
-A room over a bakery. A street full of shops. Forest trails nearby. Rain, apparently, as a permanent civic policy.
+One rainy afternoon, Ninja found an old voice message while sorting files on her phone.
 
-She studied the photographs. She didn't imagine a village could fix anything.
+“Hello, menace,” Elise's voice announced. “I'm outside your building. I have food. If you pretend you're not home, I'll eat the good part and leave you the vegetables.”
 
-Cassian would still be dead when she woke up there. Whatever had happened to him would still have happened. She would still know what his voice sounded like and hate that she couldn't hear it again without pressing play.
+Ninja laughed before the tears arrived.
 
-But nobody there would stop speaking when she entered a room.
+She played it again.
 
-Nobody would lower their voice and ask how she was coping, as though grief were an illness with a set of expected symptoms.
+Then she put the phone face down and stared at the window.
 
-Nobody would know to call her Cassian's little sister.
+She had spent years trying to understand the night that took Elise. Somewhere along the way, she realised she had also stopped doing things simply because she wanted to.
 
-For once, being unknown sounded less like loneliness and more like the possibility of rest.
+She opened a map on her laptop.
 
-So she packed.
+Not a grand adventure. Not a heroic escape. Just a few days somewhere she had never been.
 
-She kept the old player, the photographs, and the chipped blue mug. She took the jacket he'd once lent her and never asked to have back.
+A mountain village called Bellwether appeared among the search results. The photographs showed misty roads, old stone houses, and a pub called The Crooked Lantern.
 
-She left other things behind because she could not bear the weight of making decisions about them.
+Ninja read the description twice.
 
-On the morning she drove away, she sat with the engine off for several minutes.
+“Mountains, rain, and a pub,” she told the empty room. “Honestly, Elise, you'd approve of at least two of those.”
 
-"Well, Cass," she said softly, looking at the empty passenger seat.
+She booked a room before she could talk herself out of it.
 
-She tried to think of what he'd say.
+Then she sat there, startled by the small, unfamiliar sensation of having something to look forward to.
 
-Probably something about checking the tires.
+### Chapter Six — A Name in the Archive
 
-Probably a joke about her sense of direction.
+That same week, a message reached Hex through an old encrypted channel he hadn't used in years.
 
-Definitely something annoying.
+He nearly deleted it.
 
-She smiled despite herself.
+Instead he opened it in the workshop after Tomas went home.
 
-Then she started the car.
+The message contained a fragment of an internal Directorate report. Most of the names were blacked out. One wasn't.
 
-Somewhere nobody knows him. That's all I asked for. One evening where I can just be the woman ordering a drink, instead of the woman with the dead brother.
+N-17.
 
-Back in Bellwether, rain tapped against Ninja's jacket as she walked past shuttered shopfronts.
+Below it was a summary of consequences: financial restrictions, employment investigation, prolonged monitoring, no evidence of operational involvement.
 
-Through the bakery window, Ada was wiping down a counter. She raised one hand when she saw Ninja pass.
+And one line that made Hex's stomach tighten.
 
-Ninja returned the gesture.
+Relationship to deceased courier: sibling.
 
-It was a small exchange, not quite a friendship, and she was grateful for how little it asked of her.
+He read it again.
 
-At the corner, a warm light fell across the wet pavement.
+Elise Varen was Ninja's sister.
 
-The Crooked Lantern.
+He had known the woman in the photograph was connected to the operation. He hadn't known how directly. He hadn't known the person who sent that final message was the one who had spent years living with the loss.
 
-Its door creaked when she pushed it open. The room smelled of wood polish, damp wool, and the comforting suggestion of something cooking behind the bar.
+He reached for the edge of the workbench.
 
-A few people sat at tables. Someone had left a coat over the back of a chair. A low conversation drifted from near the fire. The place seemed to have no interest in impressing anyone.
+For a moment he could smell the warehouse again: smoke, hot metal, wet concrete.
 
-Perfect.
+He remembered Elise trying to speak over the noise. He remembered the door he couldn't open. He remembered the phone in his pocket.
 
-The bartender looked up.
+He had told himself keeping it was evidence.
 
-"Evening."
+Now it felt like a promise he'd never made and never kept.
 
-"Whiskey, please."
+Tomas came back for his forgotten keys and found him standing in the dark.
 
-"Any preference?"
+“You all right, Elias?”
 
-"The one that doesn't ask personal questions."
+“Fine.”
 
-One corner of his mouth lifted.
+“That's a terrible lie.”
 
-"That narrows it down surprisingly little."
+Hex tried to answer and couldn't.
 
-"Then your favorite."
+Tomas didn't press. He set the keys down, pulled out a chair, and sat.
 
-He poured a glass and set it in front of her.
+After a while he said, “You know, you don't have to tell me what happened before you came here.”
 
-She chose a stool with a good view of the door and her shoulder turned slightly away from the room. Old habits. Not fear, exactly. Just the relief of not offering herself to conversation.
+Hex looked at him.
 
-For a few minutes, it almost worked.
+“But whatever it was,” Tomas continued, “it doesn't get to be the only thing that ever happens to you.”
 
-The glass was cool beneath her fingertips. Rain slipped down the window. Nobody knew her name. Nobody asked about Cassian.
+The workshop clock ticked. Rain tapped the roof.
 
-She let the quiet settle.
+Hex folded the printed report and placed it inside his coat.
 
-Then another glass appeared beside the first.
+He didn't sleep much that night.
 
-Ninja looked at it.
+### Chapter Seven — Two Roads Toward Bellwether
 
-She hadn't ordered a second.
+On the morning Ninja left for Bellwether, she nearly cancelled.
 
-The bartender tipped his head toward a far corner.
+Her bag stood by the door. The weather forecast was unpromising. She had slept badly and dreamed of Elise, not as she had been at the end but laughing in a supermarket aisle over something neither of them could explain.
 
-"From the man across the room."
+Ninja stood in the kitchen with her keys in her hand.
 
-Of course.
+“It's just a trip,” she said aloud.
 
-Her first instinct was irritation, sharp and reassuringly familiar.
+The apartment didn't argue.
 
-She hadn't driven all this way to be approached by a stranger who thought a drink was an invitation to claim part of her evening.
+She put on her coat, adjusted the strap of her bag, and picked up Elise's chipped mug from the draining board. For a moment she held it, thumb against the damaged handle.
 
-She could send it back.
+“Wish you were coming,” she whispered.
 
-She almost did.
+Then she set it down carefully and left.
 
-But the refusal stalled somewhere between thought and speech.
+The journey took her through towns that grew smaller, along roads that narrowed, and eventually into hills where the trees seemed to lean close to the windows.
 
-She stared at her whiskey, annoyed by the hesitation. Once, she might have enjoyed the contest of figuring out a stranger before they figured out her.
+At a roadside stop she bought terrible coffee and a sandwich that was mostly bread. She took a picture of the view, almost sent it to Elise, and instead saved it.
 
-That person felt far away.
+She could miss her sister and still have a good day. She was learning that the two things could exist together.
 
-She lifted her gaze anyway.
+Back in Bellwether, Hex spent the afternoon fixing a forestry vehicle that had apparently been repaired with optimism and three incompatible screws.
 
-He sat alone in the corner, dark clothes against the low light, long hair, a beard, and the kind of stillness that made everyone else's movements seem slightly louder.
+Tomas watched him work.
 
-He was already looking at her.
+“You're doing that thing again.”
 
-Not with the easy confidence she'd expected. There was no smug little smile, no exaggerated charm.
+“What thing?”
 
-For a fraction of a second, he looked almost startled.
+“Looking over your shoulder.”
 
-As though he'd done something before he had the chance to talk himself out of it.
+Hex tightened a fitting. “Maybe I enjoy the view.”
 
-That caught her attention.
+“Of my dusty workshop?”
 
-She studied him in return.
+“It's a compelling landscape.”
 
-He sat where he could see the exits. His control looked practiced, maintained rather than effortless.
+Tomas snorted.
 
-There were people like that. People who carried too much while insisting they were perfectly capable of carrying more.
+Outside, the first evening rain moved down from the hills.
 
-Near the end, Cassian had sometimes sat that way.
+At closing time, Tomas asked whether Hex wanted to join him for a drink at The Crooked Lantern.
 
-The memory stung without warning.
+Hex almost said no. He usually did.
 
-Ninja's fingers tightened around her glass.
+Then he thought of Tomas's words in the workshop, and of the years he'd spent treating every ordinary invitation as a threat.
 
-Don't start, she told herself.
+“Maybe later,” he said.
 
-You came here to be nobody. Not to collect somebody else's problems.
+Tomas gave him a look. “That's the closest thing to yes I've heard from you in months.”
 
-She could leave the second drink untouched, turn away, and make her wishes clear.
+After Tomas left, Hex turned off the workshop lights one by one. The last pool of light disappeared from the floor, leaving only the grey evening at the windows.
 
-She was exceptionally good at that.
+Miles away, Ninja's vehicle passed a weathered sign.
 
-But she was curious about his voice. Whether he belonged here, or whether, like her, he needed somewhere nobody would ask questions.
+WELCOME TO BELLWETHER.
 
-Who are you?
+She slowed as the village came into view: stone cottages, warm windows, a narrow bridge, and beyond them the dark shape of the mountains.
 
-You look like the kind of man who has an answer prepared for everything, and not one of them is the truth.
+Somewhere in those streets, a man who knew her sister's last moments was locking up a workshop.
 
-Don't start. Don't make somebody else's silence into your problem.
+Somewhere ahead, a pub sign creaked in the rain.
 
-So why haven't you looked away?
+Neither of them knew that their lives were about to change.
 
-The thought made her angry at herself.
+Not tonight.
 
-She didn't know him. She had no reason to care.
+Not quite yet.
 
-Something in his expression suggested he, too, had once believed that moving far enough might finally outrun the past.
+But soon.
 
-She held his gaze.
+And for the first time in five years, both were moving toward something other than the past.
 
-A second longer than she meant to.
+*End of Episode One.*
 
-The man in the corner didn't look away.
-
-Neither did she.
+*Next time: The Crooked Lantern. Ninja explores Bellwether, and an ordinary evening becomes anything but ordinary.*
