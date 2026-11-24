@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
   "next_owner": "Dex",
-  "next_action": "Reconcile the reserved connected recording group before resubmitting any cue.",
+  "next_action": "Resume connected production from the verified receipts; hold flagged cues for QA and keep publication blocked.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -1400,6 +1400,272 @@
         },
         "group": "connected-003",
         "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s04-c058-t01.wav",
+        "file_id": "file_00000000818481fdb81db943af0fa9a9",
+        "library_file_id": "libfile_5631b74757e881918eceea2f556eebab",
+        "version": 0,
+        "sha256": "bb5b49e0f1ad31d44d8dd5acbd2e11ea8dcbc6596b5ac474439e82aca2e63be7",
+        "bytes": 1358354,
+        "duration_seconds": 15.40034,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s04-c058",
+        "take_id": "s04-c058-t01",
+        "raw_qa_status": "blocked",
+        "raw_qa_summary": {
+          "failure": "missing, extra, reordered or incorrect words",
+          "signal_flags": [],
+          "confidence": 0.8701352802164799
+        },
+        "group": "connected-004",
+        "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s04-c059-t01.wav",
+        "file_id": "file_00000000173881fd91af2d2990c5d27e",
+        "library_file_id": "libfile_57b51c69ef388191a1b0fe27fa1f45de",
+        "version": 0,
+        "sha256": "e3a8d851176cd333d1c9e7574b0eb1209a3572976947cc2af8572c8ed3244f4c",
+        "bytes": 178588,
+        "duration_seconds": 2.024308,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s04-c059",
+        "take_id": "s04-c059-t01",
+        "raw_qa_status": "blocked",
+        "raw_qa_summary": {
+          "failure": "low ASR confidence",
+          "signal_flags": [],
+          "confidence": 0.737729695621624
+        },
+        "group": "connected-004",
+        "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s04-c060-t01.wav",
+        "file_id": "file_00000000206c81fda9968d786fad5711",
+        "library_file_id": "libfile_bebfbc2b66c481918edb3df7f50388a1",
+        "version": 0,
+        "sha256": "6780c65ca95fa961f0809044c96a058a2a8345a4e99e5c54bac5f238420657e6",
+        "bytes": 112052,
+        "duration_seconds": 1.269932,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s04-c060",
+        "take_id": "s04-c060-t01",
+        "raw_qa_status": "blocked",
+        "raw_qa_summary": {
+          "failure": "short utterance, low ASR confidence, missing, extra, reordered or incorrect words",
+          "signal_flags": [],
+          "confidence": 0.5569944563140184
+        },
+        "group": "connected-004",
+        "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s04-c061-t01.wav",
+        "file_id": "file_00000000773c81fd89fe73ea30fd7385",
+        "library_file_id": "libfile_3ac4f5d1c32081918a18ce48da9ff5d7",
+        "version": 0,
+        "sha256": "81d58e1675f2577098b87fbb146109251435d5caa0af8fa1db0488df2782c609",
+        "bytes": 136038,
+        "duration_seconds": 1.541882,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s04-c061",
+        "take_id": "s04-c061-t01",
+        "raw_qa_status": "signal_gate_blocked",
+        "raw_qa_summary": {
+          "failure": "short utterance, low ASR confidence, missing, extra, reordered or incorrect words",
+          "signal_flags": [
+            "suspicious take boundary"
+          ],
+          "confidence": 0.47569649912658435
+        },
+        "group": "connected-004",
+        "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s04-c062-t01.wav",
+        "file_id": "file_00000000073881fdbb8627859c4614d0",
+        "library_file_id": "libfile_97c5c038e7c08191ac17ebc31b6d26fb",
+        "version": 0,
+        "sha256": "786126207dc0d63a2fbf6f40d95515aaf12fdd330033f55fc59b8be2438cde37",
+        "bytes": 72234,
+        "duration_seconds": 0.818481,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s04-c062",
+        "take_id": "s04-c062-t01",
+        "raw_qa_status": "blocked",
+        "raw_qa_summary": {
+          "failure": "short utterance, low ASR confidence",
+          "signal_flags": [],
+          "confidence": 0.4817525226632832
+        },
+        "group": "connected-004",
+        "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s04-c063-t01.wav",
+        "file_id": "file_00000000334081fda96407e044056a15",
+        "library_file_id": "libfile_474212b763c08191a52f02b9feffa280",
+        "version": 0,
+        "sha256": "4c6329a85f4867257539293c213b97b1eabfc00538b69b82bb647f49874137fb",
+        "bytes": 60742,
+        "duration_seconds": 0.688186,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s04-c063",
+        "take_id": "s04-c063-t01",
+        "raw_qa_status": "context_verified",
+        "raw_qa_summary": {
+          "failure": "short utterance, low ASR confidence",
+          "signal_flags": [],
+          "confidence": 0.4042320434139756
+        },
+        "group": "connected-004",
+        "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s04-c064-t01.wav",
+        "file_id": "file_00000000e7cc81fda2dbdf126033110e",
+        "library_file_id": "libfile_0eb947356c708191aef36cdf5cb91542",
+        "version": 0,
+        "sha256": "2c2b8e5d0b272ecd1a7be0bef0052a27dc77372bb90418fb7be59d57b9d16440",
+        "bytes": 365352,
+        "duration_seconds": 4.141814,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s04-c064",
+        "take_id": "s04-c064-t01",
+        "raw_qa_status": "blocked",
+        "raw_qa_summary": {
+          "failure": "low ASR confidence",
+          "signal_flags": [],
+          "confidence": 0.8045875831401416
+        },
+        "group": "connected-004",
+        "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s04-c065-t01.wav",
+        "file_id": "file_0000000066f081fd87bc30f346f22f76",
+        "library_file_id": "libfile_00bcfdafa8a88191b86f52af02e4b851",
+        "version": 0,
+        "sha256": "b2a0daeb9fbf007ef35c5eb0a942fed3cd4b50cf68a23841fc7bc2c6f60d3d18",
+        "bytes": 992040,
+        "duration_seconds": 11.24712,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s04-c065",
+        "take_id": "s04-c065-t01",
+        "raw_qa_status": "pass",
+        "raw_qa_summary": {
+          "failure": null,
+          "signal_flags": [],
+          "confidence": 0.9213509303059626
+        },
+        "group": "connected-004",
+        "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s04-c066-t01.wav",
+        "file_id": "file_00000000f77c81fdb35dc7b8033f6aa2",
+        "library_file_id": "libfile_67d4b06ee0a88191b7ba6bb5390139ef",
+        "version": 0,
+        "sha256": "29efa5a5787aeb83ee3e53a143167bd121164e988878c1d0e1324f6d7110307d",
+        "bytes": 106474,
+        "duration_seconds": 1.206689,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s04-c066",
+        "take_id": "s04-c066-t01",
+        "raw_qa_status": "blocked",
+        "raw_qa_summary": {
+          "failure": "low ASR confidence",
+          "signal_flags": [],
+          "confidence": 0.6840656571634396
+        },
+        "group": "connected-004",
+        "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s04-c067-t01.wav",
+        "file_id": "file_0000000018e881fdaf055b45e14abf4c",
+        "library_file_id": "libfile_49b28b9e1e248191af2485af4cd8acd3",
+        "version": 0,
+        "sha256": "2141e73cd9a77b7e0446dfd73a02b7418cbc62cce4ba6fcefd6be2f99045223f",
+        "bytes": 145858,
+        "duration_seconds": 1.65322,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s04-c067",
+        "take_id": "s04-c067-t01",
+        "raw_qa_status": "blocked",
+        "raw_qa_summary": {
+          "failure": "low ASR confidence",
+          "signal_flags": [],
+          "confidence": 0.6528288262651567
+        },
+        "group": "connected-004",
+        "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s04-c068-t01.wav",
+        "file_id": "file_00000000ff7481fd888fe1c2ff56e55d",
+        "library_file_id": "libfile_4c7d8c6c06ec8191ba70597cc0f2101f",
+        "version": 0,
+        "sha256": "4124d836020fb50dd3d128addd6f6acd668d830a5500a44a7c68b22296fe1795",
+        "bytes": 124720,
+        "duration_seconds": 1.41356,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s04-c068",
+        "take_id": "s04-c068-t01",
+        "raw_qa_status": "blocked",
+        "raw_qa_summary": {
+          "failure": "short utterance, low ASR confidence, unexpected repetition",
+          "signal_flags": [],
+          "confidence": 0.5931089212510378
+        },
+        "group": "connected-004",
+        "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s04-c069-t01.wav",
+        "file_id": "file_00000000c98c81fd810aec8e0830b2d2",
+        "library_file_id": "libfile_3f68956e3804819191dccf1348048436",
+        "version": 0,
+        "sha256": "b52aaaef1468a6f4bd3071fe16cea705032a202e6030269e91ff643640dbd939",
+        "bytes": 96094,
+        "duration_seconds": 1.089002,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s04-c069",
+        "take_id": "s04-c069-t01",
+        "raw_qa_status": "blocked",
+        "raw_qa_summary": {
+          "failure": "short utterance, low ASR confidence, missing, extra, reordered or incorrect words",
+          "signal_flags": [],
+          "confidence": 0.3890262849946129
+        },
+        "group": "connected-004",
+        "provider_account": "Ninja"
       }
     ],
     "open_cue_ids": [
@@ -1645,16 +1911,16 @@
     ],
     "cue_count": 239,
     "recording_status": {
-      "generated_takes": 62,
-      "verified_audio_bytes": 62,
+      "generated_takes": 74,
+      "verified_audio_bytes": 74,
       "transcript_match": 9,
-      "pending_cues": 179,
+      "pending_cues": 167,
       "qa_open_cues": 239,
-      "blocked_reason": "179 cues still require recording or directed performance; held cues and listening QA remain.",
-      "raw_qa_candidates_checked": 60,
-      "raw_qa_gate_clear": 6,
-      "raw_qa_uncertainty": 44,
-      "raw_signal_gate_blocked": 10
+      "blocked_reason": "167 cues still require recording or directed performance; held cues and listening QA remain.",
+      "raw_qa_candidates_checked": 72,
+      "raw_qa_gate_clear": 8,
+      "raw_qa_uncertainty": 53,
+      "raw_signal_gate_blocked": 11
     },
     "transfer_workflow": "production/elsewhere-reboot-2026/episode-002/PRIVATE-TRANSFER.md",
     "batch_002": {
@@ -1821,12 +2087,12 @@
       "tooling_head": "3f5a760d8b682718c1e7227cd4a3e87c7a5842b8",
       "script_sha256": "ef85205fc944b371ee7aac01c6aa2dcb2e612a0a18cd183b65bbac3443ba7f19",
       "provider_status": "Ninja account live chat connector pilot verified; REST runner remains uncredentialed; bulk quota cap not supplied",
-      "left_to_record": 179,
-      "plain_cues_waiting": 172,
+      "left_to_record": 167,
+      "plain_cues_waiting": 160,
       "directed_cues_waiting": 7,
-      "remaining_characters": 25775,
+      "remaining_characters": 25106,
       "remaining_words": 5085,
-      "reserved_new_calls": 37,
+      "reserved_new_calls": 49,
       "signal_gate_cues": [
         "s02-c010",
         "s03-c014"
@@ -1860,30 +2126,12 @@
       "active_seed_library_file_id": "libfile_1d66c903b6e4819196a95d1e8fc0a109",
       "connected_bulk": {
         "authorization": "Finish required cues using connected accounts' existing credits only",
-        "groups_completed": 3,
+        "groups_completed": 4,
         "held_attempts": [],
         "quota_gates": [],
-        "provider_calls": 36,
-        "retained": 36,
-        "active": {
-          "id": "connected-004",
-          "account": "Ninja",
-          "cues": [
-            "s04-c058",
-            "s04-c059",
-            "s04-c060",
-            "s04-c061",
-            "s04-c062",
-            "s04-c063",
-            "s04-c064",
-            "s04-c065",
-            "s04-c066",
-            "s04-c067",
-            "s04-c068",
-            "s04-c069"
-          ],
-          "status": "reserved_before_provider_submission"
-        }
+        "provider_calls": 48,
+        "retained": 48,
+        "active": null
       }
     }
   },
