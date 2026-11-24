@@ -140,6 +140,12 @@ class QueueTests(unittest.TestCase):
         self.run_queue(s)
         self.assertEqual(self.calls, ['c2', 'c3'])
 
+    def test_directed_performance_is_not_synthesized_as_plain_read(self):
+        s = q.init(self.script, self.cast, 'episode', [], {'c2': {'delivery': 'quieter'}})
+        self.run_queue(s)
+        self.assertEqual(self.calls, ['c1', 'c3'])
+        self.assertEqual(q.plan(s)['performance_pending'], 1)
+
     def test_live_pilot_and_budget_required(self):
         self.settings['pilot_verified'] = False
         with self.assertRaises(ValueError):

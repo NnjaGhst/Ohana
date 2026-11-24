@@ -49,7 +49,7 @@ def save(path, value):
             temp.unlink(missing_ok=True)
 
 
-def init(script, cast, episode, existing):
+def init(script, cast, episode, existing, performance=None):
     require(SAFE_ID.fullmatch(episode), 'Invalid episode ID')
     cues = read(script)
     cast_rows = read(cast)
@@ -66,6 +66,10 @@ def init(script, cast, episode, existing):
         require(SAFE_ID.fullmatch(voice) and 0 < len(cue['text']) <= 10000, 'Invalid voice or turn length')
         state['cues'][identifier] = dict(text=cue['text'], voice_id=voice, speed=1, pitch=1,
                                          state='missing', attempts=[])
+    for cue_id, directions in (performance or {}).items():
+        require(isinstance(directions, dict) and directions.get('delivery'),
+                'Invalid performance direction')
+        state['cues'][cue_id].update(state='performance_pending', performance=directions)
     for take in existing:
         cue = state['cues'][take['cue_id']]
         identifier = take['take_id']
@@ -88,6 +92,7 @@ def plan(state):
     return dict(cues=len(state['cues']), missing=len(missing),
                 candidates=sum(c['state'] == 'candidate' for c in state['cues'].values()),
                 unreconciled=sum(c['state'] not in ('missing', 'candidate') for c in state['cues'].values()),
+                performance_pending=sum(c['state'] == 'performance_pending' for c in state['cues'].values()),
                 characters=sum(len(cue['text']) for cue in missing), words=words,
                 estimated_minutes_135_to_165_wpm=[round(words / 165, 2), round(words / 135, 2)],
                 calls_reserved=state['calls_reserved'], characters_reserved=state['characters_reserved'])
@@ -223,7 +228,7 @@ def resolve(state, decision):
     """Select an independently verified source; retain every prior attempt."""
     cue = state['cues'][decision['cue_id']]
     identifier = decision['take_id']
-    require(cue['state'] in ('hold', 'received') and SAFE_ID.fullmatch(identifier)
+    require(cue['state'] in ('hold', 'received', 'performance_pending') and SAFE_ID.fullmatch(identifier)
             and isinstance(decision['evidence_reference'], str) and decision['evidence_reference'].strip(),
             'Held cue and recorded evidence required')
     receipt = receipt_fields(decision['receipt'])
@@ -280,6 +285,7 @@ def main():
     for arg in ('script', 'cast', 'existing'):
         create.add_argument(arg, type=Path)
     create.add_argument('episode')
+    create.add_argument('--performance', type=Path)
     sub.add_parser('plan')
     resolution = sub.add_parser('resolve')
     resolution.add_argument('decision', type=Path)
@@ -296,7 +302,8 @@ def main():
             fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
             if args.action == 'init':
                 require(not args.ledger.exists(), 'Ledger already exists')
-                save(args.ledger, init(args.script, args.cast, args.episode, read(args.existing)))
+                save(args.ledger, init(args.script, args.cast, args.episode, read(args.existing),
+                                       read(args.performance) if args.performance else None))
             else:
                 state = read(args.ledger)
                 if args.action == 'resolve':
