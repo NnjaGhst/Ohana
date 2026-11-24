@@ -1,0 +1,29 @@
+{
+  "status": "preview-only-not-published",
+  "source": "cassian-dialogue-quiet-edges-a-b-test.mp3",
+  "soundscape": "childhood residential courtyard, faint outdoor air, distant town hum, two distant birds, water and cloth rustles",
+  "no_rain": true,
+  "no_music": true,
+  "third_party_assets": false,
+  "spoken_clips_unchanged": true,
+  "speech_edits": 0,
+  "maximum_sfx_linear_peak": 0.03146351747422837,
+  "variants": {
+    "soft": {
+      "filename": "cassian-courtyard-soft-ambience.mp3",
+      "duration_seconds": 60.492,
+      "bytes": 1453287,
+      "voice_rms_dbfs": -19.8,
+      "ambient_rms_dbfs": -50.9,
+      "peak_dbfs": -0.5
+    },
+    "natural": {
+      "filename": "cassian-courtyard-natural-ambience.mp3",
+      "duration_seconds": 60.492,
+      "bytes": 1453287,
+      "voice_rms_dbfs": -19.8,
+      "ambient_rms_dbfs": -44.5,
+      "peak_dbfs": -0.5
+    }
+  }
+}
