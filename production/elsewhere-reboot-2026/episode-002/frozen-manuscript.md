@@ -1,6 +1,6 @@
 # Elsewhere
 ## Episode 2 — The Man in the Corner
-### Reboot manuscript · Draft 3 — unabridged, character-led pacing
+### Reboot manuscript · Draft 4 — Ninja’s ending
 
 **Production:** Wade narrates and voices Hex. Hex's spoken dialogue: Wade 100%. Hex's isolated inner monologues: Wade 80% absolute gain, without changing pitch or pace. Ninja's spoken dialogue (if any): Hallie 90%; Ninja's inner thoughts: Hallie 80%. Markers are editing cues, never spoken. Draft only; no recordings generated or published.
 
@@ -868,179 +868,109 @@ He ordered his drink and sat down.
 
 Tomas left after a while to meet a friend. Hex stayed. Rain clattered softly against the windows, and somewhere by the fireplace two people argued over the correct way to cook potatoes.
 
-It was ordinary.
-
-For once, he wanted ordinary.
-
-Then the door opened.
-
 ### The Photograph Becomes a Person
 
-She came through the door like she belonged in a different life.
+The bar smelled like old wood and cheap whiskey, the kind that burned on the way down and didn’t apologize for it. Hex sat in his usual corner with his back to the wall, one boot hooked on the lower rung of the chair, eyes half-lidded but never fully at rest. Three years in this village and the hypervigilance still lived in his bones like a second spine. He had trained it to look like calm. Most nights it even fooled him.
 
-For one absurd, stretched-out second, Hex thought he was seeing something his mind had invented to punish him.
+A dog wandered past the window, ribs showing, tail low. Hex watched it until it disappeared into the dark. He left an extra bill under his empty glass when the bartender wasn’t looking. Small, useless kindnesses. They were the only ones he still allowed himself.
 
-Pink hair damp from the rain. Dark jacket. A face he'd looked at in a file half a decade earlier and never quite managed to forget.
+He had almost convinced himself that this life could be enough. Small. Quiet. A name that didn’t belong to anyone dangerous. A routine that asked nothing of him except that he keep breathing and keep his head down.
 
-The actual person stood just inside the Crooked Lantern, taking in the room with the tired irritation of somebody who had already had enough of the day.
+Then the door opened and she walked in.
 
-The photograph had not prepared him for movement.
+For one long, suspended second the world simply stopped.
 
-For the way she shook rain from her sleeve. For the small, impatient adjustment of her bag. For the fact that a stranger could be the center of his worst memory and still be doing something as ordinary as choosing a place to sit.
+It was her.
 
-His heart hit against his ribs.
+Not the photo. Not the grainy, official image he had burned into his memory five years ago and never managed to scrub out. The real woman. Same sharp line of the jaw. Same way of carrying her shoulders like she had decided the room would adjust to her and not the other way around. She moved straight to the bar without making an obvious scan for exits or threats, ordered a whiskey, and took a seat on the far side of the room as if she had every right to exist in ordinary spaces.
 
-He knew her name.
+Hex’s pulse slammed once, hard enough to make his vision narrow.
 
-He knew who her brother was.
-
-He knew what the network had done and what he'd helped it do.
-
-And he knew she had absolutely no reason to know him.
-
-**[INNER MONOLOGUE — HEX — WADE 80% — EDIT CUE ONLY]**
+**[INNER MONOLOGUE — HEX — SURVIVAL VOICE — WADE 80% — EDIT CUE ONLY]**
 
 *Leave.*
 
-*Get up. Walk out the side door. Don't look at her again.*
+**[END INNER MONOLOGUE]**
 
-*That's her. The woman in the photograph. Five years, and somehow she's standing here, breathing, annoyed at the weather.*
+The old voice arrived instantly, cold and absolute. The one that had kept him alive through extraction after extraction, through nights when the blood on his hands still felt warm.
 
-*If anyone connects you, they'll come for her.*
+**[INNER MONOLOGUE — HEX — SURVIVAL VOICE — WADE 80% — EDIT CUE ONLY]**
 
-*Move.*
+*Stand up. Side door. Don’t look at her again. She is a ghost and ghosts get people killed.*
 
 **[END INNER MONOLOGUE]**
 
-His hands did not shake. He hated how well his body could still obey an old kind of training while the rest of him felt as though it were coming apart.
+His body refused the order.
 
-She crossed to the bar.
+He watched her accept the glass from the bartender. Watched the small, tired way she wrapped both hands around it. Something in his chest pulled tight and sharp, the same feeling that had lived under his ribs since the night he first turned the page in that file and found her face looking back at him like an accusation and a question at the same time.
 
-He watched her order a whiskey.
+Five years.
 
-That, at least, was almost funny. A photograph couldn't have told him what she'd drink. It couldn't have told him she'd choose the bar stool with her shoulder turned away from the room, as though she wanted to be left alone but refused to surrender the option of seeing who came in.
+He had carried that photograph across borders and through new identities and into this hollowed-out version of a life. He had told himself a thousand times it was only trauma, only the mind latching onto the one human detail in a file full of targets and collateral. He had tried to hate the way her image returned to him in the dark. He had never succeeded.
 
-He should have looked elsewhere.
+And now she was real, sitting twenty feet away, unaware that the man in the corner had once held her brother’s death in the same night as her photograph.
 
-Instead he watched the bartender set down her glass and saw the tired line of her shoulders.
+The shield slammed back into place hard enough to make his teeth ache.
 
-It was the same kind of tiredness he recognized in mirrors.
+**[INNER MONOLOGUE — HEX — SURVIVAL VOICE — WADE 80% — EDIT CUE ONLY]**
 
-She wasn't a mystery for him to solve.
-
-She wasn't a punishment arranged by the universe.
-
-She was a person who had lost something, and he was one of the reasons.
-
-He knew all of that.
-
-It did not stop the sudden longing to hear her speak.
-
-**[INNER MONOLOGUE — HEX — WADE 80% — EDIT CUE ONLY]**
-
-*You don't get to want this.*
-
-*You don't get to be a harmless stranger in a bar. You were there. You saw what happened.*
-
-*If she knew, she'd walk away. Or she'd hate you. And she'd be right to.*
-
-*So leave.*
-
-*But if I leave now, she'll never know I was here. She'll go on living. And isn't that what I've been trying to protect?*
-
-*Then why does walking out feel like another kind of cowardice?*
+*You do not get to want this. You do not get to sit here and pretend you are just another man in a bar. That photo was never supposed to become a person. She was a name attached to a liability. And liabilities get erased.*
 
 **[END INNER MONOLOGUE]**
 
-He stared at his whiskey.
+But the other voice — quieter, older, the one that still remembered how to care — would not shut up.
 
-Roan's voice, from years ago, came back to him: You can't fix everything.
+**[INNER MONOLOGUE — HEX — HUMAN VOICE — WADE 80% — EDIT CUE ONLY]**
 
-He had once believed that the important thing was to make the hard choice, to take the burden from someone else and suffer privately if necessary.
-
-It had made him useful to monsters.
-
-Now a woman he didn't know sat across the room, and he felt the dangerous beginnings of an impulse he could not sort into guilt, curiosity, longing, or the desperate wish to be something better than he had been.
-
-Maybe all four.
-
-He was not foolish enough to call it love.
-
-Love required knowledge, and he had a single photograph, a file full of other people's secrets, and five years of remorse. None of those entitled him to anything.
-
-But for one moment he wanted to be the sort of man who could say hello without leaving a trail of harm behind him.
-
-He lifted two fingers toward the bartender.
-
-The bartender came over.
-
-"Another?"
-
-Hex looked toward the woman at the bar.
-
-"Whiskey," he said. "For her. Whatever she's having."
-
-The bartender followed his glance.
-
-"Do you know her?"
-
-His mouth was dry.
-
-"No."
-
-It was both an answer and a confession.
-
-The bartender studied him, then shrugged and poured the drink.
-
-As he carried it across the room, Hex felt a ridiculous urge to call him back.
-
-He could still pretend he hadn't ordered it. He could put money on the table and walk out. He could do the sensible thing and leave this stranger to her own evening.
-
-But he was tired of disappearing.
-
-That didn't make staying safe.
-
-It simply made staying, for this one heartbeat, possible.
-
-The bartender set the second glass in front of Ninja.
-
-Hex saw her go still.
-
-The bartender nodded toward him.
-
-Ninja didn't look immediately. She kept her hand near her drink, and he could almost see the objections forming in her mind.
-
-Good, he thought helplessly. She has every right.
-
-Then she lifted her gaze.
-
-He had seen her eyes in the photograph.
-
-He hadn't known what it would feel like when they looked back.
-
-**[INNER MONOLOGUE — HEX — WADE 80% — EDIT CUE ONLY]**
-
-*That's her.*
-
-*Not a photograph. Not an entry in an operation file. Not a story you tell yourself to survive.*
-
-*She's real.*
-
-*And she's looking right at you.*
+*That’s her. The only thing from that night that still felt alive.*
 
 **[END INNER MONOLOGUE]**
+
+He could still see Cassian on the floor if he let himself. The wrongness of it. The way the mission had collapsed into noise and muzzle flash and the sudden, sick knowledge that a man who wasn’t supposed to be there had stopped moving. Hex had not pulled the trigger. He had still been part of the machine that made the night possible. And somewhere in the messy aftermath, while they were still containing the scene, her face had risen in his mind like a brand.
+
+He had run because the alternative was becoming someone who could keep doing the work without feeling the weight of it. Some stubborn, stupid part of him had refused to die that completely.
+
+Now that same part of him was staring across a quiet bar at the living consequence of every choice he had ever made.
+
+His hands were steady. Training. Underneath them everything shook.
+
+She hadn’t looked in his direction yet. She sat with her back half-turned, the posture of someone who had practiced being alone in public. He recognized it. He lived inside a version of it every day.
+
+**[INNER MONOLOGUE — HEX — SURVIVAL VOICE — WADE 80% — EDIT CUE ONLY]**
+
+*If anyone from the old life ever connects the two of you, she dies. You know exactly how these people work. You were one of them.*
+
+**[END INNER MONOLOGUE]**
+
+**[INNER MONOLOGUE — HEX — HUMAN VOICE — WADE 80% — EDIT CUE ONLY]**
+
+*And if you walk out right now you will spend the rest of whatever life you have left knowing she was real and you were too much of a coward to even look at her properly.*
+
+**[END INNER MONOLOGUE]**
+
+He hated both voices.
+
+The bartender moved down the bar. Hex heard himself speak before the shield could stop him.
+
+"Whiskey. For her. Whatever she’s having."
+
+The words felt like stepping off a roof.
+
+He did not look away when the bartender carried the glass across the room. He made himself stay visible. Heart slamming against the cage of his ribs. Every instinct he had spent years sharpening told him this was how people got found. How people got buried in shallow graves with no names.
+
+The bartender set the glass down and said something quiet. Hex watched her go still. Watched the slight tension that ran through her shoulders. Then, slowly, she turned her head.
 
 Their eyes met.
 
-For five years he had been carrying a picture of somebody who had never chosen to be part of his life.
+For the first time in five years the photograph in his head had a pulse.
 
-Now, for the first time, the woman in that picture had a choice of her own.
+And Hex, who had survived by never letting himself want anything that could be used against him, sat perfectly still in his corner and let the wanting rise anyway — dangerous, stupid, and impossible to put back once it had been allowed to breathe.
 
-Hex remained where he was.
+**[INNER MONOLOGUE — HEX — HUMAN VOICE — WADE 80% — EDIT CUE ONLY]**
 
-He let her decide whether to look away.
+*What have I done?*
 
-She didn't.
+**[END INNER MONOLOGUE]**
 
 **End of Episode 2.**
 

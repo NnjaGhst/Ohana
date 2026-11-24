@@ -1,0 +1,101 @@
+{
+  "revision": "Draft 4",
+  "author": "Ninja (new ending); Hex (continuity and cue formatting)",
+  "approval": "Owner agreed to use their ending in chat: 'Yes I think so.'",
+  "previous_commit": "19353f7a074123df1051736f80678e4c7445e52f",
+  "previous_script_sha256": "d081458c952f08b3a8d91f436cce65eef44e0992f2ffc369fc10a4a745303561",
+  "new_script_sha256": "ef85205fc944b371ee7aac01c6aa2dcb2e612a0a18cd183b65bbac3443ba7f19",
+  "unchanged_cue_count": 218,
+  "retired_cue_ids": [
+    "s13-c219",
+    "s14-c220",
+    "s14-c221",
+    "s14-c222",
+    "s14-c223",
+    "s14-c224",
+    "s14-c225",
+    "s14-c226",
+    "s14-c227",
+    "s14-c228",
+    "s14-c229",
+    "s14-c230",
+    "s14-c231",
+    "s14-c232",
+    "s14-c233",
+    "s14-c234",
+    "s14-c235",
+    "s14-c236",
+    "s14-c237",
+    "s14-c238",
+    "s14-c239",
+    "s14-c240"
+  ],
+  "retired_recorded_cue_ids": [
+    "s14-c228"
+  ],
+  "new_cue_ids": [
+    "s14-r4-c001",
+    "s14-r4-c002",
+    "s14-r4-c003",
+    "s14-r4-c004",
+    "s14-r4-c005",
+    "s14-r4-c006",
+    "s14-r4-c007",
+    "s14-r4-c008",
+    "s14-r4-c009",
+    "s14-r4-c010",
+    "s14-r4-c011",
+    "s14-r4-c012",
+    "s14-r4-c013",
+    "s14-r4-c014",
+    "s14-r4-c015",
+    "s14-r4-c016",
+    "s14-r4-c017",
+    "s14-r4-c018",
+    "s14-r4-c019",
+    "s14-r4-c020",
+    "s14-r4-c021"
+  ],
+  "notes": [
+    "Preserve original draft and all original recordings. Never use retired cue s14-c228 in the revised episode; retain it as a private audition artifact.",
+    "Continuity adjustments: stool→chair (corner table), open door→window (door opens later), without scanning→without making an obvious scan (Episode 1 has Ninja looking around), watched her still→watched her go still, word→words, punctuation normalized for recording; the cliffhanger remains exactly 'What have I done?'.",
+    "The two inner voices are performance directions, both Wade at 80% mix gain, natural pitch and speed. No artificial effects. The next-episode teaser is separate from the final thought."
+  ],
+  "performance_directions": {
+    "s14-r4-c004": {
+      "voice": "Wade",
+      "gain": 0.8,
+      "delivery": "Cold, controlled, clipped survival instinct. Natural voice; no processing."
+    },
+    "s14-r4-c006": {
+      "voice": "Wade",
+      "gain": 0.8,
+      "delivery": "Cold, controlled, clipped survival instinct. Natural voice; no processing."
+    },
+    "s14-r4-c009": {
+      "voice": "Wade",
+      "gain": 0.8,
+      "delivery": "Cold, controlled, clipped survival instinct. Natural voice; no processing."
+    },
+    "s14-r4-c011": {
+      "voice": "Wade",
+      "gain": 0.8,
+      "delivery": "Quieter, vulnerable, human; natural voice, no processing."
+    },
+    "s14-r4-c014": {
+      "voice": "Wade",
+      "gain": 0.8,
+      "delivery": "Cold, controlled, clipped survival instinct. Natural voice; no processing."
+    },
+    "s14-r4-c015": {
+      "voice": "Wade",
+      "gain": 0.8,
+      "delivery": "Quieter, vulnerable, human; natural voice, no processing."
+    },
+    "s14-r4-c020": {
+      "voice": "Wade",
+      "gain": 0.8,
+      "delivery": "Quieter, vulnerable, human; natural voice, no processing."
+    }
+  }
+}
