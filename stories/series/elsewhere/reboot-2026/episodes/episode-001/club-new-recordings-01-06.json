@@ -1,0 +1,65 @@
+{
+  "status": "recorded",
+  "clips": [
+    {
+      "cue": "club-01",
+      "run": 197,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "text": "Back in Bellwether, rain tapped against Ninja's jacket as she walked past shuttered shopfronts. Through the bakery window, Ada was wiping down a counter. She raised one hand when she saw Ninja pass. Ninja returned the gesture. It was a small exchange, not quite a friendship, and she was grateful for how little it asked of her. At the corner, a warm light fell across the wet pavement. The Crooked Lantern.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=91d664802f57478ea19548d2012056ae.wav",
+      "duration_seconds": 24.2321768707483
+    },
+    {
+      "cue": "club-02",
+      "run": 197,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "text": "Its door creaked when she pushed it open. The room smelled of wood polish, damp wool, and the comforting suggestion of something cooking behind the bar. A few people sat at tables. Someone had left a coat over the back of a chair. A low conversation drifted from near the fire. The place seemed to have no interest in impressing anyone. Perfect. The bartender looked up.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=9f90ae63271d4c888c189680357409fd.wav",
+      "duration_seconds": 21.348412698412698
+    },
+    {
+      "cue": "club-03",
+      "run": 198,
+      "actor": "bartender",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1,
+      "text": "Evening.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/eae6fca42aae4b78b992533e96ab43c9/id=8ec7838effbc40c1b57cec901e408f06.wav",
+      "duration_seconds": 0.9856689342403628
+    },
+    {
+      "cue": "club-04",
+      "run": 199,
+      "actor": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "text": "Whiskey, please.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=a492d09019c94dd7b8a2aa8a79d6e18b.wav",
+      "duration_seconds": 1.8289795918367346
+    },
+    {
+      "cue": "club-05",
+      "run": 200,
+      "actor": "bartender",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1,
+      "text": "Any preference?",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/eae6fca42aae4b78b992533e96ab43c9/id=6ad07c8ca2504a90a32b1dea70470456.wav",
+      "duration_seconds": 1.4296598639455782
+    },
+    {
+      "cue": "club-06",
+      "run": 201,
+      "actor": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "text": "The one that doesn't ask personal questions.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=7f56b6f955f74d6d91dc4dd870602ac0.wav",
+      "duration_seconds": 2.6441269841269843
+    }
+  ]
+}
