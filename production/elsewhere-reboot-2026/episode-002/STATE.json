@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
   "next_owner": "Dex",
-  "next_action": "Resolve the single reserved HeyGen pilot from its provider receipt. Do not resubmit or start a batch.",
+  "next_action": "Retain the pilot and use only the post-pilot seed. Confirm a finite quota cap before additional HeyGen calls. Continue technical QA on held cues; publication remains blocked.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -569,6 +569,29 @@
         "library_file_id": "libfile_722785ae3c348191bf1f3fa92ba8c80c",
         "version": 0,
         "sha256": "11f79f214dd2a0c5935b05ae7f703c38385442e170e0abc39380703551849e3d"
+      },
+      {
+        "role": "verified live pilot WAV; low-confidence QA review pending",
+        "filename": "s03-c028-t01.wav",
+        "file_id": "file_00000000da3881f5bc78099acfd4daab",
+        "library_file_id": "libfile_613dccb9e9608191a02edcfb79b88027",
+        "version": 0,
+        "bytes": 129840,
+        "sha256": "ccdc0d60eb317a9937dff6d2636d4e39340ffb19adde4ccddd590e58979166d6",
+        "duration_seconds": 1.47161,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s03-c028",
+        "take_id": "s03-c028-t01",
+        "raw_qa_status": "review_pending"
+      },
+      {
+        "role": "current Draft 4 post-pilot queue seed; pilot is excluded from scheduling",
+        "filename": "Elsewhere_E02_Draft4_PostPilot_Seed.json",
+        "file_id": "file_0000000065d881f5935338f1af983608",
+        "library_file_id": "libfile_1d66c903b6e4819196a95d1e8fc0a109",
+        "version": 0,
+        "sha256": "526454fdfec6b52e378574b02c1376a7fda8aa333717d4df881c02e4bfa08bf5"
       }
     ],
     "open_cue_ids": [
@@ -814,15 +837,15 @@
     ],
     "cue_count": 239,
     "recording_status": {
-      "generated_takes": 25,
-      "verified_audio_bytes": 25,
-      "transcript_match": 8,
-      "pending_cues": 216,
+      "generated_takes": 26,
+      "verified_audio_bytes": 26,
+      "transcript_match": 9,
+      "pending_cues": 215,
       "qa_open_cues": 239,
-      "blocked_reason": "Live automated pilot requires an authorized HeyGen account and credit ceiling or private runner credentials. Seven remaining Draft 4 thought cues also require verified delivery control. No paid generation occurred.",
-      "raw_qa_candidates_checked": 23,
+      "blocked_reason": "Live connected pilot verified. Further synthesis awaits a bounded quota cap. Local REST runner still has no API key; seven directed Wade cues need delivery validation.",
+      "raw_qa_candidates_checked": 24,
       "raw_qa_gate_clear": 4,
-      "raw_qa_uncertainty": 17,
+      "raw_qa_uncertainty": 18,
       "raw_signal_gate_blocked": 2
     },
     "transfer_workflow": "production/elsewhere-reboot-2026/episode-002/PRIVATE-TRANSFER.md",
@@ -989,20 +1012,20 @@
       "draft_pr": 6,
       "tooling_head": "3f5a760d8b682718c1e7227cd4a3e87c7a5842b8",
       "script_sha256": "ef85205fc944b371ee7aac01c6aa2dcb2e612a0a18cd183b65bbac3443ba7f19",
-      "provider_status": "Connected Wade catalog readable. REST runner missing API key; no live pilot. Existing WAV cleared adapter retention/ASR smoke test.",
-      "left_to_record": 216,
-      "plain_cues_waiting": 209,
+      "provider_status": "Ninja account live chat connector pilot verified; REST runner remains uncredentialed; bulk quota cap not supplied",
+      "left_to_record": 215,
+      "plain_cues_waiting": 208,
       "directed_cues_waiting": 7,
-      "remaining_characters": 28574,
-      "remaining_words": 5090,
+      "remaining_characters": 28552,
+      "remaining_words": 5085,
       "reserved_new_calls": 1,
       "signal_gate_cues": [
         "s02-c010",
         "s03-c014"
       ],
-      "qa_pending_cues_including_approved_repair": 17,
+      "qa_pending_cues_including_approved_repair": 18,
       "pilot": {
-        "state": "submitted_pending_reconciliation",
+        "state": "live_connector_roundtrip_verified",
         "account": "Ninja",
         "cue_id": "s03-c028",
         "take_id": "s03-c028-t01",
@@ -1010,8 +1033,23 @@
         "max_calls": 1,
         "script_sha256": "ef85205fc944b371ee7aac01c6aa2dcb2e612a0a18cd183b65bbac3443ba7f19",
         "source": "connected HeyGen speech tool",
-        "authorization": "Ninja authorized one pilot on an account with available credits"
-      }
+        "authorization": "Ninja authorized one pilot on an account with available credits",
+        "provider_calls": 1,
+        "sha256": "ccdc0d60eb317a9937dff6d2636d4e39340ffb19adde4ccddd590e58979166d6",
+        "duration_seconds": 1.47161,
+        "source_retrievals_matched": true,
+        "private_roundtrip_verified": true,
+        "qa": {
+          "expected": "Did you make it worse?",
+          "whisper": "Did you make it worse?",
+          "whisper_confidence": 0.6982042446773796,
+          "vosk": "did you make it worse",
+          "signal_flags": [],
+          "disposition": "review_pending; no listening approval"
+        }
+      },
+      "active_seed_sha256": "526454fdfec6b52e378574b02c1376a7fda8aa333717d4df881c02e4bfa08bf5",
+      "active_seed_library_file_id": "libfile_1d66c903b6e4819196a95d1e8fc0a109"
     }
   },
   "release": {
