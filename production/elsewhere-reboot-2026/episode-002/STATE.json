@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "listening_review",
   "next_owner": "Dex",
-  "next_action": "Resolve the remaining signal and transcript QA findings and validate a release bundle for the owner-authorized review master. Confirm representative joins through the production listening gate. Keep Ohana unpublished until the release checks pass.",
+  "next_action": "Use the checkpointed PCM audit and two verified repair candidates to resolve the signal gate and remaining word check. Produce a verified release bundle, with a genuine listening record tied to its hashes.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -6172,12 +6172,20 @@
         {
           "cue_id": "s04-c061",
           "position": "06:58",
-          "library_file_id": "libfile_b9a2456cd03c819183fe7550d527b450"
+          "library_file_id": "libfile_b9a2456cd03c819183fe7550d527b450",
+          "disposition": "reviewed_by_owner_on_exact_private_master",
+          "review_reference": "2026-11-24, owner: If it’s the clip I approved that the program flagged you can ignore that flag. I didn’t hear any wrong with it",
+          "listening_scope": "Supplied audio excerpt only, as heard. No approval is inferred for other takes or stage hashes.",
+          "excerpt_sha256": "208adef793c3f53f8192b0b91af1c0dc4518bc55e400d2373677e9b603061f2f"
         },
         {
           "cue_id": "s05-c089",
           "position": "09:17",
-          "library_file_id": "libfile_3f582dde2cfc81918bbde43fe71936ce"
+          "library_file_id": "libfile_3f582dde2cfc81918bbde43fe71936ce",
+          "disposition": "reviewed_by_owner_on_exact_private_master",
+          "review_reference": "2026-11-24, owner: If it’s the clip I approved that the program flagged you can ignore that flag. I didn’t hear any wrong with it",
+          "listening_scope": "Supplied audio excerpt only, as heard. No approval is inferred for other takes or stage hashes.",
+          "excerpt_sha256": "769d88088dabcec5e9b92a4d606b5359c6de3332ee8b1c64fb72dce87b24ff19"
         }
       ],
       "scope": "Owner listened to both supplied excerpts and authorized publication with illustrations. This is a genuine owner approval for the reviewed preview, with listening limited to the two excerpts. Production release validation remains pending."
@@ -6189,32 +6197,68 @@
           "title": "The Debt",
           "scene": "the-debt",
           "generated_filename": "exec-5a767e26-189d-4ee7-a354-fb47408c28e3.png",
-          "sha256": "b827994b95d7304899f223851b43e9b2d0c0429503749628aa4275820c8b13ed"
+          "sha256": "b827994b95d7304899f223851b43e9b2d0c0429503749628aa4275820c8b13ed",
+          "library_file_id": "libfile_b1cd15671be88191b8cc7454df5c26cd"
         },
         {
           "title": "The Offer",
           "scene": "the-offer",
           "generated_filename": "exec-085afce2-671f-4471-a5f8-ad5bd78b685f.png",
-          "sha256": "59a0dee9430419c684edfac9dd99287afb79d3e974588fca7018b231899974f8"
+          "sha256": "59a0dee9430419c684edfac9dd99287afb79d3e974588fca7018b231899974f8",
+          "library_file_id": "libfile_5c21a2cc73988191a8470032b26d607a"
         },
         {
           "title": "Bellwether",
           "scene": "bellwether",
           "generated_filename": "exec-ffa20b89-8812-48f3-8a50-6e05ebcd9472.png",
-          "sha256": "7bedf9eece7fd29d74a921742672f5b37b0badb4aec8080cae7eb5789eb78b50"
+          "sha256": "7bedf9eece7fd29d74a921742672f5b37b0badb4aec8080cae7eb5789eb78b50",
+          "library_file_id": "libfile_e16ddf18a9f081918845b9b04698b12a"
         },
         {
           "title": "The Crooked Lantern",
           "scene": "the-crooked-lantern",
           "generated_filename": "exec-e3933bdf-ba13-4e8d-9f0e-e42f4c1a151d.png",
-          "sha256": "d097c695bfba4564e492f9e1119a0a2ce55eeece114dd0aac81c7224177eb9ab"
+          "sha256": "d097c695bfba4564e492f9e1119a0a2ce55eeece114dd0aac81c7224177eb9ab",
+          "library_file_id": "libfile_f3ca6c0e5a7481919df29f588ad32909"
         }
       ]
     },
     "remaining_validation": {
-      "signal": "Source QA still flags near-full-scale peaks and suspicious boundaries. A PCM scan found zero exact full-scale samples on the rendered sources, while the source peak threshold still blocks selected takes.",
-      "transcript": "Fresh isolated checks on the exact decoded MP3 support the intended words at s08-c140, s10-c173, s11-c203, s12-c204 and s13-c218. The engines still disagree on 'Hex knew it sounded wrong' (s04-c072) and 'hypervigilance' (s14-r4-c001).",
-      "production_bundle": "Run the approved production path to produce a passing, hash-bound QA report and release bundle. Representative joins require a real listening review."
+      "signal": "All 239 selected source hashes verified. No exact full-scale samples. 26 takes meet the near-full-scale threshold; two other selected takes end in isolated bursts after the spoken line. Quiet-boundary exact PCM repair candidates s05-c093-r01 and s08-c148-r01 pass the targeted boundary and two-engine transcript checks. Candidates are private and not in the approved review master.",
+      "transcript": "Independent isolated and contextual checks on the exact MP3 confirmed 'Hex knew it sounded wrong' (s04-c072), with Vosk spelling 'knew' as 'new'. For s14-r4-c001, the engines alternate between 'hypervigilance' and 'hypervigilant'; no definitive listening result. Owner reviewed and cleared only the excerpts s04-c061 and s05-c089. Findings for other selections remain separate.",
+      "production_bundle": "The production release gate has not cleared. Keep the exact approved review master and source recordings intact. A corrected release candidate requires matching production QA and a genuine listening record.",
+      "private_artifacts": [
+        {
+          "filename": "Elsewhere_E02_Quiet_Cut_Evidence.json",
+          "library_file_id": "libfile_48e0684c3f188191913a8137e91b8247",
+          "version": 0,
+          "sha256": "f8e06b5d112c57385349af7cf2d413b9f528cc190877a03c4461796bdd9285e0"
+        },
+        {
+          "filename": "Elsewhere_E02_Selected_Take_Signal_Audit.json",
+          "library_file_id": "libfile_68315a5d681481919070783d7682df7e",
+          "version": 0,
+          "sha256": "5b7cd34a1f2d5e1cd32147dab414bd59f2aeac8b7b685086d85133fb37b5a8be"
+        },
+        {
+          "filename": "Elsewhere_E02_Targeted_Transcription_Audit.json",
+          "library_file_id": "libfile_bc401a4aa8cc8191a250c64cb267bf2f",
+          "version": 0,
+          "sha256": "e15435288c050d02f11229f63c9d030d61ebb599764e471fd99922bfd2f4b0a4"
+        },
+        {
+          "filename": "s05-c093-r01.wav",
+          "library_file_id": "libfile_aa1981a274ac8191a2c148679777f2ec",
+          "version": 0,
+          "sha256": "0e5e6b2c2adb44f954c7ddb94882d97ca6203b69ebff583739ad72ebc9523b42"
+        },
+        {
+          "filename": "s08-c148-r01.wav",
+          "library_file_id": "libfile_4e9d3739e4508191a4eeb67cb03142bb",
+          "version": 0,
+          "sha256": "3dd364b73547812d35230b688cc6ee4f68adc82f08391aceea3a0c72763bf313"
+        }
+      ]
     }
   },
   "cast_file": "production/elsewhere-reboot-2026/episode-002/cast.json",
