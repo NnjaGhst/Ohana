@@ -1,0 +1,71 @@
+{
+  "status": "recorded",
+  "records": [
+    {
+      "cue_id": "line-225",
+      "run_id": 192,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She studied the photographs. She didn't imagine a village could fix anything.",
+      "scene": "Somewhere Else",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=e4f761c3883d492598c3fa09167623ba.wav",
+      "duration": 4.478503401360544
+    },
+    {
+      "cue_id": "line-226",
+      "run_id": 193,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Cassian would still be dead when she woke up there. Whatever had happened to him would still have happened. She would still know what his voice sounded like and hate that she couldn't hear it again without pressing play. But nobody there would stop speaking when she entered a room. Nobody would lower their voice and ask how she was coping, as though grief were an illness with a set of expected symptoms. Nobody would know to call her Cassian's little sister.",
+      "scene": "Somewhere Else",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=6d548f5c53774075b5e1a6f79982e56e.wav",
+      "duration": 23.354920634920635
+    },
+    {
+      "cue_id": "line-227",
+      "run_id": 193,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "For once, being unknown sounded less like loneliness and more like the possibility of rest. So she packed. She kept the old player, the photographs, and the chipped blue mug. She took the jacket he'd once lent her and never asked to have back. She left other things behind because she could not bear the weight of making decisions about them. On the morning she drove away, she sat with the engine off for several minutes.",
+      "scene": "Somewhere Else",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=6011cba1d6324ba2a2eb7e8f7506a77a.wav",
+      "duration": 23.087891156462586
+    },
+    {
+      "cue_id": "line-228",
+      "run_id": 194,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Well. Cass.",
+      "scene": "Somewhere Else",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=9577572209b041288d25654562f84786.wav",
+      "duration": 1.796984126984127
+    },
+    {
+      "cue_id": "line-229",
+      "run_id": 195,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She tried to think of what he'd say. Probably something about checking the tires. Probably a joke about her sense of direction. Definitely something annoying. She smiled despite herself. Then she started the car.",
+      "scene": "Somewhere Else",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=d99c4c3736424e589bb76eb7fd303e5f.wav",
+      "duration": 11.804399092970522
+    },
+    {
+      "cue_id": "line-230",
+      "run_id": 196,
+      "speaker": "ninja_thought",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.8,
+      "source_text": "Somewhere nobody knows him. That's all I asked for. One evening where I can just be the woman ordering a drink, instead of the woman with the dead brother.",
+      "scene": "Somewhere Else",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=7165001edd674f18839e5be6e4fae9fc.wav",
+      "duration": 8.60013605442177
+    }
+  ]
+}
