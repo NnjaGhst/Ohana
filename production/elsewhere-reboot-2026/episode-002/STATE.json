@@ -4,8 +4,8 @@
   "title": "The Man in the Corner",
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
-  "next_owner": "Dex",
-  "next_action": "Retrieve first source WAV using private source index, verify actual bytes and SHA-256, store in private durable audio location, and prove a batch-transfer path from HeyGen before Hex records remaining cues. Do not approve or publish unverified audio.",
+  "next_owner": "Hex",
+  "next_action": "Complete the pending performance audition, then record a small batch of approved cast cues and hand Dex the private source index. Use PRIVATE-TRANSFER.md and verify durable transfer before scaling. Cue s01-c001 has a verified source WAV and remains open for production QA.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 3",
@@ -32,6 +32,21 @@
         "sha256": "6adba5b2bc8b04c9bf9bcec3e1757bc11ce50fdbe57315818a8eb8ff569605eb",
         "cue_id": "s01-c001",
         "take_id": "s01-c001-t01"
+      },
+      {
+        "role": "verified source WAV; listening and approval pending",
+        "filename": "s01-c001-t01.wav",
+        "file_id": "file_00000000af9881fda77afeaa6ee50bc7",
+        "library_file_id": "libfile_0f25d2d820748191892d3021a292bff0",
+        "version": 0,
+        "sha256": "fefcdc9d6c176fb46893d4a116e34cca3748ccd1096763e50316cbd49d0146f2",
+        "cue_id": "s01-c001",
+        "take_id": "s01-c001-t01",
+        "bytes": 2021916,
+        "duration_seconds": 22.923719,
+        "sample_rate": 44100,
+        "channels": 1,
+        "checksum_verification": "First downloaded SHA-256 matched a fresh HeyGen download and a version-pinned private round trip; no provider checksum was supplied."
       }
     ],
     "open_cue_ids": [
@@ -279,11 +294,13 @@
     "cue_count": 240,
     "recording_status": {
       "generated_takes": 1,
-      "verified_audio_bytes": 0,
+      "verified_audio_bytes": 1,
       "transcript_match": 1,
-      "pending_cues": 240,
-      "blocked_reason": "HeyGen generated a take and ASR matched, but chat cannot retrieve WAV bytes for checksum and private retention. URL kept in private Library source index only."
-    }
+      "pending_cues": 239,
+      "blocked_reason": null,
+      "qa_open_cues": 240
+    },
+    "transfer_workflow": "production/elsewhere-reboot-2026/episode-002/PRIVATE-TRANSFER.md"
   },
   "release": {
     "status": "blocked",
