@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
   "next_owner": "Dex",
-  "next_action": "Retain the pilot and use only the post-pilot seed. Confirm a finite quota cap before additional HeyGen calls. Continue technical QA on held cues; publication remains blocked.",
+  "next_action": "Reconcile the reserved connected recording group before resubmitting any cue.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -1049,7 +1049,34 @@
         }
       },
       "active_seed_sha256": "526454fdfec6b52e378574b02c1376a7fda8aa333717d4df881c02e4bfa08bf5",
-      "active_seed_library_file_id": "libfile_1d66c903b6e4819196a95d1e8fc0a109"
+      "active_seed_library_file_id": "libfile_1d66c903b6e4819196a95d1e8fc0a109",
+      "connected_bulk": {
+        "authorization": "Finish required cues using connected accounts' existing credits only",
+        "groups_completed": 0,
+        "held_attempts": [],
+        "quota_gates": [],
+        "provider_calls": 0,
+        "retained": 0,
+        "active": {
+          "id": "connected-001",
+          "account": "Ninja",
+          "cues": [
+            "s03-c021",
+            "s03-c022",
+            "s03-c023",
+            "s03-c024",
+            "s03-c025",
+            "s03-c026",
+            "s03-c027",
+            "s03-c029",
+            "s03-c030",
+            "s03-c031",
+            "s03-c032",
+            "s03-c033"
+          ],
+          "status": "reserved_before_provider_submission"
+        }
+      }
     }
   },
   "release": {
