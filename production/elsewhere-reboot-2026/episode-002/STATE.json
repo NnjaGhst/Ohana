@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "listening_review",
   "next_owner": "Dex",
-  "next_action": "Record and verify the hypervigilance pickup, assemble the corrected private preview and rerun production QA. Retain this episode's peak disposition.",
+  "next_action": "Verify the retained Wade pickup's word by listening, or record a shorter correction using a provider-supported input after the rejected pronunciation setting. Use a verified correction in the private release candidate and run the production release checks.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -6341,6 +6341,35 @@
         "reviewer": "Ninja",
         "basis": "Clean listening to the three highest peaks, and the other 23 values were lower. All 26 were triggered by the same threshold. The original audio audit found zero exact full-scale samples.",
         "scope": "Only the 26 existing near-full-scale cue findings. This does not represent listening to the remaining excerpts and does not waive new findings, word mismatches, or release validation."
+      },
+      "word_pickup": {
+        "take_id": "s14-r4-c001-t02",
+        "cue_id": "s14-r4-c001",
+        "duration_seconds": 25.2589569161,
+        "provider_pcm_sha256": "e95460a0cb28f6862813c1dc6772b2abc67c0cf83c81d75d19626ae04b0766b0",
+        "checksum_verification": "Two independently retrieved copies matched byte for byte. PCM was wrapped as WAV without changing audio samples.",
+        "wav": {
+          "library_file_id": "libfile_c4d46f26887c8191815eab1dd7cf8bf8",
+          "sha256": "f700747c58abab71c8004c78d07b30555bb6e5147fdd0bcd57c51b627539d6af"
+        },
+        "qa": {
+          "library_file_id": "libfile_2c40c092e4b88191b7fa6a8b287ad069",
+          "sha256": "25e2323ee1be35fc656a46ef34a437fc2fd3b5e2cc371b73e6a42d40e04dc001",
+          "signal": "passes existing peak and boundary thresholds at 48 kHz",
+          "word": {
+            "whisper": "hypervigilant",
+            "vosk": "hyper vigilance"
+          }
+        },
+        "excerpt": {
+          "library_file_id": "libfile_71d925dedb9881919ccbded85224b4ca",
+          "sha256": "96d428a7323f2726223433e853600f58280428813713a6c0ce73e8f062864e7c",
+          "source_start_seconds": 15.2,
+          "source_duration_seconds": 7,
+          "playback_gain_db": -3
+        },
+        "status": "private_unresolved_pronunciation",
+        "alternate_sentence_request": "HeyGen rejected pronunciation_dictionary during request validation, with no alternate audio delivered."
       }
     }
   },
