@@ -4,8 +4,8 @@
   "title": "The Man in the Corner",
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "listening_review",
-  "next_owner": "Ninja",
-  "next_action": "Listen to the exact private review master, including priority checks at 6:58 and 9:17. Report any audible problems or approve the listened version. Existing QA flags and publication hold remain until separately resolved.",
+  "next_owner": "Dex",
+  "next_action": "Resolve the remaining signal and transcript QA findings and validate a release bundle for the owner-authorized review master. Confirm representative joins through the production listening gate. Keep Ohana unpublished until the release checks pass.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -6162,9 +6162,26 @@
   },
   "release": {
     "status": "blocked",
-    "listening_review": "pending",
-    "owner_approval_reference": null,
-    "published": false
+    "listening_review": "priority_clips_approved",
+    "owner_approval_reference": "Owner message in the Episode 2 production chat on 2026-11-24: Both sounds good. You can publish it with the illustrations",
+    "published": false,
+    "owner_approved_review": {
+      "master_sha256": "c62a896c278025406f85446b74a1463851617a47a776555b8c7a6e59d6ecd03c",
+      "review_qa_sha256": "8799cdd632fd36ea4240ef7144028c7051aa5d2acc455d6bbcadd6f54b29dbac",
+      "clips": [
+        {
+          "cue_id": "s04-c061",
+          "position": "06:58",
+          "library_file_id": "libfile_b9a2456cd03c819183fe7550d527b450"
+        },
+        {
+          "cue_id": "s05-c089",
+          "position": "09:17",
+          "library_file_id": "libfile_3f582dde2cfc81918bbde43fe71936ce"
+        }
+      ],
+      "scope": "Owner listened to both supplied excerpts and authorized publication with illustrations. This is a genuine owner approval for the reviewed preview, with listening limited to the two excerpts. Production release validation remains pending."
+    }
   },
   "cast_file": "production/elsewhere-reboot-2026/episode-002/cast.json",
   "cast_status": "owner approved audition and repaired Lachie candidate; full episode QA pending"
