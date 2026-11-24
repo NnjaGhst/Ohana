@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "listening_review",
   "next_owner": "Dex",
-  "next_action": "Complete corrected preview production QA and genuine listening review of representative joins, then validate the release bundle against the approved hashes.",
+  "next_action": "Finish production QA and release-bundle validation for the corrected preview. Log real listening of the representative joins, then publish the authorized episode with the seven ordered illustrations.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -6191,35 +6191,64 @@
       "scope": "Owner listened to both supplied excerpts and authorized publication with illustrations. This is a genuine owner approval for the reviewed preview, with listening limited to the two excerpts. Production release validation remains pending."
     },
     "illustrations": {
-      "status": "prepared_unpublished",
+      "status": "seven_prepared_unpublished",
+      "cadence": "One illustration per five minutes of episode runtime, rounded up to seven for 33:46. Gallery is in story order.",
       "items": [
+        {
+          "title": "The Radiator",
+          "scene": "the-boy-who-noticed",
+          "cue_id": "s02-c004",
+          "generated_filename": "exec-bd9ceb9d-2c28-4580-a2be-08d6cca310fe.png",
+          "sha256": "f24a4e539156c54150fc4b962e7abf067a9a532e0962bde746c7195724291c16",
+          "gallery_order": 1
+        },
         {
           "title": "The Debt",
           "scene": "the-debt",
           "generated_filename": "exec-5a767e26-189d-4ee7-a354-fb47408c28e3.png",
           "sha256": "b827994b95d7304899f223851b43e9b2d0c0429503749628aa4275820c8b13ed",
-          "library_file_id": "libfile_b1cd15671be88191b8cc7454df5c26cd"
+          "library_file_id": "libfile_b1cd15671be88191b8cc7454df5c26cd",
+          "gallery_order": 2
         },
         {
           "title": "The Offer",
           "scene": "the-offer",
           "generated_filename": "exec-085afce2-671f-4471-a5f8-ad5bd78b685f.png",
           "sha256": "59a0dee9430419c684edfac9dd99287afb79d3e974588fca7018b231899974f8",
-          "library_file_id": "libfile_5c21a2cc73988191a8470032b26d607a"
+          "library_file_id": "libfile_5c21a2cc73988191a8470032b26d607a",
+          "gallery_order": 3
+        },
+        {
+          "title": "The File",
+          "scene": "the-file",
+          "cue_id": "s09-c156",
+          "generated_filename": "exec-1f7ba6a2-6135-4e23-93b1-301461c5a6dd.png",
+          "sha256": "ffdb82ed31c22a091648e9db832a995682f2e83531bea0d0a7ec02b93cb6f685",
+          "gallery_order": 4
+        },
+        {
+          "title": "The Call to Roan",
+          "scene": "the-purge",
+          "cue_id": "s11-c190",
+          "generated_filename": "exec-cc0ad309-f189-485e-a603-b935258551fd.png",
+          "sha256": "360d626c6853df42f0b46c45da8117efca99d033a86c511b2b6fb30d046389d6",
+          "gallery_order": 5
         },
         {
           "title": "Bellwether",
           "scene": "bellwether",
           "generated_filename": "exec-ffa20b89-8812-48f3-8a50-6e05ebcd9472.png",
           "sha256": "7bedf9eece7fd29d74a921742672f5b37b0badb4aec8080cae7eb5789eb78b50",
-          "library_file_id": "libfile_e16ddf18a9f081918845b9b04698b12a"
+          "library_file_id": "libfile_e16ddf18a9f081918845b9b04698b12a",
+          "gallery_order": 6
         },
         {
           "title": "The Crooked Lantern",
           "scene": "the-crooked-lantern",
           "generated_filename": "exec-e3933bdf-ba13-4e8d-9f0e-e42f4c1a151d.png",
           "sha256": "d097c695bfba4564e492f9e1119a0a2ce55eeece114dd0aac81c7224177eb9ab",
-          "library_file_id": "libfile_f3ca6c0e5a7481919df29f588ad32909"
+          "library_file_id": "libfile_f3ca6c0e5a7481919df29f588ad32909",
+          "gallery_order": 7
         }
       ]
     },
@@ -6458,6 +6487,35 @@
           "excerpt_library_file_id": "libfile_2375e40ea82c8191b21ea7713e2c8d7b",
           "excerpt_sha256": "b9b5c079f09486ca9eb47ce37656594da5188082b11d9375ae36ced4c4c56316",
           "master_sha256": "ac5f33be96d2fb72e7e97fca6f1fe3f73b3d18cc87bb95428fee2633c980cb2f"
+        },
+        "owner_publication_permission": {
+          "date": "2026-11-24",
+          "reviewer": "Ninja",
+          "reference": "Ah okay! You can publish it with the illustrations! 1 illustration per 5min episode!",
+          "scope": "Authorization to publish the corrected Episode 2 with seven illustrations, recorded separately from gate-required listening evidence.",
+          "master_sha256": "ac5f33be96d2fb72e7e97fca6f1fe3f73b3d18cc87bb95428fee2633c980cb2f"
+        },
+        "targeted_final_checks": {
+          "peak_dbtp": -3.03,
+          "loudness_lufs": -21.91,
+          "transcription": "Whisper and Vosk recognized all three repaired lines in context from the decoded review MP3.",
+          "listening_excerpts": [
+            {
+              "cue_id": "s05-c093",
+              "library_file_id": "libfile_0bba46b14aa081919e10c434d0cd9dcf",
+              "sha256": "202c36797a483df2056cea18035258cda15b036ab284b1611f9061cb31204b82"
+            },
+            {
+              "cue_id": "s08-c148",
+              "library_file_id": "libfile_aabe5dcded848191b7ef3aea83932b66",
+              "sha256": "34cdbbb2d607eef0b1862c840724f7241848d0d5c166bef56196d6b0cfb67cb5"
+            },
+            {
+              "cue_id": "s14-r4-c001",
+              "library_file_id": "libfile_2375e40ea82c8191b21ea7713e2c8d7b",
+              "sha256": "b9b5c079f09486ca9eb47ce37656594da5188082b11d9375ae36ced4c4c56316"
+            }
+          ]
         }
       }
     }
