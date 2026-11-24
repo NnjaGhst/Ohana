@@ -1,0 +1,72 @@
+name: Elsewhere Episode 1 - Restore Clean Crooked Lantern Narration
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - '.github/workflows/elsewhere-clean-club.yml'
+      - 'stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_club_clean_cues.py'
+  workflow_dispatch:
+concurrency:
+  group: elsewhere-ep1-clean-club
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_club_clean_cues.py
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/club-standalone-cue-sheet.json
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/club-new-recordings-01-06.json
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/club-new-recordings-07-12.json
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/club-new-recordings-13-18.json
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/dynamic-scene-soundscape/episode-001-dynamic-scene-soundscape-preview.mp3
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install audio libraries
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install numpy scipy pydub
+      - name: Assemble full untrimmed sentence recordings and subtle pub atmosphere
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/clean-club
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_club_clean_cues.py
+      - name: Save preview and full episode to working branch only
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/clean-club
+        run: |
+          set -e
+          dest=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/club-repaired-preview
+          mkdir -p "$dest"
+          cp "$OUTPUT_DIR/crooked-lantern-clean-voices.mp3" "$dest/"
+          cp "$OUTPUT_DIR/crooked-lantern-clean-with-atmosphere.mp3" "$dest/"
+          cp "$OUTPUT_DIR/episode-001-club-repaired-with-scenes-preview.mp3" "$dest/"
+          cp "$OUTPUT_DIR/club-clean-rebuild-report.json" "$dest/"
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$dest/crooked-lantern-clean-voices.mp3" "$dest/crooked-lantern-clean-with-atmosphere.mp3" "$dest/episode-001-club-repaired-with-scenes-preview.mp3" "$dest/club-clean-rebuild-report.json"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Save Crooked Lantern full-phrase audio rerecording and episode repair audition"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: elsewhere-ep1-clean-club-preview
+          path: |
+            ${{ runner.temp }}/clean-club/crooked-lantern-clean-with-atmosphere.mp3
+            ${{ runner.temp }}/clean-club/club-clean-rebuild-report.json
+          retention-days: 14
+          if-no-files-found: warn
