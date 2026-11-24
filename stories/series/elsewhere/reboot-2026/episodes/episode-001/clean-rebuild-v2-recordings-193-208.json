@@ -1,0 +1,181 @@
+{
+  "status": "recorded",
+  "records": [
+    {
+      "cue_id": "line-193",
+      "run_id": 180,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Ninja looked at the picture again. Cassian's left sleeve was rolled up unevenly. There was a sauce stain on his shirt. It was so completely him that her throat closed.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=0614f13eacd44b71b7d04bb0314c536e.wav",
+      "duration": 10.016462585034013
+    },
+    {
+      "cue_id": "line-194",
+      "run_id": 181,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "He was.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=ebe455394ff042ec8501de18c9e7d9ca.wav",
+      "duration": 1.059501133786848
+    },
+    {
+      "cue_id": "line-195",
+      "run_id": 182,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Later, back at home, she set that photograph beside the old music player. She was furious that the world had kept photographs and hadn't kept him. The anger embarrassed her until she stopped caring whether it was reasonable. She looked down at her hands because she didn't trust what might happen if she answered.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=bae5dbd09e574eb0a84ade4af3266270.wav",
+      "duration": 16.37934240362812
+    },
+    {
+      "cue_id": "line-196",
+      "run_id": 182,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Grief didn't look like the collapse people expected. It looked like reaching for her phone to tell him something funny. Buying too much food. Leaving his messages unread because, for one impossible second, the notification made her believe he might answer. She slept badly. She became angry at ordinary conversations. A friend asked whether she had considered speaking to someone about it.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=7d80936347064e6e8cbad759e0666600.wav",
+      "duration": 22.031383219954648
+    },
+    {
+      "cue_id": "line-197",
+      "run_id": 183,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "About what?",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=d79900470c4b4a008937a2364d0e3772.wav",
+      "duration": 1.1733786848072563
+    },
+    {
+      "cue_id": "line-198",
+      "run_id": 184,
+      "speaker": "female_support",
+      "voice_id": "4270665fc47f44aa989c093bb3dc2b99",
+      "gain": 1,
+      "source_text": "About Cassian.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/4270665fc47f44aa989c093bb3dc2b99/id=1c19f4fb517b4ba0955abab1ce1306ec.wav",
+      "duration": 1.1996825396825397
+    },
+    {
+      "cue_id": "line-199",
+      "run_id": 185,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "What would you like me to say?",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=e4246237465048cfbe0c3f488e3ab938.wav",
+      "duration": 1.815328798185941
+    },
+    {
+      "cue_id": "line-200",
+      "run_id": 186,
+      "speaker": "female_support",
+      "voice_id": "4270665fc47f44aa989c093bb3dc2b99",
+      "gain": 1,
+      "source_text": "I just thought—",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/4270665fc47f44aa989c093bb3dc2b99/id=d98e1c188ef441c3a834827c2928e3c1.wav",
+      "duration": 1.0981179138321995
+    },
+    {
+      "cue_id": "line-201",
+      "run_id": 187,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "I know what you thought.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=7ed15cdb52cd40bd8a65b9a8129ab33b.wav",
+      "duration": 1.4713605442176871
+    },
+    {
+      "cue_id": "line-202",
+      "run_id": 188,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Her friend went quiet. Ninja apologized later, but she didn't let the woman back inside the apartment. It was easier that way. If nobody came close enough to ask, she didn't have to explain the enormous, shapeless absence in the middle of every day. The official account never sat right. A robbery. A bad place. Bad timing. Cassian had sometimes gone out late and come back strange. She remembered the envelope, the unanswered questions, the look on his face when she'd jokingly mentioned debts.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=ed1946eac2c64fd691267ddd76a5dc11.wav",
+      "duration": 29.8681179138322
+    },
+    {
+      "cue_id": "line-203",
+      "run_id": 188,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She wondered if there had been something he was afraid to tell her. Then she hated herself for wondering. Dead people couldn't defend themselves against suspicion. They couldn't explain. They couldn't say, No, Nin, you've got it wrong. She asked for information and received little. The questions grew heavier without becoming clearer. Eventually she stopped asking out loud. But she never stopped thinking about them.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=cbe2abb7772943e3889b7b9d1b1d93c7.wav",
+      "duration": 23.77285714285714
+    },
+    {
+      "cue_id": "line-204",
+      "run_id": 188,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Months passed. She saw him everywhere: outside the coffee shop, leaning against familiar railings, reflected in bus windows that belonged to strangers. The city was full of places that remembered him. And she was exhausted by being expected to remember him in the acceptable ways. One afternoon, she tried to make his favorite pasta sauce from memory. She knew he'd never used a recipe. He'd tasted it, added a little more of something, and announced that the essential ingredient was artistic instinct.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=5a9d83467e4648669858dae1c67e2664.wav",
+      "duration": 29.902947845804988
+    },
+    {
+      "cue_id": "line-205",
+      "run_id": 188,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Her attempt was watery and far too salty. She sat down to eat anyway. Halfway through the meal, the words slipped out.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=612b6319bbcc47cba762f824f1be4390.wav",
+      "duration": 7.634875283446712
+    },
+    {
+      "cue_id": "line-206",
+      "run_id": 189,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Cass, this is disgusting.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=7d9d77fb303d44c5b2ca41080a576adc.wav",
+      "duration": 2.3874149659863946
+    },
+    {
+      "cue_id": "line-207",
+      "run_id": 190,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "There was no answer. She pushed the plate away and cried—not because of the sauce, but because she'd expected his reply before she remembered there couldn't be one. One evening she opened the old music player. The first song started through a pair of headphones. Cassian had named the playlist FOR THE SMALL MENACE. She laughed, one startled, broken sound. Then she cried so hard she had to put the player down. It was the first time she'd allowed herself to do both in the same moment.",
+      "scene": "A House Full of Missing Things",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=9d98c0cc2f56407092c70d3dae47ba6d.wav",
+      "duration": 27.627891156462585
+    },
+    {
+      "cue_id": "line-208",
+      "run_id": 190,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "The first time Ninja returned to Cassian's apartment after the funeral, she stood outside the door for eleven minutes. She knew because she watched the numbers change on her phone. The display was cracked at one corner. Cassian had offered to replace it twice, and twice she'd refused because it worked perfectly well. He would have been insufferably pleased to discover that the screen still worked even when she felt as though nothing else did. She had his key in her palm.",
+      "scene": "The Apartment That Still Had His Name",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=5dedc4178adc462d9e8dc747b93a0dd9.wav",
+      "duration": 25.525986394557822
+    }
+  ]
+}
