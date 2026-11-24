@@ -4,8 +4,8 @@
   "title": "The Man in the Corner",
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
-  "next_owner": "Hex",
-  "next_action": "Record next missing cues in batches of at most 20, preserve raw takes, checkpoint private transfer indexes, and keep release blocked.",
+  "next_owner": "Dex",
+  "next_action": "Verify all 15 Batch 003 WAVs via private round trip, perform raw/contextual QA against frozen script, integrate owner-approved r01 as repair candidate (not final master approval), report only genuine pickup needs. Preserve prior recordings. Hex resumes remaining recording after transfer; do not publish.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 3",
@@ -297,6 +297,31 @@
           "end_frame_exclusive": 29988,
           "operation": "Exact contiguous PCM copy. No fades, gain, speed or pitch change."
         }
+      },
+      {
+        "role": "private batch source index (not audio bytes)",
+        "filename": "elsewhere-reboot-002-batch-003.json",
+        "file_id": "file_00000000d12882309e984b475e20e808",
+        "library_file_id": "libfile_637b8f3b14a88191be45178c19054398",
+        "sha256": "eca4a4272b6cfcbcb806a89ea3c3b0f747cb55cda441dd47658a6ac23f51a22b",
+        "cue_ids": [
+          "s02-c002",
+          "s02-c003",
+          "s02-c006",
+          "s02-c009",
+          "s02-c010",
+          "s02-c011",
+          "s03-c012",
+          "s03-c013",
+          "s03-c014",
+          "s03-c015",
+          "s03-c016",
+          "s03-c017",
+          "s03-c018",
+          "s03-c019",
+          "s03-c020"
+        ],
+        "take_count": 15
       }
     ],
     "open_cue_ids": [
@@ -543,12 +568,12 @@
     ],
     "cue_count": 240,
     "recording_status": {
-      "generated_takes": 10,
+      "generated_takes": 25,
       "verified_audio_bytes": 10,
       "transcript_match": 8,
-      "pending_cues": 231,
+      "pending_cues": 216,
       "qa_open_cues": 240,
-      "blocked_reason": null
+      "blocked_reason": "Batch 003 requires private transfer, raw QA and contextual review; no final approval."
     },
     "transfer_workflow": "production/elsewhere-reboot-2026/episode-002/PRIVATE-TRANSFER.md",
     "batch_002": {
@@ -634,7 +659,28 @@
           }
         }
       }
-    ]
+    ],
+    "batch_003": {
+      "status": "generated; transfer and ASR pending",
+      "cue_ids": [
+        "s02-c002",
+        "s02-c003",
+        "s02-c006",
+        "s02-c009",
+        "s02-c010",
+        "s02-c011",
+        "s03-c012",
+        "s03-c013",
+        "s03-c014",
+        "s03-c015",
+        "s03-c016",
+        "s03-c017",
+        "s03-c018",
+        "s03-c019",
+        "s03-c020"
+      ],
+      "raw_duration_seconds": 161.37480725623584
+    }
   },
   "release": {
     "status": "blocked",
