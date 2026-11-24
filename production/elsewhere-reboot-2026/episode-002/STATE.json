@@ -4,8 +4,8 @@
   "title": "The Man in the Corner",
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
-  "next_owner": "Hex",
-  "next_action": "Review the private Batch 002 audition reel for performance, request a clean single-word Lachie pickup for s06-c099-t02, and checkpoint that pickup using the verified private transfer process. Keep release blocked.",
+  "next_owner": "Dex",
+  "next_action": "Ingest and verify private pickup index t02; confirm suspected triple repetition independently. If confirmed, retain as rejected and propose a clean single-utterance recovery strategy (prefer clean new take; any complete-utterance isolation at verified silence requires separate approval and provenance). Do not fabricate listening approval. Await genuine audition decision; no publication.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 3",
@@ -252,6 +252,15 @@
             "end_seconds": 34.814
           }
         ]
+      },
+      {
+        "role": "private pickup source index (not audio bytes)",
+        "filename": "elsewhere-reboot-002-pickup-001.json",
+        "file_id": "file_000000005ab4823086e259fe51437d67",
+        "library_file_id": "libfile_3ed865b43e6881919761d6725f1283ac",
+        "sha256": "57c87ae9341c1a823584a43be8627ed689d3f4cd6189cce77c0d55887561d5cf",
+        "cue_id": "s06-c099",
+        "take_id": "s06-c099-t02"
       }
     ],
     "open_cue_ids": [
@@ -498,16 +507,16 @@
     ],
     "cue_count": 240,
     "recording_status": {
-      "generated_takes": 9,
+      "generated_takes": 10,
       "verified_audio_bytes": 9,
       "transcript_match": 8,
       "pending_cues": 231,
       "qa_open_cues": 240,
-      "blocked_reason": "Private transfer verified. Performance listening remains pending; Target cue s06-c099 requires a pickup for an independently confirmed repeated word."
+      "blocked_reason": "Batch 002 private transfer verified; original Please repeat confirmed; t02 pickup also flagged by VoiceLabs Whisper for three occurrences. Performance audition awaiting actual listening."
     },
     "transfer_workflow": "production/elsewhere-reboot-2026/episode-002/PRIVATE-TRANSFER.md",
     "batch_002": {
-      "status": "awaiting_Dex_transfer_and_review",
+      "status": "transfer_verified; performance listening pending; one rejected cue",
       "cue_ids": [
         "s02-c004",
         "s02-c005",
@@ -539,7 +548,7 @@
           }
         ]
       },
-      "listening_review": "pending; Hex has not heard playback"
+      "listening_review": "Exact reel retrieved and SHA-256 verified by Hex; no actual acoustic listening capability in this chat. Awaiting human audition decision."
     },
     "pickups": [
       {
@@ -555,7 +564,15 @@
         "approximate_word_starts_seconds": [
           0.05,
           0.74
-        ]
+        ],
+        "pickup_attempt": {
+          "take_id": "s06-c099-t02",
+          "status": "blocked_pending_independent_verification",
+          "expected": "Please.",
+          "observed": "Please, please, please.",
+          "engine": "VoiceLabs Whisper",
+          "duration_seconds": 1.7603854875283447
+        }
       }
     ]
   },
@@ -566,5 +583,5 @@
     "published": false
   },
   "cast_file": "production/elsewhere-reboot-2026/episode-002/cast.json",
-  "cast_status": "selected; Batch 002 performance audition ready for listening review; Target pickup pending"
+  "cast_status": "audition reel byte-verified; actual listening pending; Lachie pickup flagged"
 }
