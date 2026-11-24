@@ -1,0 +1,59 @@
+{
+  "intent": "Break two long narrative paragraphs at natural completed sentences, preserving words; do not use word-level timestamp cuts.",
+  "records": [
+    {
+      "cue_id": "line-054",
+      "subcue_index": 0,
+      "source_text": "Their home wasn't always dangerous. Sometimes somebody cooked and the radio played old songs.",
+      "gain": 1,
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=b9da2ec2497245e6ad8e5bdb0ab0f49d.wav",
+      "duration": 5.727891156462585
+    },
+    {
+      "cue_id": "line-054",
+      "subcue_index": 1,
+      "source_text": "Other nights, voices came through the walls and doors slammed hard enough to rattle the glasses. Ninja learned to listen for footsteps.",
+      "gain": 1,
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=0a6a0738c3d34135b5501983afb0634b.wav",
+      "duration": 7.67124716553288
+    },
+    {
+      "cue_id": "line-054",
+      "subcue_index": 2,
+      "source_text": "Cassian learned to turn up the television and invent a game whenever the footsteps became too loud. On one particular night, when she was eleven and he was sixteen, the house finally went quiet long after midnight. She found him sitting on the floor outside her bedroom.",
+      "gain": 1,
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=773d954e546743a5b699503c99344eb7.wav",
+      "duration": 14.653945578231292
+    },
+    {
+      "cue_id": "line-130",
+      "subcue_index": 0,
+      "source_text": "Cassian heard the threat in the politeness. He also heard something worse: the suggestion that somebody knew where Ninja lived.",
+      "gain": 1,
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=2a907dd57e6548d69cc53f89d3a806b7.wav",
+      "duration": 7.2881179138322
+    },
+    {
+      "cue_id": "line-130",
+      "subcue_index": 1,
+      "source_text": "He went home that night and deleted a message he'd started typing to her. It began, I need to tell you something. He couldn't find a second sentence that wouldn't put her closer to the danger.",
+      "gain": 1,
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=c68752c4927a4392875afa037d15711c.wav",
+      "duration": 10.446031746031746
+    },
+    {
+      "cue_id": "line-130",
+      "subcue_index": 2,
+      "source_text": "The jobs had begun as favors. The pay was good, and every request came with the promise that it would be the last.",
+      "gain": 1,
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=ddf28bfec66a44bfa15a80a6ce2884a5.wav",
+      "duration": 6.904988662131519
+    }
+  ]
+}
