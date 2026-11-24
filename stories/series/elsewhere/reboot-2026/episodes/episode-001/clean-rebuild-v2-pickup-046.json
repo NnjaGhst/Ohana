@@ -1,0 +1,16 @@
+{
+  "status": "recorded",
+  "records": [
+    {
+      "cue_id": "line-046",
+      "run_id": 44,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Then you're an extremely immature ten-year-old. Blow it out.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=4f20528953f64839a77c0daa20a2fe51.wav",
+      "duration": 3.8122448979591836
+    }
+  ]
+}
