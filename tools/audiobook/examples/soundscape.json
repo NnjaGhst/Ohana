@@ -1,0 +1,16 @@
+{
+  "sounds": [
+    {
+      "cue_id": "s01-c01",
+      "stem": "environment",
+      "asset": "sounds/rain.wav",
+      "sha256": "REPLACE_WITH_SOUND_SHA256",
+      "offset_ms": 0,
+      "duration_ms": 2000,
+      "gain": 0.035,
+      "loop": true,
+      "cleared": true,
+      "no_intelligible_voices": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "s01-c01",
+    "scene": "doorstep",
+    "order": 1,
+    "speaker": "Ninja",
+    "role": "dialogue",
+    "text": "I thought I heard the rain outside."
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "episode": {
+    "id": "elsewhere-reboot-2026-002",
+    "series_id": "elsewhere-reboot-2026",
+    "number": 2
+  },
+  "script": {
+    "asset": "script.json",
+    "sha256": "d2ba0856885ad0981a39e6685f5423c65fbe0069310707960a4050ec0189c1c0"
+  },
+  "cast": {
+    "Ninja": "8f71d16d1fa84544a4db41a18264d613"
+  },
+  "cues": [
+    {
+      "id": "s01-c01",
+      "scene": "doorstep",
+      "order": 1,
+      "speaker": "Ninja",
+      "role": "dialogue",
+      "text": "I thought I heard the rain outside.",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "takes": [
+        {
+          "id": "s01-c01-t01",
+          "status": "approved",
+          "asset": "takes/s01-c01-t01.wav",
+          "sha256": "REPLACE_WITH_TAKE_SHA256",
+          "duration_seconds": 3.1,
+          "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+          "speed": 1,
+          "pitch": 1
+        }
+      ]
+    }
+  ]
+}
