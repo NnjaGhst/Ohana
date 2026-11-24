@@ -13,12 +13,15 @@ def main():
     from faster_whisper import WhisperModel
 
     model = WhisperModel(args.model, device='cpu', compute_type='int8')
-    segments, _ = model.transcribe(args.audio, language=args.language, condition_on_previous_text=False)
+    segments, _ = model.transcribe(args.audio, language=args.language, condition_on_previous_text=False,
+                                   word_timestamps=True)
     segments = list(segments)
     print(json.dumps({
         'text': ' '.join(segment.text.strip() for segment in segments),
         'confidence': min((min(1, math.exp(segment.avg_logprob)) for segment in segments), default=0),
-        'segments': [{'start': segment.start, 'end': segment.end, 'text': segment.text}
+        'segments': [{'start': segment.start, 'end': segment.end, 'text': segment.text,
+                      'words': [{'start': word.start, 'end': word.end, 'text': word.word}
+                                for word in segment.words]}
                      for segment in segments],
     }))
 

@@ -109,6 +109,51 @@ class Acceptance(unittest.TestCase):
                             dict(text='Why?', confidence=0.99, segments=[]), 'a', [review])
         self.assertEqual(row[0]['disposition'], 'reviewed')
 
+    def test_context_requires_timing_and_a_negative_control(self):
+        cues = [dict(id=f'line-{i}', text=text, scene='test', start=i * 48000,
+                     end=i * 48000 + 24000, samples=24000, raw=self.root / 'context-source.raw')
+                for i, text in enumerate(('The door opened.', 'A pause.', 'Then came rain.'))]
+        tone(440).tofile(cues[0]['raw'])
+        phrases = ['The door opened.', 'A pause.', 'Then came rain.']
+        def transcript(lines):
+            segments = []
+            for index, text in lines:
+                segments.append(dict(start=float(index), end=index + 0.4, text=text,
+                                     words=[dict(start=index + 0.1, end=index + 0.2, text=word)
+                                            for word in text.split()]))
+            return dict(text=' '.join(item['text'] for item in segments), segments=segments, confidence=0.7)
+        matching = transcript(list(enumerate(phrases)))
+        control = transcript([(0, phrases[0]), (2, phrases[2])])
+        isolated = transcript([(0, 'Pause.')])
+        with patch.object(audio, 'transcribe', side_effect=[matching, control]):
+            verified = audio.contextual_check(cues, 1, isolated, self.root, {}, self.root)
+        self.assertTrue(verified['verified'])
+        result = []
+        audio.check_content(result, 'raw', [cues[1]], isolated, 'hash', [], verified)
+        self.assertEqual(result[-1]['disposition'], 'blocked')
+        self.assertTrue(result[-1]['render_for_review'])
+        audio.check_content(result, 'raw', [cues[1]], transcript([(0, 'A pause.')]), 'hash', [], verified)
+        self.assertEqual(result[-1]['disposition'], 'context_verified')
+        with patch.object(audio, 'transcribe', side_effect=[matching, matching]):
+            self.assertFalse(audio.contextual_check(cues, 1, isolated, self.root, {}, self.root)['verified'])
+        with patch.object(audio, 'transcribe') as adapter:
+            self.assertIsNone(audio.contextual_check(cues, 1, transcript([(0, 'A pause. A pause.')]),
+                                                    self.root, {}, self.root))
+            adapter.assert_not_called()
+
+    def test_render_is_independent_of_block_boundaries(self):
+        # Put overlapping foley across block edges and loop a short source.
+        self.sounds += [dict(self.sounds[0], stem='foley', cue_id='c1', loop=True, duration_ms=800,
+                             offset_ms=50),
+                        dict(self.sounds[0], stem='foley', cue_id='c1', loop=True, duration_ms=700,
+                             offset_ms=100)]
+        self.save()
+        with patch.object(audio, 'BLOCK', 10037):
+            first = self.produce()
+        with patch.object(audio, 'BLOCK', 21119):
+            second = self.produce()
+        self.assertEqual(first, second)
+
     def test_manifest_rejects_missing_duplicate_and_wrong_episode(self):
         self.manifest['cues'].pop()
         self.save()

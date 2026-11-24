@@ -4,6 +4,8 @@ import hashlib
 import json
 import re
 import shutil
+import struct
+from contextlib import ExitStack
 import subprocess
 import tempfile
 import unicodedata
@@ -13,6 +15,7 @@ from pathlib import Path
 import numpy as np
 
 RATE = 48000
+BLOCK = RATE * 2
 WADE = 'a3a4aa242aaf431ea8ec2c4b3bb332fa'
 HALLIE = '8f71d16d1fa84544a4db41a18264d613'
 
@@ -197,7 +200,7 @@ def cache_source(cache, source, checksum):
     return destination
 
 
-def check_content(report, stage, entries, actual, audio_hash, reviews):
+def check_content(report, stage, entries, actual, audio_hash, reviews, context=None):
     expected = ' '.join(entry['text'] for entry in entries)
     failure = content_failure(expected, actual['text'])
     reasons = []
@@ -236,12 +239,68 @@ def check_content(report, stage, entries, actual, audio_hash, reviews):
                    and item.get('notes')), None)
     # A blank transcript or an unexpected repeat requires a fresh take or ASR result.
     cleared = bool(review and failure not in ('blank ASR', 'unexpected repetition'))
+    contextual = context and context['verified']
+    # Context confirms a clean isolated transcript. A conflicting isolated
+    # transcript still requires listening, even if context supplies the word.
+    context_pass = contextual and not failure and not first.get('proper_names')
+    reviewable = (not failure or contextual) and not cleared and not context_pass
     report.append(dict(stage=stage, cue_id=first['id'], cue_ids=[entry['id'] for entry in entries],
                        affected_cue_id=location['id'], sample=sample, seconds=sample / RATE, expected=expected,
                        actual=actual, failure=', '.join(reasons) or None,
                        severity='critical' if reasons else 'none', review=review,
-                       disposition='reviewed' if cleared and reasons else ('blocked' if reasons else 'pass'),
+                       context=context, render_for_review=bool(reviewable),
+                       disposition=('reviewed' if cleared and reasons else
+                                    'context_verified' if context_pass else 'blocked' if reasons else 'pass'),
                        audio_sha256=audio_hash))
+
+
+def contextual_check(cues, index, isolated, work, adapter, cache):
+    cue = cues[index]
+    expected = words(cue['text'])
+    heard = words(isolated['text'])
+    if len(expected) > 3 or not heard:
+        return None
+    # Only a strict omission is eligible for a review render. Extra words,
+    # repeats and substitutions cannot be cleared by contextual ASR.
+    remaining = iter(expected)
+    if not all(any(token == want for want in remaining) for token in heard):
+        return None
+    neighbors = [item for item in cues[max(0, index - 1):index + 2]
+                 if item['scene'] == cue['scene'] and item['samples'] <= RATE * 12]
+    if len(neighbors) < 2:
+        return None
+    origin = neighbors[0]['start']
+    length = neighbors[-1]['end'] - origin
+    if length > RATE * 28:
+        return None
+    left, right = cue['start'] - origin, cue['end'] - origin
+    audio = np.zeros((length, 1), np.float32)
+    for item in neighbors:
+        audio[item['start'] - origin:item['end'] - origin] = frames(item['raw'], 0, item['samples'], 1)
+    path = work / 'context.wav'
+    wav(path, audio)
+    checksum = digest(path)
+    with_cue = transcribe(path, adapter, cache)
+    timestamps = [word for segment in with_cue['segments'] for word in segment.get('words', [])]
+    if words(' '.join(item['text'] for item in timestamps)) != words(with_cue['text']):
+        return dict(verified=False, audio_sha256=checksum, actual=with_cue)
+    target = []
+    for item in timestamps:
+        start, end = item['start'], item['end']
+        if not 0 <= start <= end <= length / RATE + 0.1:
+            return dict(verified=False, audio_sha256=checksum, actual=with_cue)
+        if left <= (start + end) * RATE / 2 < right:
+            target.extend(words(item['text']))
+    audio[left:right] = 0
+    wav(path, audio)
+    control_sha = digest(path)
+    without_cue = transcribe(path, adapter, cache)
+    verified = (target == expected
+                and content_failure(' '.join(item['text'] for item in neighbors), with_cue['text']) is None
+                and content_failure(' '.join(item['text'] for item in neighbors if item is not cue),
+                                    without_cue['text']) is None)
+    return dict(verified=verified, audio_sha256=checksum, actual=with_cue, cue_words=target,
+                control_sha256=control_sha, control=without_cue)
 
 
 def signal_flags(audio, take=False):
@@ -267,7 +326,7 @@ def make_timeline(cues):
     offset = 0
     for index, cue in enumerate(cues):
         cue['start'] = offset
-        cue['end'] = offset + len(cue['audio'])
+        cue['end'] = offset + cue['samples']
         if index == len(cues) - 1:
             return cue['end']
         next_cue = cues[index + 1]
@@ -276,29 +335,102 @@ def make_timeline(cues):
         offset = cue['end'] + cue.get('gap_ms', default_gap) * (RATE // 1000)
 
 
-def sound_stems(root, config, cues, length):
-    stems = {kind: np.zeros((length, 2), np.float32) for kind in ('environment', 'foley')}
+def raw_file(source, destination, channels):
+    if not destination.exists():
+        ffmpeg('-v', 'error', '-xerror', '-i', source, '-map', '0:a:0', '-ac', channels,
+               '-ar', RATE, '-f', 'f32le', destination)
+    size = destination.stat().st_size
+    require(size > 0 and size % (channels * 4) == 0, 'Invalid decoded PCM')
+    return size // (channels * 4)
+
+
+def frames(path, start, end, channels=2, offset=0, dtype='<f4'):
+    with path.open('rb') as source:
+        source.seek(offset + start * channels * 4)
+        data = source.read((end - start) * channels * 4)
+    require(len(data) == (end - start) * channels * 4, 'Truncated PCM')
+    return np.frombuffer(data, dtype=dtype).reshape(-1, channels)
+
+
+def pcm(audio):
+    return np.rint(audio.astype(np.float64) * (2**31 - 1)).astype('<i4')
+
+
+def wave_header(length):
+    size = length * 8
+    fmt = struct.pack('<4sIHHIIHH', b'fmt ', 16, 1, 2, RATE, RATE * 8, 8, 32)
+    if size + 36 <= 0xffffffff:
+        return struct.pack('<4sI4s', b'RIFF', size + 36, b'WAVE') + fmt + struct.pack('<4sI', b'data', size)
+    return (struct.pack('<4sI4s4sIQQQI', b'RF64', 0xffffffff, b'WAVE', b'ds64', 28,
+                        size + 72, size, length, 0)
+            + fmt + struct.pack('<4sI', b'data', 0xffffffff))
+
+
+def render_stems(root, config, cues, length, work):
     anchors = {cue['id']: cue for cue in cues}
+    layers = ('dry', 'environment', 'foley')
+    events = {layer: [] for layer in layers}
+    for cue in cues:
+        events['dry'].append((cue['start'], cue['end'], cue['raw'], cue['samples'], cue['gain'], 0, 1))
     for item in config['sounds']:
         cue = anchors[item['cue_id']]
         kind = item['stem']
         require(item['cleared'] is True and item['no_intelligible_voices'] is True
                 and 0 <= item['gain'] <= 1 and type(item['offset_ms']) is int
-                and kind in stems
+                and kind in ('environment', 'foley')
                 and type(item['duration_ms']) is int and item['duration_ms'] > 0,
                 'Invalid or uncleared soundscape event')
         start = cue['start'] + item['offset_ms'] * (RATE // 1000)
         count = item['duration_ms'] * (RATE // 1000)
         require(0 <= start < length and start + count <= length, 'Soundscape event exceeds timeline')
-        source = decode(asset(root, item), 2)
-        require(len(source) >= count or item.get('loop') is True, 'Sound shorter than configured slot')
-        clip = np.tile(source, (int(np.ceil(count / len(source))), 1))[:count] if len(source) < count else source[:count].copy()
-        fade = min(RATE // 100, count // 2)
-        ramp = np.linspace(0, 1, fade, dtype=np.float32)[:, None]
-        clip[:fade] *= ramp
-        clip[-fade:] *= ramp[::-1]
-        stems[kind][start:start + count] += clip * item['gain']
-    return stems
+        source = work / f"effect-{item['sha256']}.raw"
+        samples = raw_file(asset(root, item), source, 2)
+        require(samples >= count or item.get('loop') is True, 'Sound shorter than configured slot')
+        events[kind].append((start, start + count, source, samples, item['gain'], min(480, count // 2), 2))
+    pending = {kind: iter(sorted(enumerate(events[kind]), key=lambda e: e[1][0])) for kind in layers}
+    upcoming = {kind: next(pending[kind], None) for kind in layers}
+    active = {kind: {} for kind in layers}
+    header = wave_header(length)
+    with ExitStack() as stack:
+        outputs = {name: stack.enter_context((work / f'{name}.wav').open('wb'))
+                   for name in (*layers, 'mix')}
+        for output in outputs.values():
+            output.write(header)
+        for start in range(0, length, BLOCK):
+            end = min(start + BLOCK, length)
+            blocks = {kind: np.zeros((end - start, 2), np.float32) for kind in layers}
+            for kind in layers:
+                while upcoming[kind] and upcoming[kind][1][0] < end:
+                    index, event = upcoming[kind]
+                    active[kind][index] = event
+                    upcoming[kind] = next(pending[kind], None)
+                for index in sorted(active[kind]):
+                    begin, finish, source, period, gain, fade, channels = active[kind][index]
+                    first, last = max(start, begin), min(end, finish)
+                    cursor = first
+                    while cursor < last:
+                        pos = (cursor - begin) % period
+                        count = min(last - cursor, period - pos)
+                        audio = frames(source, pos, pos + count, channels).copy()
+                        require(np.isfinite(audio).all(), 'Non-finite render PCM')
+                        if fade:
+                            index_in_event = np.arange(cursor - begin, cursor - begin + count)
+                            factor = np.minimum(index_in_event, finish - begin - 1 - index_in_event)
+                            audio *= np.minimum(1, factor / max(1, fade - 1)).astype(np.float32)[:, None]
+                        blocks[kind][cursor - start:cursor - start + count] += audio * gain
+                        cursor += count
+                    if finish <= end:
+                        del active[kind][index]
+            blocks['mix'] = blocks['dry'] + blocks['environment'] + blocks['foley']
+            for name, audio in blocks.items():
+                require(float(np.max(np.abs(audio))) <= 0.98, f'{name} exceeds headroom; adjust input gains')
+                if np.any(audio):
+                    outputs[name].write(pcm(audio).tobytes())
+                else:
+                    outputs[name].seek(audio.size * 4, 1)
+        for output in outputs.values():
+            output.truncate(len(header) + length * 8)
+    return len(header)
 
 
 def chapters(cues):
@@ -328,11 +460,14 @@ def run(manifest_path, soundscape_path, adapter, reviews, directory, cache):
         cues = manifest['cues']
         for cue in cues:
             take = next(take for take in cue['takes'] if take['status'] == 'approved')
-            cue['audio'] = decode(cache_source(cache, asset(root, take), take['sha256']))
+            source = cache_source(cache, asset(root, take), take['sha256'])
+            cue['raw'] = work / f"voice-{take['sha256']}.raw"
+            cue['samples'] = raw_file(source, cue['raw'], 1)
         length = make_timeline(cues)
-        for cue in cues:
+        for index, cue in enumerate(cues):
             take = next(take for take in cue['takes'] if take['status'] == 'approved')
-            audio = cue['audio']
+            audio = frames(cue['raw'], 0, cue['samples'], 1)
+            require(np.isfinite(audio).all(), 'Non-finite take PCM')
             flags = signal_flags(audio, take=True)
             if abs(len(audio) / RATE - take['duration_seconds']) > 0.06:
                 flags.append('duration mismatch')
@@ -343,39 +478,43 @@ def run(manifest_path, soundscape_path, adapter, reviews, directory, cache):
             else:
                 path = work / 'take.wav'
                 wav(path, audio)
-                check_content(report['checks'], 'raw', [cue], transcribe(path, adapter, cache),
-                              digest(path), reviews)
-        if any(row['disposition'] == 'blocked' for row in report['checks']):
+                actual = transcribe(path, adapter, cache)
+                context = contextual_check(cues, index, actual, work, adapter, cache)
+                check_content(report['checks'], 'raw', [cue], actual, digest(path), reviews, context)
+            del audio
+        if any(row['disposition'] == 'blocked' and not row.get('render_for_review')
+               for row in report['checks']):
             write_report(directory, report)
             return None
-        voice = np.zeros((length, 2), np.float32)
-        for cue in cues:
-            voice[cue['start']:cue['end']] = cue['audio'] * cue['gain']
-        stems = sound_stems(root, soundscape, cues, length)
-        final = voice + stems['environment'] + stems['foley']
-        for name, audio in {'dry': voice, **stems, 'mix': final}.items():
-            require(float(np.max(np.abs(audio))) <= 0.98, f'{name} exceeds headroom; adjust input gains')
-            wav(work / f'{name}.wav', audio)
+        dry_offset = render_stems(root, soundscape, cues, length, work)
         mp3 = work / 'preview.mp3'
         ffmpeg('-v', 'error', '-i', work / 'mix.wav', '-c:a', 'libmp3lame', '-b:a', '192k', mp3)
-        encoded = decode(mp3, 2)
-        require(len(encoded) == length, 'MP3 decoded sample count changed')
-        metrics = ffmpeg('-i', mp3, '-af', 'loudnorm=print_format=json', '-f', 'null', '-').stderr.decode()
+        encoded = work / 'decoded-preview.raw'
+        require(raw_file(mp3, encoded, 2) == length, 'MP3 decoded sample count changed')
+        metrics = ffmpeg('-nostats', '-i', mp3, '-af', 'loudnorm=print_format=json', '-f', 'null', '-').stderr.decode()
         report['loudness'] = json.JSONDecoder().raw_decode(metrics[metrics.rindex('{'):])[0]
-        report['peak_dbfs'] = float(20 * np.log10(np.max(np.abs(encoded))))
-        require(not signal_flags(encoded) and float(report['loudness']['input_tp']) <= -0.1,
-                'Encoded preview fails clipping or true peak headroom check')
+        peak = max(float(np.max(np.abs(frames(encoded, start, min(start + BLOCK, length)))))
+                   for start in range(0, length, BLOCK))
+        require(0.001 <= peak < 0.999 and float(report['loudness']['input_tp']) <= -0.1,
+                'Encoded preview fails silence, clipping or true peak headroom check')
+        report['peak_dbfs'] = float(20 * np.log10(peak))
         for index, group in enumerate(chapters(cues), 1):
             start, end = group[0]['start'], group[-1]['end']
-            for stage, audio in (('dry', voice), ('final', encoded)):
+            for stage in ('dry', 'final'):
+                if stage == 'dry':
+                    audio = frames(work / 'dry.wav', start, end, offset=dry_offset,
+                                   dtype='<i4').astype(np.float32) / np.float32(2**31)
+                else:
+                    audio = frames(encoded, start, end)
                 path = work / 'chapter.wav'
-                wav(path, audio[start:end])
+                wav(path, audio)
                 check_content(report['checks'], stage, group, transcribe(path, adapter, cache),
                               digest(path), reviews)
+                del audio
             preview = work / f'scene-{index:03d}.wav'
-            wav(preview, encoded[start:min(end, start + 25 * RATE)])
-        for name in ('take.wav', 'chapter.wav'):
-            (work / name).unlink(missing_ok=True)
+            wav(preview, frames(encoded, start, min(end, start + 25 * RATE)))
+        for path in [*work.glob('*.raw'), *(work / name for name in ('take.wav', 'chapter.wav', 'context.wav'))]:
+            path.unlink(missing_ok=True)
         write(work / 'timeline.json', [dict(id=cue['id'], scene=cue['scene'], speaker=cue['speaker'],
                                           start=cue['start'], end=cue['end'],
                                           source_sha256=next(t['sha256'] for t in cue['takes'] if t['status'] == 'approved'))

@@ -63,7 +63,7 @@ def validate_approval(preview, approval, master):
     report_file = preview / 'qa.json'
     report = read(report_file)
     require(report['status'] == 'awaiting_listening_and_owner_approval'
-            and report['checks'] and all(row['disposition'] in ('pass', 'reviewed') for row in report['checks']),
+            and report['checks'] and all(row['disposition'] in ('pass', 'reviewed', 'context_verified') for row in report['checks']),
             'QA still blocked')
     require(report['version'] == preview.name and approval['qa_sha256'] == digest(report_file),
             'Approval must identify this QA report')
