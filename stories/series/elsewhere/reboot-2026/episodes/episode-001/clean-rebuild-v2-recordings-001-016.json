@@ -1,0 +1,182 @@
+{
+  "method": "independent-untrimmed-per-cue",
+  "status": "recorded",
+  "records": [
+    {
+      "cue_id": "line-001",
+      "run_id": 0,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "By the time Ninja reached Bellwether, the rain had settled into the kind of steady drizzle that didn't feel dramatic enough to deserve a weather warning. It simply got into everything. The hills around the village disappeared and reappeared behind the mist. Old stone walls followed the narrow road between fields. An elderly sheep watched her car pass with an expression of deep personal disappointment.",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=80c972e59cad4bb3a6385a33af431719.wav",
+      "duration": 22.691904761904762
+    },
+    {
+      "cue_id": "line-002",
+      "run_id": 1,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Yeah, you and me both.",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=1185cae8ffd2425c9dd73232d936dbb9.wav",
+      "duration": 1.7794784580498866
+    },
+    {
+      "cue_id": "line-003",
+      "run_id": 2,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She had been driving for hours, with two bags in the back, one paperback on the passenger seat, and a cardboard box she hadn't managed to put away. The box held a chipped blue mug, a packet of photographs, and a key that no longer opened anything she owned. At the village entrance, a weathered wooden sign announced BELLWETHER — WELCOME. She almost laughed. It was such an innocent word. Welcome. As though arriving somewhere was the difficult part.",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=12b026b146bd44b986ccbd79cb183b23.wav",
+      "duration": 26.8843537414966
+    },
+    {
+      "cue_id": "line-004",
+      "run_id": 3,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She found the building above the bakery on her second attempt. The owner, a woman called Ada, opened the door before Ninja had managed to ring the bell.",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=fbfa1887437b4e40b47c62670fc2afd4.wav",
+      "duration": 8.309795918367348
+    },
+    {
+      "cue_id": "line-005",
+      "run_id": 4,
+      "speaker": "ada",
+      "voice_id": "0c15ff66590e451e8a60f466a64ee8a2",
+      "gain": 1,
+      "source_text": "You must be the new guest.",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/0c15ff66590e451e8a60f466a64ee8a2/id=9668c9c2087841acac9791ae69f6771e.wav",
+      "duration": 1.8214965986394558
+    },
+    {
+      "cue_id": "line-006",
+      "run_id": 5,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "That depends. Does the room have a bed?",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=aee5c535b470433096b87cde81b987c4.wav",
+      "duration": 2.992426303854875
+    },
+    {
+      "cue_id": "line-007",
+      "run_id": 6,
+      "speaker": "ada",
+      "voice_id": "0c15ff66590e451e8a60f466a64ee8a2",
+      "gain": 1,
+      "source_text": "Usually.",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/0c15ff66590e451e8a60f466a64ee8a2/id=c6b9d7a0f8c64f5f95f52b654fb2b699.wav",
+      "duration": 1.0708843537414967
+    },
+    {
+      "cue_id": "line-008",
+      "run_id": 7,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Then yes. Definitely me.",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=5f23c80ba3994621b126e6a3c2eee9f7.wav",
+      "duration": 2.128888888888889
+    },
+    {
+      "cue_id": "line-009",
+      "run_id": 8,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Ada gave her an assessing look, but it wasn't the look Ninja had grown accustomed to. No careful lowering of the eyes. No flicker of recognition at a surname. No searching her face for evidence of whether today was a good day to mention her brother. Just a woman in a cardigan holding a door.",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=f1143c5887d243f7bf4dcf57c473923b.wav",
+      "duration": 16.999160997732428
+    },
+    {
+      "cue_id": "line-010",
+      "run_id": 9,
+      "speaker": "ada",
+      "voice_id": "0c15ff66590e451e8a60f466a64ee8a2",
+      "gain": 1,
+      "source_text": "Upstairs, then. You'll find the kettle by the window. Mind the third step. It makes a noise like a dying goose.",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/0c15ff66590e451e8a60f466a64ee8a2/id=70e93e4e2b5947b8b66931ab85f0f7e0.wav",
+      "duration": 7.206848072562359
+    },
+    {
+      "cue_id": "line-011",
+      "run_id": 10,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "I've lived with worse.",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=f6877ee696664cbfbf8878a31ff85080.wav",
+      "duration": 1.5748979591836734
+    },
+    {
+      "cue_id": "line-012",
+      "run_id": 11,
+      "speaker": "ada",
+      "voice_id": "0c15ff66590e451e8a60f466a64ee8a2",
+      "gain": 1,
+      "source_text": "Oh, haven't we all.",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/0c15ff66590e451e8a60f466a64ee8a2/id=d166a5b7c80546c3a6a964e25598ff07.wav",
+      "duration": 1.5849659863945578
+    },
+    {
+      "cue_id": "line-013",
+      "run_id": 12,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Ninja carried her bags up. The room was small, clean, and slightly crooked. A quilt covered the bed. The window looked over a wet street with a florist, a repair shop, and the dark-red door of a pub at the far corner. She placed her things down. She didn't unpack. Not her clothes, not the box, not even the phone charger. Unpacking made a place feel like a decision. Right now, the best she could manage was an address. She pulled on her black jacket, checked the room key twice, and went back out.",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=dc180b6712254c969b0be7d4a920e0f9.wav",
+      "duration": 30.913015873015873
+    },
+    {
+      "cue_id": "line-014",
+      "run_id": 12,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Unfamiliar silence had a habit of bringing familiar voices with it. And hers already sounded like Cassian's.",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=0421d34c9bd2411cb96e95c15cd959cd.wav",
+      "duration": 6.440589569160998
+    },
+    {
+      "cue_id": "line-015",
+      "run_id": 13,
+      "speaker": "ninja_thought",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.8,
+      "source_text": "If I unpack, it means I'm staying. If I stay, somebody will eventually ask why I came. And what am I supposed to tell them? That I drove halfway across the country because every street back home still knows his name?",
+      "scene": "The Road to Bellwether",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=3e193199c94d4619a2d6fd274a9f6ad3.wav",
+      "duration": 12.953786848072562
+    },
+    {
+      "cue_id": "line-016",
+      "run_id": 14,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "The first time Cassian taught her to throw a punch, Ninja was eight years old. It happened behind the building where they lived, on a patch of cracked concrete that somebody optimistically called a courtyard. She had come home with blood on her knee, dirt on her sleeve, and the fierce conviction that she had won an argument with a boy twice her size. Cassian, thirteen and already wearing the tired expression of somebody responsible for too many things, sat her on the bottom step.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=d0b05f8cda304e6e9a27e4a21c2abdba.wav",
+      "duration": 26.245804988662133
+    }
+  ]
+}
