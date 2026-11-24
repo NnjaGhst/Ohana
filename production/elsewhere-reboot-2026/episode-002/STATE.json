@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "listening_review",
   "next_owner": "Dex",
-  "next_action": "Verify the retained Wade pickup's word by listening, or record a shorter correction using a provider-supported input after the rejected pronunciation setting. Use a verified correction in the private release candidate and run the production release checks.",
+  "next_action": "Obtain authorization for a fresh HeyGen request after the provider rejected the pronunciation setting. Record only the affected sentence with Wade, verify the spoken word, and check both joins before the private render.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -6368,8 +6368,16 @@
           "source_duration_seconds": 7,
           "playback_gain_db": -3
         },
-        "status": "private_unresolved_pronunciation",
-        "alternate_sentence_request": "HeyGen rejected pronunciation_dictionary during request validation, with no alternate audio delivered."
+        "status": "rejected_owner_confirmed_word_mismatch",
+        "alternate_sentence_request": "HeyGen rejected pronunciation_dictionary during request validation, with no alternate audio delivered.",
+        "listening_review": {
+          "reviewer": "Ninja",
+          "date": "2026-11-24",
+          "expected": "hypervigilance",
+          "heard": "hypervigilant",
+          "scope": "Exact seven-second pickup excerpt linked in the production chat",
+          "excerpt_sha256": "96d428a7323f2726223433e853600f58280428813713a6c0ce73e8f062864e7c"
+        }
       }
     }
   },
