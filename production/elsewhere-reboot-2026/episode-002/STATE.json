@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "listening_review",
   "next_owner": "Dex",
-  "next_action": "Finish production QA and release-bundle validation for the corrected preview. Log real listening of the representative joins, then publish the authorized episode with the seven ordered illustrations.",
+  "next_action": "Complete the production release bundle and obtain a passing versioned QA report. The corrected joins listening review and authorization to publish with seven illustrations are on record.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -6162,7 +6162,7 @@
   },
   "release": {
     "status": "blocked",
-    "listening_review": "priority_clips_approved",
+    "listening_review": "corrected_joins_approved",
     "owner_approval_reference": "Owner message in the Episode 2 production chat on 2026-11-24: Both sounds good. You can publish it with the illustrations",
     "published": false,
     "owner_approved_review": {
@@ -6200,7 +6200,8 @@
           "cue_id": "s02-c004",
           "generated_filename": "exec-bd9ceb9d-2c28-4580-a2be-08d6cca310fe.png",
           "sha256": "f24a4e539156c54150fc4b962e7abf067a9a532e0962bde746c7195724291c16",
-          "gallery_order": 1
+          "gallery_order": 1,
+          "library_file_id": "libfile_ed44ee1b30a081919d866689ad751a14"
         },
         {
           "title": "The Debt",
@@ -6224,7 +6225,8 @@
           "cue_id": "s09-c156",
           "generated_filename": "exec-1f7ba6a2-6135-4e23-93b1-301461c5a6dd.png",
           "sha256": "ffdb82ed31c22a091648e9db832a995682f2e83531bea0d0a7ec02b93cb6f685",
-          "gallery_order": 4
+          "gallery_order": 4,
+          "library_file_id": "libfile_f519306e1b208191ab6e27a95bb77e1e"
         },
         {
           "title": "The Call to Roan",
@@ -6232,7 +6234,8 @@
           "cue_id": "s11-c190",
           "generated_filename": "exec-cc0ad309-f189-485e-a603-b935258551fd.png",
           "sha256": "360d626c6853df42f0b46c45da8117efca99d033a86c511b2b6fb30d046389d6",
-          "gallery_order": 5
+          "gallery_order": 5,
+          "library_file_id": "libfile_5bf08a3ad6488191972addc4fd4e8f58"
         },
         {
           "title": "Bellwether",
@@ -6500,6 +6503,31 @@
           "loudness_lufs": -21.91,
           "transcription": "Whisper and Vosk recognized all three repaired lines in context from the decoded review MP3.",
           "listening_excerpts": [
+            {
+              "cue_id": "s05-c093",
+              "library_file_id": "libfile_0bba46b14aa081919e10c434d0cd9dcf",
+              "sha256": "202c36797a483df2056cea18035258cda15b036ab284b1611f9061cb31204b82"
+            },
+            {
+              "cue_id": "s08-c148",
+              "library_file_id": "libfile_aabe5dcded848191b7ef3aea83932b66",
+              "sha256": "34cdbbb2d607eef0b1862c840724f7241848d0d5c166bef56196d6b0cfb67cb5"
+            },
+            {
+              "cue_id": "s14-r4-c001",
+              "library_file_id": "libfile_2375e40ea82c8191b21ea7713e2c8d7b",
+              "sha256": "b9b5c079f09486ca9eb47ce37656594da5188082b11d9375ae36ced4c4c56316"
+            }
+          ]
+        },
+        "owner_joins_review": {
+          "reviewer": "Ninja",
+          "date": "2026-11-24",
+          "master_sha256": "ac5f33be96d2fb72e7e97fca6f1fe3f73b3d18cc87bb95428fee2633c980cb2f",
+          "scope": "All three supplied excerpts covering the three repaired cues and representative joins",
+          "passed": true,
+          "notes": "Ninja said 'They sounds absolutely perfect! Astonishing job' in response to the three corrected transition clips.",
+          "excerpts": [
             {
               "cue_id": "s05-c093",
               "library_file_id": "libfile_0bba46b14aa081919e10c434d0cd9dcf",
