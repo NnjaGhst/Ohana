@@ -3,9 +3,9 @@
   "episode_id": "elsewhere-reboot-2026-002",
   "title": "The Man in the Corner",
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
-  "phase": "technical_qa",
-  "next_owner": "Dex",
-  "next_action": "Continue technical QA with the owner-approved Wade performances pinned to the verified reel. Resolve held signal and transcript flags and review the three extracted candidates before assembling a master for listening approval. No publication authorization.",
+  "phase": "listening_review",
+  "next_owner": "Ninja",
+  "next_action": "Listen to the exact private review master, including priority checks at 6:58 and 9:17. Report any audible problems or approve the listened version. Existing QA flags and publication hold remain until separately resolved.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -5522,6 +5522,52 @@
           "operation": "Exact PCM extract, no effects"
         },
         "independent_asr": "hex"
+      },
+      {
+        "role": "complete private listening master; release review pending",
+        "filename": "Elsewhere_E02_The_Man_in_the_Corner_Review.mp3",
+        "file_id": "file_00000000a84c81fd9aa0e88523d50d00",
+        "library_file_id": "libfile_fa6cbbe2804081918573369d37878e30",
+        "version": 0,
+        "sha256": "c62a896c278025406f85446b74a1463851617a47a776555b8c7a6e59d6ecd03c"
+      },
+      {
+        "role": "private listening master cue timeline and source checksums",
+        "filename": "review-timeline.json",
+        "file_id": "file_00000000384481fd88ac5086d10482e7",
+        "library_file_id": "libfile_63d63620f9108191b92ec368cd2aedcd",
+        "version": 0,
+        "sha256": "667af78f33e6a26b3250f230b34991554b130f91ba89102d7318a9bd139f8b86"
+      },
+      {
+        "role": "Roan isolated single-take review candidate; pronunciation pending",
+        "filename": "s04-c061-r01-review-candidate.wav",
+        "file_id": "file_00000000dad081fdb015b193c5dac0a6",
+        "library_file_id": "libfile_1afb9d951d988191b1948f176029707b",
+        "version": 0,
+        "sha256": "daeac7081f3a736f0864cdc50c4d36019b59def99694e4b4b9eea4d605dea986",
+        "cue_id": "s04-c061",
+        "candidate_id": "s04-c061-r01",
+        "source_take_id": "s04-c061-t01"
+      },
+      {
+        "role": "Hex isolated single-take review candidate; listening pending",
+        "filename": "s06-c115-r01-review-candidate.wav",
+        "file_id": "file_00000000374c81fdacf70de86a00b9aa",
+        "library_file_id": "libfile_16c1fb81d2088191a5544cec138e4ec7",
+        "version": 0,
+        "sha256": "860594d753b5af883041004e6e65a84219a49fa19739f284a791ec7a89f807f1",
+        "cue_id": "s06-c115",
+        "candidate_id": "s06-c115-r01",
+        "source_take_id": "s06-c115-t01"
+      },
+      {
+        "role": "private master QA and unresolved listening checks",
+        "filename": "Elsewhere_E02_Review_QA.json",
+        "file_id": "file_00000000e51481fd9b0ec1bd132e1d00",
+        "library_file_id": "libfile_236c0dd7b3c48191be72e0d02f61e43e",
+        "version": 0,
+        "sha256": "8799cdd632fd36ea4240ef7144028c7051aa5d2acc455d6bbcadd6f54b29dbac"
       }
     ],
     "open_cue_ids": [
@@ -5772,7 +5818,7 @@
       "transcript_match": 184,
       "pending_cues": 0,
       "qa_open_cues": 239,
-      "blocked_reason": "Recording complete for all 239 Draft 4 cues. Directed Wade delivery approved. Resolve signal flags, transcript uncertainty and unapproved repair candidates before final master listening review.",
+      "blocked_reason": "Complete voice-only private review copy assembled and decoded cleanly. Human review of unresolved wording and pronunciation is pending. Release blocked.",
       "raw_qa_candidates_checked": 239,
       "raw_qa_gate_clear": 45,
       "raw_qa_uncertainty": 164,
@@ -6085,6 +6131,33 @@
           ]
         }
       }
+    },
+    "private_listening_master": {
+      "status": "assembled_private_review_only",
+      "cues": 239,
+      "duration_seconds": 2025.820454,
+      "master_library_file_id": "libfile_fa6cbbe2804081918573369d37878e30",
+      "master_sha256": "c62a896c278025406f85446b74a1463851617a47a776555b8c7a6e59d6ecd03c",
+      "timeline_sha256": "667af78f33e6a26b3250f230b34991554b130f91ba89102d7318a9bd139f8b86",
+      "qa_sha256": "8799cdd632fd36ea4240ef7144028c7051aa5d2acc455d6bbcadd6f54b29dbac",
+      "qa_library_file_id": "libfile_236c0dd7b3c48191be72e0d02f61e43e",
+      "integrated_lufs": -21.9,
+      "true_peak_dbfs": -3.1,
+      "review_sections": 28,
+      "spelling_or_contraction_variants": 43,
+      "assembled_asr_diff_raw_asr_matched": 19,
+      "additional_listening_flags": 11,
+      "extra_listening_checks": [
+        {
+          "cue_id": "s04-c061",
+          "seconds": 418.117
+        },
+        {
+          "cue_id": "s05-c089",
+          "seconds": 556.909
+        }
+      ],
+      "provenance": "All source WAV hashes checked. Existing approved and pending single-word repair candidates used only for private review; originals preserved. No new calls. Voice-only, -3 dB general headroom, original voice speed and pitch preserved."
     }
   },
   "release": {
