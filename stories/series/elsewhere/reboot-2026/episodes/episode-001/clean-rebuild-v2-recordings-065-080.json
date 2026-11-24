@@ -1,0 +1,181 @@
+{
+  "status": "recorded",
+  "records": [
+    {
+      "cue_id": "line-065",
+      "run_id": 62,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "I'm already annoyed with you.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=99681544132f4c5ea7c2805f7de8575a.wav",
+      "duration": 1.9462358276643992
+    },
+    {
+      "cue_id": "line-066",
+      "run_id": 63,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "See? We've got a promising future.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=aeb269bebc9b4b05aebe881947b6b2c5.wav",
+      "duration": 2.7718367346938777
+    },
+    {
+      "cue_id": "line-067",
+      "run_id": 64,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She slept easier that night. Not because the world had become safe, but because someone had stayed outside the door. Cassian wasn't an angel. He forgot appointments. He borrowed things and returned them in odd places. He could turn a five-minute errand into a two-hour adventure, usually involving somebody's broken car and an extremely unconvincing explanation.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=089fd433caa949548cca62c4a0e49256.wav",
+      "duration": 21.039433106575963
+    },
+    {
+      "cue_id": "line-068",
+      "run_id": 64,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "When Ninja was fifteen, he forgot the afternoon they'd planned to see a film together. She waited at the cinema entrance for forty minutes before walking home alone. He arrived later, wet from rain, carrying two paper bags of takeaway and a look that was halfway between guilt and fear of what she'd do to him.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=304fe56475904be39678e4e2822b7e94.wav",
+      "duration": 17.17331065759637
+    },
+    {
+      "cue_id": "line-069",
+      "run_id": 65,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "I know.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=f04a5dd5c63440068ab3b174493de7d3.wav",
+      "duration": 0.9189115646258503
+    },
+    {
+      "cue_id": "line-070",
+      "run_id": 66,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Wonderful. Saves me explaining.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=0923176d14524f44b7472846e9458f86.wav",
+      "duration": 2.6441269841269843
+    },
+    {
+      "cue_id": "line-071",
+      "run_id": 67,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "The van at work broke down.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=ddbbcf140b0645d6b241a06625bdc16d.wav",
+      "duration": 1.86578231292517
+    },
+    {
+      "cue_id": "line-072",
+      "run_id": 68,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Did the van also break your phone?",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=4638f76ae96e4371b8b8a173a87343b0.wav",
+      "duration": 2.0984580498866214
+    },
+    {
+      "cue_id": "line-073",
+      "run_id": 69,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "No. That was me being an idiot.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=5cfa53f5524b4fe6a8a0e6179a6bfd0b.wav",
+      "duration": 2.6441269841269843
+    },
+    {
+      "cue_id": "line-074",
+      "run_id": 70,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Finally, a diagnosis.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=244efc1277284be6840c08dae1b237e6.wav",
+      "duration": 2.251156462585034
+    },
+    {
+      "cue_id": "line-075",
+      "run_id": 71,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He put the bags on the table.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=64434aa54ba148289bae3d13fcd6617b.wav",
+      "duration": 1.6907482993197278
+    },
+    {
+      "cue_id": "line-076",
+      "run_id": 72,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "I was wrong. I'm sorry.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=d2a722246d1c4b6fb129716c5e2fff42.wav",
+      "duration": 1.7507256235827664
+    },
+    {
+      "cue_id": "line-077",
+      "run_id": 73,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Ninja held on to her anger for another few seconds, mostly out of principle. Then she opened the bag.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=7fafd34f000b4dd392fd8ceb17a33755.wav",
+      "duration": 5.9833106575963715
+    },
+    {
+      "cue_id": "line-078",
+      "run_id": 74,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Did you get extra chips?",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=9281e1b607af4884b2e626e74b9fa1e0.wav",
+      "duration": 1.561700680272109
+    },
+    {
+      "cue_id": "line-079",
+      "run_id": 75,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Do I look suicidal?",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=5262f2a1e5ac44c3a1cb352376a7d1e7.wav",
+      "duration": 1.43421768707483
+    },
+    {
+      "cue_id": "line-080",
+      "run_id": 76,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She tried not to smile. He saw it anyway. As they grew older, Ninja started taking care of him, too: saving him dinner, warning him when people took advantage, and occasionally dragging him out of trouble. One evening he came home exhausted and collapsed on the sofa. She put on a dreadful action film they'd seen a dozen times. Halfway through, he opened one eye.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=061750876ff141a4a718f32a56b3f6da.wav",
+      "duration": 21.402698412698413
+    }
+  ]
+}
