@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
   "next_owner": "Dex",
-  "next_action": "After HeyGen account and credit cap are authorized, validate one new missing cue end to end before enabling recording. Verify directed Wade delivery before recording those cues. Continue existing QA reconciliation and preserve all originals. No publish.",
+  "next_action": "Resolve the single reserved HeyGen pilot from its provider receipt. Do not resubmit or start a batch.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -995,12 +995,23 @@
       "directed_cues_waiting": 7,
       "remaining_characters": 28574,
       "remaining_words": 5090,
-      "reserved_new_calls": 0,
+      "reserved_new_calls": 1,
       "signal_gate_cues": [
         "s02-c010",
         "s03-c014"
       ],
-      "qa_pending_cues_including_approved_repair": 17
+      "qa_pending_cues_including_approved_repair": 17,
+      "pilot": {
+        "state": "submitted_pending_reconciliation",
+        "account": "Ninja",
+        "cue_id": "s03-c028",
+        "take_id": "s03-c028-t01",
+        "characters": 22,
+        "max_calls": 1,
+        "script_sha256": "ef85205fc944b371ee7aac01c6aa2dcb2e612a0a18cd183b65bbac3443ba7f19",
+        "source": "connected HeyGen speech tool",
+        "authorization": "Ninja authorized one pilot on an account with available credits"
+      }
     }
   },
   "release": {
