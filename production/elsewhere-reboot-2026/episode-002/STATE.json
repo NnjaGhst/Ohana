@@ -4,8 +4,8 @@
   "title": "The Man in the Corner",
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
-  "next_owner": "Hex",
-  "next_action": "Record a small cue batch and verify source bytes, hashes and durable private references before scaling; then continue recording. No publish.",
+  "next_owner": "Dex",
+  "next_action": "Retrieve first source WAV using private source index, verify actual bytes and SHA-256, store in private durable audio location, and prove a batch-transfer path from HeyGen before Hex records remaining cues. Do not approve or publish unverified audio.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 3",
@@ -23,7 +23,17 @@
     "soundscape_sha256": null,
     "qa_sha256": null,
     "master_sha256": null,
-    "private_artifacts": [],
+    "private_artifacts": [
+      {
+        "role": "private source index (not audio bytes)",
+        "filename": "elsewhere-reboot-002-private-source-index.json",
+        "file_id": "file_0000000078888230b28e74f55a284405",
+        "library_file_id": "libfile_e623a31163008191bbced20ed7120965",
+        "sha256": "6adba5b2bc8b04c9bf9bcec3e1757bc11ce50fdbe57315818a8eb8ff569605eb",
+        "cue_id": "s01-c001",
+        "take_id": "s01-c001-t01"
+      }
+    ],
     "open_cue_ids": [
       "s01-c001",
       "s02-c002",
@@ -266,7 +276,14 @@
       "s14-c239",
       "s14-c240"
     ],
-    "cue_count": 240
+    "cue_count": 240,
+    "recording_status": {
+      "generated_takes": 1,
+      "verified_audio_bytes": 0,
+      "transcript_match": 1,
+      "pending_cues": 240,
+      "blocked_reason": "HeyGen generated a take and ASR matched, but chat cannot retrieve WAV bytes for checksum and private retention. URL kept in private Library source index only."
+    }
   },
   "release": {
     "status": "blocked",
