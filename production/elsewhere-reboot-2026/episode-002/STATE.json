@@ -4,8 +4,8 @@
   "title": "The Man in the Corner",
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
-  "next_owner": "Ninja",
-  "next_action": "Listen to candidate r01 for a complete natural single 'Please' and review the audition reel. Preserve both rejected originals. Require explicit listening approval before Dex can consider the candidate for assembly and production QA. Keep publication blocked.",
+  "next_owner": "Hex",
+  "next_action": "Record next missing cues in batches of at most 20, preserve raw takes, checkpoint private transfer indexes, and keep release blocked.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 3",
@@ -548,11 +548,11 @@
       "transcript_match": 8,
       "pending_cues": 231,
       "qa_open_cues": 240,
-      "blocked_reason": "Two original Lachie takes rejected for repeated word. A separately retained single-utterance repair candidate and the performance audition await genuine listening approval."
+      "blocked_reason": null
     },
     "transfer_workflow": "production/elsewhere-reboot-2026/episode-002/PRIVATE-TRANSFER.md",
     "batch_002": {
-      "status": "transfer_verified; performance listening pending; one rejected cue",
+      "status": "transfer_verified; audition approved",
       "cue_ids": [
         "s02-c004",
         "s02-c005",
@@ -584,7 +584,7 @@
           }
         ]
       },
-      "listening_review": "Exact reel retrieved and SHA-256 verified by Hex; no actual acoustic listening capability in this chat. Awaiting human audition decision."
+      "listening_review": "Owner approved audition reel in chat (Sounds good), 2026-11-24; SHA-256 b77b1002a9f0d5f1b48461da5251565eb749aefa0cd19811b67c8a4f0bdfd1ca"
     },
     "pickups": [
       {
@@ -595,7 +595,7 @@
         "voice": "Lachie",
         "expected": "Please.",
         "observed": "Please. Please.",
-        "disposition": "Originals t01 and t02 blocked. Candidate r01 requires explicit listening approval before use.",
+        "disposition": "Originals remain rejected; r01 approved for assembly subject to technical QA",
         "evidence": "First-pass Whisper flagged the repeat; Vosk small-en-us-0.15 independently returned two occurrences in the whole take and again between other cues. Nemotron returned no transcript on the isolated clip.",
         "approximate_word_starts_seconds": [
           0.05,
@@ -612,7 +612,7 @@
         },
         "repair_candidate": {
           "candidate_id": "s06-c099-r01",
-          "status": "pending_listening_approval",
+          "status": "owner_listening_approved_pending_technical_qa",
           "source_take_id": "s06-c099-t02",
           "source_start_seconds": 0.04,
           "source_end_seconds": 0.68,
@@ -625,7 +625,13 @@
             "first_40ms_rms_dbfs": -61.69,
             "last_40ms_rms_dbfs": -65.13
           },
-          "approved": false
+          "approved": true,
+          "approval": {
+            "reviewer": "Ninja",
+            "reference": "User replied 'Sounds good' to both the repaired Lachie recording and voice audition in Hex chat, 2026-11-24",
+            "sha256": "59080dcb6aa9aa1df684c0e450f1631fe259f2929fa9f2b53989efd17c1ee1d5",
+            "scope": "candidate listening only; not final master"
+          }
         }
       }
     ]
@@ -637,5 +643,5 @@
     "published": false
   },
   "cast_file": "production/elsewhere-reboot-2026/episode-002/cast.json",
-  "cast_status": "audition reel byte-verified; actual listening pending; Lachie pickup flagged"
+  "cast_status": "owner approved audition and repaired Lachie candidate; full episode QA pending"
 }
