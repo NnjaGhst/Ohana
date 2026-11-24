@@ -3,6 +3,7 @@ import argparse
 import hashlib
 import json
 import re
+import shutil
 import subprocess
 import tempfile
 import unicodedata
@@ -142,11 +143,13 @@ def wav(path, audio):
 
 def transcribe(path, adapter, cache):
     checksum = digest(path)
-    key = hashlib.sha256(json.dumps([checksum, adapter['id']]).encode()).hexdigest()
+    adapter_hash = hashlib.sha256(json.dumps(adapter['command']).encode()).hexdigest()
+    key = hashlib.sha256(json.dumps([checksum, adapter['id'], adapter_hash]).encode()).hexdigest()
     cached = cache / (key + '.json')
     if cached.is_file():
         envelope = read(cached)
-        require(envelope['audio_sha256'] == checksum and envelope['adapter_id'] == adapter['id'],
+        require(envelope['audio_sha256'] == checksum and envelope['adapter_id'] == adapter['id']
+                and envelope['adapter_command_sha256'] == adapter_hash,
                 'Stale ASR cache')
         result = envelope['result']
     else:
@@ -170,11 +173,28 @@ def transcribe(path, adapter, cache):
         with tempfile.NamedTemporaryFile(dir=cache, delete=False) as temporary:
             name = Path(temporary.name)
         try:
-            write(name, {'audio_sha256': checksum, 'adapter_id': adapter['id'], 'result': result})
+            write(name, {'audio_sha256': checksum, 'adapter_id': adapter['id'],
+                         'adapter_command_sha256': adapter_hash, 'result': result})
             name.replace(cached)
         finally:
             name.unlink(missing_ok=True)
     return result
+
+
+def cache_source(cache, source, checksum):
+    destination = cache / 'sources' / checksum
+    destination.parent.mkdir(exist_ok=True)
+    if not destination.exists():
+        with tempfile.NamedTemporaryFile(dir=destination.parent, delete=False) as temporary:
+            name = Path(temporary.name)
+        try:
+            shutil.copyfile(source, name)
+            require(digest(name) == checksum, 'Source changed during ingestion')
+            name.replace(destination)
+        finally:
+            name.unlink(missing_ok=True)
+    require(digest(destination) == checksum, 'Cached source checksum mismatch')
+    return destination
 
 
 def check_content(report, stage, entries, actual, audio_hash, reviews):
@@ -238,7 +258,7 @@ def signal_flags(audio, take=False):
 def write_report(out, report):
     write(out / 'qa.json', report)
     lines = [f"Status: {report['status']}", report['listening'], '']
-    lines += [f"{row['seconds']:.3f}s {row['cue_id']} [{row['stage']}] {row['disposition']}: {row['failure']}"
+    lines += [f"{row['seconds']:.3f}s {row.get('affected_cue_id', row['cue_id'])} [{row['stage']}] {row['disposition']}: {row['failure']}"
               for row in report['checks'] if row['failure']]
     (out / 'qa.txt').write_text('\n'.join(lines) + '\n', encoding='utf-8')
 
@@ -308,7 +328,7 @@ def run(manifest_path, soundscape_path, adapter, reviews, directory, cache):
         cues = manifest['cues']
         for cue in cues:
             take = next(take for take in cue['takes'] if take['status'] == 'approved')
-            cue['audio'] = decode(asset(root, take))
+            cue['audio'] = decode(cache_source(cache, asset(root, take), take['sha256']))
         length = make_timeline(cues)
         for cue in cues:
             take = next(take for take in cue['takes'] if take['status'] == 'approved')

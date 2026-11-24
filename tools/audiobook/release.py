@@ -67,8 +67,11 @@ def validate_approval(preview, approval, master):
             'QA still blocked')
     require(report['version'] == preview.name and approval['qa_sha256'] == digest(report_file),
             'Approval must identify this QA report')
+    require({'preview.mp3', 'dry.wav', 'environment.wav', 'foley.wav', 'mix.wav', 'timeline.json'}
+            <= report['outputs'].keys(), 'Missing required preview artifacts')
     for name, checksum in report['outputs'].items():
-        require(re.fullmatch(r'[\w.-]+', name) and digest(preview / name) == checksum,
+        require(re.fullmatch(r'[\w.-]+', name) and (preview / name).is_file()
+                and digest(preview / name) == checksum,
                 'Preview is missing a verified artifact')
     require(re.fullmatch('[0-9a-f]{64}', master) and
             report['outputs']['preview.mp3'] == approval['master_sha256'] == master

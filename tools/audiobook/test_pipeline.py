@@ -2,7 +2,6 @@ import io
 import json
 import os
 from pathlib import Path
-import subprocess
 import sys
 import tempfile
 import unittest
@@ -165,6 +164,12 @@ class Acceptance(unittest.TestCase):
             release.validate_approval(preview, approval, '0' * 64)
         with self.assertRaisesRegex(ValueError, 'Listening'):
             release.validate_approval(preview, dict(approval, listening={}), master)
+        stem = preview / 'foley.wav'
+        original_stem = stem.read_bytes()
+        stem.unlink()
+        with self.assertRaisesRegex(ValueError, 'artifact'):
+            release.validate_approval(preview, approval, master)
+        stem.write_bytes(original_stem)
         repo = self.root / 'repo'
         repo.mkdir()
         working = Path.cwd()
