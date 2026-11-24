@@ -1,0 +1,181 @@
+{
+  "status": "recorded",
+  "records": [
+    {
+      "cue_id": "line-161",
+      "run_id": 150,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "And don't do anything stupid.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=add011e3724846b3962ff6065b924d9f.wav",
+      "duration": 1.987891156462585
+    },
+    {
+      "cue_id": "line-162",
+      "run_id": 151,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "You're taking all my hobbies away.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=42f207ed4d6141eb9f6f114dc2746f20.wav",
+      "duration": 2.2797278911564627
+    },
+    {
+      "cue_id": "line-163",
+      "run_id": 152,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She hugged him at the door. He held on a fraction longer than usual. Then he stepped back, touched her cheek lightly, and smiled in the familiar crooked way that had been making terrible things seem manageable since she was a child.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=aa321a54f3ba4a60a6df6164333261f2.wav",
+      "duration": 12.82952380952381
+    },
+    {
+      "cue_id": "line-164",
+      "run_id": 153,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Lock up behind me, menace.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=4026a04690344441940ef961bf7f06e4.wav",
+      "duration": 1.9482766439909298
+    },
+    {
+      "cue_id": "line-165",
+      "run_id": 154,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She rolled her eyes.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=594eef2f923f48e7ae2a214be2b2ac2c.wav",
+      "duration": 1.4508163265306122
+    },
+    {
+      "cue_id": "line-166",
+      "run_id": 155,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "I always do.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=b770ca9d23184db8b7f8bdaa3fba0456.wav",
+      "duration": 1.3175963718820862
+    },
+    {
+      "cue_id": "line-167",
+      "run_id": 156,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He waited until he heard the lock turn. It was such a small thing. The two of them had repeated it a hundred times. She would spend years wishing she'd opened the door again. Three evenings later, someone knocked. Ninja was standing at the sink, rinsing a mug. She remembered that detail afterward because it was the sort of useless thing memory kept when the important parts became impossible. The tap was running. A small patch of sunlight fell across the counter. Her phone was on the table, face up.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=2cc3a685b2504560afeb78af0967f1ab.wav",
+      "duration": 27.70702947845805
+    },
+    {
+      "cue_id": "line-168",
+      "run_id": 156,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She turned off the water and went to the door. Two people stood outside. Dark coats, careful expressions, the uneasy stillness of strangers who had rehearsed what they were about to say.",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=ba55fc66b2fb4389a430b71abccdb554.wav",
+      "duration": 10.542267573696146
+    },
+    {
+      "cue_id": "line-169",
+      "run_id": 157,
+      "speaker": "police",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1,
+      "source_text": "Are you Cassian's sister?",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/eae6fca42aae4b78b992533e96ab43c9/id=e2495be5dc884fefbf887e6af5ba6b1f.wav",
+      "duration": 1.889705215419501
+    },
+    {
+      "cue_id": "line-170",
+      "run_id": 158,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Everything in her body seemed to recognize the question before her mind did.",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=35ea9fc41acb4607b61e305f70cf5522.wav",
+      "duration": 4.0141043083900225
+    },
+    {
+      "cue_id": "line-171",
+      "run_id": 159,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Why?",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=03ade64545cc4ffcad149d76a532ba11.wav",
+      "duration": 1.8234467120181406
+    },
+    {
+      "cue_id": "line-172",
+      "run_id": 160,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "They asked to come inside. She didn't move.",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=c89b731ecbeb4fdc949ac4b7a2d46267.wav",
+      "duration": 3.0736961451247167
+    },
+    {
+      "cue_id": "line-173",
+      "run_id": 161,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "What happened?",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=034405f0652c4f5f93dbc9ba3018ce84.wav",
+      "duration": 1.0409523809523809
+    },
+    {
+      "cue_id": "line-174",
+      "run_id": 162,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "One of them said her name. The other looked toward the stairs. They said Cassian had been killed. They said there appeared to have been a robbery. They said an investigation was ongoing, though there were indications he had simply been in the wrong place at the wrong time. The words passed through the doorway in neat, impossible pieces.",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=627eec41d5f14395ba80dce12780c992.wav",
+      "duration": 18.740657596371882
+    },
+    {
+      "cue_id": "line-175",
+      "run_id": 163,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Killed?",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=66c87562f0a74167b118ecb4ffc8e08b.wav",
+      "duration": 0.8471428571428572
+    },
+    {
+      "cue_id": "line-176",
+      "run_id": 164,
+      "speaker": "police",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1,
+      "source_text": "I'm very sorry.",
+      "scene": "The Knock",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/eae6fca42aae4b78b992533e96ab43c9/id=079225dff6934265b5c41fcd814946f5.wav",
+      "duration": 1.1142857142857143
+    }
+  ]
+}
