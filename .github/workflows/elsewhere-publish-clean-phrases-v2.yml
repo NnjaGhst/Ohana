@@ -1,0 +1,65 @@
+name: Publish approved Elsewhere Episode 1 complete rerecording
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths: ['.github/workflows/elsewhere-publish-clean-phrases-v2.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: elsewhere-reboot-2026
+          fetch-depth: 0
+      - name: Validate exact approved production master
+        shell: bash
+        run: |
+          set -euo pipefail
+          source=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/clean-phrases-v2/with-scenes
+          git show d598105960d7734264539fe39a166c06b7c16301:"$source/episode-001-clean-v2-with-scenes.mp3" > /tmp/elsewhere-ep1-approved.mp3
+          git show d598105960d7734264539fe39a166c06b7c16301:"$source/clean-v2-soundscape-edit-report.json" > /tmp/elsewhere-ep1-report.json
+          python - <<'PY'
+          import json, pathlib
+          r=json.load(open('/tmp/elsewhere-ep1-report.json'))
+          assert r['duration_seconds']==2125.076
+          assert r['scene_count']==13
+          assert r['file_size']==pathlib.Path('/tmp/elsewhere-ep1-approved.mp3').stat().st_size==42502835
+          PY
+      - name: Publish only this master and episode catalog fields
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git checkout -B main origin/main
+          dest=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio
+          mkdir -p "$dest"
+          cp /tmp/elsewhere-ep1-approved.mp3 "$dest/episode-001-clean-phrases-v2-approved.mp3"
+          cp /tmp/elsewhere-ep1-report.json "$dest/clean-phrases-v2-release-report.json"
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          audio='series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-clean-phrases-v2-approved.mp3'
+          p=Path('stories/index.json')
+          d=json.loads(p.read_text())
+          entries=[e for e in d['episodes'] if e['id']=='elsewhere-001']
+          assert len(entries)==1
+          e=entries[0]
+          assert len(e['images'])==7
+          e['audio']=audio
+          p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+          p=Path('stories/series/elsewhere/episodes/episode-001/metadata.json')
+          m=json.loads(p.read_text())
+          assert len(m['illustrations'])==7
+          m.update(audio_file=audio,actual_duration_seconds=2125.076,audio_edit_version='clean-phrases-v2-scene-responsive',audio_quality_note='Complete phrase rerecording with 13 scene environments; publication requested by owner. Full listener QA not claimed.',audio_preview_approved=True,published_to_ohana=True)
+          p.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')
+          PY
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$dest/episode-001-clean-phrases-v2-approved.mp3" "$dest/clean-phrases-v2-release-report.json" stories/index.json stories/series/elsewhere/episodes/episode-001/metadata.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Publish approved 35:25 Elsewhere Episode 1 complete phrase rerecording"
+          git push origin HEAD:main
