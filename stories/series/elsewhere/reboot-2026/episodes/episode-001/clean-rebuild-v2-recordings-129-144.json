@@ -1,0 +1,174 @@
+{
+  "status": "needs-pickups",
+  "records": [
+    {
+      "cue_id": "line-129",
+      "run_id": 121,
+      "speaker": "handler",
+      "voice_id": "e8ad4ba6c5e241549c1920fda63eb878",
+      "gain": 1,
+      "source_text": "People who are finished don't generally leave so much unfinished business.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/e8ad4ba6c5e241549c1920fda63eb878/id=870aaf65cf854a05adc07ee5de3117a4.wav",
+      "duration": 4.223083900226757
+    },
+    {
+      "cue_id": "line-130",
+      "error": "This tool call was blocked by OpenAI's safety checks. Please double check what you are sending."
+    },
+    {
+      "cue_id": "line-131",
+      "run_id": 122,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "By the time Cassian understood how much other people knew about him, refusing had begun to feel less like a decision and more like a threat. He didn't tell Ninja. He couldn't bear to watch the knowledge change the way she looked at him. There were nights when his phone displayed a number and he stared until it stopped ringing. There were days when he made promises to himself about finishing one final obligation and disappearing from it all. He told himself that a clean break still existed somewhere.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=538ef8dd289249a18695814346d96604.wav",
+      "duration": 27.84471655328798
+    },
+    {
+      "cue_id": "line-132",
+      "run_id": 122,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He only had to reach it. One afternoon, Cassian sat in his parked car outside a supermarket with the engine off. He had just finished a call with somebody connected to Elias Voss. The caller had agreed, in an almost friendly tone, that of course Cassian could stop working for them. After one more errand. Cassian stared at his reflection in the rearview mirror. He looked older than he remembered.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=205935a12d3f462b8839de01d3d2db1a.wav",
+      "duration": 22.86106575963719
+    },
+    {
+      "cue_id": "line-133",
+      "run_id": 122,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He dialed Ninja's number, waited for her to answer, and listened as she told him—without taking a breath—that her upstairs neighbor had somehow flooded the bathroom by trying to install a shelf. He laughed. It surprised him.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=45b2c39d77c64882bbbba15f34504809.wav",
+      "duration": 12.860907029478458
+    },
+    {
+      "cue_id": "line-134",
+      "run_id": 123,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "What's funny?",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=3972eb03e3f54b7883162b88c9581f56.wav",
+      "duration": 1.1059410430839003
+    },
+    {
+      "cue_id": "line-135",
+      "run_id": 124,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Nothing. You. The fact that shelving has become a combat sport.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=9e0a29c05a96456992bb6e3254a55e59.wav",
+      "duration": 4.578503401360544
+    },
+    {
+      "cue_id": "line-136",
+      "run_id": 125,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Then she asked if something was wrong. He gripped the steering wheel.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=f9ad4214663546e88524943d287bca0d.wav",
+      "duration": 3.839954648526077
+    },
+    {
+      "cue_id": "line-137",
+      "run_id": 126,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "No. Just wanted to hear your voice.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=205b457dc2b742bf8290ccac46eca2ed.wav",
+      "duration": 2.744126984126984
+    },
+    {
+      "cue_id": "line-138",
+      "run_id": 127,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She went quiet long enough to make him worry he'd frightened her.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=e7ae0375cd2c457793e529b13044281a.wav",
+      "duration": 3.5217687074829933
+    },
+    {
+      "cue_id": "line-139",
+      "run_id": 128,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Well, you've heard it. It remains incredibly charming.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=7defd52f82044097b53e92b136b435de.wav",
+      "duration": 3.9328344671201814
+    },
+    {
+      "cue_id": "line-140",
+      "run_id": 129,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Debatable.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=c9956306dbf642d0abab3801bb2b35dd.wav",
+      "duration": 1.119750566893424
+    },
+    {
+      "cue_id": "line-141",
+      "run_id": 130,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Come over Sunday. I'll cook.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=ed2f609d43bf41a4850a45067bcdeb76.wav",
+      "duration": 2.2649433106575962
+    },
+    {
+      "cue_id": "line-142",
+      "run_id": 131,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He wanted to say yes. Instead he promised to try. When the call ended he sat still for a long time, making a decision he didn't yet know how to carry out: whatever else he had to do, he would find a way to keep those people away from her. The last time Ninja had dinner with Cassian, he turned up carrying a badly wrapped parcel and an apology.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=0b0e2a6436d44f45bf96c5a8b19f2bb5.wav",
+      "duration": 20.527142857142856
+    },
+    {
+      "cue_id": "line-143",
+      "run_id": 132,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Before you ask, yes, the wrapping was done by a human being.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=76104c26d8da40c8b4077839952dd9ec.wav",
+      "duration": 4.223083900226757
+    },
+    {
+      "cue_id": "line-144",
+      "run_id": 133,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "A drunk one?",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=d8463904307c4738a4645347f6594e10.wav",
+      "duration": 1.267845804988662
+    }
+  ]
+}
