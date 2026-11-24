@@ -6181,6 +6181,40 @@
         }
       ],
       "scope": "Owner listened to both supplied excerpts and authorized publication with illustrations. This is a genuine owner approval for the reviewed preview, with listening limited to the two excerpts. Production release validation remains pending."
+    },
+    "illustrations": {
+      "status": "prepared_unpublished",
+      "items": [
+        {
+          "title": "The Debt",
+          "scene": "the-debt",
+          "generated_filename": "exec-5a767e26-189d-4ee7-a354-fb47408c28e3.png",
+          "sha256": "b827994b95d7304899f223851b43e9b2d0c0429503749628aa4275820c8b13ed"
+        },
+        {
+          "title": "The Offer",
+          "scene": "the-offer",
+          "generated_filename": "exec-085afce2-671f-4471-a5f8-ad5bd78b685f.png",
+          "sha256": "59a0dee9430419c684edfac9dd99287afb79d3e974588fca7018b231899974f8"
+        },
+        {
+          "title": "Bellwether",
+          "scene": "bellwether",
+          "generated_filename": "exec-ffa20b89-8812-48f3-8a50-6e05ebcd9472.png",
+          "sha256": "7bedf9eece7fd29d74a921742672f5b37b0badb4aec8080cae7eb5789eb78b50"
+        },
+        {
+          "title": "The Crooked Lantern",
+          "scene": "the-crooked-lantern",
+          "generated_filename": "exec-e3933bdf-ba13-4e8d-9f0e-e42f4c1a151d.png",
+          "sha256": "d097c695bfba4564e492f9e1119a0a2ce55eeece114dd0aac81c7224177eb9ab"
+        }
+      ]
+    },
+    "remaining_validation": {
+      "signal": "Source QA still flags near-full-scale peaks and suspicious boundaries. A PCM scan found zero exact full-scale samples on the rendered sources, while the source peak threshold still blocks selected takes.",
+      "transcript": "Fresh isolated checks on the exact decoded MP3 support the intended words at s08-c140, s10-c173, s11-c203, s12-c204 and s13-c218. The engines still disagree on 'Hex knew it sounded wrong' (s04-c072) and 'hypervigilance' (s14-r4-c001).",
+      "production_bundle": "Run the approved production path to produce a passing, hash-bound QA report and release bundle. Representative joins require a real listening review."
     }
   },
   "cast_file": "production/elsewhere-reboot-2026/episode-002/cast.json",
