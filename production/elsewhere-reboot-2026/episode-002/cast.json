@@ -1,5 +1,5 @@
 {
-  "status": "supporting voices require selection before recording",
+  "status": "selected; active public voices verified; performance audition pending",
   "confirmed": {
     "Narrator": {
       "voice": "Wade",
@@ -23,14 +23,33 @@
       "voice": "Craig",
       "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
       "gain": 1
+    },
+    "Roan": {
+      "voice": "Brodie - Breezy & Genuine",
+      "voice_id": "c30ecab014cb4a8d816d07f6b2b625c8",
+      "gain": 1,
+      "reason": "warm, irreverent lifelong friend"
+    },
+    "Handler": {
+      "voice": "Prudence - Cultivated & Precise",
+      "voice_id": "f264d09b4320461b9873abbe9283b505",
+      "gain": 1,
+      "reason": "controlled and precise female handler; distinct from the male supporting handler voice used in Episode 1"
+    },
+    "Target": {
+      "voice": "Lachie - Direct & Reassuring",
+      "voice_id": "f9a2c5a6b6be456a8ed59dac8a319f2a",
+      "gain": 1,
+      "reason": "ordinary human voice, brief single line"
+    },
+    "Tomas": {
+      "voice": "Neville - Warm & Easygoing",
+      "voice_id": "96b762a3f37e44a78f3faf4d3490f96a",
+      "gain": 1,
+      "reason": "affable repair shop owner"
     }
   },
-  "pending": [
-    "Roan",
-    "Handler",
-    "Target",
-    "Tomas"
-  ],
+  "pending": [],
   "continuity_edits": [
     {
       "line": 861,

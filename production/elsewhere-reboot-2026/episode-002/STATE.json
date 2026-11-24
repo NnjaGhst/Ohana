@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
   "next_owner": "Hex",
-  "next_action": "Select and verify voices for Roan, Handler, Target and Tomas, then record full cues in verified batches; record private source references and actual SHA-256 checksums. No recording before cast is settled.",
+  "next_action": "Record a small cue batch and verify source bytes, hashes and durable private references before scaling; then continue recording. No publish.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 3",
@@ -275,5 +275,5 @@
     "published": false
   },
   "cast_file": "production/elsewhere-reboot-2026/episode-002/cast.json",
-  "cast_status": "supporting voices pending"
+  "cast_status": "selected; active public voices verified; performance audition pending"
 }
