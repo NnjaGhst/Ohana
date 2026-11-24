@@ -1,0 +1,248 @@
+{
+  "version": "dynamic-ambient-v1",
+  "status": "working-branch-audition-only",
+  "voiceSource": "stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/full-cast-previews/episode-001-full-cast-preview.mp3",
+  "timelineSource": "stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/full-cast-previews/edit-report-full-cast.json",
+  "duration": 2012.655,
+  "priority": "Speech always foreground; slow transitions; sparse motivated sounds; no sudden changes or copyrighted music.",
+  "sceneCrossfadeSeconds": 5.5,
+  "scenes": [
+    {
+      "from": 0,
+      "to": 50.75,
+      "name": "Arriving in Bellwether",
+      "texture": "wet_street",
+      "intensity": -42,
+      "notes": "Drizzle against the car and muted wet street air"
+    },
+    {
+      "from": 50.75,
+      "to": 146.515,
+      "name": "Ada's bakery and upstairs room",
+      "texture": "bakery_room",
+      "intensity": -47,
+      "notes": "Quiet indoor room tone, distant rain beyond the window"
+    },
+    {
+      "from": 146.515,
+      "to": 248.4,
+      "name": "Childhood courtyard",
+      "texture": "courtyard",
+      "intensity": -44,
+      "notes": "Light outdoor air, far-off neighborhood, occasional distant bird"
+    },
+    {
+      "from": 248.4,
+      "to": 426.185,
+      "name": "Childhood evenings and birthday",
+      "texture": "childhood_home",
+      "intensity": -47,
+      "notes": "Warm quiet home, very distant muffled household sounds, night hush"
+    },
+    {
+      "from": 426.185,
+      "to": 592.569,
+      "name": "Growing up together",
+      "texture": "evening_street",
+      "intensity": -46,
+      "notes": "Soft evening traffic from far away, occasional footsteps"
+    },
+    {
+      "from": 592.569,
+      "to": 870.878,
+      "name": "Cassian's secret dealings",
+      "texture": "uneasy_room",
+      "intensity": -49,
+      "notes": "Restrained interior room tone with paper sounds, no horror drones"
+    },
+    {
+      "from": 870.878,
+      "to": 1004,
+      "name": "Their last ordinary evening",
+      "texture": "warm_living_room",
+      "intensity": -47,
+      "notes": "Cozy late room tone and the small click of a music player"
+    },
+    {
+      "from": 1004,
+      "to": 1118.363,
+      "name": "The knock and the news",
+      "texture": "doorstep_quiet",
+      "intensity": -53,
+      "notes": "A soft knock, then nearly silent room tone; leave grief in foreground"
+    },
+    {
+      "from": 1118.363,
+      "to": 1443.443,
+      "name": "Funeral and the months afterward",
+      "texture": "grief_room",
+      "intensity": -52,
+      "notes": "Nearly silent atmospheric air, no dramatic music or audible crying"
+    },
+    {
+      "from": 1443.443,
+      "to": 1715.584,
+      "name": "Cassian's apartment",
+      "texture": "empty_apartment",
+      "intensity": -50,
+      "notes": "Still room with distant traffic and very faint paper movement"
+    },
+    {
+      "from": 1715.584,
+      "to": 1784.875,
+      "name": "Leaving the old life",
+      "texture": "departure",
+      "intensity": -46,
+      "notes": "Morning roadside air and restrained departing car wash"
+    },
+    {
+      "from": 1784.875,
+      "to": 1829.6,
+      "name": "Rainy walk through Bellwether",
+      "texture": "wet_street",
+      "intensity": -43,
+      "notes": "Outdoor drizzle and wet stone street, building rain eased near doorway"
+    },
+    {
+      "from": 1829.6,
+      "to": 2012.655,
+      "name": "Inside the Crooked Lantern",
+      "texture": "pub",
+      "intensity": -45,
+      "notes": "Low unintelligible room murmur and faint glass touches; quieter for eye contact"
+    }
+  ],
+  "events": [
+    {
+      "time": 53.4,
+      "type": "door",
+      "level": -40,
+      "scene": "Bakery entrance"
+    },
+    {
+      "time": 93.3,
+      "type": "creak",
+      "level": -44,
+      "scene": "Old staircase"
+    },
+    {
+      "time": 194.1,
+      "type": "water",
+      "level": -43,
+      "scene": "Bottle for scraped knee"
+    },
+    {
+      "time": 197.9,
+      "type": "cloth",
+      "level": -44,
+      "scene": "Bandage cloth"
+    },
+    {
+      "time": 274.3,
+      "type": "plate",
+      "level": -46,
+      "scene": "Childhood birthday cake"
+    },
+    {
+      "time": 352.4,
+      "type": "creak",
+      "level": -47,
+      "scene": "Quiet hallway"
+    },
+    {
+      "time": 537.6,
+      "type": "steps",
+      "level": -47,
+      "scene": "Walking home together"
+    },
+    {
+      "time": 610.4,
+      "type": "paper",
+      "level": -43,
+      "scene": "Envelope"
+    },
+    {
+      "time": 668.1,
+      "type": "paper",
+      "level": -46,
+      "scene": "Courier documents"
+    },
+    {
+      "time": 887.3,
+      "type": "click",
+      "level": -45,
+      "scene": "Portable music player"
+    },
+    {
+      "time": 960.4,
+      "type": "door",
+      "level": -44,
+      "scene": "Goodbye"
+    },
+    {
+      "time": 1004.1,
+      "type": "knock",
+      "level": -41,
+      "scene": "The knock before the news"
+    },
+    {
+      "time": 1454.7,
+      "type": "ceramic",
+      "level": -45,
+      "scene": "Old cereal bowl"
+    },
+    {
+      "time": 1594.1,
+      "type": "paper",
+      "level": -46,
+      "scene": "Photographs and receipt"
+    },
+    {
+      "time": 1769.8,
+      "type": "keys",
+      "level": -44,
+      "scene": "Preparing to leave"
+    },
+    {
+      "time": 1781.1,
+      "type": "car",
+      "level": -49,
+      "scene": "Car moving away"
+    },
+    {
+      "time": 1827.8,
+      "type": "door",
+      "level": -43,
+      "scene": "Crooked Lantern entrance"
+    },
+    {
+      "time": 1844.3,
+      "type": "glass",
+      "level": -41,
+      "scene": "First whiskey"
+    },
+    {
+      "time": 1877.6,
+      "type": "glass",
+      "level": -43,
+      "scene": "Second whiskey"
+    }
+  ],
+  "attentionMotifs": [
+    {
+      "time": 146.5,
+      "kind": "memory",
+      "note": "Subtle transition into childhood"
+    },
+    {
+      "time": 870.878,
+      "kind": "warm",
+      "note": "Short warm recollection"
+    },
+    {
+      "time": 1784.875,
+      "kind": "arrival",
+      "note": "Bellwether return and mystery"
+    }
+  ]
+}
