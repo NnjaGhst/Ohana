@@ -1,0 +1,181 @@
+{
+  "status": "recorded",
+  "records": [
+    {
+      "cue_id": "line-097",
+      "run_id": 90,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Then why are you paying it?",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=6fa80077ba584b5aa4e4b30ff8aa3500.wav",
+      "duration": 1.766031746031746
+    },
+    {
+      "cue_id": "line-098",
+      "run_id": 91,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Because you spent half your childhood eating the worst toast ever made, and I'd like to correct the historical record.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=75d567c3c9564375af65019c040b3eed.wav",
+      "duration": 6.256553287981859
+    },
+    {
+      "cue_id": "line-099",
+      "run_id": 92,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She didn't touch the envelope.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=32c63899afeb44f69aa0e323a3c80724.wav",
+      "duration": 2.0707482993197277
+    },
+    {
+      "cue_id": "line-100",
+      "run_id": 93,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Cass.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=a43549620ff448d2994d7db49cceabb9.wav",
+      "duration": 0.9739455782312925
+    },
+    {
+      "cue_id": "line-101",
+      "run_id": 94,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Nin.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=03c94dc1f5454b2e9b8186a5ef0cd67f.wav",
+      "duration": 0.8253287981859411
+    },
+    {
+      "cue_id": "line-102",
+      "run_id": 95,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Where did it come from?",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=664efe542236463190a33caedf25e345.wav",
+      "duration": 1.4799092970521541
+    },
+    {
+      "cue_id": "line-103",
+      "run_id": 96,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Work.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=1027d29cb78845ec829c5f3b89b14044.wav",
+      "duration": 1.5535827664399093
+    },
+    {
+      "cue_id": "line-104",
+      "run_id": 97,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "What work?",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=480101574ed54970a7a7df1bf4e3a262.wav",
+      "duration": 1.051111111111111
+    },
+    {
+      "cue_id": "line-105",
+      "run_id": 98,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "The boring kind.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=8e3437d65614420d88fd5ceeec9b3573.wav",
+      "duration": 1.3988888888888888
+    },
+    {
+      "cue_id": "line-106",
+      "run_id": 99,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "You'd complain about boring work. You complain when your socks are too boring.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=20ba73d1260440478d8780b17908263a.wav",
+      "duration": 4.478503401360544
+    },
+    {
+      "cue_id": "line-107",
+      "run_id": 100,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He smiled, but it didn't reach his eyes.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=872c3aa466384e0c8e3c430bd125ba6f.wav",
+      "duration": 2.690566893424036
+    },
+    {
+      "cue_id": "line-108",
+      "run_id": 101,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Seriously. It's fine.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=115a6eb6559248c1a977656a2e691e84.wav",
+      "duration": 1.940453514739229
+    },
+    {
+      "cue_id": "line-109",
+      "run_id": 102,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She pushed the envelope back.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=6a15c9f713e14cab8a14e375e6dbcfb5.wav",
+      "duration": 2.0200680272108844
+    },
+    {
+      "cue_id": "line-110",
+      "run_id": 103,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "I don't need you to buy me a life.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=aa443b03a458401aa31ea6d2c2ad11c7.wav",
+      "duration": 2.307437641723356
+    },
+    {
+      "cue_id": "line-111",
+      "run_id": 104,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He looked hurt then, and she regretted the words almost immediately.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=caac06b9a6464a68b33aaab43b45dfa2.wav",
+      "duration": 3.886394557823129
+    },
+    {
+      "cue_id": "line-112",
+      "run_id": 105,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "That's not what I'm doing.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=1bf40341bdef4f6d9f010677622b564b.wav",
+      "duration": 1.4908616780045352
+    }
+  ]
+}
