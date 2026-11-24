@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "episode_id": "elsewhere-reboot-2026-002",
+  "title": "The Man in the Corner",
+  "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
+  "phase": "awaiting_manuscript_freeze",
+  "next_owner": "Hex",
+  "next_action": "Review the pinned Draft 3, settle cue boundaries and cast, then commit the frozen script and checkpoint its hashes before recording.",
+  "manuscript": {
+    "status": "draft",
+    "revision": "Draft 3",
+    "commit": "62259f7ab41879c71255febdea03794e01f56133",
+    "path": "stories/series/elsewhere/reboot-2026/episodes/episode-002/script.md",
+    "git_blob_sha": "4c5b0b8e47e2307e211822ec7cb3d06ff27676f1"
+  },
+  "checkpoint": {
+    "frozen_script_sha256": null,
+    "manifest_sha256": null,
+    "soundscape_sha256": null,
+    "qa_sha256": null,
+    "master_sha256": null,
+    "private_artifacts": [],
+    "open_cue_ids": []
+  },
+  "release": {
+    "status": "blocked",
+    "listening_review": "pending",
+    "owner_approval_reference": null,
+    "published": false
+  }
+}
