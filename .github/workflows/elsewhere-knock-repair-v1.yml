@@ -1,0 +1,84 @@
+name: Elsewhere E1 complete-utterance repair audition
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths: ['.github/workflows/elsewhere-knock-repair-v1.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: elsewhere-reboot-2026
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/knock-repair-v1-takes.json
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/clean-phrases-v2/elsewhere-ep1-clean-complete-phrases-v2.mp3
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: |
+          sudo apt-get install -y ffmpeg
+          pip install pydub
+      - name: Build only a test scene with intact utterance candidates
+        run: |
+          python - <<'PY'
+          import json, math, urllib.request
+          from pathlib import Path
+          from pydub import AudioSegment
+          from pydub.silence import detect_nonsilent
+          root=Path('stories/series/elsewhere/reboot-2026/episodes/episode-001')
+          manifest=json.loads((root/'knock-repair-v1-takes.json').read_text())
+          out=root/'audio'/'knock-repair-v1'
+          out.mkdir(parents=True,exist_ok=True)
+          dry=AudioSegment.from_file(root/'audio/clean-phrases-v2/elsewhere-ep1-clean-complete-phrases-v2.mp3').set_channels(1).set_frame_rate(44100)
+          start,end=1074029,1206843
+          scene=dry[start:end]
+          report=[]
+          for t in manifest['takes']:
+              src=Path('/tmp')/(t['id']+'.wav')
+              urllib.request.urlretrieve(t['url'],src)
+              raw=AudioSegment.from_file(src).set_channels(1).set_frame_rate(44100)
+              take=raw
+              boundary=None
+              if t['repeatCount']>1:
+                  # Never split a voiced region. Only consider a quiet gap between complete utterances.
+                  regions=detect_nonsilent(raw,min_silence_len=95,silence_thresh=max(-48,raw.max_dBFS-38),seek_step=2)
+                  if len(regions)<2: raise RuntimeError('No safe silence boundary '+t['id'])
+                  first,last=regions[0][0],regions[-1][1]
+                  target=first+(last-first)/t['repeatCount']
+                  candidates=[]
+                  for (_,a),(b,_) in zip(regions,regions[1:]):
+                      cut=(a+b)//2
+                      if a-first>=120 and b-a>=95 and abs(cut-target)<=max(170,(last-first)*.18):
+                          candidates.append((abs(cut-target),cut,a,b))
+                  if not candidates: raise RuntimeError('No complete-utterance boundary near expected repetition '+t['id'])
+                  _,boundary,a,b=min(candidates)
+                  take=raw[:boundary]
+                  assert b-a>=95
+              take.export(out/(t['id']+'-candidate.mp3'),format='mp3',bitrate='128k')
+              a=round(t['oldStart']*1000)-start
+              b=round(t['oldEnd']*1000)-start
+              slot=b-a
+              if len(take)>slot: raise RuntimeError('Intact candidate exceeds original cue window '+t['id'])
+              take=take.apply_gain(20*math.log10(t['gain']))
+              # Pad with silence, do not stretch, trim, or change the pitch.
+              padded=take+AudioSegment.silent(duration=slot-len(take),frame_rate=44100)
+              assert abs(len(padded)-slot)<=1
+              scene=scene[:a]+padded+scene[b:]
+              report.append({'id':t['id'],'expected':t['text'],'raw_ms':len(raw),'candidate_ms':len(take),'quiet_boundary_ms':boundary,'slot_ms':slot,'status':'requires independent ASR and listener check'})
+          scene.export(out/'the-knock-repair-preview.mp3',format='mp3',bitrate='160k')
+          (out/'repair-audit.json').write_text(json.dumps({'status':'unpublished audition only','original_scene_start_seconds':start/1000,'original_scene_end_seconds':end/1000,'replacements':report},indent=2))
+          PY
+      - name: Store audition on production branch only
+        run: |
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/knock-repair-v1"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Save isolated The Knock repaired-utterance audition for verification"
+          git push origin HEAD:elsewhere-reboot-2026
