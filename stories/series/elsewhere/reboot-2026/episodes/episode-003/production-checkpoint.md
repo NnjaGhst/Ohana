@@ -1,11 +1,17 @@
 # Elsewhere Episode 3 — The Night Between Them
 
-Status: manuscript approved for production. Review copy pending. Publication requires separate approval.
+Status: audio mix assembled for private review. Illustration review in progress. Publication requires separate approval.
 
-- Manuscript: `script.md`, blob `9ff7c45156e2b217c34d479cd4bdb478ecbdbb19`.
-- Wade for narration and Hex at 100%; Hallie for Ninja at 90%; all marked thoughts at 80% absolute gain. Preserve native pitch and speed. Keep survival thoughts controlled and human thoughts vulnerable.
-- Retain Craig for the bartender and confirm the established variant from Episode 2 production records. Resolve Elias before recording his two lines.
-- Record by voice in larger batches with timestamps. Strip headings, role tags, and production notes from spoken text. Reassemble in manuscript order and check spoken joins once, focusing on audible problems.
-- Mix scene ambience underneath the voices. Keep the last knock unresolved and end without a teaser or an identifying cue.
-- Time one scene illustration per five minutes against the assembled audio. Use original reference photos for any featured faces.
-- Save raw batches and a review MP3 outside the live release. Use existing HeyGen allowance only. Keep Ohana and other episodes untouched.
+- Approved manuscript: `script.md`, blob `9ff7c45156e2b217c34d479cd4bdb478ecbdbb19`.
+- Ten HeyGen batches carry all voiced cues. Wade narrates and voices Hex at 100%. Hallie voices Ninja at 90%. All explicit thoughts are at 80% absolute gain. Native pitch and speed. Craig (Warm & Approachable) reprises the bartender and Roderic (Authoritative & Refined) plays Elias.
+- Mix runs 26:59, with low scene ambience and an unresolved final knock. Original recordings and timing maps are in the lossless checkpoints below. The first archive contains the resume notes.
+
+## Private files
+
+- `Elsewhere_E03_Recording_Checkpoint_1.zip` · `libfile_5037c5fa74d4819187433ae539085432` · version 0
+- `Elsewhere_E03_Recording_Checkpoint_2.zip` · `libfile_13d98a1799e881919726729184aaeab9` · version 0
+- `Elsewhere_E03_The_Night_Between_Them_Review.mp3` · `libfile_04fedb81f4848191837b9fbb32f399cc` · version 0
+
+## Next
+
+Finish reviewing the six scene illustrations and place them at their audio beats. Finalize the approval bundle. No publication or site change in this branch.
