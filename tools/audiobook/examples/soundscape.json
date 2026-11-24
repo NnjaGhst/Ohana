@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "stem": "environment", "cue_id": "rain-001", "offset_seconds": 0,
+      "duration": 2.0, "gain": 0.015, "rights": "original", "speech_free": true,
+      "file": "effects/rain.wav", "sha256": "<source SHA-256>"
+    },
+    {
+      "stem": "foley", "cue_id": "rain-002", "offset_seconds": 0.25,
+      "duration": 0.5, "gain": 0.03, "rights": "licensed", "speech_free": true,
+      "file": "effects/cloth.wav", "sha256": "<source SHA-256>"
+    }
+  ]
+}

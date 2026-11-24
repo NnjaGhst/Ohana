@@ -1,0 +1,27 @@
+name: Audiobook production acceptance
+
+on:
+  pull_request:
+    paths:
+      - 'tools/audiobook/**'
+      - '.github/workflows/audiobook-production.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  acceptance:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: tools/audiobook
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: python -m pip install 'numpy>=1.26,<3'
+      - run: python -m unittest discover -s tools/audiobook -v

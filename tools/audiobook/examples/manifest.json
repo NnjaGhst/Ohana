@@ -1,0 +1,30 @@
+{
+  "script": {
+    "file": "script.json",
+    "sha256": "fc866399b683744a9b6b50b71a14ff75c64e39a60bbd484d5e8760ec90d0c783"
+  },
+  "takes": [
+    {
+      "id": "take-1",
+      "cue_id": "rain-001",
+      "status": "approved",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "file": "takes/hex.wav",
+      "duration": 2.0,
+      "pitch": 1,
+      "speed": 1,
+      "sha256": "<source SHA-256>"
+    },
+    {
+      "id": "take-2",
+      "cue_id": "rain-002",
+      "status": "approved",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "file": "takes/ninja.wav",
+      "duration": 2.0,
+      "pitch": 1,
+      "speed": 1,
+      "sha256": "<source SHA-256>"
+    }
+  ]
+}
