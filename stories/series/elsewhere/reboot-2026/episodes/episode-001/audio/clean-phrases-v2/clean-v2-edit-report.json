@@ -1,0 +1,3466 @@
+{
+  "status": "unpublished-qa-preview",
+  "method": "fresh full uncut per-phrase TTS, previously approved club",
+  "dialogue_cuts": 0,
+  "timestamp_cuts": 0,
+  "source_clip_cropping": 0,
+  "audio_change_within_words": 0,
+  "pre_club_cues": 230,
+  "pre_club_recording_count": 234,
+  "existing_club_unmodified": true,
+  "club_cues": 18,
+  "duration_seconds": 2125.076,
+  "full_preview_bytes": 42502835,
+  "club_start_seconds": 1892.918,
+  "previous_sliced_master_reused": false,
+  "cast": {
+    "narrator": "Wade",
+    "ninja": "Hallie",
+    "cassian": "Clay",
+    "ada": "Kendall"
+  },
+  "ninja_dialogue_gain": 0.9,
+  "ninja_thought_gain": 0.8,
+  "scenes": {
+    "The Road to Bellwether": {
+      "start": 0.22,
+      "end": 152.002,
+      "count": 15
+    },
+    "Before There Were Secrets": {
+      "start": 152.662,
+      "end": 438.19,
+      "count": 52
+    },
+    "The Person Who Stayed": {
+      "start": 438.85,
+      "end": 610.989,
+      "count": 23
+    },
+    "The Money He Didn't Explain": {
+      "start": 611.649,
+      "end": 937.609,
+      "count": 52
+    },
+    "The Last Ordinary Evening": {
+      "start": 938.269,
+      "end": 1073.449,
+      "count": 25
+    },
+    "The Knock": {
+      "start": 1074.109,
+      "end": 1206.763,
+      "count": 21
+    },
+    "A House Full of Missing Things": {
+      "start": 1207.423,
+      "end": 1432.428,
+      "count": 19
+    },
+    "The Apartment That Still Had His Name": {
+      "start": 1433.088,
+      "end": 1816.436,
+      "count": 17
+    },
+    "Somewhere Else": {
+      "start": 1817.096,
+      "end": 1892.238,
+      "count": 6
+    },
+    "The Crooked Lantern": {
+      "start": 1893.098,
+      "end": 2124.656,
+      "count": 18
+    }
+  },
+  "previews": [
+    {
+      "file": "opening-and-childhood-clean.mp3",
+      "start": 0,
+      "end": 390,
+      "bytes": 6241009
+    },
+    {
+      "file": "last-evening-and-news-clean.mp3",
+      "start": 938.27,
+      "end": 1245.42,
+      "bytes": 4915661
+    },
+    {
+      "file": "crooked-lantern-clean.mp3",
+      "start": 1892.92,
+      "end": 2125.08,
+      "bytes": 3715700
+    }
+  ],
+  "timeline": [
+    {
+      "id": "line-001",
+      "run_id": 0,
+      "actor": "narrator",
+      "section": "The Road to Bellwether",
+      "start": 0.22,
+      "end": 22.912,
+      "text": "By the time Ninja reached Bellwether, the rain had settled into the kind of steady drizzle that didn't feel dramatic enough to deserve a weather warning. It simply got into everything. The hills around the village disappeared and reappeared behind the mist. Old stone walls followed the narrow road between fields. An elderly sheep watched her car pass with an expression of deep personal disappointment.",
+      "source_paragraphs": [
+        2,
+        3,
+        4
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-002",
+      "run_id": 1,
+      "actor": "ninja",
+      "section": "The Road to Bellwether",
+      "start": 23.402,
+      "end": 25.181,
+      "text": "Yeah, you and me both.",
+      "source_paragraphs": [
+        5
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-003",
+      "run_id": 2,
+      "actor": "narrator",
+      "section": "The Road to Bellwether",
+      "start": 25.671,
+      "end": 52.556,
+      "text": "She had been driving for hours, with two bags in the back, one paperback on the passenger seat, and a cardboard box she hadn't managed to put away. The box held a chipped blue mug, a packet of photographs, and a key that no longer opened anything she owned. At the village entrance, a weathered wooden sign announced BELLWETHER \u2014 WELCOME. She almost laughed. It was such an innocent word. Welcome. As though arriving somewhere was the difficult part.",
+      "source_paragraphs": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-004",
+      "run_id": 3,
+      "actor": "narrator",
+      "section": "The Road to Bellwether",
+      "start": 52.816,
+      "end": 61.126,
+      "text": "She found the building above the bakery on her second attempt. The owner, a woman called Ada, opened the door before Ninja had managed to ring the bell.",
+      "source_paragraphs": [
+        10
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-005",
+      "run_id": 4,
+      "actor": "ada",
+      "section": "The Road to Bellwether",
+      "start": 61.616,
+      "end": 63.437,
+      "text": "You must be the new guest.",
+      "source_paragraphs": [
+        11
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-006",
+      "run_id": 5,
+      "actor": "ninja",
+      "section": "The Road to Bellwether",
+      "start": 63.927,
+      "end": 66.919,
+      "text": "That depends. Does the room have a bed?",
+      "source_paragraphs": [
+        12
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-007",
+      "run_id": 6,
+      "actor": "ada",
+      "section": "The Road to Bellwether",
+      "start": 67.409,
+      "end": 68.48,
+      "text": "Usually.",
+      "source_paragraphs": [
+        13
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-008",
+      "run_id": 7,
+      "actor": "ninja",
+      "section": "The Road to Bellwether",
+      "start": 68.97,
+      "end": 71.099,
+      "text": "Then yes. Definitely me.",
+      "source_paragraphs": [
+        14
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-009",
+      "run_id": 8,
+      "actor": "narrator",
+      "section": "The Road to Bellwether",
+      "start": 71.589,
+      "end": 88.588,
+      "text": "Ada gave her an assessing look, but it wasn't the look Ninja had grown accustomed to. No careful lowering of the eyes. No flicker of recognition at a surname. No searching her face for evidence of whether today was a good day to mention her brother. Just a woman in a cardigan holding a door.",
+      "source_paragraphs": [
+        15,
+        16
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-010",
+      "run_id": 9,
+      "actor": "ada",
+      "section": "The Road to Bellwether",
+      "start": 89.078,
+      "end": 96.285,
+      "text": "Upstairs, then. You'll find the kettle by the window. Mind the third step. It makes a noise like a dying goose.",
+      "source_paragraphs": [
+        17
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-011",
+      "run_id": 10,
+      "actor": "ninja",
+      "section": "The Road to Bellwether",
+      "start": 96.775,
+      "end": 98.35,
+      "text": "I've lived with worse.",
+      "source_paragraphs": [
+        18
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-012",
+      "run_id": 11,
+      "actor": "ada",
+      "section": "The Road to Bellwether",
+      "start": 98.84,
+      "end": 100.425,
+      "text": "Oh, haven't we all.",
+      "source_paragraphs": [
+        19
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-013",
+      "run_id": 12,
+      "actor": "narrator",
+      "section": "The Road to Bellwether",
+      "start": 100.915,
+      "end": 131.828,
+      "text": "Ninja carried her bags up. The room was small, clean, and slightly crooked. A quilt covered the bed. The window looked over a wet street with a florist, a repair shop, and the dark-red door of a pub at the far corner. She placed her things down. She didn't unpack. Not her clothes, not the box, not even the phone charger. Unpacking made a place feel like a decision. Right now, the best she could manage was an address. She pulled on her black jacket, checked the room key twice, and went back out.",
+      "source_paragraphs": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-014",
+      "run_id": 12,
+      "actor": "narrator",
+      "section": "The Road to Bellwether",
+      "start": 132.088,
+      "end": 138.529,
+      "text": "Unfamiliar silence had a habit of bringing familiar voices with it. And hers already sounded like Cassian's.",
+      "source_paragraphs": [
+        25,
+        26
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-015",
+      "run_id": 13,
+      "actor": "ninja_thought",
+      "section": "The Road to Bellwether",
+      "start": 139.049,
+      "end": 152.002,
+      "text": "If I unpack, it means I'm staying. If I stay, somebody will eventually ask why I came. And what am I supposed to tell them? That I drove halfway across the country because every street back home still knows his name?",
+      "source_paragraphs": [
+        28
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-016",
+      "run_id": 14,
+      "actor": "narrator",
+      "section": "Before There Were Secrets",
+      "start": 152.662,
+      "end": 178.908,
+      "text": "The first time Cassian taught her to throw a punch, Ninja was eight years old. It happened behind the building where they lived, on a patch of cracked concrete that somebody optimistically called a courtyard. She had come home with blood on her knee, dirt on her sleeve, and the fierce conviction that she had won an argument with a boy twice her size. Cassian, thirteen and already wearing the tired expression of somebody responsible for too many things, sat her on the bottom step.",
+      "source_paragraphs": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-017",
+      "run_id": 15,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 179.398,
+      "end": 180.812,
+      "text": "Tell me what happened.",
+      "source_paragraphs": [
+        35
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-018",
+      "run_id": 16,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 181.302,
+      "end": 183.23,
+      "text": "He was being an idiot.",
+      "source_paragraphs": [
+        36
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-019",
+      "run_id": 17,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 183.72,
+      "end": 186.41,
+      "text": "That's a condition, not an explanation.",
+      "source_paragraphs": [
+        37
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-020",
+      "run_id": 18,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 186.9,
+      "end": 188.145,
+      "text": "He took my bag.",
+      "source_paragraphs": [
+        38
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-021",
+      "run_id": 19,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 188.635,
+      "end": 189.489,
+      "text": "And you?",
+      "source_paragraphs": [
+        39
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-022",
+      "run_id": 20,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 189.979,
+      "end": 191.286,
+      "text": "I took it back.",
+      "source_paragraphs": [
+        40
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-023",
+      "run_id": 21,
+      "actor": "narrator",
+      "section": "Before There Were Secrets",
+      "start": 191.776,
+      "end": 194.942,
+      "text": "Cassian glanced at the split skin on her knuckles.",
+      "source_paragraphs": [
+        41
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-024",
+      "run_id": 22,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 195.432,
+      "end": 196.518,
+      "text": "With your face?",
+      "source_paragraphs": [
+        42
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-025",
+      "run_id": 23,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 197.008,
+      "end": 197.979,
+      "text": "Shut up.",
+      "source_paragraphs": [
+        43
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-026",
+      "run_id": 24,
+      "actor": "narrator",
+      "section": "Before There Were Secrets",
+      "start": 198.469,
+      "end": 210.165,
+      "text": "He laughed, despite trying not to. Then he cleaned her knee with water from a bottle, tearing a strip from an old cloth when they ran out of proper bandages. She hissed when the cold water touched the scrape.",
+      "source_paragraphs": [
+        44,
+        45
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-027",
+      "run_id": 25,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 210.655,
+      "end": 212.345,
+      "text": "Hold still, menace.",
+      "source_paragraphs": [
+        46
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-028",
+      "run_id": 26,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 212.835,
+      "end": 214.626,
+      "text": "You're pulling my leg off.",
+      "source_paragraphs": [
+        47
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-029",
+      "run_id": 27,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 215.116,
+      "end": 218.492,
+      "text": "Yes. That's the treatment. All doctors do it.",
+      "source_paragraphs": [
+        48
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-030",
+      "run_id": 28,
+      "actor": "narrator",
+      "section": "Before There Were Secrets",
+      "start": 218.982,
+      "end": 222.996,
+      "text": "When he was done, he crouched in front of her and held out his hands.",
+      "source_paragraphs": [
+        49
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-031",
+      "run_id": 29,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 223.486,
+      "end": 230.825,
+      "text": "Okay. Here's the important part. If somebody bigger than you starts trouble, you don't have to stand there and prove you're fearless.",
+      "source_paragraphs": [
+        50
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-032",
+      "run_id": 30,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 231.315,
+      "end": 232.604,
+      "text": "I wasn't scared.",
+      "source_paragraphs": [
+        51
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-033",
+      "run_id": 31,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 233.094,
+      "end": 236.22,
+      "text": "Then you should've been. Fear can be useful.",
+      "source_paragraphs": [
+        52
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-034",
+      "run_id": 32,
+      "actor": "narrator",
+      "section": "Before There Were Secrets",
+      "start": 236.71,
+      "end": 240.462,
+      "text": "She hated that answer. Cassian tilted his head.",
+      "source_paragraphs": [
+        53,
+        54
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-035",
+      "run_id": 33,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 240.952,
+      "end": 245.349,
+      "text": "Look at me. Nin. Being brave isn't the same as being stupid.",
+      "source_paragraphs": [
+        55
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-036",
+      "run_id": 34,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 245.839,
+      "end": 246.998,
+      "text": "You're stupid.",
+      "source_paragraphs": [
+        56
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-037",
+      "run_id": 35,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 247.488,
+      "end": 250.74,
+      "text": "Frequently. That's how I've gathered all this wisdom.",
+      "source_paragraphs": [
+        57
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-038",
+      "run_id": 36,
+      "actor": "narrator",
+      "section": "Before There Were Secrets",
+      "start": 251.23,
+      "end": 260.383,
+      "text": "He showed her how to stand with her feet steady and how to move away from someone trying to grab her. He made her practise until she stopped trying to win and started paying attention.",
+      "source_paragraphs": [
+        58
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-039",
+      "run_id": 37,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 260.873,
+      "end": 261.815,
+      "text": "Good.",
+      "source_paragraphs": [
+        59
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-040",
+      "run_id": 38,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 262.305,
+      "end": 263.753,
+      "text": "Can I punch you now?",
+      "source_paragraphs": [
+        60
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-041",
+      "run_id": 39,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 264.243,
+      "end": 265.573,
+      "text": "Absolutely not.",
+      "source_paragraphs": [
+        61
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-042",
+      "run_id": 40,
+      "actor": "narrator",
+      "section": "Before There Were Secrets",
+      "start": 266.063,
+      "end": 289.495,
+      "text": "She punched his arm anyway. He looked gravely offended. That evening they ate toast for dinner because the cupboards were nearly empty. Cassian put the better-looking pieces on her plate and insisted he preferred the burnt ones. Years later, she would remember that lie more clearly than almost anything he ever taught her. On her tenth birthday he came home with a supermarket cake in a cardboard box and a candle shaped like the number seven.",
+      "source_paragraphs": [
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-043",
+      "run_id": 41,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 289.985,
+      "end": 291.573,
+      "text": "That's not my age.",
+      "source_paragraphs": [
+        67
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-044",
+      "run_id": 42,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 292.063,
+      "end": 295.156,
+      "text": "That's because you're a very advanced seven-year-old.",
+      "source_paragraphs": [
+        68
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-045",
+      "run_id": 43,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 295.646,
+      "end": 296.59,
+      "text": "I'm ten.",
+      "source_paragraphs": [
+        69
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-046",
+      "run_id": 44,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 297.08,
+      "end": 300.892,
+      "text": "Then you're an extremely immature ten-year-old. Blow it out.",
+      "source_paragraphs": [
+        70
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-047",
+      "run_id": 45,
+      "actor": "narrator",
+      "section": "Before There Were Secrets",
+      "start": 301.382,
+      "end": 316.419,
+      "text": "He'd earned the money washing windows and had forgotten the candle until the shop was closing. She knew that much because his hands smelled of cleaning fluid. She also knew he hadn't eaten lunch. She divided the cake into two uneven pieces and pushed the larger one toward him.",
+      "source_paragraphs": [
+        71,
+        72
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-048",
+      "run_id": 46,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 316.909,
+      "end": 319.472,
+      "text": "Birthday law. You get the big piece.",
+      "source_paragraphs": [
+        73
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-049",
+      "run_id": 47,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 319.962,
+      "end": 322.12,
+      "text": "My birthday. My rules.",
+      "source_paragraphs": [
+        74
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-050",
+      "run_id": 48,
+      "actor": "narrator",
+      "section": "Before There Were Secrets",
+      "start": 322.61,
+      "end": 325.146,
+      "text": "He looked at the piece, then at her.",
+      "source_paragraphs": [
+        75
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-051",
+      "run_id": 49,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 325.636,
+      "end": 328.373,
+      "text": "You're becoming dangerously difficult.",
+      "source_paragraphs": [
+        76
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-052",
+      "run_id": 50,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 328.863,
+      "end": 329.979,
+      "text": "Good teacher.",
+      "source_paragraphs": [
+        77
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-053",
+      "run_id": 51,
+      "actor": "narrator",
+      "section": "Before There Were Secrets",
+      "start": 330.469,
+      "end": 350.615,
+      "text": "He bowed his head in mock defeat. There was no party. Nobody remembered to put music on. But Cassian sang so badly that the neighbor banged on the wall, and she laughed until she nearly fell off her chair. For years afterward, when a birthday felt disappointing, he'd remind her they still had the record for the most complaints during a single birthday song.",
+      "source_paragraphs": [
+        78,
+        79
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-054",
+      "run_id": 51,
+      "actor": "narrator",
+      "section": "Before There Were Secrets",
+      "start": 350.875,
+      "end": 379.388,
+      "text": "Their home wasn't always dangerous. Sometimes somebody cooked and the radio played old songs. Other nights, voices came through the walls and doors slammed hard enough to rattle the glasses. Ninja learned to listen for footsteps. Cassian learned to turn up the television and invent a game whenever the footsteps became too loud. On one particular night, when she was eleven and he was sixteen, the house finally went quiet long after midnight. She found him sitting on the floor outside her bedroom.",
+      "source_paragraphs": [
+        80,
+        81,
+        82,
+        83
+      ],
+      "part_count": 3
+    },
+    {
+      "id": "line-055",
+      "run_id": 52,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 379.878,
+      "end": 381.269,
+      "text": "Why are you out here?",
+      "source_paragraphs": [
+        84
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-056",
+      "run_id": 53,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 381.759,
+      "end": 382.666,
+      "text": "Guard duty.",
+      "source_paragraphs": [
+        85
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-057",
+      "run_id": 54,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 383.156,
+      "end": 384.164,
+      "text": "From what?",
+      "source_paragraphs": [
+        86
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-058",
+      "run_id": 55,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 384.654,
+      "end": 387.304,
+      "text": "Spiders. Very serious threat.",
+      "source_paragraphs": [
+        87
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-059",
+      "run_id": 56,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 387.794,
+      "end": 389.717,
+      "text": "There aren't any spiders.",
+      "source_paragraphs": [
+        88
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-060",
+      "run_id": 57,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 390.207,
+      "end": 392.02,
+      "text": "Exactly. You're welcome.",
+      "source_paragraphs": [
+        89
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-061",
+      "run_id": 58,
+      "actor": "narrator",
+      "section": "Before There Were Secrets",
+      "start": 392.51,
+      "end": 400.115,
+      "text": "She sat beside him. They said nothing for a while. Eventually she leaned against his shoulder, and he rested his cheek on her head.",
+      "source_paragraphs": [
+        90,
+        91
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-062",
+      "run_id": 59,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 400.605,
+      "end": 405.349,
+      "text": "One day, we're going to have a place with doors that only slam when we want them to.",
+      "source_paragraphs": [
+        92
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-063",
+      "run_id": 60,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 405.839,
+      "end": 408.147,
+      "text": "Why would we want them to slam?",
+      "source_paragraphs": [
+        93
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-064",
+      "run_id": 61,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 408.637,
+      "end": 410.963,
+      "text": "Because you'll be annoyed with me.",
+      "source_paragraphs": [
+        94
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-065",
+      "run_id": 62,
+      "actor": "ninja",
+      "section": "Before There Were Secrets",
+      "start": 411.453,
+      "end": 413.399,
+      "text": "I'm already annoyed with you.",
+      "source_paragraphs": [
+        95
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-066",
+      "run_id": 63,
+      "actor": "cassian",
+      "section": "Before There Were Secrets",
+      "start": 413.889,
+      "end": 416.661,
+      "text": "See? We've got a promising future.",
+      "source_paragraphs": [
+        96
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-067",
+      "run_id": 64,
+      "actor": "narrator",
+      "section": "Before There Were Secrets",
+      "start": 417.151,
+      "end": 438.19,
+      "text": "She slept easier that night. Not because the world had become safe, but because someone had stayed outside the door. Cassian wasn't an angel. He forgot appointments. He borrowed things and returned them in odd places. He could turn a five-minute errand into a two-hour adventure, usually involving somebody's broken car and an extremely unconvincing explanation.",
+      "source_paragraphs": [
+        97,
+        98,
+        100,
+        101
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-068",
+      "run_id": 64,
+      "actor": "narrator",
+      "section": "The Person Who Stayed",
+      "start": 438.85,
+      "end": 456.024,
+      "text": "When Ninja was fifteen, he forgot the afternoon they'd planned to see a film together. She waited at the cinema entrance for forty minutes before walking home alone. He arrived later, wet from rain, carrying two paper bags of takeaway and a look that was halfway between guilt and fear of what she'd do to him.",
+      "source_paragraphs": [
+        102,
+        103
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-069",
+      "run_id": 65,
+      "actor": "cassian",
+      "section": "The Person Who Stayed",
+      "start": 456.514,
+      "end": 457.433,
+      "text": "I know.",
+      "source_paragraphs": [
+        104
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-070",
+      "run_id": 66,
+      "actor": "ninja",
+      "section": "The Person Who Stayed",
+      "start": 457.923,
+      "end": 460.567,
+      "text": "Wonderful. Saves me explaining.",
+      "source_paragraphs": [
+        105
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-071",
+      "run_id": 67,
+      "actor": "cassian",
+      "section": "The Person Who Stayed",
+      "start": 461.057,
+      "end": 462.923,
+      "text": "The van at work broke down.",
+      "source_paragraphs": [
+        106
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-072",
+      "run_id": 68,
+      "actor": "ninja",
+      "section": "The Person Who Stayed",
+      "start": 463.413,
+      "end": 465.511,
+      "text": "Did the van also break your phone?",
+      "source_paragraphs": [
+        107
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-073",
+      "run_id": 69,
+      "actor": "cassian",
+      "section": "The Person Who Stayed",
+      "start": 466.001,
+      "end": 468.645,
+      "text": "No. That was me being an idiot.",
+      "source_paragraphs": [
+        108
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-074",
+      "run_id": 70,
+      "actor": "ninja",
+      "section": "The Person Who Stayed",
+      "start": 469.135,
+      "end": 471.386,
+      "text": "Finally, a diagnosis.",
+      "source_paragraphs": [
+        109
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-075",
+      "run_id": 71,
+      "actor": "narrator",
+      "section": "The Person Who Stayed",
+      "start": 471.876,
+      "end": 473.567,
+      "text": "He put the bags on the table.",
+      "source_paragraphs": [
+        110
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-076",
+      "run_id": 72,
+      "actor": "cassian",
+      "section": "The Person Who Stayed",
+      "start": 474.057,
+      "end": 475.808,
+      "text": "I was wrong. I'm sorry.",
+      "source_paragraphs": [
+        111
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-077",
+      "run_id": 73,
+      "actor": "narrator",
+      "section": "The Person Who Stayed",
+      "start": 476.298,
+      "end": 482.281,
+      "text": "Ninja held on to her anger for another few seconds, mostly out of principle. Then she opened the bag.",
+      "source_paragraphs": [
+        112,
+        113
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-078",
+      "run_id": 74,
+      "actor": "ninja",
+      "section": "The Person Who Stayed",
+      "start": 482.771,
+      "end": 484.333,
+      "text": "Did you get extra chips?",
+      "source_paragraphs": [
+        114
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-079",
+      "run_id": 75,
+      "actor": "cassian",
+      "section": "The Person Who Stayed",
+      "start": 484.823,
+      "end": 486.257,
+      "text": "Do I look suicidal?",
+      "source_paragraphs": [
+        115
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-080",
+      "run_id": 76,
+      "actor": "narrator",
+      "section": "The Person Who Stayed",
+      "start": 486.747,
+      "end": 508.15,
+      "text": "She tried not to smile. He saw it anyway. As they grew older, Ninja started taking care of him, too: saving him dinner, warning him when people took advantage, and occasionally dragging him out of trouble. One evening he came home exhausted and collapsed on the sofa. She put on a dreadful action film they'd seen a dozen times. Halfway through, he opened one eye.",
+      "source_paragraphs": [
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-081",
+      "run_id": 77,
+      "actor": "cassian",
+      "section": "The Person Who Stayed",
+      "start": 508.64,
+      "end": 511.175,
+      "text": "Didn't we agree this movie was terrible?",
+      "source_paragraphs": [
+        121
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-082",
+      "run_id": 78,
+      "actor": "ninja",
+      "section": "The Person Who Stayed",
+      "start": 511.665,
+      "end": 513.281,
+      "text": "Yes.",
+      "source_paragraphs": [
+        122
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-083",
+      "run_id": 79,
+      "actor": "cassian",
+      "section": "The Person Who Stayed",
+      "start": 513.771,
+      "end": 515.059,
+      "text": "Why are we watching it?",
+      "source_paragraphs": [
+        123
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-084",
+      "run_id": 80,
+      "actor": "ninja",
+      "section": "The Person Who Stayed",
+      "start": 515.549,
+      "end": 517.314,
+      "text": "Because you know how it ends.",
+      "source_paragraphs": [
+        124
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-085",
+      "run_id": 81,
+      "actor": "narrator",
+      "section": "The Person Who Stayed",
+      "start": 517.804,
+      "end": 545.637,
+      "text": "He was quiet for a moment. Then he reached down and squeezed her shoulder. That was how they understood each other. Not through grand speeches or permanent agreement. Through the mundane evidence of being there. A second mug made without asking. A text when someone got home. The comfortable insult that meant, I'm happy you're alive. Ninja believed there would always be someone who could turn the worst day into something survivable. She'd built her idea of home around that belief.",
+      "source_paragraphs": [
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-086",
+      "run_id": 81,
+      "actor": "narrator",
+      "section": "The Person Who Stayed",
+      "start": 545.897,
+      "end": 556.088,
+      "text": "Sometimes, when Ninja worked the late shift, Cassian met her at the bus stop. She always claimed she hadn't asked him to. He always replied that he was waiting for the bus himself.",
+      "source_paragraphs": [
+        133
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-087",
+      "run_id": 82,
+      "actor": "ninja",
+      "section": "The Person Who Stayed",
+      "start": 556.578,
+      "end": 559.779,
+      "text": "At midnight? You don't even take this route.",
+      "source_paragraphs": [
+        134
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-088",
+      "run_id": 83,
+      "actor": "cassian",
+      "section": "The Person Who Stayed",
+      "start": 560.269,
+      "end": 563.574,
+      "text": "Maybe I've developed an interest in public transport.",
+      "source_paragraphs": [
+        135
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-089",
+      "run_id": 84,
+      "actor": "narrator",
+      "section": "The Person Who Stayed",
+      "start": 564.064,
+      "end": 589.504,
+      "text": "She'd walk beside him under the streetlights, telling him about difficult customers and coworkers who treated the coffee machine like a complicated medical procedure. He'd listen, ask just enough questions to prove it, and occasionally threaten to buy a more competent coffee machine himself. Once, when she had a terrible week and couldn't decide whether to laugh or scream, he brought her a packet of biscuits and sat beside her on the curb until she could breathe normally.",
+      "source_paragraphs": [
+        136,
+        137
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-090",
+      "run_id": 84,
+      "actor": "narrator",
+      "section": "The Person Who Stayed",
+      "start": 589.764,
+      "end": 610.989,
+      "text": "He didn't demand a story. He was good at that. She never realized that eventually he would need someone to sit beside him in the same way\u2014and that he'd become too frightened to ask. The changes in Cassian began small enough to make excuses for. A shift that ran long. An unfamiliar car outside the apartment. His phone lighting up at dinner and his smile disappearing before he answered.",
+      "source_paragraphs": [
+        138,
+        139,
+        141,
+        142
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-091",
+      "run_id": 84,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 611.649,
+      "end": 633.13,
+      "text": "He was in his twenties by then, and Ninja had her own life, her own work, her own habits. They didn't account for every hour of each other's days. Still, she knew the difference between ordinary tiredness and the kind of tiredness that made somebody listen to the hallway before opening the door. One evening he came over with groceries and left a thick envelope on her kitchen counter.",
+      "source_paragraphs": [
+        143,
+        144,
+        145
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-092",
+      "run_id": 85,
+      "actor": "ninja",
+      "section": "The Money He Didn't Explain",
+      "start": 633.62,
+      "end": 634.797,
+      "text": "What's that?",
+      "source_paragraphs": [
+        146
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-093",
+      "run_id": 86,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 635.287,
+      "end": 637.282,
+      "text": "Rent. And a bit extra.",
+      "source_paragraphs": [
+        147
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-094",
+      "run_id": 87,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 637.772,
+      "end": 638.968,
+      "text": "She looked at him.",
+      "source_paragraphs": [
+        148
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-095",
+      "run_id": 88,
+      "actor": "ninja",
+      "section": "The Money He Didn't Explain",
+      "start": 639.458,
+      "end": 641.245,
+      "text": "I pay my own rent.",
+      "source_paragraphs": [
+        149
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-096",
+      "run_id": 89,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 641.735,
+      "end": 642.449,
+      "text": "I know.",
+      "source_paragraphs": [
+        150
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-097",
+      "run_id": 90,
+      "actor": "ninja",
+      "section": "The Money He Didn't Explain",
+      "start": 642.939,
+      "end": 644.706,
+      "text": "Then why are you paying it?",
+      "source_paragraphs": [
+        151
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-098",
+      "run_id": 91,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 645.196,
+      "end": 651.452,
+      "text": "Because you spent half your childhood eating the worst toast ever made, and I'd like to correct the historical record.",
+      "source_paragraphs": [
+        152
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-099",
+      "run_id": 92,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 651.942,
+      "end": 654.013,
+      "text": "She didn't touch the envelope.",
+      "source_paragraphs": [
+        153
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-100",
+      "run_id": 93,
+      "actor": "ninja",
+      "section": "The Money He Didn't Explain",
+      "start": 654.503,
+      "end": 655.477,
+      "text": "Cass.",
+      "source_paragraphs": [
+        154
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-101",
+      "run_id": 94,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 655.967,
+      "end": 656.792,
+      "text": "Nin.",
+      "source_paragraphs": [
+        155
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-102",
+      "run_id": 95,
+      "actor": "ninja",
+      "section": "The Money He Didn't Explain",
+      "start": 657.282,
+      "end": 658.762,
+      "text": "Where did it come from?",
+      "source_paragraphs": [
+        156
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-103",
+      "run_id": 96,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 659.252,
+      "end": 660.806,
+      "text": "Work.",
+      "source_paragraphs": [
+        157
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-104",
+      "run_id": 97,
+      "actor": "ninja",
+      "section": "The Money He Didn't Explain",
+      "start": 661.296,
+      "end": 662.347,
+      "text": "What work?",
+      "source_paragraphs": [
+        158
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-105",
+      "run_id": 98,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 662.837,
+      "end": 664.236,
+      "text": "The boring kind.",
+      "source_paragraphs": [
+        159
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-106",
+      "run_id": 99,
+      "actor": "ninja",
+      "section": "The Money He Didn't Explain",
+      "start": 664.726,
+      "end": 669.204,
+      "text": "You'd complain about boring work. You complain when your socks are too boring.",
+      "source_paragraphs": [
+        160
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-107",
+      "run_id": 100,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 669.694,
+      "end": 672.385,
+      "text": "He smiled, but it didn't reach his eyes.",
+      "source_paragraphs": [
+        161
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-108",
+      "run_id": 101,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 672.875,
+      "end": 674.815,
+      "text": "Seriously. It's fine.",
+      "source_paragraphs": [
+        162
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-109",
+      "run_id": 102,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 675.305,
+      "end": 677.325,
+      "text": "She pushed the envelope back.",
+      "source_paragraphs": [
+        163
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-110",
+      "run_id": 103,
+      "actor": "ninja",
+      "section": "The Money He Didn't Explain",
+      "start": 677.815,
+      "end": 680.123,
+      "text": "I don't need you to buy me a life.",
+      "source_paragraphs": [
+        164
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-111",
+      "run_id": 104,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 680.613,
+      "end": 684.499,
+      "text": "He looked hurt then, and she regretted the words almost immediately.",
+      "source_paragraphs": [
+        165
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-112",
+      "run_id": 105,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 684.989,
+      "end": 686.48,
+      "text": "That's not what I'm doing.",
+      "source_paragraphs": [
+        166
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-113",
+      "run_id": 106,
+      "actor": "ninja",
+      "section": "The Money He Didn't Explain",
+      "start": 686.97,
+      "end": 689.196,
+      "text": "Then tell me what you are doing.",
+      "source_paragraphs": [
+        167
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-114",
+      "run_id": 107,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 689.686,
+      "end": 695.569,
+      "text": "He took a breath. For a second she thought he would. Instead, he picked up the envelope.",
+      "source_paragraphs": [
+        168,
+        169
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-115",
+      "run_id": 108,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 696.059,
+      "end": 698.576,
+      "text": "Trying to make something easier for once.",
+      "source_paragraphs": [
+        170
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-116",
+      "run_id": 109,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 699.066,
+      "end": 722.915,
+      "text": "She let him leave without another argument. She told herself he was an adult. That he had a right to parts of his life that weren't hers. That she could love him without interrogating him. And all of that was true. It wasn't the whole truth. The first job had sounded almost insulting in its simplicity. A man who knew a man asked Cassian to take a sealed parcel across town. Cash on delivery. No questions. He asked one anyway.",
+      "source_paragraphs": [
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-117",
+      "run_id": 110,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 723.405,
+      "end": 724.464,
+      "text": "What's inside?",
+      "source_paragraphs": [
+        175
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-118",
+      "run_id": 111,
+      "actor": "courier",
+      "section": "The Money He Didn't Explain",
+      "start": 724.954,
+      "end": 726.201,
+      "text": "Paperwork.",
+      "source_paragraphs": [
+        176
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-119",
+      "run_id": 112,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 726.691,
+      "end": 729.079,
+      "text": "That's an expensive courier service.",
+      "source_paragraphs": [
+        177
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-120",
+      "run_id": 113,
+      "actor": "courier",
+      "section": "The Money He Didn't Explain",
+      "start": 729.569,
+      "end": 731.673,
+      "text": "Then enjoy your tip.",
+      "source_paragraphs": [
+        178
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-121",
+      "run_id": 114,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 732.163,
+      "end": 754.204,
+      "text": "He'd needed the money. He'd told himself he would be an idiot to refuse something that ordinary. The second favor involved waiting in a car while two strangers had an argument inside a building. The third meant driving somebody to a railway station and pretending not to hear the anxious phone call in the back seat. Each job ended with somebody paying him well enough to make the next invitation more difficult to reject.",
+      "source_paragraphs": [
+        179,
+        180
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-122",
+      "run_id": 114,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 754.464,
+      "end": 780.106,
+      "text": "At first he described them to Ninja as extra shifts. She asked whether the job had dental insurance, and he said it came with a very generous selection of uncomfortable silences. Months later, in a room above a shuttered shop, a man placed a list of dates in front of him. Cassian recognized every payment. There were signatures and photographs, details he'd never knowingly agreed to leave in anyone's possession.",
+      "source_paragraphs": [
+        181,
+        182
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-123",
+      "run_id": 115,
+      "actor": "handler",
+      "section": "The Money He Didn't Explain",
+      "start": 780.596,
+      "end": 782.254,
+      "text": "You've been very reliable.",
+      "source_paragraphs": [
+        183
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-124",
+      "run_id": 116,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 782.744,
+      "end": 784.449,
+      "text": "Cassian looked at the folder.",
+      "source_paragraphs": [
+        184
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-125",
+      "run_id": 117,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 784.939,
+      "end": 787.455,
+      "text": "Is that supposed to be a compliment?",
+      "source_paragraphs": [
+        185
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-126",
+      "run_id": 118,
+      "actor": "handler",
+      "section": "The Money He Didn't Explain",
+      "start": 787.945,
+      "end": 791.019,
+      "text": "It's an opportunity to continue being reliable.",
+      "source_paragraphs": [
+        186
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-127",
+      "run_id": 119,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 791.509,
+      "end": 792.771,
+      "text": "What if I'm finished?",
+      "source_paragraphs": [
+        187
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-128",
+      "run_id": 120,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 793.261,
+      "end": 794.915,
+      "text": "The man leaned back.",
+      "source_paragraphs": [
+        188
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-129",
+      "run_id": 121,
+      "actor": "handler",
+      "section": "The Money He Didn't Explain",
+      "start": 795.405,
+      "end": 799.628,
+      "text": "People who are finished don't generally leave so much unfinished business.",
+      "source_paragraphs": [
+        189
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-130",
+      "run_id": 122,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 800.118,
+      "end": 825.217,
+      "text": "Cassian heard the threat in the politeness. He also heard something worse: the suggestion that somebody knew where Ninja lived. He went home that night and deleted a message he'd started typing to her. It began, *I need to tell you something.* He couldn't find a second sentence that wouldn't put her closer to the danger. The jobs had begun as favors. The pay was good, and every request came with the promise that it would be the last.",
+      "source_paragraphs": [
+        190,
+        191,
+        192
+      ],
+      "part_count": 3
+    },
+    {
+      "id": "line-131",
+      "run_id": 122,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 825.477,
+      "end": 853.322,
+      "text": "By the time Cassian understood how much other people knew about him, refusing had begun to feel less like a decision and more like a threat. He didn't tell Ninja. He couldn't bear to watch the knowledge change the way she looked at him. There were nights when his phone displayed a number and he stared until it stopped ringing. There were days when he made promises to himself about finishing one final obligation and disappearing from it all. He told himself that a clean break still existed somewhere.",
+      "source_paragraphs": [
+        193,
+        194,
+        195,
+        196,
+        197
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-132",
+      "run_id": 122,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 853.582,
+      "end": 876.443,
+      "text": "He only had to reach it. One afternoon, Cassian sat in his parked car outside a supermarket with the engine off. He had just finished a call with somebody connected to Elias Voss. The caller had agreed, in an almost friendly tone, that of course Cassian could stop working for them. After one more errand. Cassian stared at his reflection in the rearview mirror. He looked older than he remembered.",
+      "source_paragraphs": [
+        198,
+        199,
+        200,
+        201
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-133",
+      "run_id": 122,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 876.703,
+      "end": 889.564,
+      "text": "He dialed Ninja's number, waited for her to answer, and listened as she told him\u2014without taking a breath\u2014that her upstairs neighbor had somehow flooded the bathroom by trying to install a shelf. He laughed. It surprised him.",
+      "source_paragraphs": [
+        202,
+        203
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-134",
+      "run_id": 123,
+      "actor": "ninja",
+      "section": "The Money He Didn't Explain",
+      "start": 890.054,
+      "end": 891.16,
+      "text": "What's funny?",
+      "source_paragraphs": [
+        204
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-135",
+      "run_id": 124,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 891.65,
+      "end": 896.228,
+      "text": "Nothing. You. The fact that shelving has become a combat sport.",
+      "source_paragraphs": [
+        205
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-136",
+      "run_id": 125,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 896.718,
+      "end": 900.558,
+      "text": "Then she asked if something was wrong. He gripped the steering wheel.",
+      "source_paragraphs": [
+        206,
+        207
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-137",
+      "run_id": 126,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 901.048,
+      "end": 903.792,
+      "text": "No. Just wanted to hear your voice.",
+      "source_paragraphs": [
+        208
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-138",
+      "run_id": 127,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 904.282,
+      "end": 907.804,
+      "text": "She went quiet long enough to make him worry he'd frightened her.",
+      "source_paragraphs": [
+        209
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-139",
+      "run_id": 128,
+      "actor": "ninja",
+      "section": "The Money He Didn't Explain",
+      "start": 908.294,
+      "end": 912.227,
+      "text": "Well, you've heard it. It remains incredibly charming.",
+      "source_paragraphs": [
+        210
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-140",
+      "run_id": 129,
+      "actor": "cassian",
+      "section": "The Money He Didn't Explain",
+      "start": 912.717,
+      "end": 913.837,
+      "text": "Debatable.",
+      "source_paragraphs": [
+        211
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-141",
+      "run_id": 130,
+      "actor": "ninja",
+      "section": "The Money He Didn't Explain",
+      "start": 914.327,
+      "end": 916.592,
+      "text": "Come over Sunday. I'll cook.",
+      "source_paragraphs": [
+        212
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-142",
+      "run_id": 131,
+      "actor": "narrator",
+      "section": "The Money He Didn't Explain",
+      "start": 917.082,
+      "end": 937.609,
+      "text": "He wanted to say yes. Instead he promised to try. When the call ended he sat still for a long time, making a decision he didn't yet know how to carry out: whatever else he had to do, he would find a way to keep those people away from her. The last time Ninja had dinner with Cassian, he turned up carrying a badly wrapped parcel and an apology.",
+      "source_paragraphs": [
+        213,
+        214,
+        216
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-143",
+      "run_id": 132,
+      "actor": "cassian",
+      "section": "The Last Ordinary Evening",
+      "start": 938.269,
+      "end": 942.492,
+      "text": "Before you ask, yes, the wrapping was done by a human being.",
+      "source_paragraphs": [
+        217
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-144",
+      "run_id": 133,
+      "actor": "ninja",
+      "section": "The Last Ordinary Evening",
+      "start": 942.982,
+      "end": 944.25,
+      "text": "A drunk one?",
+      "source_paragraphs": [
+        218
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-145",
+      "run_id": 134,
+      "actor": "cassian",
+      "section": "The Last Ordinary Evening",
+      "start": 944.74,
+      "end": 947.987,
+      "text": "An artist. Unappreciated in his time.",
+      "source_paragraphs": [
+        219
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-146",
+      "run_id": 135,
+      "actor": "narrator",
+      "section": "The Last Ordinary Evening",
+      "start": 948.477,
+      "end": 965.012,
+      "text": "Inside was an old portable music player, the same model she'd once loved and broken years earlier. Cassian had repaired it, or persuaded somebody who actually knew what they were doing to repair it, and loaded it with songs they used to play too loudly in the kitchen. She stared at it.",
+      "source_paragraphs": [
+        220,
+        221
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-147",
+      "run_id": 136,
+      "actor": "ninja",
+      "section": "The Last Ordinary Evening",
+      "start": 965.502,
+      "end": 967.463,
+      "text": "Where did you even find this?",
+      "source_paragraphs": [
+        222
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-148",
+      "run_id": 137,
+      "actor": "cassian",
+      "section": "The Last Ordinary Evening",
+      "start": 967.953,
+      "end": 969.758,
+      "text": "I have mysterious talents.",
+      "source_paragraphs": [
+        223
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-149",
+      "run_id": 138,
+      "actor": "ninja",
+      "section": "The Last Ordinary Evening",
+      "start": 970.248,
+      "end": 972.989,
+      "text": "You have mysterious debts, probably.",
+      "source_paragraphs": [
+        224
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-150",
+      "run_id": 139,
+      "actor": "narrator",
+      "section": "The Last Ordinary Evening",
+      "start": 973.479,
+      "end": 979.199,
+      "text": "The joke landed strangely. Cassian looked down, just for a second. Then he smiled again.",
+      "source_paragraphs": [
+        225,
+        226
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-151",
+      "run_id": 140,
+      "actor": "cassian",
+      "section": "The Last Ordinary Evening",
+      "start": 979.689,
+      "end": 980.953,
+      "text": "Both can be true.",
+      "source_paragraphs": [
+        227
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-152",
+      "run_id": 141,
+      "actor": "narrator",
+      "section": "The Last Ordinary Evening",
+      "start": 981.443,
+      "end": 997.85,
+      "text": "They ate pasta sitting on the sofa, argued about whether one of the songs was good or simply nostalgic, and laughed until she nearly spilled her drink when he tried to imitate a singer he had absolutely no business imitating. Later, as he put on his coat, she noticed him checking his phone.",
+      "source_paragraphs": [
+        228,
+        229
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-153",
+      "run_id": 142,
+      "actor": "ninja",
+      "section": "The Last Ordinary Evening",
+      "start": 998.34,
+      "end": 999.446,
+      "text": "You okay?",
+      "source_paragraphs": [
+        230
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-154",
+      "run_id": 143,
+      "actor": "cassian",
+      "section": "The Last Ordinary Evening",
+      "start": 999.936,
+      "end": 1000.631,
+      "text": "Yeah.",
+      "source_paragraphs": [
+        231
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-155",
+      "run_id": 144,
+      "actor": "ninja",
+      "section": "The Last Ordinary Evening",
+      "start": 1001.121,
+      "end": 1002.74,
+      "text": "That sounded rehearsed.",
+      "source_paragraphs": [
+        232
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-156",
+      "run_id": 145,
+      "actor": "cassian",
+      "section": "The Last Ordinary Evening",
+      "start": 1003.23,
+      "end": 1005.379,
+      "text": "Everything's all right. Nin.",
+      "source_paragraphs": [
+        233
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-157",
+      "run_id": 146,
+      "actor": "narrator",
+      "section": "The Last Ordinary Evening",
+      "start": 1005.869,
+      "end": 1015.455,
+      "text": "She moved closer. For a moment she considered making him stay, demanding an explanation, refusing to let him hide behind his usual jokes. But he looked so tired.",
+      "source_paragraphs": [
+        234,
+        235,
+        236
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-158",
+      "run_id": 147,
+      "actor": "ninja",
+      "section": "The Last Ordinary Evening",
+      "start": 1015.945,
+      "end": 1017.184,
+      "text": "Call me tomorrow.",
+      "source_paragraphs": [
+        237
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-159",
+      "run_id": 148,
+      "actor": "narrator",
+      "section": "The Last Ordinary Evening",
+      "start": 1017.674,
+      "end": 1019.201,
+      "text": "He tucked the phone away.",
+      "source_paragraphs": [
+        238
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-160",
+      "run_id": 149,
+      "actor": "cassian",
+      "section": "The Last Ordinary Evening",
+      "start": 1019.691,
+      "end": 1020.498,
+      "text": "I will.",
+      "source_paragraphs": [
+        239
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-161",
+      "run_id": 150,
+      "actor": "ninja",
+      "section": "The Last Ordinary Evening",
+      "start": 1020.988,
+      "end": 1022.976,
+      "text": "And don't do anything stupid.",
+      "source_paragraphs": [
+        240
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-162",
+      "run_id": 151,
+      "actor": "cassian",
+      "section": "The Last Ordinary Evening",
+      "start": 1023.466,
+      "end": 1025.746,
+      "text": "You're taking all my hobbies away.",
+      "source_paragraphs": [
+        241
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-163",
+      "run_id": 152,
+      "actor": "narrator",
+      "section": "The Last Ordinary Evening",
+      "start": 1026.236,
+      "end": 1039.065,
+      "text": "She hugged him at the door. He held on a fraction longer than usual. Then he stepped back, touched her cheek lightly, and smiled in the familiar crooked way that had been making terrible things seem manageable since she was a child.",
+      "source_paragraphs": [
+        242,
+        243
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-164",
+      "run_id": 153,
+      "actor": "cassian",
+      "section": "The Last Ordinary Evening",
+      "start": 1039.555,
+      "end": 1041.504,
+      "text": "Lock up behind me, menace.",
+      "source_paragraphs": [
+        244
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-165",
+      "run_id": 154,
+      "actor": "narrator",
+      "section": "The Last Ordinary Evening",
+      "start": 1041.994,
+      "end": 1043.444,
+      "text": "She rolled her eyes.",
+      "source_paragraphs": [
+        245
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-166",
+      "run_id": 155,
+      "actor": "ninja",
+      "section": "The Last Ordinary Evening",
+      "start": 1043.934,
+      "end": 1045.252,
+      "text": "I always do.",
+      "source_paragraphs": [
+        246
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-167",
+      "run_id": 156,
+      "actor": "narrator",
+      "section": "The Last Ordinary Evening",
+      "start": 1045.742,
+      "end": 1073.449,
+      "text": "He waited until he heard the lock turn. It was such a small thing. The two of them had repeated it a hundred times. She would spend years wishing she'd opened the door again. Three evenings later, someone knocked. Ninja was standing at the sink, rinsing a mug. She remembered that detail afterward because it was the sort of useless thing memory kept when the important parts became impossible. The tap was running. A small patch of sunlight fell across the counter. Her phone was on the table, face up.",
+      "source_paragraphs": [
+        247,
+        248,
+        249,
+        251,
+        252,
+        253,
+        254,
+        255
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-168",
+      "run_id": 156,
+      "actor": "narrator",
+      "section": "The Knock",
+      "start": 1074.109,
+      "end": 1084.651,
+      "text": "She turned off the water and went to the door. Two people stood outside. Dark coats, careful expressions, the uneasy stillness of strangers who had rehearsed what they were about to say.",
+      "source_paragraphs": [
+        256,
+        257
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-169",
+      "run_id": 157,
+      "actor": "police",
+      "section": "The Knock",
+      "start": 1085.141,
+      "end": 1087.031,
+      "text": "Are you Cassian's sister?",
+      "source_paragraphs": [
+        258
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-170",
+      "run_id": 158,
+      "actor": "narrator",
+      "section": "The Knock",
+      "start": 1087.521,
+      "end": 1091.535,
+      "text": "Everything in her body seemed to recognize the question before her mind did.",
+      "source_paragraphs": [
+        259
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-171",
+      "run_id": 159,
+      "actor": "ninja",
+      "section": "The Knock",
+      "start": 1092.025,
+      "end": 1093.849,
+      "text": "Why?",
+      "source_paragraphs": [
+        260
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-172",
+      "run_id": 160,
+      "actor": "narrator",
+      "section": "The Knock",
+      "start": 1094.339,
+      "end": 1097.412,
+      "text": "They asked to come inside. She didn't move.",
+      "source_paragraphs": [
+        261,
+        262
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-173",
+      "run_id": 161,
+      "actor": "ninja",
+      "section": "The Knock",
+      "start": 1097.902,
+      "end": 1098.943,
+      "text": "What happened?",
+      "source_paragraphs": [
+        263
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-174",
+      "run_id": 162,
+      "actor": "narrator",
+      "section": "The Knock",
+      "start": 1099.433,
+      "end": 1118.174,
+      "text": "One of them said her name. The other looked toward the stairs. They said Cassian had been killed. They said there appeared to have been a robbery. They said an investigation was ongoing, though there were indications he had simply been in the wrong place at the wrong time. The words passed through the doorway in neat, impossible pieces.",
+      "source_paragraphs": [
+        264,
+        265,
+        266
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-175",
+      "run_id": 163,
+      "actor": "ninja",
+      "section": "The Knock",
+      "start": 1118.664,
+      "end": 1119.511,
+      "text": "Killed?",
+      "source_paragraphs": [
+        267
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-176",
+      "run_id": 164,
+      "actor": "police",
+      "section": "The Knock",
+      "start": 1120.001,
+      "end": 1121.115,
+      "text": "I'm very sorry.",
+      "source_paragraphs": [
+        268
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-177",
+      "run_id": 165,
+      "actor": "ninja",
+      "section": "The Knock",
+      "start": 1121.605,
+      "end": 1123.348,
+      "text": "Where?",
+      "source_paragraphs": [
+        269
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-178",
+      "run_id": 166,
+      "actor": "narrator",
+      "section": "The Knock",
+      "start": 1123.838,
+      "end": 1125.221,
+      "text": "They told her.",
+      "source_paragraphs": [
+        270
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-179",
+      "run_id": 167,
+      "actor": "ninja",
+      "section": "The Knock",
+      "start": 1125.711,
+      "end": 1126.986,
+      "text": "Was he alone?",
+      "source_paragraphs": [
+        271
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-180",
+      "run_id": 168,
+      "actor": "narrator",
+      "section": "The Knock",
+      "start": 1127.476,
+      "end": 1129.544,
+      "text": "A pause.",
+      "source_paragraphs": [
+        272
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-181",
+      "run_id": 169,
+      "actor": "police",
+      "section": "The Knock",
+      "start": 1130.034,
+      "end": 1133.072,
+      "text": "We're still establishing exactly what occurred.",
+      "source_paragraphs": [
+        273
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-182",
+      "run_id": 170,
+      "actor": "ninja",
+      "section": "The Knock",
+      "start": 1133.562,
+      "end": 1136.334,
+      "text": "Did he call anyone? Did he say anything?",
+      "source_paragraphs": [
+        274
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-183",
+      "run_id": 171,
+      "actor": "police",
+      "section": "The Knock",
+      "start": 1136.824,
+      "end": 1138.841,
+      "text": "We don't have that information.",
+      "source_paragraphs": [
+        275
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-184",
+      "run_id": 172,
+      "actor": "narrator",
+      "section": "The Knock",
+      "start": 1139.331,
+      "end": 1158.716,
+      "text": "She looked from one face to the other. They were gentle. They sounded certain about some things and strangely evasive about others. It made no sense. Cassian would have called. Cassian would have argued. Cassian would have found a way to say something ridiculous and then come home with a bruise and an apology. There was no world in which he simply stopped.",
+      "source_paragraphs": [
+        276,
+        277,
+        278,
+        279,
+        280
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-185",
+      "run_id": 173,
+      "actor": "ninja",
+      "section": "The Knock",
+      "start": 1159.206,
+      "end": 1160.693,
+      "text": "When can I see him?",
+      "source_paragraphs": [
+        281
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-186",
+      "run_id": 174,
+      "actor": "narrator",
+      "section": "The Knock",
+      "start": 1161.183,
+      "end": 1188.214,
+      "text": "The older one inhaled slowly. She hated that, too. The mug remained in the sink. She eventually let them in, answered questions, accepted a number to call. She didn't cry while they were there. She wasn't holding herself together. She hadn't yet understood there was something to fall apart. After they left, she found the phone on the table and called Cassian. His voicemail answered. She listened to his voice all the way through. Then she called again. And again.",
+      "source_paragraphs": [
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-187",
+      "run_id": 174,
+      "actor": "narrator",
+      "section": "The Knock",
+      "start": 1188.474,
+      "end": 1196.4,
+      "text": "The fourth time, she put the phone down without ending the call and sat on the kitchen floor. The voicemail continued speaking into an empty room.",
+      "source_paragraphs": [
+        292,
+        293
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-188",
+      "run_id": 175,
+      "actor": "ninja_thought",
+      "section": "The Knock",
+      "start": 1196.92,
+      "end": 1206.763,
+      "text": "You said you'd call tomorrow. You always called. I don't understand how the world can keep moving when you've stopped. I don't know what I'm supposed to do with all the things I haven't told you.",
+      "source_paragraphs": [
+        295
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-189",
+      "run_id": 176,
+      "actor": "narrator",
+      "section": "A House Full of Missing Things",
+      "start": 1207.423,
+      "end": 1238.487,
+      "text": "There was a funeral. People brought flowers. Some brought food. Others brought stories she hadn't heard before, most of them kind and almost all of them unbearable. Someone called Cassian a good man. Ninja believed that. Someone else said that at least he hadn't suffered. They couldn't possibly know that. After the service, a distant acquaintance pressed a folded photograph into her palm. It showed Cassian at a barbecue, grinning with his eyes closed, holding a plate overloaded with food. Ninja had never seen it.",
+      "source_paragraphs": [
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-190",
+      "run_id": 177,
+      "actor": "ninja",
+      "section": "A House Full of Missing Things",
+      "start": 1238.977,
+      "end": 1243.072,
+      "text": "He's smiling like that because someone dared him to eat everything.",
+      "source_paragraphs": [
+        305
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-191",
+      "run_id": 178,
+      "actor": "narrator",
+      "section": "A House Full of Missing Things",
+      "start": 1243.562,
+      "end": 1245.676,
+      "text": "The woman smiled uncertainly.",
+      "source_paragraphs": [
+        306
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-192",
+      "run_id": 179,
+      "actor": "female_support",
+      "section": "A House Full of Missing Things",
+      "start": 1246.166,
+      "end": 1248.559,
+      "text": "He was always making people laugh.",
+      "source_paragraphs": [
+        307
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-193",
+      "run_id": 180,
+      "actor": "narrator",
+      "section": "A House Full of Missing Things",
+      "start": 1249.049,
+      "end": 1259.066,
+      "text": "Ninja looked at the picture again. Cassian's left sleeve was rolled up unevenly. There was a sauce stain on his shirt. It was so completely him that her throat closed.",
+      "source_paragraphs": [
+        308
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-194",
+      "run_id": 181,
+      "actor": "ninja",
+      "section": "A House Full of Missing Things",
+      "start": 1259.556,
+      "end": 1260.615,
+      "text": "He was.",
+      "source_paragraphs": [
+        309
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-195",
+      "run_id": 182,
+      "actor": "narrator",
+      "section": "A House Full of Missing Things",
+      "start": 1261.105,
+      "end": 1277.485,
+      "text": "Later, back at home, she set that photograph beside the old music player. She was furious that the world had kept photographs and hadn't kept him. The anger embarrassed her until she stopped caring whether it was reasonable. She looked down at her hands because she didn't trust what might happen if she answered.",
+      "source_paragraphs": [
+        310,
+        311
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-196",
+      "run_id": 182,
+      "actor": "narrator",
+      "section": "A House Full of Missing Things",
+      "start": 1277.745,
+      "end": 1299.776,
+      "text": "Grief didn't look like the collapse people expected. It looked like reaching for her phone to tell him something funny. Buying too much food. Leaving his messages unread because, for one impossible second, the notification made her believe he might answer. She slept badly. She became angry at ordinary conversations. A friend asked whether she had considered speaking to someone about it.",
+      "source_paragraphs": [
+        312,
+        313,
+        314
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-197",
+      "run_id": 183,
+      "actor": "ninja",
+      "section": "A House Full of Missing Things",
+      "start": 1300.266,
+      "end": 1301.44,
+      "text": "About what?",
+      "source_paragraphs": [
+        315
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-198",
+      "run_id": 184,
+      "actor": "female_support",
+      "section": "A House Full of Missing Things",
+      "start": 1301.93,
+      "end": 1303.129,
+      "text": "About Cassian.",
+      "source_paragraphs": [
+        316
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-199",
+      "run_id": 185,
+      "actor": "ninja",
+      "section": "A House Full of Missing Things",
+      "start": 1303.619,
+      "end": 1305.435,
+      "text": "What would you like me to say?",
+      "source_paragraphs": [
+        317
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-200",
+      "run_id": 186,
+      "actor": "female_support",
+      "section": "A House Full of Missing Things",
+      "start": 1305.925,
+      "end": 1307.023,
+      "text": "I just thought\u2014",
+      "source_paragraphs": [
+        318
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-201",
+      "run_id": 187,
+      "actor": "ninja",
+      "section": "A House Full of Missing Things",
+      "start": 1307.513,
+      "end": 1308.984,
+      "text": "I know what you thought.",
+      "source_paragraphs": [
+        319
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-202",
+      "run_id": 188,
+      "actor": "narrator",
+      "section": "A House Full of Missing Things",
+      "start": 1309.474,
+      "end": 1339.342,
+      "text": "Her friend went quiet. Ninja apologized later, but she didn't let the woman back inside the apartment. It was easier that way. If nobody came close enough to ask, she didn't have to explain the enormous, shapeless absence in the middle of every day. The official account never sat right. A robbery. A bad place. Bad timing. Cassian had sometimes gone out late and come back strange. She remembered the envelope, the unanswered questions, the look on his face when she'd jokingly mentioned debts.",
+      "source_paragraphs": [
+        320,
+        321,
+        322,
+        323,
+        324,
+        325
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-203",
+      "run_id": 188,
+      "actor": "narrator",
+      "section": "A House Full of Missing Things",
+      "start": 1339.602,
+      "end": 1363.375,
+      "text": "She wondered if there had been something he was afraid to tell her. Then she hated herself for wondering. Dead people couldn't defend themselves against suspicion. They couldn't explain. They couldn't say, No, Nin, you've got it wrong. She asked for information and received little. The questions grew heavier without becoming clearer. Eventually she stopped asking out loud. But she never stopped thinking about them.",
+      "source_paragraphs": [
+        326,
+        327,
+        328,
+        329,
+        330,
+        331
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-204",
+      "run_id": 188,
+      "actor": "narrator",
+      "section": "A House Full of Missing Things",
+      "start": 1363.635,
+      "end": 1393.538,
+      "text": "Months passed. She saw him everywhere: outside the coffee shop, leaning against familiar railings, reflected in bus windows that belonged to strangers. The city was full of places that remembered him. And she was exhausted by being expected to remember him in the acceptable ways. One afternoon, she tried to make his favorite pasta sauce from memory. She knew he'd never used a recipe. He'd tasted it, added a little more of something, and announced that the essential ingredient was artistic instinct.",
+      "source_paragraphs": [
+        332,
+        333,
+        334,
+        335,
+        336
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-205",
+      "run_id": 188,
+      "actor": "narrator",
+      "section": "A House Full of Missing Things",
+      "start": 1393.798,
+      "end": 1401.433,
+      "text": "Her attempt was watery and far too salty. She sat down to eat anyway. Halfway through the meal, the words slipped out.",
+      "source_paragraphs": [
+        337,
+        338,
+        339
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-206",
+      "run_id": 189,
+      "actor": "ninja",
+      "section": "A House Full of Missing Things",
+      "start": 1401.923,
+      "end": 1404.31,
+      "text": "Cass, this is disgusting.",
+      "source_paragraphs": [
+        339
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-207",
+      "run_id": 190,
+      "actor": "narrator",
+      "section": "A House Full of Missing Things",
+      "start": 1404.8,
+      "end": 1432.428,
+      "text": "There was no answer. She pushed the plate away and cried\u2014not because of the sauce, but because she'd expected his reply before she remembered there couldn't be one. One evening she opened the old music player. The first song started through a pair of headphones. Cassian had named the playlist FOR THE SMALL MENACE. She laughed, one startled, broken sound. Then she cried so hard she had to put the player down. It was the first time she'd allowed herself to do both in the same moment.",
+      "source_paragraphs": [
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-208",
+      "run_id": 190,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1433.088,
+      "end": 1458.614,
+      "text": "The first time Ninja returned to Cassian's apartment after the funeral, she stood outside the door for eleven minutes. She knew because she watched the numbers change on her phone. The display was cracked at one corner. Cassian had offered to replace it twice, and twice she'd refused because it worked perfectly well. He would have been insufferably pleased to discover that the screen still worked even when she felt as though nothing else did. She had his key in her palm.",
+      "source_paragraphs": [
+        349,
+        350,
+        351
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-209",
+      "run_id": 190,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1458.874,
+      "end": 1474.503,
+      "text": "For years, the existence of that key had been comforting. It meant there was somewhere she could walk into without knocking, somewhere she'd be welcomed with an insult and a cup of terrible coffee. Now it opened a room that could not answer her. Eventually she turned the lock.",
+      "source_paragraphs": [
+        352,
+        353
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-210",
+      "run_id": 190,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1474.763,
+      "end": 1503.517,
+      "text": "The apartment smelled faintly of washing powder and the cheap coffee Cassian always bought despite her sustained campaign against it. His jacket hung on the same hook by the door. A half-read paperback lay face down beside the sofa. There was a shopping list on the refrigerator, written in the hurried capitals she remembered from notes he'd left her when they were children. Bread. Eggs. Batteries. Something green so Ninja stops complaining. She put her hand over her mouth. He had been planning to go shopping.",
+      "source_paragraphs": [
+        354,
+        355,
+        356,
+        357
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-211",
+      "run_id": 190,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1503.777,
+      "end": 1529.419,
+      "text": "It was an absurd thing to find unbearable. A dead man had left a list of things he meant to buy, and suddenly she could see the afternoon he would never have. Cassian standing in a supermarket aisle, looking at two identical cartons and choosing the wrong one. Cassian sending her a photograph of a vegetable and asking whether it counted as something green. Cassian arriving with a bag of food she didn't need, acting as though he'd merely happened to be in the neighborhood.",
+      "source_paragraphs": [
+        358
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-212",
+      "run_id": 190,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1529.679,
+      "end": 1543.868,
+      "text": "She sat on the floor and waited for the tightness in her chest to pass. It didn't. After a while, she began opening cupboards. Not because she was ready to pack anything, but because looking for ordinary objects was easier than standing still.",
+      "source_paragraphs": [
+        359,
+        360,
+        361
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-213",
+      "run_id": 191,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1544.128,
+      "end": 1570.294,
+      "text": "He'd kept the cheap ceramic bowl they used to eat cereal from when money was scarce. A chipped corner had been glued back into place years earlier. In a drawer, beneath a tangled collection of phone chargers, she found photographs from a summer they spent trying to pretend a camping holiday hadn't been ruined by rain. One showed Cassian sheltering under a ridiculous pink umbrella, grinning as though he had personally invented bad weather. She remembered that day.",
+      "source_paragraphs": [
+        362,
+        363,
+        364
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-214",
+      "run_id": 191,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1570.554,
+      "end": 1593.061,
+      "text": "They'd argued about the directions, eaten sandwiches in the car, and finally given up on the campsite after discovering that their tent leaked from the ceiling. On the drive home, Cassian had made up a deeply unconvincing story about a famous explorer who also gave up on bad weather. The photo made her smile. Then she realized that smiling didn't hurt quite as much as the guilt that arrived afterward.",
+      "source_paragraphs": [
+        365,
+        366,
+        367
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-215",
+      "run_id": 191,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1593.321,
+      "end": 1612.886,
+      "text": "She'd begun to think of grief as a kind of loyalty test. If she enjoyed something, was she leaving him further behind? If she moved his books, was she making the room less his? If she laughed without him, was she becoming somebody he wouldn't recognize? She knew how unreasonable those questions sounded. Knowing didn't make them disappear.",
+      "source_paragraphs": [
+        368,
+        369,
+        370
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-216",
+      "run_id": 191,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1613.146,
+      "end": 1631.806,
+      "text": "Near the bottom of the desk drawer was a folder of ordinary papers: bills, insurance documents, old warranties. She sorted them into piles because it gave her hands somewhere to be. A receipt for a parking garage caught her attention. She didn't recognize the street. She checked the date. It was from the week before he died.",
+      "source_paragraphs": [
+        371,
+        372,
+        373
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-217",
+      "run_id": 191,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1632.066,
+      "end": 1647.725,
+      "text": "There was nothing unusual about a person using a parking garage. Nothing that proved anything. But she remembered the unfamiliar car outside his building and the thick envelope of money he'd insisted was simply from work. She set the receipt beside the documents the authorities had given her.",
+      "source_paragraphs": [
+        374,
+        375
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-218",
+      "run_id": 191,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1647.985,
+      "end": 1665.333,
+      "text": "There were so many words in those papers that sounded official and meant almost nothing. An incident at an address. An ongoing investigation. No further details available. A conclusion that seemed to have arrived before any of the questions she wanted answered. She tried calling the number printed on the letter.",
+      "source_paragraphs": [
+        376,
+        377
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-219",
+      "run_id": 191,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1665.593,
+      "end": 1685.065,
+      "text": "Someone answered with a professional tone and asked for a reference number. Ninja gave it. She explained that she was Cassian's sister. She asked whether there had been witnesses and whether anybody knew why he was in that building. The person on the telephone was polite. They were also unable to provide more information. She hung up before she said something she'd regret.",
+      "source_paragraphs": [
+        378,
+        379,
+        380
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-220",
+      "run_id": 192,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1685.325,
+      "end": 1708.03,
+      "text": "The parking receipt lay between two photographs of her brother. She turned it face down. It was an ordinary bit of paper, and perhaps that was all it would ever be. But something about the official explanation had felt wrong from the beginning, and every closed door made that feeling harder to set aside. A few days later, one of Cassian's neighbors stopped her in the hallway carrying a basket of laundry.",
+      "source_paragraphs": [
+        381,
+        382,
+        383
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-221",
+      "run_id": 192,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1708.29,
+      "end": 1734.879,
+      "text": "The woman told Ninja how sorry she was. She said Cassian had sometimes brought her groceries when her knees were bad, and that he had fixed a loose handle on her kitchen cupboard without accepting payment. Then she asked whether Ninja was moving his things out. Not yet, Ninja told her. The woman nodded, but she didn't leave. For a moment she looked as though she might say something else. Her eyes moved toward the stairwell, then back to Ninja. Whatever she had been about to mention stayed unsaid.",
+      "source_paragraphs": [
+        384,
+        385,
+        386,
+        387,
+        388
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-222",
+      "run_id": 192,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1735.139,
+      "end": 1759.86,
+      "text": "Instead she squeezed Ninja's hand and went inside. Ninja stood there with the key still in her fingers. She wondered how many people carried fragments of Cassian she'd never know. How many knew the gentle version of him, and how many knew the worried man he'd become. How many things he had done out of love, or fear, or a stubborn conviction that he should handle every problem alone. The question was almost worse than the silence.",
+      "source_paragraphs": [
+        389,
+        390,
+        391,
+        392
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-223",
+      "run_id": 192,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1760.12,
+      "end": 1786.621,
+      "text": "That evening she made one careful box. She packed the old camping photographs, the cracked cereal bowl, and the shopping list from the refrigerator. She left the rest in place. Before closing the door, she looked around at the room and tried to imagine what Cassian would think of her standing there like a stranger. He'd probably tell her to stop looking so miserable and come eat something. He'd probably say the same ridiculous thing three different ways until she smiled. She shut off the light.",
+      "source_paragraphs": [
+        393,
+        394,
+        395,
+        396,
+        397
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-224",
+      "run_id": 192,
+      "actor": "narrator",
+      "section": "The Apartment That Still Had His Name",
+      "start": 1786.881,
+      "end": 1816.436,
+      "text": "For the first time, she understood that she might need to leave the city\u2014not because it held too little of him, but because it held him everywhere, and none of those places would let her live without having to say goodbye again. The idea of leaving came quietly, while she scrolled through jobs, rooms, and places she might afford. A village in the mountains caught her attention. Bellwether. A room over a bakery. A street full of shops. Forest trails nearby. Rain, apparently, as a permanent civic policy.",
+      "source_paragraphs": [
+        398,
+        400,
+        401,
+        402,
+        403
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-225",
+      "run_id": 192,
+      "actor": "narrator",
+      "section": "Somewhere Else",
+      "start": 1817.096,
+      "end": 1821.574,
+      "text": "She studied the photographs. She didn't imagine a village could fix anything.",
+      "source_paragraphs": [
+        404
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-226",
+      "run_id": 193,
+      "actor": "narrator",
+      "section": "Somewhere Else",
+      "start": 1821.834,
+      "end": 1845.189,
+      "text": "Cassian would still be dead when she woke up there. Whatever had happened to him would still have happened. She would still know what his voice sounded like and hate that she couldn't hear it again without pressing play. But nobody there would stop speaking when she entered a room. Nobody would lower their voice and ask how she was coping, as though grief were an illness with a set of expected symptoms. Nobody would know to call her Cassian's little sister.",
+      "source_paragraphs": [
+        405,
+        406,
+        407,
+        408
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-227",
+      "run_id": 193,
+      "actor": "narrator",
+      "section": "Somewhere Else",
+      "start": 1845.449,
+      "end": 1868.537,
+      "text": "For once, being unknown sounded less like loneliness and more like the possibility of rest. So she packed. She kept the old player, the photographs, and the chipped blue mug. She took the jacket he'd once lent her and never asked to have back. She left other things behind because she could not bear the weight of making decisions about them. On the morning she drove away, she sat with the engine off for several minutes.",
+      "source_paragraphs": [
+        409,
+        410,
+        411,
+        412,
+        413
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-228",
+      "run_id": 194,
+      "actor": "ninja",
+      "section": "Somewhere Else",
+      "start": 1869.027,
+      "end": 1870.824,
+      "text": "Well. Cass.",
+      "source_paragraphs": [
+        414
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-229",
+      "run_id": 195,
+      "actor": "narrator",
+      "section": "Somewhere Else",
+      "start": 1871.314,
+      "end": 1883.118,
+      "text": "She tried to think of what he'd say. Probably something about checking the tires. Probably a joke about her sense of direction. Definitely something annoying. She smiled despite herself. Then she started the car.",
+      "source_paragraphs": [
+        415,
+        416,
+        417,
+        418,
+        419,
+        420
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "line-230",
+      "run_id": 196,
+      "actor": "ninja_thought",
+      "section": "Somewhere Else",
+      "start": 1883.638,
+      "end": 1892.238,
+      "text": "Somewhere nobody knows him. That's all I asked for. One evening where I can just be the woman ordering a drink, instead of the woman with the dead brother.",
+      "source_paragraphs": [
+        422
+      ],
+      "part_count": 1
+    },
+    {
+      "id": "club-01",
+      "run_id": 197,
+      "actor": "narrator",
+      "section": "The Crooked Lantern",
+      "start": 1893.098,
+      "end": 1917.33,
+      "text": "Back in Bellwether, rain tapped against Ninja's jacket as she walked past shuttered shopfronts. Through the bakery window, Ada was wiping down a counter. She raised one hand when she saw Ninja pass. Ninja returned the gesture. It was a small exchange, not quite a friendship, and she was grateful for how little it asked of her. At the corner, a warm light fell across the wet pavement. The Crooked Lantern.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-02",
+      "run_id": 197,
+      "actor": "narrator",
+      "section": "The Crooked Lantern",
+      "start": 1917.62,
+      "end": 1938.969,
+      "text": "Its door creaked when she pushed it open. The room smelled of wood polish, damp wool, and the comforting suggestion of something cooking behind the bar. A few people sat at tables. Someone had left a coat over the back of a chair. A low conversation drifted from near the fire. The place seemed to have no interest in impressing anyone. Perfect. The bartender looked up.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-03",
+      "run_id": 198,
+      "actor": "bartender",
+      "section": "The Crooked Lantern",
+      "start": 1939.379,
+      "end": 1940.364,
+      "text": "Evening.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-04",
+      "run_id": 199,
+      "actor": "ninja",
+      "section": "The Crooked Lantern",
+      "start": 1940.774,
+      "end": 1942.603,
+      "text": "Whiskey, please.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-05",
+      "run_id": 200,
+      "actor": "bartender",
+      "section": "The Crooked Lantern",
+      "start": 1943.013,
+      "end": 1944.443,
+      "text": "Any preference?",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-06",
+      "run_id": 201,
+      "actor": "ninja",
+      "section": "The Crooked Lantern",
+      "start": 1944.853,
+      "end": 1947.497,
+      "text": "The one that doesn't ask personal questions.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-07",
+      "run_id": 202,
+      "actor": "narrator",
+      "section": "The Crooked Lantern",
+      "start": 1947.907,
+      "end": 1950.224,
+      "text": "One corner of his mouth lifted.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-08",
+      "run_id": 203,
+      "actor": "bartender",
+      "section": "The Crooked Lantern",
+      "start": 1950.634,
+      "end": 1953.453,
+      "text": "That narrows it down surprisingly little.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-09",
+      "run_id": 204,
+      "actor": "ninja",
+      "section": "The Crooked Lantern",
+      "start": 1953.863,
+      "end": 1955.261,
+      "text": "Then your favorite.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-10",
+      "run_id": 205,
+      "actor": "narrator",
+      "section": "The Crooked Lantern",
+      "start": 1955.671,
+      "end": 1984.786,
+      "text": "He poured a glass and set it in front of her. She chose a stool with a good view of the door and her shoulder turned slightly away from the room. Old habits. Not fear, exactly. Just the relief of not offering herself to conversation. For a few minutes, it almost worked. The glass was cool beneath her fingertips. Rain slipped down the window. Nobody knew her name. Nobody asked about Cassian. She let the quiet settle. Then another glass appeared beside the first. Ninja looked at it.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-11",
+      "run_id": 205,
+      "actor": "narrator",
+      "section": "The Crooked Lantern",
+      "start": 1985.076,
+      "end": 1989.682,
+      "text": "She hadn't ordered a second. The bartender tipped his head toward a far corner.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-12",
+      "run_id": 206,
+      "actor": "bartender",
+      "section": "The Crooked Lantern",
+      "start": 1990.092,
+      "end": 1991.898,
+      "text": "From the man across the room.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-13",
+      "run_id": 207,
+      "actor": "narrator",
+      "section": "The Crooked Lantern",
+      "start": 1992.308,
+      "end": 2020.133,
+      "text": "Of course. Her first instinct was irritation, sharp and reassuringly familiar. She hadn't driven all this way to be approached by a stranger who thought a drink was an invitation to claim part of her evening. She could send it back. She almost did. But the refusal stalled somewhere between thought and speech. She stared at her whiskey, annoyed by the hesitation. Once, she might have enjoyed the contest of figuring out a stranger before they figured out her. That person felt far away.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-14",
+      "run_id": 207,
+      "actor": "narrator",
+      "section": "The Crooked Lantern",
+      "start": 2020.423,
+      "end": 2048.747,
+      "text": "She lifted her gaze anyway. He sat alone in the corner, dark clothes against the low light, long hair, a beard, and the kind of stillness that made everyone else's movements seem slightly louder. He was already looking at her. Not with the easy confidence she'd expected. There was no smug little smile, no exaggerated charm. For a fraction of a second, he looked almost startled. As though he'd done something before he had the chance to talk himself out of it. That caught her attention.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-15",
+      "run_id": 207,
+      "actor": "narrator",
+      "section": "The Crooked Lantern",
+      "start": 2049.037,
+      "end": 2076.513,
+      "text": "She studied him in return. He sat where he could see the exits. His control looked practiced, maintained rather than effortless. There were people like that. People who carried too much while insisting they were perfectly capable of carrying more. Near the end, Cassian had sometimes sat that way. The memory stung without warning. Ninja's fingers tightened around her glass. Don't start, she told herself. You came here to be nobody. Not to collect somebody else's problems.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-16",
+      "run_id": 207,
+      "actor": "narrator",
+      "section": "The Crooked Lantern",
+      "start": 2076.803,
+      "end": 2091.794,
+      "text": "She could leave the second drink untouched, turn away, and make her wishes clear. She was exceptionally good at that. But she was curious about his voice. Whether he belonged here, or whether, like her, he needed somewhere nobody would ask questions.",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-17",
+      "run_id": 208,
+      "actor": "ninja_thought",
+      "section": "The Crooked Lantern",
+      "start": 2092.244,
+      "end": 2104.734,
+      "text": "Who are you? You look like the kind of man who has an answer prepared for everything, and not one of them is the truth. Don't start. Don't make somebody else's silence into your problem. So why haven't you looked away?",
+      "source_paragraphs": [],
+      "part_count": 1
+    },
+    {
+      "id": "club-18",
+      "run_id": 209,
+      "actor": "narrator",
+      "section": "The Crooked Lantern",
+      "start": 2105.184,
+      "end": 2124.656,
+      "text": "The thought made her angry at herself. She didn't know him. She had no reason to care. Something in his expression suggested he, too, had once believed that moving far enough might finally outrun the past. She held his gaze. A second longer than she meant to. The man in the corner didn't look away. Neither did she.",
+      "source_paragraphs": [],
+      "part_count": 1
+    }
+  ]
+}
