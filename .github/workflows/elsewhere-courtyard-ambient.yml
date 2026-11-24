@@ -1,0 +1,55 @@
+name: Elsewhere - Courtyard Ambient Sound Preview
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - '.github/workflows/elsewhere-courtyard-ambient.yml'
+      - 'stories/series/elsewhere/reboot-2026/episodes/episode-001/add_courtyard_ambience.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  create-preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/add_courtyard_ambience.py
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/isolated-tests/cassian-dialogue-quiet-edges-a-b-test.mp3
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install ambient audio tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install numpy scipy pydub
+      - name: Mix original low-volume courtyard background
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/court-ambience
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/add_courtyard_ambience.py
+      - name: Save preview on development branch only
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/court-ambience
+        run: |
+          set -e
+          dest=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/isolated-tests
+          mkdir -p "$dest"
+          cp "$OUTPUT_DIR/cassian-courtyard-soft-ambience.mp3" "$dest/"
+          cp "$OUTPUT_DIR/cassian-courtyard-natural-ambience.mp3" "$dest/"
+          cp "$OUTPUT_DIR/courtyard-ambience-report.json" "$dest/"
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$dest/cassian-courtyard-soft-ambience.mp3" "$dest/cassian-courtyard-natural-ambience.mp3" "$dest/courtyard-ambience-report.json"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Save soft outdoor atmosphere beneath Cassian and Ninja courtyard dialogue"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
