@@ -703,7 +703,38 @@
       "number": 2,
       "title": "The Man in the Corner",
       "narrator": "Wade – Resonant & Narrative",
-      "status": "draft"
+      "status": "ready",
+      "audio": "series/elsewhere-reboot-2026/episodes/episode-002/audio/elsewhere-e02-the-man-in-the-corner-1dfdedea6b54ffcb.mp3",
+      "images": [
+        {
+          "path": "series/elsewhere-reboot-2026/episodes/episode-002/illustrations/exec-bd9ceb9d-2c28-4580-a2be-08d6cca310fe-f24a4e539156c541.png",
+          "caption": "The Radiator"
+        },
+        {
+          "path": "series/elsewhere-reboot-2026/episodes/episode-002/illustrations/exec-5a767e26-189d-4ee7-a354-fb47408c28e3-b827994b95d73048.png",
+          "caption": "The Debt"
+        },
+        {
+          "path": "series/elsewhere-reboot-2026/episodes/episode-002/illustrations/exec-085afce2-671f-4471-a5f8-ad5bd78b685f-59a0dee9430419c6.png",
+          "caption": "The Offer"
+        },
+        {
+          "path": "series/elsewhere-reboot-2026/episodes/episode-002/illustrations/exec-1f7ba6a2-6135-4e23-93b1-301461c5a6dd-ffdb82ed31c22a09.png",
+          "caption": "The File"
+        },
+        {
+          "path": "series/elsewhere-reboot-2026/episodes/episode-002/illustrations/exec-cc0ad309-f189-485e-a603-b935258551fd-360d626c6853df42.png",
+          "caption": "The Call to Roan"
+        },
+        {
+          "path": "series/elsewhere-reboot-2026/episodes/episode-002/illustrations/exec-ffa20b89-8812-48f3-8a50-6e05ebcd9472-7bedf9eece7fd29d.png",
+          "caption": "Bellwether"
+        },
+        {
+          "path": "series/elsewhere-reboot-2026/episodes/episode-002/illustrations/exec-e3933bdf-ba13-4e8d-9f0e-e42f4c1a151d-d097c695bfba4564.png",
+          "caption": "The Crooked Lantern"
+        }
+      ]
     }
   ]
 }
