@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "listening_review",
   "next_owner": "Dex",
-  "next_action": "Resolve remaining 48 kHz near-full-scale source checks, obtain a real listening decision for s14-r4-c001, then use the two quiet-cut candidates in the versioned production render and run its release checks.",
+  "next_action": "Correct the confirmed hypervigilance word mismatch, resolve the 48 kHz peak checks, then rerun production QA with the quiet-cut candidates and obtain review of the release candidate.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -6225,7 +6225,7 @@
     },
     "remaining_validation": {
       "signal": "All 239 selected source hashes verified. No exact full-scale samples. 26 takes meet the near-full-scale threshold; two other selected takes end in isolated bursts after the spoken line. Quiet-boundary exact PCM repair candidates s05-c093-r01 and s08-c148-r01 pass the targeted boundary and two-engine transcript checks. Candidates are private and not in the approved review master. The unmodified production signal check at 48 kHz passed both quiet-cut replacements and still flagged 26 other takes. No source peak rule was changed.",
-      "transcript": "Independent isolated and contextual checks on the exact MP3 confirmed 'Hex knew it sounded wrong' (s04-c072), with Vosk spelling 'knew' as 'new'. For s14-r4-c001, the engines alternate between 'hypervigilance' and 'hypervigilant'; no definitive listening result. Owner reviewed and cleared only the excerpts s04-c061 and s05-c089. Findings for other selections remain separate. Private listening excerpt for the remaining word is available as Elsewhere_E02_Hypervigilance_Review.wav.",
+      "transcript": "Independent isolated and contextual checks confirmed 'Hex knew it sounded wrong' (s04-c072). For s14-r4-c001, Ninja listened to the exact private master excerpt and heard 'hypervigilant'. The frozen script requires 'hypervigilance'. Keep this cue blocked for a corrected take. The prior owner clearances for s04-c061 and s05-c089 still apply to their excerpts.",
       "production_bundle": "The production release gate has not cleared. Keep the exact approved review master and source recordings intact. A corrected release candidate requires matching production QA and a genuine listening record.",
       "private_artifacts": [
         {
@@ -6267,6 +6267,54 @@
           "source_start_seconds": 1693.8,
           "source_duration_seconds": 8.6,
           "status": "needs_listening"
+        }
+      ],
+      "owner_word_review": {
+        "cue_id": "s14-r4-c001",
+        "expected": "hypervigilance",
+        "heard": "hypervigilant",
+        "reviewer": "Ninja",
+        "excerpt_library_file_id": "libfile_9f03d387d0fc81918f7b5dea93f32529",
+        "excerpt_sha256": "9a8df73816155eaccb93f6df4e98b2fcccbc5ec167a385609e7721602cbd37e7",
+        "master_sha256": "c62a896c278025406f85446b74a1463851617a47a776555b8c7a6e59d6ecd03c",
+        "status": "word_mismatch_confirmed_pickup_required"
+      },
+      "peak_review_excerpts": [
+        {
+          "filename": "Elsewhere_E02_Peak_01_s03-c014.wav",
+          "sha256": "f677389f0405d097611505dfb60a6cd47423390a95f9378624bf80a74b605cae",
+          "cue_id": "s03-c014",
+          "master_sha256": "c62a896c278025406f85446b74a1463851617a47a776555b8c7a6e59d6ecd03c",
+          "master_start_seconds": 192.36478458049888,
+          "duration_seconds": 6.296984126984127,
+          "source_peak_master_seconds": 195.22207624716555,
+          "source_peak_excerpt_seconds": 2.8572916666666686,
+          "library_file_id": "libfile_3cc8d8113a348191aed9b58a5727d0e4",
+          "version": 0
+        },
+        {
+          "filename": "Elsewhere_E02_Peak_02_s06-c100.wav",
+          "sha256": "71f8fbf2f11038dccd2bdaaee6209418066b4d4ca7767d4a8d4bbab6e66d5460",
+          "cue_id": "s06-c100",
+          "master_sha256": "c62a896c278025406f85446b74a1463851617a47a776555b8c7a6e59d6ecd03c",
+          "master_start_seconds": 681.9312018140589,
+          "duration_seconds": 9,
+          "source_peak_master_seconds": 686.4311935941043,
+          "source_peak_excerpt_seconds": 4.499991780045434,
+          "library_file_id": "libfile_06779cc84368819180b24c1caac4651c",
+          "version": 0
+        },
+        {
+          "filename": "Elsewhere_E02_Peak_03_s07-c136.wav",
+          "sha256": "86baee9c11bafdfabce4ad502ba8772f6b3b8375a946808f131c80b31e9f723d",
+          "cue_id": "s07-c136",
+          "master_sha256": "c62a896c278025406f85446b74a1463851617a47a776555b8c7a6e59d6ecd03c",
+          "master_start_seconds": 900.3940816326531,
+          "duration_seconds": 9.833922902494331,
+          "source_peak_master_seconds": 905.8134149659865,
+          "source_peak_excerpt_seconds": 5.419333333333384,
+          "library_file_id": "libfile_04a8e6ad0f1c819186f3a72dbd9e5db2",
+          "version": 0
         }
       ]
     }
