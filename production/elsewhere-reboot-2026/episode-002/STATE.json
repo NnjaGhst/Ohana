@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "listening_review",
   "next_owner": "Dex",
-  "next_action": "Obtain authorization for a fresh HeyGen request after the provider rejected the pronunciation setting. Record only the affected sentence with Wade, verify the spoken word, and check both joins before the private render.",
+  "next_action": "Obtain real listening review of the corrected sentence in context, clear remaining production QA, and validate the corrected release bundle before production publication.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -6378,6 +6378,75 @@
           "scope": "Exact seven-second pickup excerpt linked in the production chat",
           "excerpt_sha256": "96d428a7323f2726223433e853600f58280428813713a6c0ce73e8f062864e7c"
         }
+      },
+      "word_pickup_correction": {
+        "cue_id": "s14-r4-c001",
+        "take_id": "s14-r4-c001-t03",
+        "audio_derived_take_id": "s14-r4-c001-r02",
+        "provider_pcm_sha256": "901db8f89767f4008c4345a38571bdbcfda64c1339f3774012ab0d1a5f964018",
+        "status": "isolated_pickup_and_spliced_cue_both_engines_confirm_word",
+        "production_note": "Recorded just the affected Wade sentence using a space as a pronunciation hint; manuscript text is unchanged. Both cuts are at measured quiet boundaries. The full spliced cue retains a peak elsewhere in the original waveform from the owner-waived batch; the new recorded sentence itself passes the existing signal threshold."
+      },
+      "corrected_private_preview": {
+        "status": "private_review_only_release_gate_pending",
+        "duration_seconds": 2025.921655329,
+        "cues": 239,
+        "changed_cue_ids": [
+          "s05-c093",
+          "s08-c148",
+          "s14-r4-c001"
+        ],
+        "notes": "All other source hashes match the old review timeline. Private MP3 decoded end to end. The prior listening notes and permission remain tied to the previous master. The original sources and master are retained.",
+        "files": [
+          {
+            "filename": "Elsewhere_E02_Corrected_Sentence_In_Context.wav",
+            "library_file_id": "libfile_2375e40ea82c8191b21ea7713e2c8d7b",
+            "version": 0,
+            "sha256": "b9b5c079f09486ca9eb47ce37656594da5188082b11d9375ae36ced4c4c56316"
+          },
+          {
+            "filename": "Elsewhere_E02_The_Man_in_the_Corner_Corrected_Review.mp3",
+            "library_file_id": "libfile_9d1942250ff481919bee50fc90b9dc8f",
+            "version": 0,
+            "sha256": "ac5f33be96d2fb72e7e97fca6f1fe3f73b3d18cc87bb95428fee2633c980cb2f"
+          },
+          {
+            "filename": "review-timeline.json",
+            "library_file_id": "libfile_f26baf8024fc8191945f4603718a1d5c",
+            "version": 0,
+            "sha256": "31c38d24271768bca742473a78daeeb1ec62b047c09d2c6739ac62ba1acd5ec3"
+          },
+          {
+            "filename": "s14-r4-c001-r02.wav",
+            "library_file_id": "libfile_7f35521d61a88191804d3eafb8dcbcee",
+            "version": 0,
+            "sha256": "c0c6173d47a9465bbf30f8763cbf3fb883550988737e84fc632da4349815cc94"
+          },
+          {
+            "filename": "Elsewhere_E02_Wade_Sentence_Pickup.wav",
+            "library_file_id": "libfile_b62473fa94f08191a4feb6c4aa0b115d",
+            "version": 0,
+            "sha256": "3e1b9ab1aa5d150235ba53eb1a322f453a31252608e02c80d5abbc0e7e02f576"
+          },
+          {
+            "filename": "splice-evidence.json",
+            "library_file_id": "libfile_1749a1934d088191a32e49fbf0db6901",
+            "version": 0,
+            "sha256": "cd34fefe4513a13b4a34299b9858109d46fa9fb1ff4d89d9b4c1332d12d131fd"
+          },
+          {
+            "filename": "splice-qa.json",
+            "library_file_id": "libfile_eb3591124ca481918327648c8b6b31c0",
+            "version": 0,
+            "sha256": "f08a9c0e79e4a4ade9ebc2c97e0af8cff80635b49300af2600082698fe4e5a4f"
+          },
+          {
+            "filename": "sentence-qa.json",
+            "library_file_id": "libfile_876955ac65148191a9e2a3e02644e06d",
+            "version": 0,
+            "sha256": "d5832a51b8597d1621314ee0b5a38ca6755549bacf55510efc3a64bd932f0216"
+          }
+        ]
       }
     }
   },
