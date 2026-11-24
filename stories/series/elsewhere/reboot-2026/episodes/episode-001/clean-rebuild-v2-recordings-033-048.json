@@ -1,0 +1,174 @@
+{
+  "status": "needs-pickups",
+  "records": [
+    {
+      "cue_id": "line-033",
+      "run_id": 31,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Then you should've been. Fear can be useful.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=e5743d3daf06425680602d54e50683c9.wav",
+      "duration": 3.125124716553288
+    },
+    {
+      "cue_id": "line-034",
+      "run_id": 32,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She hated that answer. Cassian tilted his head.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=6a14adb785a64df8b86dccde7b3ace8b.wav",
+      "duration": 3.7521541950113377
+    },
+    {
+      "cue_id": "line-035",
+      "run_id": 33,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Look at me. Nin. Being brave isn't the same as being stupid.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=a070510066574c8ca7687c43418dbd82.wav",
+      "duration": 4.397233560090703
+    },
+    {
+      "cue_id": "line-036",
+      "run_id": 34,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "You're stupid.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=46c2aa146e2d421ebcee429d879663ed.wav",
+      "duration": 1.15859410430839
+    },
+    {
+      "cue_id": "line-037",
+      "run_id": 35,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Frequently. That's how I've gathered all this wisdom.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=49e08464a35e45478029e76b12710107.wav",
+      "duration": 3.252834467120181
+    },
+    {
+      "cue_id": "line-038",
+      "run_id": 36,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He showed her how to stand with her feet steady and how to move away from someone trying to grab her. He made her practise until she stopped trying to win and started paying attention.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=4fdd843aa1414a6d9fb6137bfe4be838.wav",
+      "duration": 9.152426303854876
+    },
+    {
+      "cue_id": "line-039",
+      "run_id": 37,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Good.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=427169fe744a4ef2b159232454e464bf.wav",
+      "duration": 0.942358276643991
+    },
+    {
+      "cue_id": "line-040",
+      "run_id": 38,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Can I punch you now?",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=d33a8d93c6774c19add49546cea6ffab.wav",
+      "duration": 1.447732426303855
+    },
+    {
+      "cue_id": "line-041",
+      "run_id": 39,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Absolutely not.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=91f7318ea470459e9cc9313d6b090495.wav",
+      "duration": 1.3305442176870748
+    },
+    {
+      "cue_id": "line-042",
+      "run_id": 40,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She punched his arm anyway. He looked gravely offended. That evening they ate toast for dinner because the cupboards were nearly empty. Cassian put the better-looking pieces on her plate and insisted he preferred the burnt ones. Years later, she would remember that lie more clearly than almost anything he ever taught her. On her tenth birthday he came home with a supermarket cake in a cardboard box and a candle shaped like the number seven.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=3aa9fa99cfd945c5a8d7ad7c3460e080.wav",
+      "duration": 23.43108843537415
+    },
+    {
+      "cue_id": "line-043",
+      "run_id": 41,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "That's not my age.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=1aa0ed8c8c1b4d7bb700ad41384a0871.wav",
+      "duration": 1.5889342403628117
+    },
+    {
+      "cue_id": "line-044",
+      "run_id": 42,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "That's because you're a very advanced seven-year-old.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=4b70b4cd0c2a446497ce9102d0a45d8a.wav",
+      "duration": 3.092426303854875
+    },
+    {
+      "cue_id": "line-045",
+      "run_id": 43,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "I'm ten.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=810d497b260948548b7fcbbf230e6cdf.wav",
+      "duration": 0.9436734693877551
+    },
+    {
+      "cue_id": "line-046",
+      "error": "INVALID_ARGUMENT: Error code: INVALID_ARGUMENT; Error: RuntimeException: Error calling MCP tool: [TextContent(type='text', text='{\"error\": true, \"message\": \"HTTP request failed: Server error \\'502 Bad Gateway\\' for url \\'https://api.heygen.com/v3/models/audio/tts\\'\\\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502\", \"status_code\": 502, \"retryable\": true}', "
+    },
+    {
+      "cue_id": "line-047",
+      "run_id": 45,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He'd earned the money washing windows and had forgotten the candle until the shop was closing. She knew that much because his hands smelled of cleaning fluid. She also knew he hadn't eaten lunch. She divided the cake into two uneven pieces and pushed the larger one toward him.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=330505d292bc4e7eb3ca3255600d51e1.wav",
+      "duration": 15.037074829931973
+    },
+    {
+      "cue_id": "line-048",
+      "run_id": 46,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Birthday law. You get the big piece.",
+      "scene": "Before There Were Secrets",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=2c225105d56d4a2db0ab14a61c9d0185.wav",
+      "duration": 2.5628571428571427
+    }
+  ]
+}
