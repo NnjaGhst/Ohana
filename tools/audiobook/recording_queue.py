@@ -219,6 +219,27 @@ def run(path, state, settings, provider=adapter, retain=adapter, clock=time.time
     return 'queue_drained'
 
 
+def resolve(state, decision):
+    """Select an independently verified source; retain every prior attempt."""
+    cue = state['cues'][decision['cue_id']]
+    identifier = decision['take_id']
+    require(cue['state'] in ('hold', 'received') and SAFE_ID.fullmatch(identifier)
+            and isinstance(decision['evidence_reference'], str) and decision['evidence_reference'].strip(),
+            'Held cue and recorded evidence required')
+    receipt = receipt_fields(decision['receipt'])
+    prior = next((x for x in cue['attempts'] if x['take_id'] == identifier), None)
+    if prior is None:
+        prior = dict(take_id=identifier, origin='reconciled')
+        cue['attempts'].append(prior)
+    else:
+        require(prior['state'] != 'rejected', 'Rejected takes must be preserved')
+        require('receipt' not in prior or prior['receipt'] == receipt,
+                'Use a distinct take ID for different bytes')
+    prior.update(state='candidate', receipt=receipt,
+                 evidence_reference=decision['evidence_reference'])
+    cue['state'] = 'candidate'
+
+
 def manifest(state, script, cast, output):
     require(digest(script) == state['script_sha256'] and digest(cast) == state['cast_sha256'],
             'Frozen input changed')
@@ -260,6 +281,8 @@ def main():
         create.add_argument(arg, type=Path)
     create.add_argument('episode')
     sub.add_parser('plan')
+    resolution = sub.add_parser('resolve')
+    resolution.add_argument('decision', type=Path)
     export = sub.add_parser('manifest')
     for arg in ('script', 'cast', 'output'):
         export.add_argument(arg, type=Path)
@@ -276,7 +299,10 @@ def main():
                 save(args.ledger, init(args.script, args.cast, args.episode, read(args.existing)))
             else:
                 state = read(args.ledger)
-                if args.action == 'manifest':
+                if args.action == 'resolve':
+                    resolve(state, read(args.decision))
+                    save(args.ledger, state)
+                elif args.action == 'manifest':
                     manifest(state, args.script, args.cast, args.output)
                 elif args.action == 'run':
                     settings = read(args.settings)

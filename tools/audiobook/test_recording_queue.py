@@ -130,6 +130,16 @@ class QueueTests(unittest.TestCase):
         self.assertEqual(self.run_queue(q.read(self.ledger)), 'budget_exhausted')
         self.assertEqual(self.calls, ['c1'])
 
+    def test_reconciliation_keeps_rejected_original(self):
+        s = self.init([dict(cue_id='c1', take_id='old', disposition='rejected', receipt=self.receipt)])
+        d = dict(cue_id='c1', take_id='old', receipt=self.receipt, evidence_reference='private review')
+        with self.assertRaises(ValueError):
+            q.resolve(s, d)
+        q.resolve(s, dict(d, take_id='reviewed-pickup'))
+        self.assertEqual([a['state'] for a in s['cues']['c1']['attempts']], ['rejected', 'candidate'])
+        self.run_queue(s)
+        self.assertEqual(self.calls, ['c2', 'c3'])
+
     def test_live_pilot_and_budget_required(self):
         self.settings['pilot_verified'] = False
         with self.assertRaises(ValueError):
