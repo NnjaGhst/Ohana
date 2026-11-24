@@ -1,0 +1,181 @@
+{
+  "status": "recorded",
+  "records": [
+    {
+      "cue_id": "line-145",
+      "run_id": 134,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "An artist. Unappreciated in his time.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=c7eefb152fa348aca4cecb27c52f5c77.wav",
+      "duration": 3.2478458049886623
+    },
+    {
+      "cue_id": "line-146",
+      "run_id": 135,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Inside was an old portable music player, the same model she'd once loved and broken years earlier. Cassian had repaired it, or persuaded somebody who actually knew what they were doing to repair it, and loaded it with songs they used to play too loudly in the kitchen. She stared at it.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=052b6d0004f34539b0e7f542b7f0c671.wav",
+      "duration": 16.534761904761904
+    },
+    {
+      "cue_id": "line-147",
+      "run_id": 136,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Where did you even find this?",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=1c7ac19bde1a41bc8a84669cddfdc5df.wav",
+      "duration": 1.9607709750566893
+    },
+    {
+      "cue_id": "line-148",
+      "run_id": 137,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "I have mysterious talents.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=622bc7371e1d42b5b7cd048f91c5c030.wav",
+      "duration": 1.805079365079365
+    },
+    {
+      "cue_id": "line-149",
+      "run_id": 138,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "You have mysterious debts, probably.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=6b3134031b5141e78a60ea9de0aef573.wav",
+      "duration": 2.740453514739229
+    },
+    {
+      "cue_id": "line-150",
+      "run_id": 139,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "The joke landed strangely. Cassian looked down, just for a second. Then he smiled again.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=9c8ba6f0a2aa42c294af4693b7fd1236.wav",
+      "duration": 5.7207709750566895
+    },
+    {
+      "cue_id": "line-151",
+      "run_id": 140,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Both can be true.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=dd36816f33bf4a80b2177d387a07e8dd.wav",
+      "duration": 1.263469387755102
+    },
+    {
+      "cue_id": "line-152",
+      "run_id": 141,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "They ate pasta sitting on the sofa, argued about whether one of the songs was good or simply nostalgic, and laughed until she nearly spilled her drink when he tried to imitate a singer he had absolutely no business imitating. Later, as he put on his coat, she noticed him checking his phone.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=1e71f034c86c42df9a3a7aa173d78051.wav",
+      "duration": 16.40705215419501
+    },
+    {
+      "cue_id": "line-153",
+      "run_id": 142,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "You okay?",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=8c86b2005b224d6498dee9117b1e2208.wav",
+      "duration": 1.1059410430839003
+    },
+    {
+      "cue_id": "line-154",
+      "run_id": 143,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Yeah.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=f6c27db96e3845c0993d3bc0f5dabeaa.wav",
+      "duration": 0.6950566893424036
+    },
+    {
+      "cue_id": "line-155",
+      "run_id": 144,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "That sounded rehearsed.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=b28ab5bed64146bd9ef77cb202b4da07.wav",
+      "duration": 1.6195238095238096
+    },
+    {
+      "cue_id": "line-156",
+      "run_id": 145,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Everything's all right. Nin.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=555346969ae84f9884a2d1cb57c96307.wav",
+      "duration": 2.148140589569161
+    },
+    {
+      "cue_id": "line-157",
+      "run_id": 146,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She moved closer. For a moment she considered making him stay, demanding an explanation, refusing to let him hide behind his usual jokes. But he looked so tired.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=7e4e3372a9a9414eaccc35c14660fdd9.wav",
+      "duration": 9.586893424036282
+    },
+    {
+      "cue_id": "line-158",
+      "run_id": 147,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Call me tomorrow.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=21e402a3921b4143b158d3fdd0eef264.wav",
+      "duration": 1.2387528344671201
+    },
+    {
+      "cue_id": "line-159",
+      "run_id": 148,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He tucked the phone away.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=db9678836194439db1937b752dcb295e.wav",
+      "duration": 1.526689342403628
+    },
+    {
+      "cue_id": "line-160",
+      "run_id": 149,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "I will.",
+      "scene": "The Last Ordinary Evening",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=10ac748d060e4833872d9a8477f6d27b.wav",
+      "duration": 0.8074149659863945
+    }
+  ]
+}
