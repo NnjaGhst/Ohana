@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "listening_review",
   "next_owner": "Dex",
-  "next_action": "Obtain real listening review of the corrected sentence in context, clear remaining production QA, and validate the corrected release bundle before production publication.",
+  "next_action": "Complete corrected preview production QA and genuine listening review of representative joins, then validate the release bundle against the approved hashes.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -6384,7 +6384,7 @@
         "take_id": "s14-r4-c001-t03",
         "audio_derived_take_id": "s14-r4-c001-r02",
         "provider_pcm_sha256": "901db8f89767f4008c4345a38571bdbcfda64c1339f3774012ab0d1a5f964018",
-        "status": "isolated_pickup_and_spliced_cue_both_engines_confirm_word",
+        "status": "corrected_word_confirmed_by_owner_and_both_transcription_engines",
         "production_note": "Recorded just the affected Wade sentence using a space as a pronunciation hint; manuscript text is unchanged. Both cuts are at measured quiet boundaries. The full spliced cue retains a peak elsewhere in the original waveform from the owner-waived batch; the new recorded sentence itself passes the existing signal threshold."
       },
       "corrected_private_preview": {
@@ -6446,7 +6446,19 @@
             "version": 0,
             "sha256": "d5832a51b8597d1621314ee0b5a38ca6755549bacf55510efc3a64bd932f0216"
           }
-        ]
+        ],
+        "owner_word_review": {
+          "reviewer": "Ninja",
+          "cue_id": "s14-r4-c001",
+          "date": "2026-11-24",
+          "expected": "hypervigilance",
+          "heard": "hypervigilance",
+          "outcome": "corrected_word_confirmed",
+          "scope": "Wording in the exact excerpt. No finding inferred for the joins or full corrected master.",
+          "excerpt_library_file_id": "libfile_2375e40ea82c8191b21ea7713e2c8d7b",
+          "excerpt_sha256": "b9b5c079f09486ca9eb47ce37656594da5188082b11d9375ae36ced4c4c56316",
+          "master_sha256": "ac5f33be96d2fb72e7e97fca6f1fe3f73b3d18cc87bb95428fee2633c980cb2f"
+        }
       }
     }
   },
