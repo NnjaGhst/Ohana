@@ -1,0 +1,188 @@
+{
+  "production": "phrase-level independent HeyGen clips, restored prior Episode 2 edit method",
+  "status": "testing-only-no-Ohana-publication",
+  "corrected_club_seconds": 232.158,
+  "full_episode_seconds": 2016.908,
+  "club_cues": 18,
+  "speech_cut_count": 0,
+  "speech_timestamp_based_cuts": 0,
+  "whole_source_files": 18,
+  "hallie_dialogue_gain": 0.9,
+  "hallie_thought_gain": 0.8,
+  "no_speed_or_pitch_changes": true,
+  "source_episode_before_1784_75_seconds_preserved": true,
+  "ambience": [
+    "faint rain outside",
+    "quiet unintelligible pub room",
+    "door movement",
+    "two soft glass taps"
+  ],
+  "ambience_peak_linear": 0.02820294660057131,
+  "club_voice_only_file_bytes": 4644615,
+  "club_with_ambience_file_bytes": 4644615,
+  "full_episode_preview_file_bytes": 40339374,
+  "cues": [
+    {
+      "cue": "club-01",
+      "run": 197,
+      "actor": "narrator",
+      "start": 0.18,
+      "end": 24.412,
+      "text": "Back in Bellwether, rain tapped against Ninja's jacket as she walked past shuttered shopfronts. Through the bakery window, Ada was wiping down a counter. She raised one hand when she saw Ninja pass. Ninja returned the gesture. It was a small exchange, not quite a friendship, and she was grateful for how little it asked of her. At the corner, a warm light fell across the wet pavement. The Crooked Lantern.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-02",
+      "run": 197,
+      "actor": "narrator",
+      "start": 24.702,
+      "end": 46.051,
+      "text": "Its door creaked when she pushed it open. The room smelled of wood polish, damp wool, and the comforting suggestion of something cooking behind the bar. A few people sat at tables. Someone had left a coat over the back of a chair. A low conversation drifted from near the fire. The place seemed to have no interest in impressing anyone. Perfect. The bartender looked up.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-03",
+      "run": 198,
+      "actor": "bartender",
+      "start": 46.461,
+      "end": 47.446,
+      "text": "Evening.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-04",
+      "run": 199,
+      "actor": "ninja",
+      "start": 47.856,
+      "end": 49.685,
+      "text": "Whiskey, please.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-05",
+      "run": 200,
+      "actor": "bartender",
+      "start": 50.095,
+      "end": 51.525,
+      "text": "Any preference?",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-06",
+      "run": 201,
+      "actor": "ninja",
+      "start": 51.935,
+      "end": 54.579,
+      "text": "The one that doesn't ask personal questions.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-07",
+      "run": 202,
+      "actor": "narrator",
+      "start": 54.989,
+      "end": 57.306,
+      "text": "One corner of his mouth lifted.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-08",
+      "run": 203,
+      "actor": "bartender",
+      "start": 57.716,
+      "end": 60.535,
+      "text": "That narrows it down surprisingly little.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-09",
+      "run": 204,
+      "actor": "ninja",
+      "start": 60.945,
+      "end": 62.343,
+      "text": "Then your favorite.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-10",
+      "run": 205,
+      "actor": "narrator",
+      "start": 62.753,
+      "end": 91.868,
+      "text": "He poured a glass and set it in front of her. She chose a stool with a good view of the door and her shoulder turned slightly away from the room. Old habits. Not fear, exactly. Just the relief of not offering herself to conversation. For a few minutes, it almost worked. The glass was cool beneath her fingertips. Rain slipped down the window. Nobody knew her name. Nobody asked about Cassian. She let the quiet settle. Then another glass appeared beside the first. Ninja looked at it.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-11",
+      "run": 205,
+      "actor": "narrator",
+      "start": 92.158,
+      "end": 96.764,
+      "text": "She hadn't ordered a second. The bartender tipped his head toward a far corner.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-12",
+      "run": 206,
+      "actor": "bartender",
+      "start": 97.174,
+      "end": 98.98,
+      "text": "From the man across the room.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-13",
+      "run": 207,
+      "actor": "narrator",
+      "start": 99.39,
+      "end": 127.215,
+      "text": "Of course. Her first instinct was irritation, sharp and reassuringly familiar. She hadn't driven all this way to be approached by a stranger who thought a drink was an invitation to claim part of her evening. She could send it back. She almost did. But the refusal stalled somewhere between thought and speech. She stared at her whiskey, annoyed by the hesitation. Once, she might have enjoyed the contest of figuring out a stranger before they figured out her. That person felt far away.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-14",
+      "run": 207,
+      "actor": "narrator",
+      "start": 127.505,
+      "end": 155.829,
+      "text": "She lifted her gaze anyway. He sat alone in the corner, dark clothes against the low light, long hair, a beard, and the kind of stillness that made everyone else's movements seem slightly louder. He was already looking at her. Not with the easy confidence she'd expected. There was no smug little smile, no exaggerated charm. For a fraction of a second, he looked almost startled. As though he'd done something before he had the chance to talk himself out of it. That caught her attention.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-15",
+      "run": 207,
+      "actor": "narrator",
+      "start": 156.119,
+      "end": 183.595,
+      "text": "She studied him in return. He sat where he could see the exits. His control looked practiced, maintained rather than effortless. There were people like that. People who carried too much while insisting they were perfectly capable of carrying more. Near the end, Cassian had sometimes sat that way. The memory stung without warning. Ninja's fingers tightened around her glass. Don't start, she told herself. You came here to be nobody. Not to collect somebody else's problems.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-16",
+      "run": 207,
+      "actor": "narrator",
+      "start": 183.885,
+      "end": 198.876,
+      "text": "She could leave the second drink untouched, turn away, and make her wishes clear. She was exceptionally good at that. But she was curious about his voice. Whether he belonged here, or whether, like her, he needed somewhere nobody would ask questions.",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-17",
+      "run": 208,
+      "actor": "ninja_thought",
+      "start": 199.326,
+      "end": 211.816,
+      "text": "Who are you? You look like the kind of man who has an answer prepared for everything, and not one of them is the truth. Don't start. Don't make somebody else's silence into your problem. So why haven't you looked away?",
+      "untrimmed_source": true
+    },
+    {
+      "cue": "club-18",
+      "run": 209,
+      "actor": "narrator",
+      "start": 212.266,
+      "end": 231.738,
+      "text": "The thought made her angry at herself. She didn't know him. She had no reason to care. Something in his expression suggested he, too, had once believed that moving far enough might finally outrun the past. She held his gaze. A second longer than she meant to. The man in the corner didn't look away. Neither did she.",
+      "untrimmed_source": true
+    }
+  ]
+}
