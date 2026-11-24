@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
   "next_owner": "Dex",
-  "next_action": "Reconcile the reserved connected recording group before resubmitting any cue.",
+  "next_action": "Resume connected production from the verified receipts; hold flagged cues for QA and keep publication blocked.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -5134,6 +5134,96 @@
         },
         "group": "connected-017",
         "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s14-r4-c017-t01.wav",
+        "file_id": "file_000000004b7881fda27466945ca5d3d2",
+        "library_file_id": "libfile_119b26d69b288191abfe717c2766268d",
+        "version": 0,
+        "sha256": "88638e8f6724dabd27f4e27288b55838c2f50098bce346818ff6b677997e53eb",
+        "bytes": 271144,
+        "duration_seconds": 3.073696,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s14-r4-c017",
+        "take_id": "s14-r4-c017-t01",
+        "raw_qa_status": "signal_gate_blocked",
+        "raw_qa_summary": {
+          "failure": "low ASR confidence",
+          "signal_flags": [
+            "clipping"
+          ],
+          "confidence": 0.7191464928922143
+        },
+        "group": "connected-018",
+        "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s14-r4-c018-t01.wav",
+        "file_id": "file_000000002c0881fd9c229ee65340e5c1",
+        "library_file_id": "libfile_0a35d700ec108191ac17ea706c9d1e40",
+        "version": 0,
+        "sha256": "4c95a9766e84d94deb6fbf632d0f5e2a88729e1a7ccf5931146abf836f249cc0",
+        "bytes": 3225276,
+        "duration_seconds": 36.567256,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s14-r4-c018",
+        "take_id": "s14-r4-c018-t01",
+        "raw_qa_status": "pass",
+        "raw_qa_summary": {
+          "failure": null,
+          "signal_flags": [],
+          "confidence": 0.8689325887403542
+        },
+        "group": "connected-018",
+        "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s14-r4-c019-t01.wav",
+        "file_id": "file_00000000ef5881fd935ffbb4ff9f7e78",
+        "library_file_id": "libfile_63620d06985881919a1cd104980522e0",
+        "version": 0,
+        "sha256": "c748bc8c18068c2d8b8c70a46e99c3752346c874dd9e8dd5ff5463fc7f34337a",
+        "bytes": 1302778,
+        "duration_seconds": 14.770227,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s14-r4-c019",
+        "take_id": "s14-r4-c019-t01",
+        "raw_qa_status": "pass",
+        "raw_qa_summary": {
+          "failure": null,
+          "signal_flags": [],
+          "confidence": 0.870781876456534
+        },
+        "group": "connected-018",
+        "provider_account": "Ninja"
+      },
+      {
+        "role": "verified connected source WAV; listening pending",
+        "filename": "s14-r4-c021-t01.wav",
+        "file_id": "file_00000000e68881fdb9c6cd3e202872c6",
+        "library_file_id": "libfile_7f7577d1e40081919ee52bfdf6262e65",
+        "version": 0,
+        "sha256": "ec5dfaa5e11c47447e171e9c415b79fda82a2c65d728dfd8fbdf102bf417bbc1",
+        "bytes": 707368,
+        "duration_seconds": 8.019546,
+        "sample_rate": 44100,
+        "channels": 1,
+        "cue_id": "s14-r4-c021",
+        "take_id": "s14-r4-c021-t01",
+        "raw_qa_status": "blocked",
+        "raw_qa_summary": {
+          "failure": "low ASR confidence",
+          "signal_flags": [],
+          "confidence": 0.8093966071738902
+        },
+        "group": "connected-018",
+        "provider_account": "Ninja"
       }
     ],
     "open_cue_ids": [
@@ -5379,16 +5469,16 @@
     ],
     "cue_count": 239,
     "recording_status": {
-      "generated_takes": 230,
-      "verified_audio_bytes": 230,
+      "generated_takes": 234,
+      "verified_audio_bytes": 234,
       "transcript_match": 9,
-      "pending_cues": 11,
+      "pending_cues": 7,
       "qa_open_cues": 239,
-      "blocked_reason": "11 cues still require recording or directed performance; held cues and listening QA remain.",
-      "raw_qa_candidates_checked": 228,
-      "raw_qa_gate_clear": 40,
-      "raw_qa_uncertainty": 159,
-      "raw_signal_gate_blocked": 29
+      "blocked_reason": "7 cues still require recording or directed performance; held cues and listening QA remain.",
+      "raw_qa_candidates_checked": 232,
+      "raw_qa_gate_clear": 42,
+      "raw_qa_uncertainty": 160,
+      "raw_signal_gate_blocked": 30
     },
     "transfer_workflow": "production/elsewhere-reboot-2026/episode-002/PRIVATE-TRANSFER.md",
     "batch_002": {
@@ -5555,12 +5645,12 @@
       "tooling_head": "3f5a760d8b682718c1e7227cd4a3e87c7a5842b8",
       "script_sha256": "ef85205fc944b371ee7aac01c6aa2dcb2e612a0a18cd183b65bbac3443ba7f19",
       "provider_status": "Ninja account live chat connector pilot verified; REST runner remains uncredentialed; bulk quota cap not supplied",
-      "left_to_record": 11,
-      "plain_cues_waiting": 4,
+      "left_to_record": 7,
+      "plain_cues_waiting": 0,
       "directed_cues_waiting": 7,
-      "remaining_characters": 1724,
+      "remaining_characters": 696,
       "remaining_words": 5085,
-      "reserved_new_calls": 205,
+      "reserved_new_calls": 209,
       "signal_gate_cues": [
         "s02-c010",
         "s03-c014"
@@ -5594,22 +5684,12 @@
       "active_seed_library_file_id": "libfile_1d66c903b6e4819196a95d1e8fc0a109",
       "connected_bulk": {
         "authorization": "Finish required cues using connected accounts' existing credits only",
-        "groups_completed": 17,
+        "groups_completed": 18,
         "held_attempts": [],
         "quota_gates": [],
-        "provider_calls": 204,
-        "retained": 204,
-        "active": {
-          "id": "connected-018",
-          "account": "Ninja",
-          "cues": [
-            "s14-r4-c017",
-            "s14-r4-c018",
-            "s14-r4-c019",
-            "s14-r4-c021"
-          ],
-          "status": "reserved_before_provider_submission"
-        }
+        "provider_calls": 208,
+        "retained": 208,
+        "active": null
       }
     }
   },
