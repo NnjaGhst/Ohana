@@ -1,0 +1,54 @@
+name: Publish approved Elsewhere reboot three-line repair
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths: ['.github/workflows/elsewhere-publish-knock-repair-v1.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 41a0e5db24de9d512b8d20f36e5dc9bec37dc317
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/knock-repair-v1/full
+          sparse-checkout-cone-mode: false
+      - name: Stage approved repaired master
+        run: |
+          cp "stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/knock-repair-v1/full/episode-001-knock-repair-preview.mp3" "$RUNNER_TEMP/repair.mp3"
+          cp "stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/knock-repair-v1/full/full-repair-audit.json" "$RUNNER_TEMP/repair.json"
+          test "$(wc -c < "$RUNNER_TEMP/repair.mp3")" -eq 42502835
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Publish only to the reboot category
+        run: |
+          cp "$RUNNER_TEMP/repair.mp3" "stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-knock-repair-v1-approved.mp3"
+          cp "$RUNNER_TEMP/repair.json" "stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/knock-repair-v1-release-audit.json"
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('stories/index.json')
+          data=json.loads(p.read_text())
+          episodes=data['episodes']
+          original=next(e for e in episodes if e['id']=='elsewhere-001')
+          assert original['title']=='The Photograph'
+          target=next(e for e in episodes if e['id']=='elsewhere-reboot-2026-001')
+          assert target['seriesId']=='elsewhere-reboot-2026' and len(target['images'])==7
+          assert target['audio'].endswith('episode-001-clean-phrases-v2-approved.mp3')
+          target['audio']='series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-knock-repair-v1-approved.mp3'
+          p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+          m=Path('stories')/target['metadata']
+          info=json.loads(m.read_text())
+          info.update(audio_file=target['audio'],actual_duration_seconds=2125.076,audio_edit_version='knock-repair-v1',audio_quality_note='Three repeated utterances repaired and individually transcribed; complete repaired scene with and without ambience checked by ASR. Listener approved the dry scene; full episode naturalness not independently verified.')
+          m.write_text(json.dumps(info,ensure_ascii=False,indent=2)+'\n')
+          PY
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stories/index.json "stories/series/elsewhere/reboot-2026/episodes/episode-001/ohana-metadata.json" "stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/episode-001-knock-repair-v1-approved.mp3" "stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/knock-repair-v1-release-audit.json"
+          git commit -m "Publish approved three-line repair to separate Elsewhere reboot category"
+          git push origin HEAD:main
