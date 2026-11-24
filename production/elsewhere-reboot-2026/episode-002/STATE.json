@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "recording",
   "next_owner": "Dex",
-  "next_action": "Resume connected production from the verified receipts; hold flagged cues for QA and keep publication blocked.",
+  "next_action": "Reconcile the reserved connected recording group before resubmitting any cue.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -3461,7 +3461,25 @@
         "quota_gates": [],
         "provider_calls": 108,
         "retained": 108,
-        "active": null
+        "active": {
+          "id": "connected-010",
+          "account": "Ninja",
+          "cues": [
+            "s07-c132",
+            "s07-c133",
+            "s07-c134",
+            "s07-c135",
+            "s07-c136",
+            "s07-c137",
+            "s07-c138",
+            "s08-c139",
+            "s08-c140",
+            "s08-c141",
+            "s08-c142",
+            "s08-c143"
+          ],
+          "status": "reserved_before_provider_submission"
+        }
       }
     }
   },
