@@ -6290,7 +6290,13 @@
           "source_peak_master_seconds": 195.22207624716555,
           "source_peak_excerpt_seconds": 2.8572916666666686,
           "library_file_id": "libfile_3cc8d8113a348191aed9b58a5727d0e4",
-          "version": 0
+          "version": 0,
+          "listening_review": {
+            "reviewer": "Ninja",
+            "outcome": "no_audible_issue_in_review_mix",
+            "scope": "This exact excerpt from the private mixed master",
+            "reference": "Owner confirmed all three supplied clips sounded fine in the Episode 2 production chat on 2026-11-24."
+          }
         },
         {
           "filename": "Elsewhere_E02_Peak_02_s06-c100.wav",
@@ -6302,7 +6308,13 @@
           "source_peak_master_seconds": 686.4311935941043,
           "source_peak_excerpt_seconds": 4.499991780045434,
           "library_file_id": "libfile_06779cc84368819180b24c1caac4651c",
-          "version": 0
+          "version": 0,
+          "listening_review": {
+            "reviewer": "Ninja",
+            "outcome": "no_audible_issue_in_review_mix",
+            "scope": "This exact excerpt from the private mixed master",
+            "reference": "Owner confirmed all three supplied clips sounded fine in the Episode 2 production chat on 2026-11-24."
+          }
         },
         {
           "filename": "Elsewhere_E02_Peak_03_s07-c136.wav",
@@ -6314,9 +6326,16 @@
           "source_peak_master_seconds": 905.8134149659865,
           "source_peak_excerpt_seconds": 5.419333333333384,
           "library_file_id": "libfile_04a8e6ad0f1c819186f3a72dbd9e5db2",
-          "version": 0
+          "version": 0,
+          "listening_review": {
+            "reviewer": "Ninja",
+            "outcome": "no_audible_issue_in_review_mix",
+            "scope": "This exact excerpt from the private mixed master",
+            "reference": "Owner confirmed all three supplied clips sounded fine in the Episode 2 production chat on 2026-11-24."
+          }
         }
-      ]
+      ],
+      "peak_listening_summary": "Ninja heard no audible defect in the three exact mixed excerpts. This listening result is retained for the three sampled cues. The source-level production signal check remains unchanged."
     }
   },
   "cast_file": "production/elsewhere-reboot-2026/episode-002/cast.json",
