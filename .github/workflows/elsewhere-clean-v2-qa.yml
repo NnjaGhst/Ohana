@@ -1,0 +1,55 @@
+name: Elsewhere Episode 1 - Clean Phrase QA Review Clips
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - .github/workflows/elsewhere-clean-v2-qa.yml
+      - stories/series/elsewhere/reboot-2026/episodes/episode-001/make_clean_v2_qa_segments.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  cut-reviews:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/make_clean_v2_qa_segments.py
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/clean-phrases-v2/elsewhere-ep1-clean-complete-phrases-v2.mp3
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/clean-phrases-v2/clean-v2-edit-report.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install ffmpeg and pydub
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pydub
+      - name: Cut QA-only files at complete original cue boundaries
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/clean-v2-qas
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/make_clean_v2_qa_segments.py
+      - name: Save QA review files on working branch
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/clean-v2-qas
+        run: |
+          set -e
+          folder=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/clean-phrases-v2/qa
+          mkdir -p "$folder"
+          cp "$OUTPUT_DIR"/qa-*.mp3 "$folder/"
+          cp "$OUTPUT_DIR/qa-cue-manifest.json" "$folder/"
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$folder"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Store whole-phrase QA chapters for ASR verification"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
