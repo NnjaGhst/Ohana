@@ -1,0 +1,76 @@
+name: Elsewhere Episode 1 - Clean Re-recording With Scene Soundscape
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths:
+      - .github/workflows/elsewhere-clean-v2-ambience.yml
+      - stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_clean_v2_with_scenes.py
+      - stories/series/elsewhere/reboot-2026/episodes/episode-001/retime_soundscape_to_clean_v2.py
+  workflow_dispatch:
+concurrency:
+  group: elsewhere-clean-v2-scenes
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  compose-scenes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/retime_soundscape_to_clean_v2.py
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_clean_v2_with_scenes.py
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/dynamic-ambience-cue-sheet.json
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/full-cast-previews/edit-report-full-cast.json
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/clean-phrases-v2/clean-v2-edit-report.json
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/clean-phrases-v2/elsewhere-ep1-clean-complete-phrases-v2.mp3
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install ffmpeg and audio processing
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pydub numpy scipy
+      - name: Synchronize scene cues to re-recorded narration
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/retime_soundscape_to_clean_v2.py
+      - name: Render atmosphere under full-cast whole-phrase master
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/elsewhere-clean-scenes
+        run: python stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_clean_v2_with_scenes.py
+      - name: Save full and scene excerpts to working branch only
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/elsewhere-clean-scenes
+        run: |
+          set -e
+          folder=stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/clean-phrases-v2/with-scenes
+          mkdir -p "$folder"
+          cp "$OUTPUT_DIR/episode-001-clean-v2-with-scenes.mp3" "$folder/"
+          cp "$OUTPUT_DIR/rain-bakery-courtyard-clean.mp3" "$folder/"
+          cp "$OUTPUT_DIR/last-evening-knock-clean.mp3" "$folder/"
+          cp "$OUTPUT_DIR/return-bellwether-pub-clean.mp3" "$folder/"
+          cp "$OUTPUT_DIR/clean-v2-soundscape-edit-report.json" "$folder/"
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$folder/episode-001-clean-v2-with-scenes.mp3" "$folder/rain-bakery-courtyard-clean.mp3" "$folder/last-evening-knock-clean.mp3" "$folder/return-bellwether-pub-clean.mp3" "$folder/clean-v2-soundscape-edit-report.json" "stories/series/elsewhere/reboot-2026/episodes/episode-001/clean-v2-retimed-soundscape.json"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Save scene-changing atmosphere atop clean full rerecording as preview"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin elsewhere-reboot-2026
+            git rebase origin/elsewhere-reboot-2026
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: elsewhere-clean-v2-with-scenes-preview
+          path: |
+            ${{ runner.temp }}/elsewhere-clean-scenes/episode-001-clean-v2-with-scenes.mp3
+            ${{ runner.temp }}/elsewhere-clean-scenes/clean-v2-soundscape-edit-report.json
+          retention-days: 14
+          if-no-files-found: warn
