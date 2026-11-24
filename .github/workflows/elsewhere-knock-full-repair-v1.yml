@@ -1,0 +1,80 @@
+name: Elsewhere E1 verified repetition repair full audition
+on:
+  push:
+    branches: [elsewhere-reboot-2026]
+    paths: ['.github/workflows/elsewhere-knock-full-repair-v1.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: elsewhere-reboot-2026
+          sparse-checkout: |
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/clean-phrases-v2/elsewhere-ep1-clean-complete-phrases-v2.mp3
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/knock-repair-v1
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_clean_v2_with_scenes.py
+            stories/series/elsewhere/reboot-2026/episodes/episode-001/clean-v2-retimed-soundscape.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: |
+          sudo apt-get install -y ffmpeg
+          pip install pydub numpy scipy
+      - name: Assemble full preview with verified complete-utterance pickups
+        run: |
+          python - <<'PY'
+          import json, math
+          from pathlib import Path
+          from pydub import AudioSegment
+          root=Path('stories/series/elsewhere/reboot-2026/episodes/episode-001')
+          work=root/'audio'/'knock-repair-v1'
+          source=root/'audio/clean-phrases-v2/elsewhere-ep1-clean-complete-phrases-v2.mp3'
+          dry=AudioSegment.from_file(source).set_channels(1).set_frame_rate(44100)
+          audit=json.loads((work/'repair-audit.json').read_text())
+          original=len(dry)
+          for row,gain in zip(audit['replacements'],[.9,.9,1.0]):
+              windows={'line-171':(1092025,1093849),'line-177':(1121605,1123348),'line-180':(1127476,1129544)}
+              a,b=windows[row['id']]
+              take=AudioSegment.from_file(work/(row['id']+'-candidate.mp3')).set_channels(1).set_frame_rate(44100)
+              assert abs(len(take)-row['candidate_ms'])<=3
+              assert len(take)<=b-a
+              take=take.apply_gain(20*math.log10(gain))
+              padded=take+AudioSegment.silent(duration=b-a-len(take),frame_rate=44100)
+              dry=dry[:a]+padded+dry[b:]
+          assert abs(len(dry)-original)<=2
+          # Use lossless input for the existing soundscape mixer.
+          dry.export(source.with_suffix('.wav'),format='wav')
+          code=(root/'assemble_clean_v2_with_scenes.py').read_text()
+          code=code.replace('elsewhere-ep1-clean-complete-phrases-v2.mp3','elsewhere-ep1-clean-complete-phrases-v2.wav')
+          (root/'assemble_knock_repair_with_scenes_tmp.py').write_text(code)
+          PY
+          OUTPUT_DIR="$RUNNER_TEMP/knock-full" python "stories/series/elsewhere/reboot-2026/episodes/episode-001/assemble_knock_repair_with_scenes_tmp.py"
+          mkdir -p "stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/knock-repair-v1/full"
+          cp "$RUNNER_TEMP/knock-full/episode-001-clean-v2-with-scenes.mp3" "stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/knock-repair-v1/full/episode-001-knock-repair-preview.mp3"
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          from pydub import AudioSegment
+          out=Path('stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/knock-repair-v1/full')
+          master=out/'episode-001-knock-repair-preview.mp3'
+          audio=AudioSegment.from_file(master)
+          assert abs(len(audio)/1000-2125.076)<.3
+          audio[1074029:1206843].export(out/'the-knock-repair-with-scenes.mp3',format='mp3',bitrate='160k')
+          report=json.loads((Path(os.environ['RUNNER_TEMP'])/'knock-full/clean-v2-soundscape-edit-report.json').read_text())
+          report.update(status='unpublished audition; no catalog change',replacement_cues=['line-171','line-177','line-180'],verification='Individual candidates and full dry scene independently transcribed; no repeated target words; acoustic naturalness requires listener audition',master=master.name)
+          (out/'full-repair-audit.json').write_text(json.dumps(report,indent=2))
+          PY
+      - name: Save preview without changing catalog
+        run: |
+          git config user.name "Elsewhere Audio Builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "stories/series/elsewhere/reboot-2026/episodes/episode-001/audio/knock-repair-v1/full"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Save full-length Elsewhere E1 repetition repair audition with original scene atmosphere"
+          git push origin HEAD:elsewhere-reboot-2026
