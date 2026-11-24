@@ -138,7 +138,7 @@ expected_ids=[c["id"] for c in pre]
 actual_ids=[x["id"] for x in timeline[:230]]
 assert expected_ids==actual_ids
 all_subclips=sum(x["part_count"] for x in timeline)
-assert all_subclips==254 # 230 preclub + 4 extra split parts + 18 club
+assert all_subclips==252 # 230 preclub + 4 extra split parts + 18 club
 # Keep relative acting/volume; apply uniform tiny headroom if needed.
 if mix.max_dBFS>-.8:
     mix=mix.apply_gain(-.8-mix.max_dBFS)
@@ -161,7 +161,7 @@ previews=[
 ]
 report={"status":"unpublished-qa-preview","method":"fresh full uncut per-phrase TTS, previously approved club",
  "dialogue_cuts":0,"timestamp_cuts":0,"source_clip_cropping":0,
- "audio_change_within_words":0,"pre_club_cues":230,"pre_club_recording_count":236,
+ "audio_change_within_words":0,"pre_club_cues":230,"pre_club_recording_count":234,
  "existing_club_unmodified":True,"club_cues":18,"duration_seconds":duration,
  "full_preview_bytes":name.stat().st_size,"club_start_seconds":club_start,
  "previous_sliced_master_reused":False,
