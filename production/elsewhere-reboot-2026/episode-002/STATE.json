@@ -5,7 +5,7 @@
   "tooling_commit": "b241219e075c0b0502c34892d61cdb67662b83d1",
   "phase": "listening_review",
   "next_owner": "Dex",
-  "next_action": "Correct the confirmed hypervigilance word mismatch, resolve the 48 kHz peak checks, then rerun production QA with the quiet-cut candidates and obtain review of the release candidate.",
+  "next_action": "Record and verify the hypervigilance pickup, assemble the corrected private preview and rerun production QA. Retain this episode's peak disposition.",
   "manuscript": {
     "status": "frozen",
     "revision": "Draft 4",
@@ -6335,7 +6335,13 @@
           }
         }
       ],
-      "peak_listening_summary": "Ninja heard no audible defect in the three exact mixed excerpts. This listening result is retained for the three sampled cues. The source-level production signal check remains unchanged."
+      "peak_listening_summary": "Ninja heard no audible defect in the three exact mixed excerpts. This listening result is retained for the three sampled cues. The source-level production signal check remains unchanged.",
+      "peak_owner_disposition": {
+        "status": "owner_waived_for_episode_2_reviewed_peak_batch",
+        "reviewer": "Ninja",
+        "basis": "Clean listening to the three highest peaks, and the other 23 values were lower. All 26 were triggered by the same threshold. The original audio audit found zero exact full-scale samples.",
+        "scope": "Only the 26 existing near-full-scale cue findings. This does not represent listening to the remaining excerpts and does not waive new findings, word mismatches, or release validation."
+      }
     }
   },
   "cast_file": "production/elsewhere-reboot-2026/episode-002/cast.json",
