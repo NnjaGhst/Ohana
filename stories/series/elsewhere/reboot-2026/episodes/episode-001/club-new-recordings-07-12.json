@@ -1,0 +1,65 @@
+{
+  "status": "recorded",
+  "clips": [
+    {
+      "cue": "club-07",
+      "run": 202,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "text": "One corner of his mouth lifted.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=066b25449d204098bcc3bce8f7129038.wav",
+      "duration_seconds": 2.3174149659863947
+    },
+    {
+      "cue": "club-08",
+      "run": 203,
+      "actor": "bartender",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1,
+      "text": "That narrows it down surprisingly little.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/eae6fca42aae4b78b992533e96ab43c9/id=2b07e225616d4414b794a9e6332a8ec6.wav",
+      "duration_seconds": 2.81827664399093
+    },
+    {
+      "cue": "club-09",
+      "run": 204,
+      "actor": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "text": "Then your favorite.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=51c82efc0d4b4776adbf5202b39fdf2f.wav",
+      "duration_seconds": 1.3978684807256236
+    },
+    {
+      "cue": "club-10",
+      "run": 205,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "text": "He poured a glass and set it in front of her. She chose a stool with a good view of the door and her shoulder turned slightly away from the room. Old habits. Not fear, exactly. Just the relief of not offering herself to conversation. For a few minutes, it almost worked. The glass was cool beneath her fingertips. Rain slipped down the window. Nobody knew her name. Nobody asked about Cassian. She let the quiet settle. Then another glass appeared beside the first. Ninja looked at it.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=b1c9020b7f30434c8b9ec2a14ac47bad.wav",
+      "duration_seconds": 29.115283446712017
+    },
+    {
+      "cue": "club-11",
+      "run": 205,
+      "actor": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "text": "She hadn't ordered a second. The bartender tipped his head toward a far corner.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=71d59d3e564649bcabdddf84df367b78.wav",
+      "duration_seconds": 4.606213151927438
+    },
+    {
+      "cue": "club-12",
+      "run": 206,
+      "actor": "bartender",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "gain": 1,
+      "text": "From the man across the room.",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/eae6fca42aae4b78b992533e96ab43c9/id=73cce6fed6f44e2187b0da34df3641b2.wav",
+      "duration_seconds": 1.8061904761904761
+    }
+  ]
+}
