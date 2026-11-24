@@ -1,0 +1,181 @@
+{
+  "status": "recorded",
+  "records": [
+    {
+      "cue_id": "line-081",
+      "run_id": 77,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Didn't we agree this movie was terrible?",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=5965618e900f4144a8ce3b73e338b0bd.wav",
+      "duration": 2.5351473922902494
+    },
+    {
+      "cue_id": "line-082",
+      "run_id": 78,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Yes.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=7c90383d500d4668ae84eb4d9fa69253.wav",
+      "duration": 1.6160090702947847
+    },
+    {
+      "cue_id": "line-083",
+      "run_id": 79,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Why are we watching it?",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=e895631335654bc4905e6b03cab302ee.wav",
+      "duration": 1.2882539682539682
+    },
+    {
+      "cue_id": "line-084",
+      "run_id": 80,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "Because you know how it ends.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=e69a4cda0f074807af34aaf5009bfbf5.wav",
+      "duration": 1.7649433106575965
+    },
+    {
+      "cue_id": "line-085",
+      "run_id": 81,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He was quiet for a moment. Then he reached down and squeezed her shoulder. That was how they understood each other. Not through grand speeches or permanent agreement. Through the mundane evidence of being there. A second mug made without asking. A text when someone got home. The comfortable insult that meant, I'm happy you're alive. Ninja believed there would always be someone who could turn the worst day into something survivable. She'd built her idea of home around that belief.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=b89b66a8e0ef403a8f8b10b25220e4dd.wav",
+      "duration": 27.833197278911566
+    },
+    {
+      "cue_id": "line-086",
+      "run_id": 81,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "Sometimes, when Ninja worked the late shift, Cassian met her at the bus stop. She always claimed she hadn't asked him to. He always replied that he was waiting for the bus himself.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=2f6cc119f5e044a4b667993e4698b1b5.wav",
+      "duration": 10.19061224489796
+    },
+    {
+      "cue_id": "line-087",
+      "run_id": 82,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "At midnight? You don't even take this route.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=157238f5c8d842368177c13ba4c23723.wav",
+      "duration": 3.20140589569161
+    },
+    {
+      "cue_id": "line-088",
+      "run_id": 83,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Maybe I've developed an interest in public transport.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=02feaf71e3a44204be763a73de4dca96.wav",
+      "duration": 3.304263038548753
+    },
+    {
+      "cue_id": "line-089",
+      "run_id": 84,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She'd walk beside him under the streetlights, telling him about difficult customers and coworkers who treated the coffee machine like a complicated medical procedure. He'd listen, ask just enough questions to prove it, and occasionally threaten to buy a more competent coffee machine himself. Once, when she had a terrible week and couldn't decide whether to laugh or scream, he brought her a packet of biscuits and sat beside her on the curb until she could breathe normally.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=c381d34c2c1f449b8ad2d1690615a583.wav",
+      "duration": 25.440226757369615
+    },
+    {
+      "cue_id": "line-090",
+      "run_id": 84,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He didn't demand a story. He was good at that. She never realized that eventually he would need someone to sit beside him in the same way—and that he'd become too frightened to ask. The changes in Cassian began small enough to make excuses for. A shift that ran long. An unfamiliar car outside the apartment. His phone lighting up at dinner and his smile disappearing before he answered.",
+      "scene": "The Person Who Stayed",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=cc438dabb9ad472e985a7b510114b663.wav",
+      "duration": 21.225192743764172
+    },
+    {
+      "cue_id": "line-091",
+      "run_id": 84,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "He was in his twenties by then, and Ninja had her own life, her own work, her own habits. They didn't account for every hour of each other's days. Still, she knew the difference between ordinary tiredness and the kind of tiredness that made somebody listen to the hallway before opening the door. One evening he came over with groceries and left a thick envelope on her kitchen counter.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=1db15700cc9f4b959b9a326b89a21b57.wav",
+      "duration": 21.481224489795917
+    },
+    {
+      "cue_id": "line-092",
+      "run_id": 85,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "What's that?",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=f4589305ba154f1c98dd693682bc1e56.wav",
+      "duration": 1.1766666666666667
+    },
+    {
+      "cue_id": "line-093",
+      "run_id": 86,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "Rent. And a bit extra.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=516d53cd2c7f4bbabb7b2762b3519617.wav",
+      "duration": 1.9955555555555555
+    },
+    {
+      "cue_id": "line-094",
+      "run_id": 87,
+      "speaker": "narrator",
+      "voice_id": "a3a4aa242aaf431ea8ec2c4b3bb332fa",
+      "gain": 1,
+      "source_text": "She looked at him.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/a3a4aa242aaf431ea8ec2c4b3bb332fa/id=eb618d8469c045c09f880a927271f0fd.wav",
+      "duration": 1.1956009070294784
+    },
+    {
+      "cue_id": "line-095",
+      "run_id": 88,
+      "speaker": "ninja",
+      "voice_id": "8f71d16d1fa84544a4db41a18264d613",
+      "gain": 0.9,
+      "source_text": "I pay my own rent.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/8f71d16d1fa84544a4db41a18264d613/id=a2135d7bfe93490c873029c405d6c97c.wav",
+      "duration": 1.786984126984127
+    },
+    {
+      "cue_id": "line-096",
+      "run_id": 89,
+      "speaker": "cassian",
+      "voice_id": "f91cc0b0eea44f8391f080d2de079ea2",
+      "gain": 1,
+      "source_text": "I know.",
+      "scene": "The Money He Didn't Explain",
+      "url": "https://resource2.heygen.ai/text_to_speech/614a49c8312e4000b7232bd515dc476e/f91cc0b0eea44f8391f080d2de079ea2/id=8c62521237ff4555a711a5eac37d728d.wav",
+      "duration": 0.7144671201814059
+    }
+  ]
+}
