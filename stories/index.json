@@ -735,6 +735,15 @@
           "caption": "The Crooked Lantern"
         }
       ]
+    },
+    {
+      "id": "elsewhere-reboot-2026-003",
+      "seriesId": "elsewhere-reboot-2026",
+      "seriesName": "Elsewhere (2026 Reboot)",
+      "number": 3,
+      "title": "The Night Between Them",
+      "narrator": "Wade",
+      "status": "draft"
     }
   ]
 }
