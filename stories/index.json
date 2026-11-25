@@ -783,6 +783,15 @@
           "start": 1773.34
         }
       ]
+    },
+    {
+      "id": "elsewhere-reboot-2026-004",
+      "seriesId": "elsewhere-reboot-2026",
+      "seriesName": "Elsewhere (2026 Reboot)",
+      "number": 4,
+      "title": "The Man Behind the Shield",
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "draft"
     }
   ]
 }
