@@ -742,8 +742,47 @@
       "seriesName": "Elsewhere (2026 Reboot)",
       "number": 3,
       "title": "The Night Between Them",
-      "narrator": "Wade",
-      "status": "draft"
+      "narrator": "Wade – Resonant & Narrative",
+      "status": "ready",
+      "text": "text/elsewhere-reboot-2026-003.txt",
+      "audio": "series/elsewhere-reboot-2026/episodes/episode-003/audio/elsewhere-episode-3-soundscape-preview-51b4cc0272ef6b64.mp3",
+      "images": [
+        {
+          "path": "series/elsewhere-reboot-2026/episodes/episode-003/illustrations/800b74d8-858a-46e6-aa22-dd58cd7c7493-73313315b050e8f7.jpg",
+          "caption": "Hex after the operation",
+          "start": 0
+        },
+        {
+          "path": "series/elsewhere-reboot-2026/episodes/episode-003/illustrations/47f701fb-40a9-4d3b-8cae-601776f67a9d-1-8b9595b5357b037a.jpg",
+          "caption": "Ninja learns about Cassian",
+          "start": 304.5
+        },
+        {
+          "path": "series/elsewhere-reboot-2026/episodes/episode-003/illustrations/6723948a-83ba-488b-9f0e-4f6e689c5e17-1-0eca2dc38e139f6e.jpg",
+          "caption": "Across the Crooked Lantern",
+          "start": 488.58
+        },
+        {
+          "path": "series/elsewhere-reboot-2026/episodes/episode-003/illustrations/96928746-468f-4c86-a464-7e6c89d8ccdf-1-f6295aba9e98da24.jpg",
+          "caption": "Getting to know each other",
+          "start": 704.92
+        },
+        {
+          "path": "series/elsewhere-reboot-2026/episodes/episode-003/illustrations/07208a7e-e52e-4b4a-8ccd-a4d585e5abcc-1-1bbe74db23adcdde.jpg",
+          "caption": "The conversation near closing time",
+          "start": 1506.9
+        },
+        {
+          "path": "series/elsewhere-reboot-2026/episodes/episode-003/illustrations/d54fd98f-d137-43b3-ad00-dac5a53f49ac-bba5ba40b6f5584c.jpg",
+          "caption": "Together in the hotel room",
+          "start": 1739.6
+        },
+        {
+          "path": "series/elsewhere-reboot-2026/episodes/episode-003/illustrations/8ecce773-dd83-41a5-afad-73d8e20b887e-c243b442a57c7e4f.jpg",
+          "caption": "Dawn in the hotel room",
+          "start": 1773.34
+        }
+      ]
     }
   ]
 }
