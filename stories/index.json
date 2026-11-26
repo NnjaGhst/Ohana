@@ -792,7 +792,7 @@
       "title": "The Man Behind the Shield",
       "narrator": "Wade – Resonant & Narrative",
       "status": "ready",
-      "audio": "series/elsewhere-reboot-2026/episodes/episode-004/audio/elsewhere-e04-phoneme-aligned-final-488d99722a7731fb.mp3",
+      "audio": "series/elsewhere-reboot-2026/episodes/episode-004/audio/elsewhere-e04-fixed-with-scene-ambience-14ab79ed0ceab58a.mp3",
       "images": [
         {
           "path": "series/elsewhere-reboot-2026/episodes/episode-004/illustrations/9b2673c8-85c5-40c0-8542-96e4471229a6-2-5b7a88d5243d545d.jpg",
@@ -802,32 +802,32 @@
         {
           "path": "series/elsewhere-reboot-2026/episodes/episode-004/illustrations/e7f51091-0c01-4a19-a99a-e99100db9072-1-0f64c22604c6c879.jpg",
           "caption": "Bellwether waking up",
-          "start": 232.08
+          "start": 242.94
         },
         {
           "path": "series/elsewhere-reboot-2026/episodes/episode-004/illustrations/b93c2603-8f83-4a49-9b0d-aa5c8341203e-1-796b70237adaa181.jpg",
           "caption": "The market",
-          "start": 326.35
+          "start": 339.55
         },
         {
           "path": "series/elsewhere-reboot-2026/episodes/episode-004/illustrations/3a582c0a-eb34-4bf6-9be1-ba7b2bbeca93-1-f75c8a78f3913fc8.jpg",
           "caption": "A stone between them",
-          "start": 997.5
+          "start": 1000.44
         },
         {
           "path": "series/elsewhere-reboot-2026/episodes/episode-004/illustrations/c777606e-eb1e-44c3-9ab6-bb8589a307bf-1-ec2f440d876f0d93.jpg",
           "caption": "A pause in the woods",
-          "start": 1295.94
+          "start": 1291.21
         },
         {
           "path": "series/elsewhere-reboot-2026/episodes/episode-004/illustrations/60384ead-6e5c-4bcd-8257-e85325994ca1-1-98841482b8a701c0.jpg",
           "caption": "The things we cannot undo",
-          "start": 1616.44
+          "start": 1602.53
         },
         {
           "path": "series/elsewhere-reboot-2026/episodes/episode-004/illustrations/6b6ed04f-7731-44d4-a0bb-8b8bc6a625bf-1-1a6dcc7e61edba44.jpg",
           "caption": "The warmth between them",
-          "start": 1719.33
+          "start": 1708.08
         }
       ]
     }
